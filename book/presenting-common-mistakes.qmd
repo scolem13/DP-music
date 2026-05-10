@@ -6,7 +6,9 @@ toc: true
 toc-depth: 2
 ---
 
+::: {.content-visible when-format="html"}
 *See also: [Assessment Rubrics → Presenting](../resources/rubrics.html#presenting-music)*
+:::
 
 These are the problems that appear most consistently across Presenting submissions. Understanding them concretely is more useful than reading the rubric descriptors alone.
 

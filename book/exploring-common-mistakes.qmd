@@ -6,7 +6,9 @@ toc: true
 toc-depth: 2
 ---
 
+::: {.content-visible when-format="html"}
 *See also: [Assessment Rubrics → Exploring](../resources/rubrics.html#exploring-music-in-context)*
+:::
 
 These are the problems that appear most consistently across Exploring submissions. Understanding them in concrete terms is more useful than reading the rubric descriptors alone.
 

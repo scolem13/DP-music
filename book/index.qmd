@@ -4,7 +4,9 @@ title: "Preface"
 
 This book is the written companion to the DP Music course. It is organized by the four assessment components and is designed for independent study and review.
 
+::: {.content-visible when-format="html"}
 For key term definitions and pronunciations, see the [Glossary](../resources/glossary.html).
+:::
 
 ---
 

@@ -6,7 +6,9 @@ toc: true
 toc-depth: 2
 ---
 
+::: {.content-visible when-format="html"}
 *See also: [Assessment Rubrics → The Contemporary Music Maker](../resources/rubrics.html#the-contemporary-music-maker)*
+:::
 
 ---
 

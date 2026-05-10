@@ -6,7 +6,9 @@ toc: true
 toc-depth: 3
 ---
 
+::: {.content-visible when-format="html"}
 *See also: [Assessment Rubrics → Experimenting](../resources/rubrics.html#experimenting-with-music)*
+:::
 
 ---
 

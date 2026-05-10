@@ -1,0 +1,38 @@
+project:
+  type: book
+  output-dir: ../_book
+
+book:
+  title: "IB Music Course Book"
+  date: "2025–26"
+  chapters:
+    - index.qmd
+    - assessment-guidance.qmd
+    - part: "Exploring Music in Context"
+      chapters:
+        - exploring-criterion-guidance.qmd
+        - exploring-common-mistakes.qmd
+    - part: "Experimenting with Music"
+      chapters:
+        - ewm-criterion-guidance.qmd
+        - ewm-common-mistakes.qmd
+    - part: "Presenting Music"
+      chapters:
+        - presenting-criterion-guidance.qmd
+        - presenting-common-mistakes.qmd
+    - part: "The Contemporary Music Maker (HL)"
+      chapters:
+        - cmm-criterion-guidance.qmd
+        - cmm-common-mistakes.qmd
+
+format:
+  pdf:
+    documentclass: scrbook
+    toc: true
+    toc-depth: 2
+    number-sections: false
+    colorlinks: true
+    linkcolor: black
+    urlcolor: black
+    fontsize: 11pt
+    geometry: margin=2.5cm
