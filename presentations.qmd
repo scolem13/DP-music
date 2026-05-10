@@ -1,0 +1,13 @@
+---
+title: "Presentations"
+listing:
+  contents: presentations
+  type: table
+  fields: [title, date, categories, description]
+  sort: "date desc"
+  sort-ui: true
+  filter-ui: true
+  categories: true
+---
+
+Each row links to the slides and notes from that class session.

@@ -1,0 +1,2866 @@
+#+TITLE: Kokoro Pronunciation Dictionary — IB Music
+#+DESCRIPTION: Music terminology IPA substitutions and definitions for Kokoro TTS
+#+AUTHOR: Sean Coleman
+#+STARTUP: overview
+
+* Bibliography
+Sources used in this file. Cited per entry as :SOURCE_n:.
+
+- [W] Wikipedia — https://wikipedia.org
+- [NI] Native Instruments Blog — https://blog.native-instruments.com
+- [SP] Splice Blog — https://splice.com/blog
+- [PC] Perfect Circuit — https://www.perfectcircuit.com/signal
+- [JNS] Jazz Night School — https://jazznightschool.org
+- [WP] Wikipedia: Bassline — https://en.wikipedia.org/wiki/Bassline
+- [MC] MasterClass — https://www.masterclass.com/articles
+- [BC] Britannica — https://www.britannica.com
+- [DB] Dolmetsch Online — https://www.dolmetsch.com/musictheorydefs.htm
+
+* Roman Numerals
+
+** VII
+:PROPERTIES:
+:PATTERN:   \bVII\b
+:IPA:       sɛvən
+:DEF_SHORT: The seventh scale degree or a chord built on it.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Roman_numeral_analysis
+:END:
+
+In Roman numeral analysis, VII (or vii°) denotes the seventh degree of
+the scale and the chord built on it. In major keys, the seventh degree
+is a leading tone a half step below the tonic; the triad built on it is
+diminished. Uppercase numerals indicate major quality; lowercase indicate
+minor.
+
+** VI
+:PROPERTIES:
+:PATTERN:   \bVI\b
+:IPA:       sɪks
+:DEF_SHORT: The sixth scale degree or a chord built on it.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Roman_numeral_analysis
+:END:
+
+VI denotes the sixth scale degree (the submediant) and the chord built
+on it. In major keys, this chord is minor (vi); when written in uppercase
+(VI), it refers to a major chord on the sixth degree, common in minor
+keys and as a chromatic alteration.
+
+** IV
+:PROPERTIES:
+:PATTERN:   \bIV\b
+:IPA:       fɔːɹ
+:DEF_SHORT: The subdominant — the fourth scale degree or a chord built on it.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Roman_numeral_analysis
+:END:
+
+IV denotes the subdominant — the fourth degree of the scale. The
+subdominant chord moves naturally toward either the dominant (V) or
+directly to the tonic (I), the latter producing a plagal cadence.
+
+** V
+:PROPERTIES:
+:PATTERN:   \bV\b
+:IPA:       faɪv
+:DEF_SHORT: The dominant — the fifth scale degree or a chord built on it.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Roman_numeral_analysis
+:END:
+
+V denotes the dominant — the fifth degree of the scale and the most
+harmonically active chord in tonal music. The dominant triad (V) or
+seventh chord (V7) creates strong tension that resolves to the tonic (I).
+The V–I progression is the foundation of tonal cadential motion.
+
+** III
+:PROPERTIES:
+:PATTERN:   \bIII\b
+:IPA:       θɹiː
+:DEF_SHORT: The mediant — the third scale degree or a chord built on it.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Roman_numeral_analysis
+:END:
+
+III denotes the mediant — the third degree of the scale, midway between
+the tonic and dominant. In major keys the mediant chord is minor (iii);
+uppercase III refers to a major chord on the third degree, typical in
+minor keys.
+
+** II
+:PROPERTIES:
+:PATTERN:   \bII\b
+:IPA:       tuː
+:DEF_SHORT: The supertonic — the second scale degree or a chord built on it.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Roman_numeral_analysis
+:END:
+
+II denotes the supertonic — the second degree of the scale. In major
+keys, the supertonic chord is minor (ii) and functions as a
+pre-dominant, often preceding V. The II chord (uppercase, major) appears
+frequently as a secondary dominant or in modal contexts.
+
+** I
+:PROPERTIES:
+:PATTERN:   \bI\b
+:IPA:       wʌn
+:DEF_SHORT: The tonic — the home chord, built on the first scale degree.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Roman_numeral_analysis
+:END:
+
+I denotes the tonic — the first scale degree and the chord built on it.
+The tonic chord is the harmonic center of gravity in tonal music; most
+pieces begin and end on I. In major keys it is a major triad; in minor
+keys it is minor (i).
+
+* A
+
+** a cappella  :italian:
+:PROPERTIES:
+:PATTERN:   \ba cappella\b
+:IPA:       ɑː kəpˈɛlə
+:DEF_SHORT: Vocal music performed without instrumental accompaniment.
+:SOURCE_1:  https://en.wikipedia.org/wiki/A_cappella
+:END:
+
+Italian: "in the manner of the chapel." Choral or ensemble singing
+performed entirely without instrumental accompaniment. The term is also
+applied to solo vocal music without accompaniment. Common in Renaissance
+sacred music, barbershop, and contemporary a cappella groups.
+
+** accelerando  :italian:
+:PROPERTIES:
+:PATTERN:   \baccelerando\b
+:IPA:       ætʃˌɛləɹˈɑːndoʊ
+:DEF_SHORT: Gradually getting faster.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Accelerando
+:END:
+
+Italian: "accelerating." A tempo direction indicating that the music
+should gradually increase in speed. Abbreviated accel. The opposite
+is ritardando (or rallentando): gradually slowing down.
+
+*See also:* [[*tempo][tempo]], [[*rubato][rubato]]
+
+** acciaccatura  :italian:
+:PROPERTIES:
+:PATTERN:   \bacciaccatura\b
+:IPA:       ətʃˌɑːkətʃˈʊəɹə
+:DEF_SHORT: A very short ornamental note played just before the main note.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Acciaccatura
+:END:
+
+Italian: "crushing." A grace note written as a small note with a stroke
+through its stem, played as briefly as possible immediately before the
+main note — so quickly that it has almost no duration of its own.
+Distinguished from the appoggiatura, which is held for a portion of the
+main note's value and falls on the beat.
+
+*See also:* [[*appoggiatura][appoggiatura]], [[*ornamentation][ornamentation]]
+
+** acoustic instrument
+:PROPERTIES:
+:PATTERN:   \bacoustic instrument\b
+:IPA:       əkˈuːstɪk ˈɪnstɹʊmənt
+:DEF_SHORT: An instrument that produces sound by acoustic (non-electronic) means.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Acoustic_music
+:END:
+
+An instrument that generates sound entirely through acoustic physical
+processes — vibrating strings, air columns, membranes, or the body of
+the instrument itself — without electronic amplification or signal
+processing. Contrasted with electric instruments (which require
+amplification) and electronic instruments (which generate sound
+electronically).
+
+*See also:* [[*aerophone][aerophone]], [[*chordophone][chordophone]], [[*idiophone][idiophone]]
+
+** adagio  :italian:
+:PROPERTIES:
+:PATTERN:   \badagio\b
+:IPA:       ədˈɑːdʒioʊ
+:DEF_SHORT: Slow and stately; a slow tempo marking.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Tempo
+:END:
+
+Italian: "at ease." A tempo marking indicating a slow, stately pace —
+slower than andante but faster than largo. Also used as a noun to
+describe a slow movement (e.g., "the adagio of the symphony").
+
+*See also:* [[*tempo][tempo]], [[*allegro][allegro]]
+
+** ADSR  :technology:
+:PROPERTIES:
+:PATTERN:   \bADSR\b
+:IPA:       eɪ diː ɛs ɑːɹ
+:DEF_SHORT: The four stages of a synthesizer envelope: Attack, Decay, Sustain, Release.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Envelope_(music)
+:END:
+
+The four parameters describing the shape of a synthesizer envelope —
+the control signal that shapes how a sound changes over time. Attack
+is the time to reach peak level; decay is the time to fall to the
+sustain level; sustain is the held level while a key is pressed; release
+is the time to fall to silence after the key is released. ADSR envelopes
+typically control amplitude, filter cutoff, and pitch.
+
+*See also:* [[*envelope curve][envelope curve]], [[*synthesis][synthesis]]
+
+** aerophone
+:PROPERTIES:
+:PATTERN:   \baerophone\b
+:IPA:       ˈɛɹəfoʊn
+:DEF_SHORT: An instrument that produces sound through a vibrating column of air.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Aerophone
+:END:
+
+One of the four primary instrument categories in the Hornbostel-Sachs
+classification. Aerophones produce sound through the vibration of an
+air column. Includes free aerophones (harmonica, accordion), where the
+air vibrates without a tube, and tube aerophones (flute, trumpet,
+oboe), where the air column is enclosed.
+
+*See also:* [[*chordophone][chordophone]], [[*idiophone][idiophone]], [[*membranophone][membranophone]]
+
+** alap  :non-western:
+:PROPERTIES:
+:PATTERN:   \balap\b
+:IPA:       ˈɑːlɑːp
+:DEF_SHORT: The slow, unmetered introductory section of a raga performance.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Alap
+:END:
+
+The opening section of a North Indian classical music performance, in
+which the performer introduces and explores the notes and character of
+the raga in free rhythm, without percussion accompaniment. The alap
+establishes the raga's mood (rasa) before the metered sections begin.
+
+*See also:* [[*raga][raga]], [[*bandish][bandish]]
+
+** aleatoric/aleatory music
+:PROPERTIES:
+:PATTERN:   \baleat[oi][cr]y?\b
+:IPA:       ˌeɪliˈætɒɹɪk
+:DEF_SHORT: Music incorporating elements of chance or unpredictability in its composition or performance.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Aleatoric_music
+:END:
+
+Music in which elements of chance or indeterminacy play a role — either
+in the compositional process or in performance. Key figures include
+John Cage (*Music of Changes*, 1951, composed using the I Ching) and
+Witold Lutosławski (controlled aleatorism, where individual players
+improvise within defined limits while the ensemble is coordinated).
+Distinct from pure improvisation by the presence of some structural
+framework.
+
+*See also:* [[*improvising][improvising]], [[*chance music][chance music]]
+
+** allegretto  :italian:
+:PROPERTIES:
+:PATTERN:   \ballegretto\b
+:IPA:       ˌæləɡɹˈɛtoʊ
+:DEF_SHORT: Moderately fast; slightly slower than allegro.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Tempo
+:END:
+
+Italian: diminutive of allegro. A tempo marking indicating a moderately
+brisk pace — lighter and slightly slower than allegro, but faster than
+andante. Often implies a lighter character than allegro.
+
+*See also:* [[*allegro][allegro]], [[*tempo][tempo]]
+
+** allegro  :italian:
+:PROPERTIES:
+:PATTERN:   \ballegro\b
+:IPA:       əlˈɛɡɹoʊ
+:DEF_SHORT: Fast and lively; one of the most common tempo markings.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Tempo
+:END:
+
+Italian: "merry, lively." A tempo marking indicating a fast, lively
+pace. One of the most common movement designations in Western classical
+music. Qualified forms include allegro ma non troppo (fast but not too
+much), allegro vivace (fast and vivacious), and allegro moderato.
+
+*See also:* [[*adagio][adagio]], [[*tempo][tempo]]
+
+** antiphonal
+:PROPERTIES:
+:PATTERN:   \bantiphonal\b
+:IPA:       ænˈtɪfənəl
+:DEF_SHORT: Involving alternation between two groups of performers.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Antiphony
+:END:
+
+A performance practice in which two groups of performers alternate,
+answer, or respond to each other. Common in Gregorian chant (antiphonal
+chanting), Renaissance polychoral music (e.g., the double-choir works
+of Giovanni Gabrieli at St. Mark's Venice), and gospel call-and-response
+performance.
+
+*See also:* [[*call and response][call and response]]
+
+** appoggiatura  :italian:
+:PROPERTIES:
+:PATTERN:   \bappoggiatura\b
+:IPA:       əˌpɒdʒətʃˈʊəɹə
+:DEF_SHORT: An ornamental note on the beat that displaces the main note and resolves by step.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Appoggiatura
+:END:
+
+Italian: "leaning." A grace note that falls on the beat, displacing the
+main note and taking a portion of its value before resolving by step
+(usually downward). The appoggiatura creates a temporary dissonance that
+adds expressive intensity. Distinguished from the acciaccatura by its
+rhythmic weight — it is heard clearly rather than crushed through.
+
+*See also:* [[*acciaccatura][acciaccatura]], [[*suspensions][suspensions]], [[*ornamentation][ornamentation]]
+
+** arco  :italian:
+:PROPERTIES:
+:PATTERN:   \barco\b
+:IPA:       ˈɑːɹkoʊ
+:DEF_SHORT: A direction to resume playing with the bow (after pizzicato).
+:SOURCE_1:  https://en.wikipedia.org/wiki/Arco
+:END:
+
+Italian: "bow." A performance direction for string players indicating
+that the bow should be used, typically appearing after a passage of
+pizzicato (plucked) playing.
+
+*See also:* [[*pizzicato][pizzicato]], [[*con arco][con arco]]
+
+** aria  :italian:
+:PROPERTIES:
+:PATTERN:   \baria\b
+:IPA:       ˈɑːɹiə
+:DEF_SHORT: A self-contained song for solo voice in an opera, oratorio, or cantata.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Aria
+:END:
+
+Italian: "air." A formal, self-contained composition for solo voice,
+typically with orchestral accompaniment, in an opera, oratorio, or
+cantata. Arias are usually more melodically elaborate than recitative
+and allow the soloist to express a character's emotional state at length.
+Common forms include the Baroque da capo aria (A–B–A structure).
+
+*See also:* [[*recitative][recitative]], [[*cantata][cantata]], [[*opera][opera]]
+
+** arpeggio  :italian:
+:PROPERTIES:
+:PATTERN:   \barpeggio\b
+:IPA:       ɑːɹpˈɛdʒioʊ
+:DEF_SHORT: The notes of a chord played in succession rather than simultaneously.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Arpeggio
+:END:
+
+Italian: "in the manner of a harp." The notes of a chord played one
+after another rather than all at once, either ascending or descending.
+Arpeggios are used in both melody and accompaniment and are foundational
+to techniques such as Alberti bass. Distinct from broken chord only in
+the consistent direction of movement.
+
+*See also:* [[*broken chord][broken chord]], [[*chord][chord]]
+
+** atonal
+:PROPERTIES:
+:PATTERN:   \batonal\b
+:IPA:       eɪˈtoʊnəl
+:DEF_SHORT: Music that avoids establishing a tonal center.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Atonality
+:END:
+
+Music that avoids organizing pitch around a central tonic, rejecting
+the hierarchy of tonal harmony. Developed most systematically by
+Schoenberg and the Second Viennese School in the early 20th century.
+Free atonality (1908–1923) preceded the more systematic twelve-tone
+technique. Atonal music uses all twelve chromatic pitches without
+implying a home key.
+
+*See also:* [[*12-note techniques][12-note techniques]], [[*tonality][tonality]], [[*non-tonal][non-tonal]]
+
+** augmentation  :harmony:
+:PROPERTIES:
+:PATTERN:   \baugmentation\b
+:IPA:       ˌɔːɡmɛnˈteɪʃən
+:DEF_SHORT: Restating a theme with all note values lengthened.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Augmentation_(music)
+:END:
+
+A contrapuntal and developmental technique in which a melody or motif
+is restated with all rhythmic values increased — typically doubled.
+The opposite is diminution (values shortened). Augmentation is common
+in fugue and in development sections.
+
+*See also:* [[*diminution][diminution]], [[*fugue][fugue]], [[*development][development]]
+
+** augmented
+:PROPERTIES:
+:PATTERN:   \baugmented\b
+:IPA:       ɔːɡˈmɛntɪd
+:DEF_SHORT: An interval or chord enlarged by a half step beyond its major or perfect form.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Augmented_interval
+:END:
+
+An interval quality one semitone larger than a major or perfect interval
+of the same number. An augmented fourth (tritone) is a half step larger
+than a perfect fourth; an augmented sixth chord is a chromatic harmony
+built on the flattened sixth degree. Augmented triads contain a major
+third and an augmented fifth.
+
+*See also:* [[*interval][interval]], [[*diminished][diminished]]
+
+** authentic (perfect) cadence
+:PROPERTIES:
+:PATTERN:   \bauthentic.{0,10}cadence\b
+:IPA:       ɔːˈθɛntɪk kˈeɪdəns
+:DEF_SHORT: A cadence moving from V to I — the strongest harmonic close in tonal music.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Cadence_(music)
+:END:
+
+The strongest cadential formula in tonal music: the dominant chord (V
+or V7) resolving to the tonic (I). A perfect authentic cadence (PAC)
+requires both chords in root position and the tonic note in the highest
+voice at the point of resolution; an imperfect authentic cadence (IAC)
+does not meet all these conditions. The V–I resolution is the
+fundamental engine of tonal music.
+
+*See also:* [[*cadence][cadence]], [[*plagal cadence][plagal cadence]], [[*V][V]]
+
+* B
+
+** balophone
+:PROPERTIES:
+:PATTERN:   \bbalophone\b
+:IPA:       bˈæləfoʊn
+:DEF_SHORT: A West African xylophone-like instrument with gourd resonators beneath wooden bars.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Balafon
+:END:
+
+A West African idiophone consisting of wooden bars of varying lengths
+struck with mallets, with hollow gourd resonators suspended beneath each
+bar. The balafon (also spelled balophone) is traditional in Mande, Gur,
+and other West African musical cultures. A cousin of the marimba and
+xylophone, it produces a warm, resonant tone.
+
+*See also:* [[*idiophone][idiophone]]
+
+** balungan  :non-western:
+:PROPERTIES:
+:PATTERN:   \bbalungan\b
+:IPA:       bɑːˈlʊŋɑːn
+:DEF_SHORT: The core melodic framework of a Javanese gamelan composition.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Balungan
+:END:
+
+In Javanese gamelan music, the balungan is the skeletal melody that
+forms the structural basis of a composition. Other instruments in the
+ensemble elaborate, ornament, and subdivide the balungan according to
+their role in the texture. The balungan is typically played by
+metallophone instruments such as the saron and slenthem.
+
+*See also:* [[*gamelan][gamelan]], [[*slendro][slendro]], [[*pelog][pelog]]
+
+** bandish  :non-western:
+:PROPERTIES:
+:PATTERN:   \bbandish\b
+:IPA:       ˈbɑːndɪʃ
+:DEF_SHORT: A fixed, composed piece within Hindustani classical music, providing the rhythmic and melodic framework for improvisation.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Bandish
+:END:
+
+In North Indian (Hindustani) classical music, a bandish (also called
+gat) is a composed, fixed piece that establishes the rhythmic cycle
+(tala) and provides material for improvisation. After the free-rhythm
+alap, the bandish introduces the tabla and marks the transition to
+metered playing.
+
+*See also:* [[*alap][alap]], [[*raga][raga]]
+
+** bansuri  :non-western:
+:PROPERTIES:
+:PATTERN:   \bbansuri\b
+:IPA:       ˈbɑːnsʊɹiː
+:DEF_SHORT: A transverse bamboo flute used in North Indian classical music.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Bansuri
+:END:
+
+A side-blown bamboo flute central to Hindustani classical music and
+associated with the deity Krishna. It has no keys — pitch and microtonal
+inflection are controlled entirely through embouchure and finger
+technique. The virtuoso Hariprasad Chaurasia is among the instrument's
+most celebrated modern exponents.
+
+** bass (instrument/register)  :homograph:
+:PROPERTIES:
+:PATTERN:   \bbass\b
+:IPA:       beɪs
+:DISPLAY:   bass
+:DEF_SHORT: The lowest register of pitch; also a family of low-pitched instruments.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Bass_(music)
+:END:
+
+In music, "bass" (rhymes with "face") refers to the low register of
+sound, the lowest voice in a harmonic texture, or instruments and voices
+that occupy that range. Distinct from the fish (rhymes with "mass").
+The bass voice is the lowest male singing voice; bass instruments include
+double bass, bass guitar, bassoon, tuba, and bass clarinet.
+
+Note: This entry overrides the fish pronunciation globally. Use the
+inline bracket syntax [[text][/ipa/]] for fish references in source files.
+
+*See also:* [[*basso continuo][basso continuo]], [[*bass clef][bass clef]], [[*walking bass][walking bass]]
+
+** basso continuo  :italian:
+:PROPERTIES:
+:PATTERN:   \bbasso continuo\b
+:IPA:       ˈbæsoʊ kənˈtɪnjuoʊ
+:DEF_SHORT: The harmonic bass-line foundation of Baroque music, typically played by keyboard and bass instrument together.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Basso_continuo
+:END:
+
+Italian: "continuous bass." A Baroque performance practice in which a
+bass line (played by cello, bass viol, or bassoon) is combined with a
+keyboard instrument (harpsichord, organ, lute) that improvises harmony
+above the written bass, guided by figured bass notation. The continuo
+group provides the harmonic and rhythmic foundation for nearly all
+Baroque ensemble music.
+
+*See also:* [[*figured bass][figured bass]], [[*ground bass][ground bass]], [[*walking bass][walking bass]]
+
+** beat
+:PROPERTIES:
+:PATTERN:   \bbeat\b
+:IPA:       biːt
+:DEF_SHORT: The basic unit of musical time that listeners tap along to.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Beat_(music)
+:END:
+
+The basic recurring pulse of music — what listeners tap their feet to.
+Beats are organized into metres (groups of strong and weak beats).
+The tempo indicates how fast the beat moves (beats per minute, BPM).
+In most popular music, beats 2 and 4 in 4/4 metre are accented (the
+backbeat).
+
+*See also:* [[*metre][metre]], [[*tempo][tempo]], [[*pulse][pulse]]
+
+** binary form
+:PROPERTIES:
+:PATTERN:   \bbinary form\b
+:IPA:       bˈaɪnəɹi fɔːɹm
+:DEF_SHORT: A two-part musical structure: A–B.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Binary_form
+:END:
+
+A musical form consisting of two sections (A and B), usually both
+repeated. Simple binary form has two contrasting sections; rounded
+binary has a return of the opening material near the end of the B
+section (anticipating ternary and sonata form). Characteristic of
+Baroque dance movements (sarabande, allemande, etc.).
+
+*See also:* [[*ternary form][ternary form]], [[*sonata form][sonata form]]
+
+** blue notes
+:PROPERTIES:
+:PATTERN:   \bblue notes\b
+:IPA:       bluː noʊts
+:DEF_SHORT: Flattened or bent pitches (particularly the 3rd, 5th, and 7th) characteristic of the blues.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Blue_note
+:END:
+
+Notes that are flattened or bent slightly below the standard pitch of
+a major scale, particularly the third, fifth, and seventh scale degrees.
+Central to the blues and derived styles (jazz, R&B, rock). On instruments
+capable of continuous pitch variation (guitar, voice, harmonica), blue
+notes are bent rather than played at a fixed pitch, giving them
+expressive ambiguity between major and minor.
+
+*See also:* [[*blues scale][blues scale]], [[*bent notes][bent notes]], [[*microtone][microtone]]
+
+** broken chord
+:PROPERTIES:
+:PATTERN:   \bbroken chord\b
+:IPA:       bɹˈoʊkən kɔːɹd
+:DEF_SHORT: The notes of a chord played one at a time rather than simultaneously.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Arpeggio
+:END:
+
+A chord whose notes are played in sequence rather than simultaneously.
+Used interchangeably with arpeggio, though some distinguish between the
+two: an arpeggio moves consistently upward or downward, while a broken
+chord may move in a freer or repeating pattern (e.g., Alberti bass).
+
+*See also:* [[*arpeggio][arpeggio]]
+
+* C
+
+** cadence :harmony:
+:PROPERTIES:
+:PATTERN:   \bcadence\b
+:IPA:       kˈeɪdəns
+:DEF_SHORT: A harmonic progression that creates a sense of arrival, pause, or conclusion.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Cadence_(music)
+:END:
+
+A sequence of two or more chords that creates a sense of arrival,
+punctuation, or conclusion. The four main cadence types in tonal music
+are: authentic/perfect (V–I, strongest close), plagal (IV–I, "Amen"),
+half/imperfect (ending on V), and deceptive/interrupted (V resolving to
+vi or another unexpected chord).
+
+*See also:* [[*authentic (perfect) cadence][authentic cadence]], [[*plagal cadence][plagal cadence]], [[*half (imperfect) cadence][half cadence]], [[*deceptive (interrupted) cadence][deceptive cadence]]
+
+** cadenza
+:PROPERTIES:
+:PATTERN:   \bcadenza\b
+:IPA:       kəˈdɛnzə
+:DEF_SHORT: An unaccompanied virtuosic passage for the soloist, typically near the end of a concerto movement.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Cadenza
+:END:
+
+Italian: "cadence." A virtuosic solo passage, usually unaccompanied,
+occurring near the end of a movement in a concerto. The orchestra
+pauses on a sustained chord (typically a 6/4 chord on the dominant)
+while the soloist improvises or performs a written-out cadenza before
+resolving to the final cadence. Historical cadenzas were improvised;
+later composers wrote them out.
+
+*See also:* [[*concerto][concerto]], [[*cadence][cadence]]
+
+** canon
+:PROPERTIES:
+:PATTERN:   \bcanon\b
+:IPA:       kˈænən
+:DEF_SHORT: A contrapuntal form in which the same melody is imitated by subsequent voices at a fixed time interval.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Canon_(music)
+:END:
+
+A contrapuntal technique in which a melody in one voice is exactly
+imitated by one or more following voices entering at a fixed time
+interval (and sometimes at a different pitch). The strictest form of
+imitation. Pachelbel's Canon in D, "Frère Jacques", and "Row Your Boat"
+are familiar examples. A round is a canon in which the imitation is
+at the unison or octave.
+
+*See also:* [[*imitation][imitation]], [[*fugue][fugue]], [[*counterpoint][counterpoint]]
+
+** cantabile  :italian:
+:PROPERTIES:
+:PATTERN:   \bcantabile\b
+:IPA:       kænˈtɑːbɪleɪ
+:DEF_SHORT: In a singing, lyrical style.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Cantabile
+:END:
+
+Italian: "singable, in a singing style." A direction to perform in a
+smooth, lyrical, song-like manner, with expressive phrasing. Often
+applied to instrumental music to indicate that the player should imitate
+the quality and flow of a singing voice.
+
+** cantata  :italian:
+:PROPERTIES:
+:PATTERN:   \bcantata\b
+:IPA:       kænˈtɑːtə
+:DEF_SHORT: A multi-movement vocal work for voices and instruments.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Cantata
+:END:
+
+Italian: "sung piece." A vocal composition of several movements for
+soloists, chorus, and instruments, typically setting a sacred or secular
+text. Bach's church cantatas are the most celebrated examples of the
+genre. Distinguished from the oratorio primarily by its shorter length
+and (often) liturgical function.
+
+*See also:* [[*aria][aria]], [[*recitative][recitative]], [[*chorale][chorale]]
+
+** chorale  :harmony:
+:PROPERTIES:
+:PATTERN:   \bchorale\b
+:IPA:       kɒˈɹɑːl
+:DEF_SHORT: A hymn tune, especially one harmonized in four voices; also a choir.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Chorale
+:END:
+
+(1) A hymn tune of the German Lutheran tradition, typically in four-part
+(SATB) harmony. Bach's chorale harmonizations are among the most
+studied examples of tonal voice leading. (2) In some usages, a choral
+ensemble or the choral section of a larger work.
+
+*See also:* [[*cantata][cantata]], [[*harmony][harmony]]
+
+** chordophone
+:PROPERTIES:
+:PATTERN:   \bchordophone\b
+:IPA:       kˈɔːɹdəfoʊn
+:DEF_SHORT: An instrument that produces sound through vibrating strings.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Chordophone
+:END:
+
+One of the four primary instrument categories in the Hornbostel-Sachs
+classification system. Chordophones produce sound through the vibration
+of one or more stretched strings. Subdivided into simple chordophones
+(musical bows, zithers) and composite chordophones (lutes, harps,
+lyres). Includes guitar, violin, piano, harp, and sitar.
+
+*See also:* [[*idiophone][idiophone]], [[*membranophone][membranophone]], [[*aerophone][aerophone]]
+
+** chromatic
+:PROPERTIES:
+:PATTERN:   \bchromatic\b
+:IPA:       kɹoʊˈmætɪk
+:DEF_SHORT: Using notes or intervals outside the prevailing diatonic scale.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Chromatic_scale
+:END:
+
+Relating to pitches, intervals, or harmonies that include notes outside
+a given diatonic scale. The chromatic scale divides the octave into
+twelve equal semitones. Chromatic notes add color and tension;
+chromaticism is characteristic of late Romantic music (Wagner, Liszt)
+and jazz harmony.
+
+*See also:* [[*diatonic][diatonic]], [[*enharmonic][enharmonic]], [[*modulation (in music)][modulation]]
+
+** coda  :italian:
+:PROPERTIES:
+:PATTERN:   \bcoda\b
+:IPA:       ˈkoʊdə
+:DEF_SHORT: A concluding section added to the end of a formal structure.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Coda_(music)
+:END:
+
+Italian: "tail." A passage that brings a movement or section to a
+conclusion, following the main formal structure. In sonata form, the
+coda follows the recapitulation and may be brief or substantially
+extended (as in Beethoven). The coda symbol (𝄌) is used in lead sheets
+and popular music to indicate a jump to a concluding section.
+
+*See also:* [[*sonata form][sonata form]], [[*recapitulation][recapitulation]]
+
+** compound metre
+:PROPERTIES:
+:PATTERN:   \bcompound metre\b
+:IPA:       kˈɒmpaʊnd mˈiːtəɹ
+:DEF_SHORT: A metre in which each beat divides into three equal parts (e.g. 6/8, 9/8, 12/8).
+:SOURCE_1:  https://en.wikipedia.org/wiki/Metre_(music)
+:END:
+
+A metric organization in which each beat naturally divides into three
+equal subunits (as opposed to simple metre, where beats divide into
+two). Time signatures 6/8, 9/8, and 12/8 are compound duple, triple,
+and quadruple metre respectively. The characteristic lilt of 6/8 is
+foundational to jigs, barcarolles, and many folk traditions.
+
+*See also:* [[*metre][metre]], [[*time signature][time signature]]
+
+** con arco  :italian:
+:PROPERTIES:
+:PATTERN:   \bcon arco\b
+:IPA:       kɒn ˈɑːɹkoʊ
+:DEF_SHORT: With the bow (resume bowed playing).
+:SOURCE_1:  https://en.wikipedia.org/wiki/Arco
+:END:
+
+Italian: "with the bow." A direction for string players to resume playing
+with the bow after a pizzicato passage. Equivalent to arco.
+
+*See also:* [[*arco][arco]], [[*pizzicato][pizzicato]]
+
+** concerto  :italian:
+:PROPERTIES:
+:PATTERN:   \bconcerto\b
+:IPA:       kənˈtʃɛɹtoʊ
+:DEF_SHORT: A multi-movement work for soloist and orchestra.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Concerto
+:END:
+
+A large-scale composition featuring one or more soloists in contrast
+with an orchestra. The standard Classical concerto has three movements
+(fast–slow–fast) and typically includes a cadenza — an unaccompanied
+solo passage — near the end of the first movement. The solo-orchestra
+dialogue is central to the form.
+
+*See also:* [[*concerto grosso][concerto grosso]], [[*cadenza][cadenza]]
+
+** concerto grosso  :italian:
+:PROPERTIES:
+:PATTERN:   \bconcerto grosso\b
+:IPA:       kənˈtʃɛɹtoʊ ˈɡɹɒsoʊ
+:DEF_SHORT: A Baroque form contrasting a small group of soloists with a larger orchestra.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Concerto_grosso
+:END:
+
+Italian: "large concerto." A Baroque form in which a small group of
+soloists (the concertino) is contrasted with the full ensemble (the
+ripieno or tutti). Handel's Op. 6 and Corelli's Op. 6 concerti grossi
+are central examples of the genre.
+
+*See also:* [[*concerto][concerto]], [[*basso continuo][basso continuo]]
+
+** consonance
+:PROPERTIES:
+:PATTERN:   \bconsonance\b
+:IPA:       kˈɒnsənəns
+:DEF_SHORT: An interval or chord that sounds stable and resolved.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Consonance_and_dissonance
+:END:
+
+Intervals and chords perceived as stable, restful, and resolved in
+tonal music. Perfect consonances include the unison, octave, perfect
+fifth, and perfect fourth; imperfect consonances include thirds and
+sixths. What is considered consonant has varied across historical periods
+and musical cultures.
+
+*See also:* [[*dissonance][dissonance]], [[*interval][interval]]
+
+** con sordino  :italian:
+:PROPERTIES:
+:PATTERN:   \bcon sordino\b
+:IPA:       kɒn sɔːɹˈdiːnoʊ
+:DEF_SHORT: With mute.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Mute_(music)
+:END:
+
+Italian: "with mute." A direction to apply a mute to an instrument,
+dampening and altering the timbre. On strings, a mute clamps onto the
+bridge; on brass, a mute is inserted into the bell. The opposite is
+senza sordino ("without mute").
+
+*See also:* [[*mute][mute]], [[*timbre][timbre]]
+
+** counterpoint
+:PROPERTIES:
+:PATTERN:   \bcounterpoint\b
+:IPA:       kˈaʊntəɹpɔɪnt
+:DEF_SHORT: The technique of combining two or more independent melodic voices simultaneously.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Counterpoint
+:END:
+
+The art of combining two or more independent melodic lines so that they
+sound simultaneously while following rules of consonance, dissonance,
+and voice leading. Species counterpoint (Fux's system) codifies the
+rules from Renaissance practice. Counterpoint is the foundation of
+fugue, canon, and much of Western classical composition.
+
+*See also:* [[*polyphony][polyphony]], [[*fugue][fugue]], [[*imitation][imitation]]
+
+** crescendo  :italian:
+:PROPERTIES:
+:PATTERN:   \bcrescendo\b
+:IPA:       kɹəˈʃɛndoʊ
+:DEF_SHORT: Gradually getting louder.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Dynamics_(music)
+:END:
+
+Italian: "growing." A dynamic direction to gradually increase in volume.
+Notated by the "hairpin" symbol (<). Often used informally (and
+inaccurately) to refer simply to a loud climax; strictly, it refers to
+the process of getting louder, not the arrival.
+
+*See also:* [[*decrescendo][decrescendo]], [[*dynamics][dynamics]]
+
+** cross rhythms
+:PROPERTIES:
+:PATTERN:   \bcross rhythms\b
+:IPA:       kɹɒs ˈɹɪðəmz
+:DEF_SHORT: Conflicting rhythmic patterns that create tension against the prevailing metre.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Cross-rhythm
+:END:
+
+The simultaneous use of contrasting rhythmic patterns that conflict
+with the prevailing metre or with each other. Often used interchangeably
+with polyrhythm, though cross-rhythm may refer specifically to a pattern
+that contradicts the notated metre rather than two equal-status competing
+metres. Central to African drumming, Latin music, and jazz.
+
+*See also:* [[*polyrhythm][polyrhythm]], [[*hemiola][hemiola]], [[*syncopation][syncopation]]
+
+* D
+
+** DAW  :technology:
+:PROPERTIES:
+:PATTERN:   \bDAW\b
+:IPA:       dɔː
+:DEF_SHORT: Digital audio workstation — software for recording, editing, and producing audio.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Digital_audio_workstation
+:END:
+
+An application for recording, editing, arranging, mixing, and mastering
+audio. DAWs replace the traditional recording studio's tape machines,
+mixing desks, and outboard gear with software equivalents. Common DAWs
+include Pro Tools, Logic Pro, Ableton Live, GarageBand, FL Studio, and
+Reaper.
+
+Note on pronunciation: "daw" (single syllable) is common; "D-A-W"
+(spelled out) is also used. Change the IPA to /diː eɪ dʌbᵊljuː/ if you
+prefer the spelled-out version.
+
+*See also:* [[*recording][recording]], [[*mixing][mixing]], [[*sequencer][sequencer]]
+
+** decrescendo  :italian:
+:PROPERTIES:
+:PATTERN:   \bdecrescendo\b
+:IPA:       ˌdiːkɹəˈʃɛndoʊ
+:DEF_SHORT: Gradually getting softer.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Dynamics_(music)
+:END:
+
+A dynamic direction to gradually decrease in volume. Synonymous with
+diminuendo. Notated by the reverse hairpin symbol (>).
+
+*See also:* [[*crescendo][crescendo]], [[*dynamics][dynamics]]
+
+** development
+:PROPERTIES:
+:PATTERN:   \bdevelopment\b
+:IPA:       dɪˈvɛləpmənt
+:DEF_SHORT: (1) The middle section of sonata form; (2) the manipulation and transformation of musical material.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Development_(music)
+:END:
+
+(1) In sonata form: the middle section following the exposition, in
+which the themes are fragmented, combined, transposed, and transformed
+through a variety of keys, creating tension before the recapitulation.
+(2) More broadly, any compositional process of elaborating and
+transforming musical material — through sequence, fragmentation,
+augmentation, diminution, etc.
+
+*See also:* [[*sonata form][sonata form]], [[*exposition][exposition]], [[*recapitulation][recapitulation]]
+
+** diatonic  :harmony:
+:PROPERTIES:
+:PATTERN:   \bdiatonic\b
+:IPA:       ˌdaɪəˈtɒnɪk
+:DEF_SHORT: Belonging to, or derived from, the notes of a major or minor scale.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Diatonic_scale
+:END:
+
+Relating to notes, intervals, chords, or harmonies that belong to a
+given major or minor scale without chromatic alteration. Diatonic harmony
+uses only the chords naturally occurring in a key (I through VII).
+Contrasted with chromatic, which introduces notes from outside the scale.
+
+*See also:* [[*chromatic][chromatic]], [[*tonality][tonality]], [[*scale degrees][scale degrees]]
+
+** diatonic harmony
+:PROPERTIES:
+:PATTERN:   \bdiatonic harmony\b
+:IPA:       ˌdaɪəˈtɒnɪk hˈɑːɹməni
+:DEF_SHORT: Harmony using only the chords naturally occurring within a given key.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Diatonic_function
+:END:
+
+Harmony based entirely on the chords naturally formed by the notes of
+a major or minor scale, without chromatic alteration. The seven diatonic
+triads of a major key are I, ii, iii, IV, V, vi, and vii°. Diatonic
+harmony is the foundation of tonal music; chromatic harmony introduces
+notes or chords from outside the key.
+
+*See also:* [[*diatonic][diatonic]], [[*chromatic][chromatic]], [[*tonality][tonality]]
+
+** diminuendo
+:PROPERTIES:
+:PATTERN:   \bdiminuendo\b
+:IPA:       dɪˌmɪnjuˈɛndoʊ
+:DEF_SHORT: Gradually getting softer; synonymous with decrescendo.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Dynamics_(music)
+:END:
+
+Italian: "diminishing." A dynamic direction to gradually decrease in
+volume. Synonymous with decrescendo. Abbreviated dim.
+
+*See also:* [[*crescendo][crescendo]], [[*dynamics][dynamics]]
+
+** diminution  :harmony:
+:PROPERTIES:
+:PATTERN:   \bdiminution\b
+:IPA:       ˌdɪmɪˈnjuːʃən
+:DEF_SHORT: Restating a theme with all note values shortened.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Diminution
+:END:
+
+A contrapuntal technique in which a melody or motif is restated with
+all rhythmic values decreased — typically halved. Creates a sense of
+intensification or forward drive. The opposite of augmentation.
+
+*See also:* [[*augmentation][augmentation]], [[*fugue][fugue]]
+
+** dissonance
+:PROPERTIES:
+:PATTERN:   \bdissonance\b
+:IPA:       dˈɪsənəns
+:DEF_SHORT: An interval or chord that creates tension and feels unstable, requiring resolution.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Consonance_and_dissonance
+:END:
+
+In tonal music, intervals and chords perceived as tense or unstable,
+creating a need for resolution to consonance. What counts as dissonant
+has varied across history and cultures — the perfect fourth was
+considered dissonant in medieval counterpoint but is consonant in most
+modern contexts. Dissonance and its resolution are the primary drivers
+of tension and release in tonal music.
+
+*See also:* [[*consonance][consonance]], [[*suspensions][suspensions]], [[*resolution][resolution]]
+
+** dolce  :italian:
+:PROPERTIES:
+:PATTERN:   \bdolce\b
+:IPA:       ˈdɒltʃeɪ
+:DEF_SHORT: Sweetly; softly and gently.
+:SOURCE_1:  https://en.wikipedia.org/wiki/List_of_Italian_musical_terms_used_in_English
+:END:
+
+Italian: "sweet." A performance direction indicating a gentle, soft,
+lyrical character. Often associated with a smooth, expressive tone
+quality rather than merely quiet dynamics.
+
+** dominant
+:PROPERTIES:
+:PATTERN:   \bdominant\b
+:IPA:       dˈɒmɪnənt
+:DEF_SHORT: The fifth scale degree; the chord built on it is the most harmonically active in tonal music.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Dominant_(music)
+:END:
+
+The fifth scale degree and the chord built on it. The dominant chord
+(V) has a strong tendency to resolve to the tonic (I), making V–I the
+most fundamental progression in tonal music. The dominant seventh (V7)
+adds a minor seventh above the root, intensifying the pull toward
+resolution. The term also refers to the fifth scale degree itself.
+
+*See also:* [[*V][V]], [[*scale degrees][scale degrees]], [[*authentic (perfect) cadence][authentic cadence]]
+
+** drone
+:PROPERTIES:
+:PATTERN:   \bdrone\b
+:IPA:       dɹoʊn
+:DEF_SHORT: A sustained pitch held continuously beneath changing melody or harmony.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Drone_(music)
+:END:
+
+A sustained, continuous pitch (or pitches) held throughout a section or
+entire piece, while melody and harmony move above it. Central to Indian
+classical music (the tamboura provides the drone), Scottish bagpipes,
+and much world music. Also used in experimental and ambient electronic
+music. Related to pedal point but typically longer in duration and more
+structural.
+
+*See also:* [[*pedal tone][pedal tone]], [[*ostinato][ostinato]]
+
+** dynamics
+:PROPERTIES:
+:PATTERN:   \bdynamics\b
+:IPA:       daɪˈnæmɪks
+:DEF_SHORT: The variation in loudness in music, and the markings that indicate these variations.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Dynamics_(music)
+:END:
+
+The element of music concerned with variations in loudness. Dynamic
+markings in Western notation range from ppp (pianissississimo, very
+very soft) through pp, p, mp, mf, f, ff to fff (fortississimo). Gradual
+changes are marked crescendo (getting louder) and decrescendo/diminuendo
+(getting softer). Sudden changes include sforzando (sf/sfz) and
+fortepiano (fp).
+
+*See also:* [[*crescendo][crescendo]], [[*decrescendo][decrescendo]], [[*sforzando][sforzando]]
+
+* E
+
+** enharmonic  :harmony:
+:PROPERTIES:
+:PATTERN:   \benharmonic\b
+:IPA:       ˌɛnhɑːɹˈmɒnɪk
+:DEF_SHORT: Pitches that sound the same but are spelled differently (e.g. F# and Gb).
+:SOURCE_1:  https://en.wikipedia.org/wiki/Enharmonic
+:END:
+
+Notes that are acoustically identical (in equal temperament) but written
+differently, such as F# and Gb, or C# and Db. Enharmonic equivalence
+is relevant in modulation, chromaticism, and understanding how
+instruments like the piano, which has no distinction between F# and Gb,
+relate to those that do (fretless strings, voice).
+
+*See also:* [[*temperament][temperament]], [[*modulation (in music)][modulation]], [[*chromatic][chromatic]]
+
+** envelope curve
+:PROPERTIES:
+:PATTERN:   \benvelope curve\b
+:IPA:       ˈɛnvələʊp kɜːɹv
+:DEF_SHORT: The shape of a sound's amplitude over time, described in four stages: Attack, Decay, Sustain, Release.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Envelope_(music)
+:END:
+
+The time-varying shape of a sound's amplitude (or other parameter),
+typically described by four stages: Attack (rise to peak), Decay (fall
+to sustain level), Sustain (held level), and Release (fall to silence).
+The ADSR envelope is the most common form and is a primary tool for
+shaping synthesized sounds.
+
+*See also:* [[*ADSR][ADSR]], [[*synthesis][synthesis]]
+
+** EQ
+:PROPERTIES:
+:PATTERN:   \bEQ\b
+:IPA:       iː kjuː
+:DEF_SHORT: Equalization — adjusting the balance of specific frequency ranges in an audio signal.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Equalization_(audio)
+:END:
+
+Short for equalization. The process of adjusting the relative level of
+specific frequency ranges within an audio signal — boosting or cutting
+bass, midrange, or treble. Used in recording, mixing, and mastering to
+shape timbre, correct acoustic problems, and balance instruments in a
+mix. Hardware and software EQ units are among the most fundamental
+tools in audio production.
+
+*See also:* [[*mixing][mixing]], [[*timbre][timbre]], [[*effects][effects]]
+
+** EWI  :technology:
+:PROPERTIES:
+:PATTERN:   \bEWI\b
+:IPA:       iː wiː
+:DEF_SHORT: Electronic wind instrument — a wind-controller that produces MIDI output.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Electronic_wind_instrument
+:END:
+
+A wind-controller instrument played using breath and fingering
+techniques similar to acoustic wind instruments, but producing MIDI
+output that triggers a synthesizer rather than making acoustic sound
+directly. The Akai EWI is the most widely used. Associated with
+jazz-fusion players such as Michael Brecker and Bob Mintzer.
+
+*See also:* [[*MIDI][MIDI]], [[*synthesis][synthesis]]
+
+** exposition  :form:
+:PROPERTIES:
+:PATTERN:   \bexposition\b
+:IPA:       ˌɛkspəˈzɪʃən
+:DEF_SHORT: The opening section of a fugue or sonata form presenting the main themes.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Exposition_(music)
+:END:
+
+(1) In sonata form: the opening section in which the main themes are
+introduced, typically moving from the home key to a contrasting key.
+(2) In fugue: the opening section in which the subject is introduced
+in each voice in turn.
+
+*See also:* [[*sonata form][sonata form]], [[*fugue][fugue]], [[*development][development]]
+
+* F
+
+** falsetto  :italian:
+:PROPERTIES:
+:PATTERN:   \bfalsetto\b
+:IPA:       fɒlˈsɛtoʊ
+:DEF_SHORT: A register above normal voice range produced by partial vibration of the vocal cords.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Falsetto
+:END:
+
+Italian: "little false voice." A vocal register above the normal range
+in which only part of the vocal cords vibrate, producing a lighter,
+breathier tone. Common in countertenors, in pop singing (e.g., falsetto
+passages in soul and R&B), and in yodelling. In classical pedagogy,
+falsetto in men is related to but distinct from the head voice.
+
+*See also:* [[*vocal range][vocal range]], [[*tenor][tenor]]
+
+** figured bass
+:PROPERTIES:
+:PATTERN:   \bfigured bass\b
+:IPA:       fˈɪɡəd beɪs
+:DEF_SHORT: A Baroque notational shorthand in which numbers below a bass line indicate the harmonies to be played above it.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Figured_bass
+:END:
+
+A Baroque notation system in which numbers (figures) placed below a
+bass line indicate the intervals to be played above it by the keyboard
+continuo player. For example, a "6/3" indicates a first-inversion chord;
+"7" indicates a seventh chord. The performer fills in appropriate
+harmonies based on these figures, improvising within the conventions
+of the style.
+
+*See also:* [[*basso continuo][basso continuo]], [[*inversion][inversion]]
+
+** FM synthesis :technology:
+:PROPERTIES:
+:PATTERN:   \bFM synthesis\b
+:IPA:       ɛf ɛm sˈɪnθəsɪs
+:DEF_SHORT: Frequency modulation synthesis — generating complex timbres by modulating one oscillator's frequency with another.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Frequency_modulation_synthesis
+:END:
+
+A synthesis technique in which the frequency of one oscillator (the
+carrier) is rapidly modulated by another oscillator (the modulator),
+producing complex, harmonically rich timbres from simple sine waves.
+Developed by John Chowning at Stanford and commercialized in the Yamaha
+DX7 (1983), the best-selling synthesizer of all time. FM synthesis
+produces characteristically bright, metallic, and bell-like sounds.
+
+*See also:* [[*subtractive synthesis][subtractive synthesis]], [[*wavetable synthesis][wavetable synthesis]], [[*synthesis][synthesis]]
+
+** form
+:PROPERTIES:
+:PATTERN:   \bform\b
+:IPA:       fɔːɹm
+:DEF_SHORT: The overall structure of a piece — how its sections are organized and relate to each other.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Musical_form
+:END:
+
+The large-scale structural organization of a musical work — how its
+sections are arranged, contrasted, and related. Common forms include
+binary (AB), ternary (ABA), rondo (ABACABA), sonata form, theme and
+variations, and strophic form. In popular music, common forms include
+verse-chorus, 12-bar blues, and AABA (32-bar song form).
+
+*See also:* [[*binary form][binary form]], [[*ternary form][ternary form]], [[*rondo form][rondo form]], [[*sonata form][sonata form]]
+
+** fugue
+:PROPERTIES:
+:PATTERN:   \bfugue\b
+:IPA:       fjuːɡ
+:DEF_SHORT: A contrapuntal composition in which a theme (subject) is introduced and developed through imitation across voices.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Fugue
+:END:
+
+A contrapuntal composition structure in which a main theme (the subject)
+is introduced alone in one voice, then taken up in imitation by
+successive voices, each entering at a different pitch level. The
+exposition is followed by episodes (passage work between subject entries)
+and further subject statements. The fugue is the highest formal
+achievement of strict counterpoint, exemplified by Bach's Well-Tempered
+Clavier.
+
+*See also:* [[*counterpoint][counterpoint]], [[*imitation][imitation]], [[*polyphony][polyphony]]
+
+* G
+
+** glissando  :italian:
+:PROPERTIES:
+:PATTERN:   \bglissando\b
+:IPA:       ɡlɪˈsændoʊ
+:DEF_SHORT: A slide between two pitches.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Glissando
+:END:
+
+Italian/French: "gliding." A continuous slide in pitch between two
+notes. On piano or harp, this involves running the finger rapidly
+across adjacent keys or strings; on string instruments and trombone,
+a true continuous glide is possible. Distinguished from portamento,
+which is a lighter, more expressive slide in vocal and string
+technique.
+
+*See also:* [[*portamento][portamento]], [[*bent notes][bent notes]]
+
+** granular synthesis :technology:
+:PROPERTIES:
+:PATTERN:   \bgranular synthesis\b
+:IPA:       ɡɹˈænjʊlər sˈɪnθəsɪs
+:DEF_SHORT: A synthesis method that breaks sound into tiny fragments (grains) and reassembles them to create new textures.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Granular_synthesis
+:SOURCE_2:  https://blog.native-instruments.com/granular-synthesis/
+:END:
+
+A digital synthesis technique in which a sound is broken into very
+short fragments (grains, typically 1–100 ms) that can be independently
+manipulated in pitch, duration, density, and spatial position, then
+layered to form new textures. Developed theoretically by Iannis Xenakis
+in the 1950s and first implemented on computer by Curtis Roads in the
+1970s. Especially suited to evolving atmospheres, time-stretching, and
+morphing sounds; also the underlying technology in most modern
+time-stretch and pitch-shift algorithms.
+
+*See also:* [[*wavetable synthesis][wavetable synthesis]], [[*subtractive synthesis][subtractive synthesis]], [[*sampling][sampling]]
+
+** ground bass
+:PROPERTIES:
+:PATTERN:   \bground bass\b
+:IPA:       ɡɹaʊnd beɪs
+:DEF_SHORT: A repeating bass pattern over which variations are composed.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Ground_bass
+:END:
+
+A repeating bass line (or harmonic-bass pattern) over which a series
+of variations is composed in the upper voices. A specific type of
+ostinato. Central to Baroque music — Purcell's *Dido's Lament* and
+Bach's *Chaconne* are classic examples. Related forms include the
+passacaglia and chaconne.
+
+*See also:* [[*ostinato][ostinato]], [[*basso continuo][basso continuo]], [[*variation][variation]]
+
+* H
+
+** harmonic
+:PROPERTIES:
+:PATTERN:   \bharmonic\b
+:IPA:       hɑːɹˈmɒnɪk
+:DEF_SHORT: An overtone — a frequency that is a whole-number multiple of a fundamental pitch.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Harmonic
+:END:
+
+A partial frequency that is a whole-number multiple of a fundamental
+pitch. The first harmonic is the fundamental itself; the second harmonic
+is an octave above; the third a perfect twelfth above, etc. The relative
+strength of different harmonics determines timbre — what makes a violin
+sound different from a flute on the same pitch. On string and wind
+instruments, players can isolate harmonics as a technique (flageolet
+tones, natural harmonics).
+
+*See also:* [[*timbre][timbre]], [[*acoustics][acoustics]], [[*overtone][overtone]]
+
+** harmonic rhythm
+:PROPERTIES:
+:PATTERN:   \bharmonic rhythm\b
+:IPA:       hɑːɹˈmɒnɪk ˈɹɪðəm
+:DEF_SHORT: The rate at which chords change within a piece.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Harmonic_rhythm
+:END:
+
+The pace at which the underlying harmony changes — how frequently chord
+changes occur. Slow harmonic rhythm (chords held for many beats) creates
+a stable, spacious feel; fast harmonic rhythm (chords changing every
+beat or more) creates tension and drive. A key analytical concept in
+understanding a piece's pacing and energy.
+
+*See also:* [[*harmony][harmony]], [[*cadence][cadence]]
+
+** hemiola  :harmony:
+:PROPERTIES:
+:PATTERN:   \bhemiola\b
+:IPA:       ˌhɛmiˈoʊlə
+:DEF_SHORT: A rhythmic effect in which three beats in duple metre are temporarily felt as two in triple, or vice versa.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Hemiola
+:END:
+
+A rhythmic pattern in which the regular metre is temporarily displaced
+by grouping beats differently. In 6/8, for example, two bars of 3+3
+eighth notes may be regrouped as three bars of 2+2, or vice versa.
+Common at cadences in Baroque and Renaissance music, in Brahms, and
+throughout African and Latin rhythmic traditions.
+
+*See also:* [[*syncopation][syncopation]], [[*polyrhythm][polyrhythm]], [[*metre][metre]]
+
+** heterophonic
+:PROPERTIES:
+:PATTERN:   \bheterophonic\b
+:IPA:       ˌhɛtəɹəˈfɒnɪk
+:DEF_SHORT: A texture in which multiple voices simultaneously perform variations of the same melody.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Heterophony
+:END:
+
+A musical texture in which two or more voices perform the same basic
+melody simultaneously but with slight variations — different
+ornamentation, rhythmic placement, or embellishment. Common in many
+world music traditions including gamelan, West African music, and
+traditional folk musics. Distinct from polyphony (independent melodic
+lines) and homophony (melody with harmonic support).
+
+*See also:* [[*texture][texture]], [[*polyphony][polyphony]]
+
+** homophonic
+:PROPERTIES:
+:PATTERN:   \bhomophonic\b
+:IPA:       ˌhɒməˈfɒnɪk
+:DEF_SHORT: A texture in which one voice carries the melody while others provide harmonic support.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Homophony
+:END:
+
+A musical texture in which one melodic voice is primary, supported by
+accompanying voices that provide harmony without independent melodic
+interest. The most common texture in Western popular and classical music
+from the late Baroque onward. Distinguished from polyphony (independent
+equal voices) and monophony (single voice with no accompaniment).
+
+*See also:* [[*texture][texture]], [[*polyphony][polyphony]], [[*monophonic][monophonic]]
+
+* I
+
+** idiophone
+:PROPERTIES:
+:PATTERN:   \bidiophone\b
+:IPA:       ˈɪdiəfoʊn
+:DEF_SHORT: An instrument that produces sound through the vibration of its own body.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Idiophone
+:END:
+
+One of the four primary instrument categories in the Hornbostel-Sachs
+classification system. Idiophones produce sound through the vibration
+of the instrument's own body, without a stretched membrane, string, or
+air column. Examples include xylophones, cymbals, bells, rattles,
+castanets, and steel drums.
+
+*See also:* [[*membranophone][membranophone]], [[*chordophone][chordophone]], [[*aerophone][aerophone]]
+
+** imitation
+:PROPERTIES:
+:PATTERN:   \bimitation\b
+:IPA:       ˌɪmɪˈteɪʃən
+:DEF_SHORT: The repetition of a melodic idea in a different voice shortly after its first appearance.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Imitation_(music)
+:END:
+
+A contrapuntal technique in which a melodic idea introduced in one
+voice is taken up and repeated in another voice, typically at a
+different pitch, shortly after the first voice. The basis of canonic
+writing and fugue. Strict imitation preserves exact intervals; tonal
+imitation adjusts them to stay within the key.
+
+*See also:* [[*canon][canon]], [[*fugue][fugue]], [[*counterpoint][counterpoint]]
+
+** improvising
+:PROPERTIES:
+:PATTERN:   \bimprovising\b
+:IPA:       ˈɪmpɹəvaɪzɪŋ
+:DEF_SHORT: Creating music spontaneously in performance, within a given harmonic or stylistic framework.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Musical_improvisation
+:END:
+
+The spontaneous creation of musical material in real time during
+performance. Improvisation may be free (without predetermined
+structure) or guided by a chord progression, mode, raga, or other
+framework. Central to jazz, Indian classical music, flamenco, and
+many other traditions. Distinct from interpretation of written music,
+though the two overlap.
+
+*See also:* [[*raga][raga]], [[*alap][alap]], [[*head][head]]
+
+** interval
+:PROPERTIES:
+:PATTERN:   \binterval\b
+:IPA:       ˈɪntəvəl
+:DEF_SHORT: The pitch distance between two notes.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Interval_(music)
+:END:
+
+The distance in pitch between two notes, measured in semitones and
+named by their scale-degree distance. Basic intervals include unison,
+second, third, fourth, fifth, sixth, seventh, and octave, each further
+qualified as major, minor, perfect, augmented, or diminished.
+Intervals are the building blocks of melody, harmony, and counterpoint.
+
+*See also:* [[*semitone][semitone]], [[*consonance][consonance]], [[*dissonance][dissonance]]
+
+** inversion  :harmony:
+:PROPERTIES:
+:PATTERN:   \binversion\b
+:IPA:       ɪnˈvɜːɹʒən
+:DEF_SHORT: (1) A chord with a note other than the root in the bass; (2) a melody flipped upside down.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Inversion_(music)
+:END:
+
+The term has two related meanings. (1) Chord inversion: a chord arranged
+so that a note other than the root is in the lowest voice. First
+inversion has the third in the bass; second inversion has the fifth.
+(2) Melodic inversion: a melody restated with all intervals flipped
+(ascending intervals become descending and vice versa). Both uses are
+important in counterpoint and tonal harmony.
+
+*See also:* [[*retrograde][retrograde]], [[*root position][root position]]
+
+* K
+
+** key change
+:PROPERTIES:
+:PATTERN:   \bkey change\b
+:IPA:       kiː tʃeɪndʒ
+:DEF_SHORT: A shift from one tonal center to another within a piece.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Modulation_(music)
+:END:
+
+A shift from one key (tonal center) to another at some point within
+a piece. May be gradual (through pivot chords or chromatic voice
+leading) or abrupt. A common device in popular music is the
+"truck driver's modulation" — an upward shift by a semitone or whole
+tone near the end of a song.
+
+*See also:* [[*modulation (in music)][modulation]], [[*tonality][tonality]]
+
+* L
+
+** layering
+:PROPERTIES:
+:PATTERN:   \blayering\b
+:IPA:       lˈeɪərɪŋ
+:DEF_SHORT: Building up a texture by combining multiple simultaneous parts or sounds.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Arrangement_(music)
+:END:
+
+The compositional and production technique of combining multiple
+simultaneous musical parts, samples, or synthesized sounds to create a
+richer or more complex texture. In production, layers may include
+multiple harmony parts, doubled melody lines, stacked synth patches,
+or blended drum sounds.
+
+*See also:* [[*texture][texture]], [[*overdubbing][overdubbing]]
+
+** leading note
+:PROPERTIES:
+:PATTERN:   \bleading note\b
+:IPA:       lˈiːdɪŋ noʊt
+:DEF_SHORT: The seventh scale degree, a half step below the tonic, with strong upward tendency.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Leading-tone
+:END:
+
+The seventh degree of the major scale — a semitone below the tonic —
+which has a strong tendency to resolve upward to the tonic. Its pull
+toward resolution is central to tonal harmony and voice leading. In
+natural minor, the seventh degree is a whole tone below the tonic (the
+subtonic); raising it to a semitone creates the harmonic minor scale.
+
+*See also:* [[*scale degrees][scale degrees]], [[*tonality][tonality]], [[*dominant][dominant]]
+
+** lead (voice/sheet)  :homograph:
+:PROPERTIES:
+:PATTERN:   \blead\b
+:IPA:       liːd
+:DISPLAY:   lead
+:DEF_SHORT: The primary melody or melodic voice.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Lead_sheet
+:END:
+
+In music, "lead" (rhymes with "feed") refers to the primary melodic line
+or voice. A lead sheet is a simplified score showing melody, chord
+symbols, and lyrics. The lead voice in a choir or ensemble carries the
+main melody. Distinct from lead (the metal, rhyming with "bed").
+
+** LFO  :technology:
+:PROPERTIES:
+:PATTERN:   \bLFO\b
+:IPA:       ɛl ɛf oʊ
+:DEF_SHORT: Low-frequency oscillator — a slow-cycling modulation source in a synthesizer.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Low-frequency_oscillation
+:END:
+
+An oscillator in a synthesizer that operates at very low frequencies
+(typically below 20 Hz, below the threshold of hearing) and is used to
+modulate other parameters rhythmically — most commonly pitch (producing
+vibrato), amplitude (producing tremolo), or filter cutoff. LFO rate
+determines the speed of the modulation; LFO depth determines its amount.
+
+*See also:* [[*vibrato][vibrato]], [[*tremolo][tremolo]], [[*synthesis][synthesis]]
+
+** libretto  :italian:
+:PROPERTIES:
+:PATTERN:   \blibretto\b
+:IPA:       lɪˈbɹɛtoʊ
+:DEF_SHORT: The text of an opera, oratorio, or other large-scale vocal work.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Libretto
+:END:
+
+Italian: "little book." The words — including sung text and stage
+directions — of an opera, operetta, oratorio, or musical. The librettist
+works in collaboration with the composer. Notable librettist-composer
+partnerships include da Ponte and Mozart, and Boito and Verdi.
+
+*See also:* [[*aria][aria]], [[*recitative][recitative]], [[*opera][opera]]
+
+** loop
+:PROPERTIES:
+:PATTERN:   \bloop\b
+:IPA:       luːp
+:DEF_SHORT: A segment of audio edited to repeat seamlessly when played end to end.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Loop_(music)
+:END:
+
+A short segment of audio that has been edited so its end connects
+smoothly to its beginning, allowing seamless continuous repetition.
+Loops are foundational to DAW-based production, electronic dance music,
+and hip-hop. May be pre-recorded (sample loops) or created live using
+loop pedals or DAW features.
+
+*See also:* [[*ostinato][ostinato]], [[*sampling][sampling]], [[*DAW][DAW]]
+
+* M
+
+** maqam  :non-western:
+:PROPERTIES:
+:PATTERN:   \bmaqam\b
+:IPA:       məˈkɑːm
+:DEF_SHORT: A melodic mode in Arabic and Middle Eastern music, combining scale, characteristic phrases, and expressive character.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Maqam
+:END:
+
+In Arabic and broader Middle Eastern music traditions, a maqam (plural:
+maqamat) is a melodic framework that goes beyond a simple scale to
+include characteristic melodic phrases, ornaments, starting and ending
+notes, and emotional associations. Hundreds of maqamat exist across the
+region, many using intervals smaller than a semitone.
+
+*See also:* [[*microtone][microtone]], [[*mode/modal][mode/modal]]
+
+** melisma  :italian:
+:PROPERTIES:
+:PATTERN:   \bmelisma\b
+:IPA:       məˈlɪzmə
+:DEF_SHORT: The singing of multiple notes on a single syllable.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Melisma
+:END:
+
+A passage in which a single syllable of text is sung across several
+notes. Melisma is characteristic of Gregorian chant, Renaissance
+polyphony, Arabic maqam, gospel, and R&B/soul music. The opposite of
+syllabic singing, in which each syllable receives a single note.
+
+*See also:* [[*syllabic][syllabic]], [[*ornamentation][ornamentation]]
+
+** metre
+:PROPERTIES:
+:PATTERN:   \bmetre\b
+:IPA:       mˈiːtəɹ
+:DEF_SHORT: The recurring pattern of strong and weak beats that organizes rhythm in music.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Metre_(music)
+:END:
+
+The organized pattern of strong and weak beats that provides a rhythmic
+framework for music. Duple metre groups beats in twos (2/4, 4/4);
+triple metre in threes (3/4, 3/8); compound metre divides each beat
+into three equal parts (6/8, 9/8, 12/8). Irregular or mixed metres use
+non-standard groupings (5/4, 7/8, etc.).
+
+*See also:* [[*time signature][time signature]], [[*syncopation][syncopation]], [[*hemiola][hemiola]]
+
+** microtone
+:PROPERTIES:
+:PATTERN:   \bmicrotone\b
+:IPA:       ˈmaɪkɹətoʊn
+:DEF_SHORT: Any interval smaller than a semitone.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Microtone
+:END:
+
+Any musical interval smaller than a semitone — the smallest step in
+the standard Western chromatic scale. Includes quarter-tones (half a
+semitone), third-tones, and the continuous pitch inflections found in
+Arabic maqam, Indian raga, blues, and many other traditions. Also used
+in 20th- and 21st-century composed music (Partch, Scelsi, Haas).
+
+*See also:* [[*quarter-tones][quarter-tones]], [[*temperament][temperament]], [[*maqam][maqam]]
+
+** MIDI  :technology:
+:PROPERTIES:
+:PATTERN:   \bMIDI\b
+:IPA:       ˈmɪdi
+:DEF_SHORT: Musical Instrument Digital Interface — a protocol for communication between electronic instruments and computers.
+:SOURCE_1:  https://en.wikipedia.org/wiki/MIDI
+:END:
+
+A technical standard (introduced 1983) that allows electronic musical
+instruments, computers, and controllers to communicate and synchronize.
+MIDI transmits performance data (note on/off, velocity, pitch bend,
+etc.) rather than audio signals. A MIDI file contains instructions, not
+sound; the actual sound depends on the playback device or software.
+
+*See also:* [[*MIDI controller][MIDI controller]], [[*DAW][DAW]], [[*sequencer][sequencer]]
+
+** MIDI controller
+:PROPERTIES:
+:PATTERN:   \bMIDI controller\b
+:IPA:       ˈmɪdi kənˈtɹoʊlər
+:DEF_SHORT: A hardware or software device that sends MIDI data to control electronic instruments.
+:SOURCE_1:  https://en.wikipedia.org/wiki/MIDI_controller
+:END:
+
+Any device that generates and transmits MIDI data — note messages,
+control changes, pitch bend, etc. — to trigger and control MIDI-capable
+instruments and software. Includes keyboard controllers, drum pads,
+wind controllers (EWI), and software-based controllers. Does not
+produce sound itself; it controls sound sources.
+
+*See also:* [[*MIDI][MIDI]], [[*EWI][EWI]], [[*DAW][DAW]]
+
+** minuet  :harmony:
+:PROPERTIES:
+:PATTERN:   \bminuet\b
+:IPA:       ˌmɪnjuˈɛt
+:DEF_SHORT: A stately French dance in triple metre; also a standard movement in Classical symphonies.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Minuet
+:END:
+
+A French court dance in moderate triple metre, originating in the
+17th century. As an abstract form, the minuet became the standard third
+movement of Classical symphonies, sonatas, and chamber works, typically
+in A–B–A form (minuet–trio–minuet). Beethoven replaced it with the
+faster scherzo.
+
+*See also:* [[*scherzo][scherzo]], [[*ternary form][ternary form]]
+
+** mixing
+:PROPERTIES:
+:PATTERN:   \bmixing\b
+:IPA:       mˈɪksɪŋ
+:DEF_SHORT: Combining and balancing multi-track recordings into a final stereo or surround output.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Audio_mixing
+:END:
+
+The process of combining separately recorded tracks into a cohesive
+final product by adjusting relative levels, panning, EQ, dynamics, and
+effects. Mixing follows tracking (recording) and precedes mastering.
+The goal is a balanced, clear result in which all elements occupy
+appropriate space in the frequency spectrum and stereo field.
+
+*See also:* [[*mastering][mastering]], [[*DAW][DAW]], [[*EQ][EQ]]
+
+** modulation (in music)
+:PROPERTIES:
+:PATTERN:   \bmodulation\b
+:IPA:       ˌmɒdjʊˈleɪʃən
+:DEF_SHORT: A change of key within a piece of music.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Modulation_(music)
+:END:
+
+The process of moving from one key (tonal center) to another within a
+piece. Common modulation techniques include pivot chord modulation
+(using a chord common to both keys), chromatic modulation (using a
+chromatic alteration to shift to the new key), and direct (abrupt) key
+change. Modulation creates tonal variety and dramatic effect.
+
+*See also:* [[*key change][key change]], [[*tonality][tonality]], [[*pivot chord][pivot chord]]
+
+** motif
+:PROPERTIES:
+:PATTERN:   \bmotif\b
+:IPA:       moʊˈtiːf
+:DEF_SHORT: A short, distinctive musical idea — melodic, rhythmic, or harmonic — used as a building block.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Motif_(music)
+:END:
+
+A brief, distinctive musical unit — typically just a few notes — that
+recurs and is developed throughout a piece. Motifs may be melodic,
+rhythmic, or harmonic. The opening four notes of Beethoven's Fifth
+Symphony are the most famous example. Through development, inversion,
+augmentation, and fragmentation, a motif can generate large amounts of
+material.
+
+*See also:* [[*sequence][sequence]], [[*development][development]], [[*leitmotif][leitmotif]]
+
+* N
+
+** non-tonal
+:PROPERTIES:
+:PATTERN:   \bnon-tonal\b
+:IPA:       nɒn toʊnəl
+:DEF_SHORT: Music that does not organize pitch around a central tonic.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Atonality
+:END:
+
+Music that does not establish or imply a tonal center. Encompasses both
+atonal music (actively avoiding tonal hierarchies, as in Schoenberg's
+free atonality) and other non-tonal systems such as twelve-tone
+serialism. Different from modal music, which does organize around a
+center but outside major/minor tonality.
+
+*See also:* [[*atonal][atonal]], [[*12-note techniques][12-note techniques]], [[*tonality][tonality]]
+
+** notation
+:PROPERTIES:
+:PATTERN:   \bnotation\b
+:IPA:       noʊˈteɪʃən
+:DEF_SHORT: Any system of symbols used to represent music visually.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Musical_notation
+:END:
+
+Any system of written symbols used to represent music for the purposes
+of performance or analysis. Western staff notation uses a five-line
+staff, noteheads, clefs, key signatures, and time signatures. Other
+systems include tablature, graphic scores, lead sheets with chord
+symbols, and various non-Western notations.
+
+* O
+
+** ostinato  :italian:
+:PROPERTIES:
+:PATTERN:   \bostinato\b
+:IPA:       ˌɒstɪˈnɑːtoʊ
+:DEF_SHORT: A persistently repeated melodic, rhythmic, or harmonic pattern.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Ostinato
+:END:
+
+Italian: "obstinate." A short musical pattern — melodic, rhythmic, or
+harmonic — that repeats persistently throughout a piece or section.
+A ground bass is a specific type of harmonic/bass ostinato. Ostinato is
+fundamental to minimalist music, African drumming, and many popular music
+styles.
+
+*See also:* [[*ground bass][ground bass]], [[*riff][riff]], [[*pedal tone][pedal tone]]
+
+** overdubbing
+:PROPERTIES:
+:PATTERN:   \boverdubbing\b
+:IPA:       ˌoʊvəɹdˈʌbɪŋ
+:DEF_SHORT: Recording additional tracks onto an existing recording to layer multiple performances.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Overdubbing
+:END:
+
+A recording technique in which new audio material is recorded onto
+separate tracks while listening to previously recorded material through
+headphones. Allows a single performer to build up complex textures by
+layering multiple performances, or a band to record instruments
+separately. Pioneered in the 1940s by Les Paul.
+
+*See also:* [[*DAW][DAW]], [[*tracking][tracking]], [[*layering][layering]]
+
+* P
+
+** passing tone
+:PROPERTIES:
+:PATTERN:   \bpassing tone\b
+:IPA:       pˈæsɪŋ toʊn
+:DEF_SHORT: A non-chord tone that moves by step between two chord tones.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Nonchord_tone
+:END:
+
+A non-chord tone that fills in the stepwise space between two chord
+tones, approached and left by step in the same direction. A diatonic
+passing tone stays within the key; a chromatic passing tone uses a
+note from outside the key to fill a whole-step gap. Fundamental to
+melodic writing and counterpoint.
+
+*See also:* [[*suspensions][suspensions]], [[*appoggiatura][appoggiatura]]
+
+** pedal tone
+:PROPERTIES:
+:PATTERN:   \bpedal tone\b
+:IPA:       pˈɛdəl toʊn
+:DEF_SHORT: A sustained or repeated note (usually in the bass) held while harmonies change above it.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Pedal_point
+:END:
+
+A sustained or repeated pitch — most commonly in the bass — held while
+the harmony above it changes. Named after the organ pedal, which can
+sustain bass notes independently of the manuals. A tonic pedal reinforces
+the home key; a dominant pedal creates tension before a cadence. Also
+used in upper voices (an inverted pedal).
+
+*See also:* [[*drone][drone]], [[*basso continuo][basso continuo]]
+
+** pelog  :non-western:
+:PROPERTIES:
+:PATTERN:   \bpelog\b
+:IPA:       ˈpeɪlɒɡ
+:DEF_SHORT: One of the two main tuning systems in Javanese and Balinese gamelan music.
+:SOURCE_1:  https://en.wikipedia.org/wiki/P%C3%A9log
+:END:
+
+One of the two principal scales used in Javanese and Balinese gamelan
+music, typically containing seven unequal pitches per octave, of which
+five are used in any given piece. Characterized by its large and small
+intervals, pelog has a more tense, formal character compared to the
+more open-sounding slendro.
+
+*See also:* [[*slendro][slendro]], [[*gamelan][gamelan]]
+
+** pentatonic  :harmony:
+:PROPERTIES:
+:PATTERN:   \bpentatonic\b
+:IPA:       ˌpɛntəˈtɒnɪk
+:DEF_SHORT: A five-note scale, common across many world music traditions.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Pentatonic_scale
+:END:
+
+A scale consisting of five pitches per octave. The major pentatonic
+(e.g., C–D–E–G–A) and minor pentatonic (e.g., A–C–D–E–G) are the most
+common forms and appear in folk, blues, rock, jazz, and many world
+music traditions. The blues scale adds a flattened fifth to the minor
+pentatonic.
+
+*See also:* [[*blues scale][blues scale]], [[*mode/modal][mode/modal]]
+
+** phasing
+:PROPERTIES:
+:PATTERN:   \bphasing\b
+:IPA:       fˈeɪzɪŋ
+:DEF_SHORT: A compositional technique in which the same pattern in two voices gradually moves out of synchronisation.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Phase_music
+:END:
+
+A minimalist compositional technique, pioneered by Steve Reich, in which
+the same repeating pattern is played simultaneously by two performers
+or voices at very slightly different tempos. As the patterns slowly fall
+out of sync, new composite rhythmic and melodic patterns emerge, then
+gradually re-align. Key works include Reich's *Piano Phase* (1967) and
+*Drumming* (1971).
+
+*See also:* [[*polyrhythm][polyrhythm]], [[*ostinato][ostinato]]
+
+** pizzicato  :italian:
+:PROPERTIES:
+:PATTERN:   \bpizzicato\b
+:IPA:       ˌpɪtsɪˈkɑːtoʊ
+:DEF_SHORT: Plucking the strings of a bowed instrument with the fingers.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Pizzicato
+:END:
+
+Italian: "pinched." A technique for bowed string instruments in which
+the strings are plucked with the fingers rather than bowed, producing
+a dry, percussive tone. Indicated in scores by the abbreviation pizz.;
+arco or con arco marks the return to bowing.
+
+*See also:* [[*arco][arco]], [[*timbre][timbre]]
+
+** plagal cadence
+:PROPERTIES:
+:PATTERN:   \bplagal cadence\b
+:IPA:       plˈeɪɡəl kˈeɪdəns
+:DEF_SHORT: A cadence moving from IV to I, often called the "Amen" cadence.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Cadence_(music)
+:END:
+
+A cadential formula in which the subdominant chord (IV) resolves to the
+tonic (I). Produces a softer, more settled effect than the authentic
+(V–I) cadence. Frequently used at the word "Amen" in hymns and choral
+music, hence its informal name.
+
+*See also:* [[*authentic (perfect) cadence][authentic cadence]], [[*cadence][cadence]]
+
+** polyphony
+:PROPERTIES:
+:PATTERN:   \bpolyphony\b
+:IPA:       pəlˈɪfəni
+:DEF_SHORT: A texture of two or more independent melodic lines sounding simultaneously.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Polyphony
+:END:
+
+A musical texture in which two or more independent melodic voices sound
+simultaneously, each with its own rhythmic and melodic identity.
+Distinguished from homophony (melody with chordal accompaniment) and
+monophony (single melody alone). The Renaissance motet and Baroque
+fugue represent the highest development of Western polyphonic writing.
+
+*See also:* [[*counterpoint][counterpoint]], [[*fugue][fugue]], [[*texture][texture]]
+
+** polyrhythm  :harmony:
+:PROPERTIES:
+:PATTERN:   \bpolyrhythm\b
+:IPA:       ˈpɒlɪɹɪðəm
+:DEF_SHORT: Two or more different rhythmic patterns performed simultaneously.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Polyrhythm
+:END:
+
+The simultaneous use of two or more conflicting rhythmic patterns. A
+common example is three against two (3:2), in which one voice plays
+three equal beats while another plays two over the same duration.
+Polyrhythm is central to West African music, Afro-Cuban music, and
+appears throughout jazz, contemporary classical, and global traditions.
+
+*See also:* [[*hemiola][hemiola]], [[*cross rhythms][cross rhythms]], [[*metre][metre]]
+
+** portamento  :italian:
+:PROPERTIES:
+:PATTERN:   \bportamento\b
+:IPA:       ˌpɔːɹtəˈmɛntoʊ
+:DEF_SHORT: A smooth, expressive slide between two notes.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Portamento
+:END:
+
+Italian: "carrying." A smooth, continuous glide from one pitch to
+another, used expressively in vocal and string performance. Differs from
+glissando in being a more subtle, expressive gesture rather than a rapid
+technical slide through all intermediate pitches. Also a feature in
+synthesizers, where portamento (or glide) time determines how quickly
+the pitch shifts between played notes.
+
+*See also:* [[*glissando][glissando]], [[*legato][legato]]
+
+* Q
+
+** quantization
+:PROPERTIES:
+:PATTERN:   \bquantization\b
+:IPA:       ˌkwɒntɪˈzeɪʃən
+:DEF_SHORT: Snapping recorded notes to the nearest rhythmic grid position in a DAW.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Quantization_(music)
+:END:
+
+In digital music production, quantization is the process of adjusting
+the timing of recorded MIDI notes so they align precisely to a rhythmic
+grid (e.g., eighth notes or sixteenth notes). It corrects timing
+imprecision and can impose machine-like regularity or, when applied
+partially, preserve a degree of human feel. Distinct from audio
+quantization (bit depth), though the term is shared.
+
+*See also:* [[*MIDI][MIDI]], [[*DAW][DAW]], [[*sequencer][sequencer]]
+
+** quarter-tones
+:PROPERTIES:
+:PATTERN:   \bquarter-tones\b
+:IPA:       kwˈɔːɹtəɹ toʊnz
+:DEF_SHORT: Intervals half the size of a semitone, used in microtonal music and many non-Western traditions.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Quarter_tone
+:END:
+
+An interval equal to half a semitone — one quarter of a whole tone.
+Quarter-tones fall between the notes of the standard Western chromatic
+scale and cannot be played on a fixed-pitch instrument such as a piano
+without retuning. Central to Arabic maqam music, used in some
+contemporary classical compositions (e.g., Bartók, Scelsi), and
+producible on fretless string instruments, voice, and certain winds.
+
+*See also:* [[*microtone][microtone]], [[*maqam][maqam]], [[*temperament][temperament]]
+
+* R
+
+** raga  :non-western:
+:PROPERTIES:
+:PATTERN:   \braga\b
+:IPA:       ˈɹɑːɡə
+:DEF_SHORT: A melodic framework in Indian classical music combining scale, characteristic phrases, and emotional character.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Raga
+:END:
+
+In Indian classical music, a raga is a melodic framework that specifies
+a set of pitches, characteristic ascending and descending patterns,
+ornaments, important notes, and an associated emotional quality (rasa)
+and time of performance. A raga is not simply a scale but a complete
+guide to melodic improvisation within a tradition.
+
+*See also:* [[*alap][alap]], [[*maqam][maqam]], [[*mode/modal][mode/modal]]
+
+** recapitulation  :form:
+:PROPERTIES:
+:PATTERN:   \brecapitulation\b
+:IPA:       ˌɹiːkəˌpɪtʃuˈleɪʃən
+:DEF_SHORT: The third section of sonata form, restating the exposition's themes in the home key.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Recapitulation_(music)
+:END:
+
+The third and final main section of sonata form, in which the themes
+of the exposition are restated — usually both in the home key, resolving
+the tonal tension established by the exposition's modulation. The
+recapitulation follows the development section.
+
+*See also:* [[*sonata form][sonata form]], [[*exposition][exposition]], [[*development][development]]
+
+** recitative  :italian:
+:PROPERTIES:
+:PATTERN:   \brecitative\b
+:IPA:       ˌɹɛsɪtəˈtiːv
+:DEF_SHORT: A vocal style that follows speech rhythms, used in opera and oratorio to advance the narrative.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Recitative
+:END:
+
+A style of vocal writing that imitates the rhythms and inflections of
+natural speech, used in opera, oratorio, and cantata to narrate events
+and advance the plot between more formally structured arias. Recitativo
+secco ("dry recitative") is accompanied only by sparse keyboard chords;
+recitativo accompagnato (or stromentato) is accompanied by the full
+orchestra.
+
+*See also:* [[*aria][aria]], [[*cantata][cantata]]
+
+** relative (major/minor)
+:PROPERTIES:
+:PATTERN:   \brelative\b
+:IPA:       ˈɹɛlətɪv
+:DEF_SHORT: A major and minor key sharing the same key signature.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Relative_key
+:END:
+
+A relative key is a major or minor key that shares the same key
+signature as another key. C major and A minor are relative keys — they
+share no sharps or flats, but have different tonics and different
+characteristic harmonies. Every major key has a relative minor a minor
+third below it.
+
+*See also:* [[*key change][key change]], [[*tonality][tonality]]
+
+** retrograde  :harmony:
+:PROPERTIES:
+:PATTERN:   \bretrograde\b
+:IPA:       ˈɹɛtɹəɡɹeɪd
+:DEF_SHORT: A theme played backwards — the last note becomes first.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Retrograde_(music)
+:END:
+
+A compositional technique in which a melodic line or row is stated
+in reverse order. Used in canonic writing, twelve-tone technique, and
+as a developmental device. Retrograde inversion applies both reversal
+and mirror-image pitch transformation simultaneously.
+
+*See also:* [[*retrograde inversion][retrograde inversion]], [[*inversion][inversion]], [[*12-note techniques][12-note techniques]]
+
+** reverb
+:PROPERTIES:
+:PATTERN:   \breverb\b
+:IPA:       ˈɹiːvɜːɹb
+:DEF_SHORT: The persistence of sound caused by multiple reflections in a space, decaying gradually.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Reverberation
+:SOURCE_2:  https://splice.com/blog/what-is-reverb/
+:END:
+
+The persistence of sound after its source has stopped, caused by
+multiple reflections of sound waves from surfaces in a space. In
+music production, reverb is applied as an audio effect — using echo
+chambers, plate or spring reverb hardware, or digital algorithms — to
+give sounds a sense of space and environment. Distinct from delay
+(echo), in which individual reflections are heard separately; in
+reverb, reflections blend into a continuous wash.
+
+*See also:* [[*delay][delay]], [[*wet/dry signal][wet/dry signal]], [[*effects][effects]]
+
+** riff
+:PROPERTIES:
+:PATTERN:   \briff\b
+:IPA:       ɹɪf
+:DEF_SHORT: A short, repeating melodic or rhythmic figure, especially in jazz, blues, and rock.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Riff
+:END:
+
+A short, memorable melodic or rhythmic pattern that recurs throughout a
+piece, often as an accompaniment or hook. Central to jazz, blues, rock,
+and funk — the guitar riff is a defining element of rock music, while
+horn riffs underpin big band swing. Related to ostinato but typically
+more groove-oriented.
+
+*See also:* [[*ostinato][ostinato]], [[*motif][motif]]
+
+** rondo form
+:PROPERTIES:
+:PATTERN:   \brondo form\b
+:IPA:       ˈɹɒndoʊ fɔːɹm
+:DEF_SHORT: A form in which a main theme (A) alternates with contrasting episodes: ABACA or ABACABA.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Rondo
+:SOURCE_2:  https://www.britannica.com/art/rondo
+:END:
+
+A musical form built around a recurring main theme (the refrain, A)
+that alternates with contrasting episodes (B, C, etc.). Common patterns
+include ABACA (five-part) and ABACABA (seven-part). The refrain always
+returns in the tonic key; episodes typically move to related keys. Rondo
+was particularly popular as a final movement in Classical concerti and
+sonatas. Emerged from the French Baroque keyboard rondeau.
+
+*See also:* [[*sonata form][sonata form]], [[*binary form][binary form]], [[*ternary form][ternary form]]
+
+** rubato  :italian:
+:PROPERTIES:
+:PATTERN:   \brubato\b
+:IPA:       ɹuːˈbɑːtoʊ
+:DEF_SHORT: Flexible tempo; slight speeding up and slowing down for expressive effect.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Tempo_rubato
+:END:
+
+Italian: "robbed time." A direction to perform with slight flexibility of
+tempo for expressive purposes, speeding up or slowing down phrases as
+the music and feeling demand. Common in Romantic music and jazz
+ballads. Not random: effective rubato involves subtle give-and-take
+that enhances rather than distorts the musical line.
+
+*See also:* [[*tempo][tempo]], [[*accelerando][accelerando]]
+
+* S
+
+** sampling
+:PROPERTIES:
+:PATTERN:   \bsampling\b
+:IPA:       sˈæmplɪŋ
+:DEF_SHORT: Reusing a portion of an existing recording in a new composition.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Sampling_(music)
+:END:
+
+The practice of taking a segment (sample) of a recorded sound and
+incorporating it into a new piece. Samples may be looped, pitch-shifted,
+time-stretched, layered, or otherwise manipulated. Sampling is
+foundational to hip-hop, electronic, and dance music production.
+Legally, sampling of commercial recordings generally requires licensing.
+
+*See also:* [[*loop][loop]], [[*DAW][DAW]]
+
+** scherzo  :italian:
+:PROPERTIES:
+:PATTERN:   \bscherzo\b
+:IPA:       skˈɛɹtsoʊ
+:DEF_SHORT: A lively, often humorous movement, typically in triple metre, common in Classical and Romantic symphonies.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Scherzo
+:END:
+
+Italian for "joke." A fast, energetic movement in triple metre that
+replaced the minuet as the third movement of the Classical symphony,
+most notably in the works of Beethoven. Scherzos are characterized by
+rhythmic drive, sudden dynamic contrasts, and often playful or
+surprising character. The form is typically A–B–A (scherzo–trio–scherzo).
+
+*See also:* [[*minuet][minuet]], [[*ternary form][ternary form]]
+
+** sequence
+:PROPERTIES:
+:PATTERN:   \bsequence\b
+:IPA:       sˈiːkwəns
+:DEF_SHORT: Immediate repetition of a melodic or harmonic pattern at a different pitch level.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Sequence_(music)
+:END:
+
+A compositional device in which a melodic or harmonic pattern is
+repeated immediately at a higher or lower pitch. A tonal sequence adjusts
+intervals to stay within the key; a real sequence preserves exact
+interval sizes regardless of key. Sequences are a primary tool for
+extending and developing musical ideas.
+
+*See also:* [[*motif][motif]], [[*development][development]]
+
+** sforzando  :italian:
+:PROPERTIES:
+:PATTERN:   \bsforzando\b
+:IPA:       sfɔːɹtsˈændoʊ
+:DEF_SHORT: A sudden, strong accent on a single note or chord.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Dynamics_(music)
+:END:
+
+Italian: "forcing." A dynamic marking indicating that a single note or
+chord should be played with a sudden, sharp accent, significantly louder
+than the surrounding passage. Abbreviated sfz or sf. Related to
+forzando (fz), which carries a similar meaning.
+
+*See also:* [[*dynamics][dynamics]], [[*accent][accent]]
+
+** slendro  :non-western:
+:PROPERTIES:
+:PATTERN:   \bslendro\b
+:IPA:       ˈslɛndɹoʊ
+:DEF_SHORT: One of the two main tuning systems in Javanese and Balinese gamelan, with five roughly equal pitches per octave.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Sl%C3%A9ndro
+:END:
+
+One of the two principal scales of Javanese and Balinese gamelan, with
+five tones per octave spaced in roughly equal intervals. It has a more
+open, flowing character than pelog. The exact tuning varies between
+different gamelan sets, as each instrument is tuned to match others
+within the same gamelan rather than to an external standard.
+
+*See also:* [[*pelog][pelog]], [[*gamelan][gamelan]]
+
+** solfège  :italian:
+:PROPERTIES:
+:PATTERN:   \bsolfège\b
+:IPA:       ˈsɒlfɛʒ
+:DEF_SHORT: A method of assigning syllables (do, re, mi…) to scale degrees to aid sight-singing.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Solf%C3%A8ge
+:END:
+
+A pedagogical system for ear training and sight-singing in which each
+degree of the scale is assigned a syllable: do, re, mi, fa, sol, la,
+ti (or si). In movable-do systems, do always represents the tonic
+regardless of key; in fixed-do systems (common in France and Italy), do
+always represents C. Solfège is foundational to Gordon's Music Learning
+Theory (MLT) through the use of tonal patterns.
+
+*See also:* [[*scale degrees][scale degrees]], [[*aural perception][aural perception]]
+
+** sonata  :italian:
+:PROPERTIES:
+:PATTERN:   \bsonata\b
+:IPA:       səˈnɑːtə
+:DEF_SHORT: A multi-movement instrumental work, typically for one or two instruments.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Sonata
+:END:
+
+Italian: "sounded piece." A multi-movement instrumental composition,
+typically for a solo instrument (piano sonata) or a solo instrument
+with piano accompaniment. The Classical sonata typically has three or
+four movements in contrasting tempos and keys. The term has evolved
+considerably across history; Baroque sonatas differ substantially
+from Classical and Romantic ones.
+
+*See also:* [[*sonata form][sonata form]], [[*binary form][binary form]]
+
+** sonata form
+:PROPERTIES:
+:PATTERN:   \bsonata form\b
+:IPA:       səˈnɑːtə fɔːɹm
+:DEF_SHORT: A large-scale form in three sections: exposition, development, and recapitulation.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Sonata_form
+:END:
+
+The primary formal structure of the first movement (and sometimes other
+movements) of Classical-era sonatas, symphonies, and chamber works.
+Consists of three main sections: the exposition (presenting two or more
+contrasting themes in different keys), the development (fragmenting and
+transforming that material through varied keys), and the recapitulation
+(restating the exposition with both themes in the home key). Often
+preceded by a slow introduction and followed by a coda.
+
+*See also:* [[*exposition][exposition]], [[*development][development]], [[*recapitulation][recapitulation]], [[*coda][coda]]
+
+** soprano  :vocal:
+:PROPERTIES:
+:PATTERN:   \bsoprano\b
+:IPA:       səˈpɹɑːnoʊ
+:DEF_SHORT: The highest standard singing voice type.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Soprano
+:END:
+
+The highest standard voice type, typically ranging from C4 to C6 or
+higher depending on the type (lyric, dramatic, coloratura). In choral
+writing, the soprano carries the top voice. In opera, the soprano is
+frequently cast as the heroine.
+
+*See also:* [[*tenor][tenor]], [[*alto][alto]], [[*tessitura][tessitura]]
+
+** staccato  :italian:
+:PROPERTIES:
+:PATTERN:   \bstaccato\b
+:IPA:       stəkˈɑːtoʊ
+:DEF_SHORT: A direction to play notes short and detached.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Staccato
+:END:
+
+Italian: "detached." An articulation marking directing the performer to
+shorten the duration of a note, creating separation between it and the
+following note. Notated by a dot placed above or below the note head.
+The opposite of legato (smooth and connected).
+
+*See also:* [[*articulation][articulation]], [[*legato][legato]]
+
+** stringendo  :italian:
+:PROPERTIES:
+:PATTERN:   \bstringendo\b
+:IPA:       stɹɪnˈdʒɛndoʊ
+:DEF_SHORT: Pressing forward; urgently accelerating.
+:SOURCE_1:  https://en.wikipedia.org/wiki/List_of_Italian_musical_terms_used_in_English
+:END:
+
+Italian: "pressing, squeezing." A direction to accelerate urgently, with
+mounting intensity. Often associated with a climactic passage. Similar
+to accelerando but with a stronger connotation of dramatic urgency.
+
+*See also:* [[*accelerando][accelerando]], [[*tempo][tempo]]
+
+** strophic form  :harmony:
+:PROPERTIES:
+:PATTERN:   \bstrophic form\b
+:IPA:       ˈstɹɒfɪk fɔːɹm
+:DEF_SHORT: A song structure in which the same music is repeated for each verse.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Strophic_form
+:END:
+
+A song structure in which the same (or nearly the same) music is used
+for each stanza or verse of the text. Simple and widely used in folk
+song, hymns, and early art song. Distinguished from through-composed
+form, in which new music is written for each section.
+
+*See also:* [[*through-composed][through-composed]], [[*verse-chorus structure][verse-chorus structure]]
+
+** subtractive synthesis
+:PROPERTIES:
+:PATTERN:   \bsubtractive synthesis\b
+:IPA:       səbtrˈæktɪv sˈɪnθəsɪs
+:DEF_SHORT: Synthesis that starts with a harmonically rich waveform and removes frequencies using filters.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Subtractive_synthesis
+:END:
+
+A method of sound synthesis that begins with an oscillator producing a
+harmonically complex waveform (sawtooth, square, or noise) and then uses
+filters to attenuate or remove certain frequencies, shaping the timbre of
+the result. The most common synthesis method in classic analog
+synthesizers (Moog, Roland, etc.). The filter cutoff frequency and
+resonance are the primary timbral controls.
+
+*See also:* [[*FM synthesis][FM synthesis]], [[*wavetable synthesis][wavetable synthesis]], [[*filter][filter]], [[*oscillator][oscillator]]
+
+** sul ponticello  :italian:
+:PROPERTIES:
+:PATTERN:   \bsul ponticello\b
+:IPA:       sʊl ˌpɒntɪˈtʃɛloʊ
+:DEF_SHORT: Bowing near the bridge of a string instrument to produce a glassy, nasal tone.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Sul_ponticello
+:END:
+
+Italian: "on the little bridge." A direction for string players to bow
+close to the bridge, producing a bright, glassy, or nasal tone with
+prominent upper harmonics. The opposite is sul tasto (bowing over the
+fingerboard), which produces a softer, flutier sound.
+
+*See also:* [[*timbre][timbre]], [[*arco][arco]]
+
+** suspensions
+:PROPERTIES:
+:PATTERN:   \bsuspensions\b
+:IPA:       səspˈɛnʃənz
+:DEF_SHORT: Non-chord tones held over from a previous chord that resolve by step.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Suspension_(music)
+:END:
+
+A suspension occurs when a note from a previous chord is held or
+repeated while the harmony changes beneath it, creating a dissonance
+that then resolves by step (usually downward) to a chord tone. Labeled
+by the interval numbers of the dissonance and resolution (e.g., 4–3
+or 7–6). A fundamental technique in tonal voice leading, particularly
+prominent in Renaissance and Baroque counterpoint.
+
+*See also:* [[*appoggiatura][appoggiatura]], [[*consonance][consonance]], [[*dissonance][dissonance]], [[*resolution][resolution]]
+
+** syncopation  :harmony:
+:PROPERTIES:
+:PATTERN:   \bsyncopation\b
+:IPA:       ˌsɪŋkəpˈeɪʃən
+:DEF_SHORT: Placing rhythmic accents on normally weak beats or between beats.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Syncopation
+:END:
+
+A rhythmic technique in which accents fall on beats or parts of beats
+that are normally unaccented, displacing the expected rhythmic emphasis.
+Syncopation creates energy, forward drive, and rhythmic tension. It is
+central to jazz, funk, Latin, and African music, and appears throughout
+Western art music as well.
+
+*See also:* [[*rhythm][rhythm]], [[*hemiola][hemiola]], [[*metric displacement][metric displacement]]
+
+** synthesis
+:PROPERTIES:
+:PATTERN:   \bsynthesis\b
+:IPA:       sˈɪnθəsɪs
+:DEF_SHORT: The generation of sound using electronic hardware or software.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Sound_synthesis
+:END:
+
+The production of audio signals through electronic means rather than
+acoustic instrument performance. The major synthesis methods include
+subtractive, additive, FM (frequency modulation), wavetable, granular,
+physical modelling, and sample-based synthesis, each differing in how
+they generate and shape waveforms.
+
+*See also:* [[*subtractive synthesis][subtractive synthesis]], [[*FM synthesis][FM synthesis]], [[*wavetable synthesis][wavetable synthesis]], [[*granular synthesis][granular synthesis]]
+
+* T
+
+** temperament
+:PROPERTIES:
+:PATTERN:   \btemperament\b
+:IPA:       tˈɛmpəɹəmənt
+:DEF_SHORT: A tuning system that adjusts pure intervals to allow playing in multiple keys.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Musical_temperament
+:END:
+
+A system of tuning in which the mathematically pure intervals of just
+intonation are slightly adjusted so that an instrument can play
+acceptably in all keys. Equal temperament — the standard system today —
+divides the octave into twelve equal semitones, meaning every key sounds
+equally (slightly) out of tune. Earlier systems such as meantone and
+well temperament made some keys purer at the expense of others.
+
+*See also:* [[*tuning][tuning]], [[*microtone][microtone]]
+
+** tempo
+:PROPERTIES:
+:PATTERN:   \btempo\b
+:IPA:       tˈɛmpoʊ
+:DEF_SHORT: The speed of the beat, measured in beats per minute (BPM).
+:SOURCE_1:  https://en.wikipedia.org/wiki/Tempo
+:END:
+
+The rate at which a piece of music is performed, typically measured in
+beats per minute (BPM). Tempo may be indicated by Italian terms (adagio,
+allegro, presto), by metronome markings, or by descriptive words. It can
+be fixed or variable (as in rubato), and changes of tempo within a piece
+may be gradual (accelerando, ritardando) or sudden.
+
+*See also:* [[*accelerando][accelerando]], [[*rubato][rubato]], [[*pulse][pulse]]
+
+** tenor
+:PROPERTIES:
+:PATTERN:   \btenor\b
+:IPA:       tˈɛnəɹ
+:DEF_SHORT: The highest standard adult male singing voice.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Tenor
+:END:
+
+The highest of the standard adult male voice types, sitting above
+baritone and bass. The tenor range typically spans from C3 to C5 (or
+higher in falsetto). In choral writing, the tenor part occupies the
+second-lowest voice. Notable tenor voice types include lyric, dramatic,
+and heldentenor.
+
+*See also:* [[*soprano][soprano]], [[*baritone][baritone]], [[*tessitura][tessitura]]
+
+** tenuto  :italian:
+:PROPERTIES:
+:PATTERN:   \btenuto\b
+:IPA:       tɛˈnjuːtoʊ
+:DEF_SHORT: Hold the note for its full value; often with slight emphasis.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Tenuto
+:END:
+
+Italian: "held." An articulation marking indicating that a note should
+be held for its full value — or slightly longer — and given a gentle
+emphasis. Notated by a short horizontal line above or below the notehead.
+Distinct from staccato (short) and accent (forceful).
+
+*See also:* [[*articulation][articulation]], [[*legato][legato]]
+
+** ternary form
+:PROPERTIES:
+:PATTERN:   \bternary form\b
+:IPA:       tˈɜːɹnəɹi fɔːɹm
+:DEF_SHORT: A three-part musical structure: A–B–A.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Ternary_form
+:END:
+
+A musical form consisting of three sections: an opening section (A), a
+contrasting middle section (B), and a return of the opening section (A).
+The return may be exact or varied. Ternary form is among the most common
+forms in Western music, found in da capo arias, many classical minuets,
+and popular song structures. Distinguished from binary form (A–B) by the
+return of the opening material.
+
+*See also:* [[*binary form][binary form]], [[*rondo form][rondo form]], [[*sonata form][sonata form]]
+
+** tessitura  :vocal:
+:PROPERTIES:
+:PATTERN:   \btessitura\b
+:IPA:       ˌtɛsɪˈtjʊəɹə
+:DEF_SHORT: The range within which a voice or instrument most comfortably and characteristically sits.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Tessitura
+:END:
+
+The general pitch range in which a vocal part or instrument most
+frequently lies, as distinct from its absolute upper and lower limits.
+A part may technically fall within a voice's total range but still be
+poorly written if the tessitura sits too high or too low for comfortable
+sustained performance. The term comes from the Italian for "texture."
+
+*See also:* [[*vocal range][vocal range]], [[*tenor][tenor]], [[*soprano][soprano]]
+
+** texture
+:PROPERTIES:
+:PATTERN:   \btexture\b
+:IPA:       tˈɛkstʃəɹ
+:DEF_SHORT: The way melodic, rhythmic, and harmonic elements are combined in a piece.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Musical_texture
+:END:
+
+The overall character of a piece as determined by how its voices or
+parts interact. The primary texture types are monophonic (single melody
+with no accompaniment), homophonic (melody with chordal support),
+polyphonic (two or more independent melodic lines), and heterophonic
+(simultaneous variations of the same melody). Texture is one of the
+primary musical elements alongside melody, rhythm, harmony, timbre, and
+dynamics.
+
+*See also:* [[*homophonic][homophonic]], [[*polyphony][polyphony]], [[*monophonic][monophonic]], [[*heterophonic][heterophonic]]
+
+** through-composed
+:PROPERTIES:
+:PATTERN:   \bthrough-composed\b
+:IPA:       θɹuː kəmpˈoʊzd
+:DEF_SHORT: A form in which new music is written for each section, with no large-scale repetition.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Through-composed_music
+:END:
+
+A compositional structure in which each section of a piece uses new
+musical material rather than repeating earlier sections. Contrasts with
+forms built on repetition such as strophic form, binary, ternary, or
+rondo. Through-composed pieces follow the dramatic or textual content
+freely without returning to previous material, common in lieder (art
+song) and opera.
+
+*See also:* [[*strophic form][strophic form]], [[*binary form][binary form]], [[*rondo form][rondo form]]
+
+** tierce de Picardie  :italian:
+:PROPERTIES:
+:PATTERN:   \btierce de Picardie\b
+:IPA:       tjɛɹs də pɪkɑːɹˈdiː
+:DEF_SHORT: Ending a minor-key piece on a major tonic chord.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Picardy_third
+:END:
+
+A technique in which a piece or section written in a minor key ends with
+a major tonic chord — the third of the chord is raised a half step to
+create a major quality. Common in Baroque and Renaissance music, it
+gives a feeling of finality and brightness at a cadence. The origin of
+the French name is uncertain.
+
+** timbre
+:PROPERTIES:
+:PATTERN:   \btimbre\b
+:IPA:       tˈæmbəɹ
+:DEF_SHORT: The characteristic tone color or quality of a sound that distinguishes it from others at the same pitch.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Timbre
+:END:
+
+The quality of a sound that allows listeners to distinguish between
+different sources even when pitch and loudness are the same. Timbre is
+determined by a sound's harmonic content (the relative strength of its
+overtones), attack, and decay. It is what makes a violin sound different
+from a flute playing the same note, and is sometimes called "tone color."
+
+*See also:* [[*tone colour][tone colour]], [[*acoustics][acoustics]]
+
+** tonal / tonality
+:PROPERTIES:
+:PATTERN:   \btonality\b
+:IPA:       toʊˈnælɪti
+:DEF_SHORT: The organization of music around a central pitch (the tonic) using major or minor scales.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Tonality
+:END:
+
+The system of pitch organization in which a central note — the tonic —
+functions as a point of rest and resolution, and all other pitches
+relate to it in a hierarchy of tension and release. Tonality, using
+major and minor scales and their associated harmonies, dominated Western
+music from roughly 1600 to 1900. Music that avoids this system is
+described as atonal or non-tonal.
+
+*See also:* [[*atonal][atonal]], [[*modulation (in music)][modulation]], [[*key change][key change]]
+
+** tremolo  :italian:
+:PROPERTIES:
+:PATTERN:   \btremolo\b
+:IPA:       tˈɹɛməloʊ
+:DEF_SHORT: A rapid fluctuation in volume, or rapid reiteration of a note.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Tremolo
+:SOURCE_2:  https://www.masterclass.com/articles/vibrato-voice
+:END:
+
+A rapid, repeated fluctuation in the volume (amplitude) of a note,
+distinct from vibrato, which is a fluctuation in pitch. On string
+instruments, tremolo is produced by rapidly repeating a note with the
+bow; on piano, by rapid alternation between notes. In electronic music,
+a tremolo effect is produced by a low-frequency oscillator modulating
+amplitude. Note: the whammy bar on electric guitar is sometimes
+incorrectly called a "tremolo arm" — it actually produces pitch variation
+(vibrato).
+
+*See also:* [[*vibrato][vibrato]], [[*LFO][LFO]]
+
+** trill
+:PROPERTIES:
+:PATTERN:   \btrill\b
+:IPA:       tɹɪl
+:DEF_SHORT: Rapid alternation between a note and the note a step above it.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Trill_(music)
+:END:
+
+An ornament consisting of rapid alternation between a written note and
+the note a half or whole step above it. Trills are indicated in notation
+by the symbol *tr* and were especially prevalent in Baroque and
+Classical music. The speed and manner of beginning and ending a trill
+vary by historical period and style.
+
+*See also:* [[*ornamentation][ornamentation]], [[*acciaccatura][acciaccatura]], [[*appoggiatura][appoggiatura]]
+
+** tuning
+:PROPERTIES:
+:PATTERN:   \btuning\b
+:IPA:       tjˈuːnɪŋ
+:DEF_SHORT: The process of adjusting an instrument's pitches to match a standard or system.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Musical_tuning
+:END:
+
+The process of adjusting the pitch of an instrument so that its notes
+correspond to a defined standard or system. Tuning may refer to adjusting
+individual strings, pipes, or keys to the correct frequency, or to the
+broader choice of tuning system (equal temperament, just intonation,
+etc.) used as a reference.
+
+*See also:* [[*temperament][temperament]], [[*microtone][microtone]]
+
+* U
+
+** unison
+:PROPERTIES:
+:PATTERN:   \bunison\b
+:IPA:       jˈuːnɪsən
+:DEF_SHORT: Two or more voices or instruments performing the same pitch simultaneously.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Unison
+:END:
+
+The simultaneous sounding of the same pitch by two or more performers,
+or the same melody in multiple voices at the same pitch level (as
+distinct from octaves). Unison playing creates a thicker, more powerful
+sound on a single line and is used for emphasis, textural contrast, or
+blend. In orchestral writing, unison passages are a common way to
+reinforce a melody across sections.
+
+* V
+
+** variation
+:PROPERTIES:
+:PATTERN:   \bvariation\b
+:IPA:       ˌvɛɹiˈeɪʃən
+:DEF_SHORT: A modified restatement of a theme, changing some but not all of its features.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Variation_(music)
+:END:
+
+A compositional technique in which a theme is repeated with alterations
+to melody, harmony, rhythm, texture, timbre, or dynamics while
+retaining enough of the original to remain recognizable. Theme and
+variations is a common formal structure in Western classical music;
+variation also occurs informally within improvised jazz.
+
+*See also:* [[*theme and variations][theme and variations]], [[*development][development]]
+
+** verismo  :italian:
+:PROPERTIES:
+:PATTERN:   \bverismo\b
+:IPA:       vɛˈɹɪzmoʊ
+:DEF_SHORT: A late 19th-century Italian operatic style depicting realistic, everyday subjects.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Verismo_(music)
+:END:
+
+An Italian operatic movement of the late 19th and early 20th centuries
+that rejected mythological and aristocratic subjects in favor of
+realistic portrayals of ordinary people and contemporary life. Key
+composers include Pietro Mascagni (*Cavalleria rusticana*) and Giacomo
+Puccini. The style is characterized by intense dramatic emotion, lyrical
+vocal writing, and vivid orchestration.
+
+** vibrato  :italian:
+:PROPERTIES:
+:PATTERN:   \bvibrato\b
+:IPA:       vɪˈbɹɑːtoʊ
+:DEF_SHORT: A rapid, slight fluctuation of pitch used to add warmth and expression to a note.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Vibrato
+:SOURCE_2:  https://www.masterclass.com/articles/vibrato-voice
+:SOURCE_3:  https://www.britannica.com/art/vibrato
+:END:
+
+A performance technique in which the pitch of a sustained note oscillates
+rapidly and slightly above and below the central pitch, typically at a
+rate of 5–7 cycles per second and within a range of less than a semitone.
+Used in both vocal and instrumental music to add warmth, expression, and
+resonance. Distinct from tremolo, which is a fluctuation in volume rather
+than pitch. Different instruments employ different physical mechanisms:
+finger movement on strings, breath variation on winds, and natural
+laryngeal oscillation in singing.
+
+*See also:* [[*tremolo][tremolo]], [[*timbre][timbre]]
+
+** vocoder
+:PROPERTIES:
+:PATTERN:   \bvocoder\b
+:IPA:       voʊkoʊdəɹ
+:DEF_SHORT: A device that imposes the spectral characteristics of one sound (usually voice) onto another.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Vocoder
+:END:
+
+A signal processor that analyzes the frequency spectrum of one audio
+source (the modulator, typically a voice) and applies that spectral
+envelope to another source (the carrier, typically a synthesizer). The
+result gives the carrier the impression of speaking or singing. Originally
+developed for speech compression by Bell Labs in the 1930s, the vocoder
+became an iconic electronic music effect in the 1970s and continues to
+be widely used.
+
+*See also:* [[*synthesis][synthesis]], [[*effects][effects]]
+
+** voicing
+:PROPERTIES:
+:PATTERN:   \bvoicing\b
+:IPA:       vˈɔɪsɪŋ
+:DEF_SHORT: The specific arrangement of notes within a chord, including register and spacing.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Voicing_(music)
+:END:
+
+The distribution of the notes of a chord among the available voices or
+instruments, including decisions about register, spacing, and doubling.
+Two chords may contain the same pitches but differ significantly in
+character depending on how those pitches are arranged. Closely spaced
+voicings (close position) produce a dense sound; widely spaced voicings
+(open position) produce a more transparent texture. Voicing is a central
+skill in arranging, piano comping, and choral writing.
+
+*See also:* [[*chord][chord]], [[*inversion][inversion]], [[*texture][texture]]
+
+** VST  :technology:
+:PROPERTIES:
+:PATTERN:   \bVST\b
+:IPA:       viː ɛs tiː
+:DEF_SHORT: Virtual Studio Technology — a standard for software audio plugins.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Virtual_Studio_Technology
+:END:
+
+A plugin format developed by Steinberg that allows software instruments
+(VST instruments) and effects (VST effects) to be used within a DAW.
+VST has become the most widely supported plugin format, with thousands
+of commercial and free instruments and effects available.
+
+*See also:* [[*DAW][DAW]], [[*plug-in][plug-in]], [[*synthesis][synthesis]]
+
+* W
+
+** walking bass
+:PROPERTIES:
+:PATTERN:   \bwalking bass\b
+:IPA:       wˈɔːkɪŋ beɪs
+:DEF_SHORT: A bass line of steady quarter notes that outlines the chord changes.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Bassline
+:SOURCE_2:  https://jazznightschool.org/pages/walking-bass-lines-introduction-part-1
+:END:
+
+A style of bass accompaniment common in jazz, blues, and Baroque music,
+consisting of continuous quarter notes that create a feeling of forward
+motion. <a href="https://en.wikipedia.org/wiki/Bassline">Walking bass lines</a>
+use a mixture of chord tones, arpeggios, chromatic runs, and passing
+tones to outline the chord progression, often with a melodic shape that
+alternately rises and falls in pitch. The term originates from the
+footstep-like regularity of the rhythm.
+
+*See also:* [[*bass line][bass line]], [[*basso continuo][basso continuo]]
+
+** wavetable synthesis
+:PROPERTIES:
+:PATTERN:   \bwavetable synthesis\b
+:IPA:       wˈeɪvteɪbəl sˈɪnθəsɪs
+:DEF_SHORT: A synthesis method that cycles through stored digital waveforms to produce sound.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Wavetable_synthesis
+:SOURCE_2:  https://blog.native-instruments.com/what-is-wavetable-synthesis/
+:SOURCE_3:  https://splice.com/blog/what-is-wavetable-synthesis/
+:END:
+
+A digital synthesis technique in which a stored table of single-cycle
+waveforms is read repeatedly to produce a tone. What distinguishes
+wavetable synthesis from simple sampling is the ability to morph or
+scan through multiple waveforms over time, creating evolving timbres.
+Invented by Max Mathews in 1958 and developed for hardware synthesizers
+by Wolfgang Palm (PPG) in the late 1970s, the technique became
+ubiquitous in software synthesis through instruments such as Native
+Instruments Massive and Xfer Serum.
+
+*See also:* [[*subtractive synthesis][subtractive synthesis]], [[*FM synthesis][FM synthesis]], [[*granular synthesis][granular synthesis]]
+
+** wet/dry signal
+:PROPERTIES:
+:PATTERN:   \bwet/dry signal\b
+:IPA:       wɛt draɪ sɪɡnəl
+:DEF_SHORT: Dry = unprocessed audio; wet = audio with effects applied.
+:SOURCE_1:  https://www.differencebetween.net/technology/difference-between-wet-and-dry-signals-or-sounds/
+:SOURCE_2:  https://asmr.education/faq/music-mixing/dry-signal-vs-wet-signal
+:END:
+
+A dry signal is the original, unprocessed audio as captured or generated
+before any effects are applied. A wet signal is that same audio after
+passing through one or more effects processors — reverb, delay, chorus,
+distortion, etc. In most effects units and plugins, a wet/dry (or
+mix) knob blends the two, allowing the producer to dial in the amount
+of effect without replacing the source sound entirely.
+
+*See also:* [[*reverb][reverb]], [[*effects][effects]], [[*signal processing (audio)][signal processing]]
+
+* Other
+
+** 12-bar blues
+:PROPERTIES:
+:PATTERN:   \b12-bar blues\b
+:IPA:       twɛlv bɑːɹ bluːz
+:DEF_SHORT: A repeating 12-measure harmonic framework foundational to blues, jazz, and rock.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Twelve-bar_blues
+:END:
+
+A repeating harmonic and formal pattern of twelve bars that is the
+foundational framework of blues music and has influenced jazz, rhythm
+and blues, rock and roll, and country. The basic form uses three chords:
+I (bars 1–4), IV (bars 5–6), I (bars 7–8), V (bar 9), IV (bar 10),
+I (bars 11–12). Countless variations exist, particularly in jazz
+(the "rhythm changes" is a contrasting alternative).
+
+*See also:* [[*blues scale][blues scale]], [[*riff][riff]], [[*form][form]]
+
+** 12-note techniques
+:PROPERTIES:
+:PATTERN:   \b12-(?:note|tone) technique\b
+:IPA:       twɛlv noʊt tɛkˈniːk
+:DEF_SHORT: A compositional method using a fixed ordering of all twelve chromatic pitches as the basis for a piece.
+:SOURCE_1:  https://en.wikipedia.org/wiki/Twelve-tone_technique
+:END:
+
+A compositional method developed by Arnold Schoenberg in the early
+1920s in which all twelve chromatic pitches are arranged into a fixed
+ordered series (tone row or set). The row and its three transformations
+— inversion (I), retrograde (R), and retrograde inversion (RI) — form
+the exclusive pitch material of the piece. Adopted and developed by
+Webern and Berg (the Second Viennese School) and later by Stravinsky,
+Dallapiccola, and others.
+
+*See also:* [[*atonal][atonal]], [[*retrograde][retrograde]], [[*inversion][inversion]]

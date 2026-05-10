@@ -1,0 +1,454 @@
+# Music glossary — generated from music-dictionary.org
+# Run generate-glossary.py to regenerate.
+#
+# Format: slug: |
+#   One-sentence definition (used for inline popup tooltips)
+
+# ── Roman Numerals ────────────────────────────────────────────
+vii: |
+  The seventh scale degree or a chord built on it.
+vi: |
+  The sixth scale degree or a chord built on it.
+iv: |
+  The subdominant — the fourth scale degree or a chord built on it.
+v: |
+  The dominant — the fifth scale degree or a chord built on it.
+iii: |
+  The mediant — the third scale degree or a chord built on it.
+ii: |
+  The supertonic — the second scale degree or a chord built on it.
+i: |
+  The tonic — the home chord, built on the first scale degree.
+
+# ── A ─────────────────────────────────────────────────────────
+a-cappella: |
+  Vocal music performed without instrumental accompaniment.
+accelerando: |
+  Gradually getting faster.
+acciaccatura: |
+  A very short ornamental note played just before the main note.
+acoustic-instrument: |
+  An instrument that produces sound by acoustic (non-electronic) means.
+adagio: |
+  Slow and stately; a slow tempo marking.
+adsr: |
+  The four stages of a synthesizer envelope: Attack, Decay, Sustain, Release.
+aerophone: |
+  An instrument that produces sound through a vibrating column of air.
+alap: |
+  The slow, unmetered introductory section of a raga performance.
+aleatoric-aleatory-music: |
+  Music incorporating elements of chance or unpredictability in its composition or performance.
+allegretto: |
+  Moderately fast; slightly slower than allegro.
+allegro: |
+  Fast and lively; one of the most common tempo markings.
+antiphonal: |
+  Involving alternation between two groups of performers.
+appoggiatura: |
+  An ornamental note on the beat that displaces the main note and resolves by step.
+arco: |
+  A direction to resume playing with the bow (after pizzicato).
+aria: |
+  A self-contained song for solo voice in an opera, oratorio, or cantata.
+arpeggio: |
+  The notes of a chord played in succession rather than simultaneously.
+atonal: |
+  Music that avoids establishing a tonal center.
+augmentation: |
+  Restating a theme with all note values lengthened.
+augmented: |
+  An interval or chord enlarged by a half step beyond its major or perfect form.
+authentic-perfect-cadence: |
+  A cadence moving from V to I — the strongest harmonic close in tonal music.
+
+# ── B ─────────────────────────────────────────────────────────
+balophone: |
+  A West African xylophone-like instrument with gourd resonators beneath wooden bars.
+balungan: |
+  The core melodic framework of a Javanese gamelan composition.
+bandish: |
+  A fixed, composed piece within Hindustani classical music, providing the rhythmic and melodic framework for improvisation.
+bansuri: |
+  A transverse bamboo flute used in North Indian classical music.
+bass-instrument-register: |
+  The lowest register of pitch; also a family of low-pitched instruments.
+basso-continuo: |
+  The harmonic bass-line foundation of Baroque music, typically played by keyboard and bass instrument together.
+beat: |
+  The basic unit of musical time that listeners tap along to.
+binary-form: |
+  A two-part musical structure: A–B.
+blue-notes: |
+  Flattened or bent pitches (particularly the 3rd, 5th, and 7th) characteristic of the blues.
+broken-chord: |
+  The notes of a chord played one at a time rather than simultaneously.
+
+# ── C ─────────────────────────────────────────────────────────
+cadence: |
+  A harmonic progression that creates a sense of arrival, pause, or conclusion.
+cadenza: |
+  An unaccompanied virtuosic passage for the soloist, typically near the end of a concerto movement.
+canon: |
+  A contrapuntal form in which the same melody is imitated by subsequent voices at a fixed time interval.
+cantabile: |
+  In a singing, lyrical style.
+cantata: |
+  A multi-movement vocal work for voices and instruments.
+chorale: |
+  A hymn tune, especially one harmonized in four voices; also a choir.
+chordophone: |
+  An instrument that produces sound through vibrating strings.
+chromatic: |
+  Using notes or intervals outside the prevailing diatonic scale.
+coda: |
+  A concluding section added to the end of a formal structure.
+compound-metre: |
+  A metre in which each beat divides into three equal parts (e.g. 6/8, 9/8, 12/8).
+con-arco: |
+  With the bow (resume bowed playing).
+concerto: |
+  A multi-movement work for soloist and orchestra.
+concerto-grosso: |
+  A Baroque form contrasting a small group of soloists with a larger orchestra.
+consonance: |
+  An interval or chord that sounds stable and resolved.
+con-sordino: |
+  With mute.
+counterpoint: |
+  The technique of combining two or more independent melodic voices simultaneously.
+crescendo: |
+  Gradually getting louder.
+cross-rhythms: |
+  Conflicting rhythmic patterns that create tension against the prevailing metre.
+
+# ── D ─────────────────────────────────────────────────────────
+daw: |
+  Digital audio workstation — software for recording, editing, and producing audio.
+decrescendo: |
+  Gradually getting softer.
+development: |
+  (1) The middle section of sonata form; (2) the manipulation and transformation of musical material.
+diatonic: |
+  Belonging to, or derived from, the notes of a major or minor scale.
+diatonic-harmony: |
+  Harmony using only the chords naturally occurring within a given key.
+diminuendo: |
+  Gradually getting softer; synonymous with decrescendo.
+diminution: |
+  Restating a theme with all note values shortened.
+dissonance: |
+  An interval or chord that creates tension and feels unstable, requiring resolution.
+dolce: |
+  Sweetly; softly and gently.
+dominant: |
+  The fifth scale degree; the chord built on it is the most harmonically active in tonal music.
+drone: |
+  A sustained pitch held continuously beneath changing melody or harmony.
+dynamics: |
+  The variation in loudness in music, and the markings that indicate these variations.
+
+# ── E ─────────────────────────────────────────────────────────
+enharmonic: |
+  Pitches that sound the same but are spelled differently (e.g. F# and Gb).
+envelope-curve: |
+  The shape of a sound's amplitude over time, described in four stages: Attack, Decay, Sustain, Release.
+eq: |
+  Equalization — adjusting the balance of specific frequency ranges in an audio signal.
+ewi: |
+  Electronic wind instrument — a wind-controller that produces MIDI output.
+exposition: |
+  The opening section of a fugue or sonata form presenting the main themes.
+
+# ── F ─────────────────────────────────────────────────────────
+falsetto: |
+  A register above normal voice range produced by partial vibration of the vocal cords.
+figured-bass: |
+  A Baroque notational shorthand in which numbers below a bass line indicate the harmonies to be played above it.
+fm-synthesis: |
+  Frequency modulation synthesis — generating complex timbres by modulating one oscillator's frequency with another.
+form: |
+  The overall structure of a piece — how its sections are organized and relate to each other.
+fugue: |
+  A contrapuntal composition in which a theme (subject) is introduced and developed through imitation across voices.
+
+# ── G ─────────────────────────────────────────────────────────
+glissando: |
+  A slide between two pitches.
+granular-synthesis: |
+  A synthesis method that breaks sound into tiny fragments (grains) and reassembles them to create new textures.
+ground-bass: |
+  A repeating bass pattern over which variations are composed.
+
+# ── H ─────────────────────────────────────────────────────────
+harmonic: |
+  An overtone — a frequency that is a whole-number multiple of a fundamental pitch.
+harmonic-rhythm: |
+  The rate at which chords change within a piece.
+hemiola: |
+  A rhythmic effect in which three beats in duple metre are temporarily felt as two in triple, or vice versa.
+heterophonic: |
+  A texture in which multiple voices simultaneously perform variations of the same melody.
+homophonic: |
+  A texture in which one voice carries the melody while others provide harmonic support.
+
+# ── I ─────────────────────────────────────────────────────────
+idiophone: |
+  An instrument that produces sound through the vibration of its own body.
+imitation: |
+  The repetition of a melodic idea in a different voice shortly after its first appearance.
+improvising: |
+  Creating music spontaneously in performance, within a given harmonic or stylistic framework.
+interval: |
+  The pitch distance between two notes.
+inversion: |
+  (1) A chord with a note other than the root in the bass; (2) a melody flipped upside down.
+
+# ── K ─────────────────────────────────────────────────────────
+key-change: |
+  A shift from one tonal center to another within a piece.
+
+# ── L ─────────────────────────────────────────────────────────
+layering: |
+  Building up a texture by combining multiple simultaneous parts or sounds.
+leading-note: |
+  The seventh scale degree, a half step below the tonic, with strong upward tendency.
+lead-voice-sheet: |
+  The primary melody or melodic voice.
+lfo: |
+  Low-frequency oscillator — a slow-cycling modulation source in a synthesizer.
+libretto: |
+  The text of an opera, oratorio, or other large-scale vocal work.
+loop: |
+  A segment of audio edited to repeat seamlessly when played end to end.
+
+# ── M ─────────────────────────────────────────────────────────
+maqam: |
+  A melodic mode in Arabic and Middle Eastern music, combining scale, characteristic phrases, and expressive character.
+melisma: |
+  The singing of multiple notes on a single syllable.
+metre: |
+  The recurring pattern of strong and weak beats that organizes rhythm in music.
+microtone: |
+  Any interval smaller than a semitone.
+midi: |
+  Musical Instrument Digital Interface — a protocol for communication between electronic instruments and computers.
+midi-controller: |
+  A hardware or software device that sends MIDI data to control electronic instruments.
+minuet: |
+  A stately French dance in triple metre; also a standard movement in Classical symphonies.
+mixing: |
+  Combining and balancing multi-track recordings into a final stereo or surround output.
+modulation-in-music: |
+  A change of key within a piece of music.
+motif: |
+  A short, distinctive musical idea — melodic, rhythmic, or harmonic — used as a building block.
+
+# ── N ─────────────────────────────────────────────────────────
+non-tonal: |
+  Music that does not organize pitch around a central tonic.
+notation: |
+  Any system of symbols used to represent music visually.
+
+# ── O ─────────────────────────────────────────────────────────
+ostinato: |
+  A persistently repeated melodic, rhythmic, or harmonic pattern.
+overdubbing: |
+  Recording additional tracks onto an existing recording to layer multiple performances.
+
+# ── P ─────────────────────────────────────────────────────────
+passing-tone: |
+  A non-chord tone that moves by step between two chord tones.
+pedal-tone: |
+  A sustained or repeated note (usually in the bass) held while harmonies change above it.
+pelog: |
+  One of the two main tuning systems in Javanese and Balinese gamelan music.
+pentatonic: |
+  A five-note scale, common across many world music traditions.
+phasing: |
+  A compositional technique in which the same pattern in two voices gradually moves out of synchronisation.
+pizzicato: |
+  Plucking the strings of a bowed instrument with the fingers.
+plagal-cadence: |
+  A cadence moving from IV to I, often called the "Amen" cadence.
+polyphony: |
+  A texture of two or more independent melodic lines sounding simultaneously.
+polyrhythm: |
+  Two or more different rhythmic patterns performed simultaneously.
+portamento: |
+  A smooth, expressive slide between two notes.
+
+# ── Q ─────────────────────────────────────────────────────────
+quantization: |
+  Snapping recorded notes to the nearest rhythmic grid position in a DAW.
+quarter-tones: |
+  Intervals half the size of a semitone, used in microtonal music and many non-Western traditions.
+
+# ── R ─────────────────────────────────────────────────────────
+raga: |
+  A melodic framework in Indian classical music combining scale, characteristic phrases, and emotional character.
+recapitulation: |
+  The third section of sonata form, restating the exposition's themes in the home key.
+recitative: |
+  A vocal style that follows speech rhythms, used in opera and oratorio to advance the narrative.
+relative-major-minor: |
+  A major and minor key sharing the same key signature.
+retrograde: |
+  A theme played backwards — the last note becomes first.
+reverb: |
+  The persistence of sound caused by multiple reflections in a space, decaying gradually.
+riff: |
+  A short, repeating melodic or rhythmic figure, especially in jazz, blues, and rock.
+rondo-form: |
+  A form in which a main theme (A) alternates with contrasting episodes: ABACA or ABACABA.
+rubato: |
+  Flexible tempo; slight speeding up and slowing down for expressive effect.
+
+# ── S ─────────────────────────────────────────────────────────
+sampling: |
+  Reusing a portion of an existing recording in a new composition.
+scherzo: |
+  A lively, often humorous movement, typically in triple metre, common in Classical and Romantic symphonies.
+sequence: |
+  Immediate repetition of a melodic or harmonic pattern at a different pitch level.
+sforzando: |
+  A sudden, strong accent on a single note or chord.
+slendro: |
+  One of the two main tuning systems in Javanese and Balinese gamelan, with five roughly equal pitches per octave.
+solf-ge: |
+  A method of assigning syllables (do, re, mi…) to scale degrees to aid sight-singing.
+sonata: |
+  A multi-movement instrumental work, typically for one or two instruments.
+sonata-form: |
+  A large-scale form in three sections: exposition, development, and recapitulation.
+soprano: |
+  The highest standard singing voice type.
+staccato: |
+  A direction to play notes short and detached.
+stringendo: |
+  Pressing forward; urgently accelerating.
+strophic-form: |
+  A song structure in which the same music is repeated for each verse.
+subtractive-synthesis: |
+  Synthesis that starts with a harmonically rich waveform and removes frequencies using filters.
+sul-ponticello: |
+  Bowing near the bridge of a string instrument to produce a glassy, nasal tone.
+suspensions: |
+  Non-chord tones held over from a previous chord that resolve by step.
+syncopation: |
+  Placing rhythmic accents on normally weak beats or between beats.
+synthesis: |
+  The generation of sound using electronic hardware or software.
+
+# ── T ─────────────────────────────────────────────────────────
+temperament: |
+  A tuning system that adjusts pure intervals to allow playing in multiple keys.
+tempo: |
+  The speed of the beat, measured in beats per minute (BPM).
+tenor: |
+  The highest standard adult male singing voice.
+tenuto: |
+  Hold the note for its full value; often with slight emphasis.
+ternary-form: |
+  A three-part musical structure: A–B–A.
+tessitura: |
+  The range within which a voice or instrument most comfortably and characteristically sits.
+texture: |
+  The way melodic, rhythmic, and harmonic elements are combined in a piece.
+through-composed: |
+  A form in which new music is written for each section, with no large-scale repetition.
+tierce-de-picardie: |
+  Ending a minor-key piece on a major tonic chord.
+timbre: |
+  The characteristic tone color or quality of a sound that distinguishes it from others at the same pitch.
+tonal-tonality: |
+  The organization of music around a central pitch (the tonic) using major or minor scales.
+tremolo: |
+  A rapid fluctuation in volume, or rapid reiteration of a note.
+trill: |
+  Rapid alternation between a note and the note a step above it.
+tuning: |
+  The process of adjusting an instrument's pitches to match a standard or system.
+
+# ── U ─────────────────────────────────────────────────────────
+unison: |
+  Two or more voices or instruments performing the same pitch simultaneously.
+
+# ── V ─────────────────────────────────────────────────────────
+variation: |
+  A modified restatement of a theme, changing some but not all of its features.
+verismo: |
+  A late 19th-century Italian operatic style depicting realistic, everyday subjects.
+vibrato: |
+  A rapid, slight fluctuation of pitch used to add warmth and expression to a note.
+vocoder: |
+  A device that imposes the spectral characteristics of one sound (usually voice) onto another.
+voicing: |
+  The specific arrangement of notes within a chord, including register and spacing.
+vst: |
+  Virtual Studio Technology — a standard for software audio plugins.
+
+# ── W ─────────────────────────────────────────────────────────
+walking-bass: |
+  A bass line of steady quarter notes that outlines the chord changes.
+wavetable-synthesis: |
+  A synthesis method that cycles through stored digital waveforms to produce sound.
+wet-dry-signal: |
+  Dry = unprocessed audio; wet = audio with effects applied.
+
+# ── Other ─────────────────────────────────────────────────────
+12-bar-blues: |
+  A repeating 12-measure harmonic framework foundational to blues, jazz, and rock.
+12-note-techniques: |
+  A compositional method using a fixed ordering of all twelve chromatic pitches as the basis for a piece.
+
+# ── Assessment Terms (DP Music Subject Guide) ─────────────────
+# These are NOT generated from music-dictionary.org — do not overwrite.
+rt-list: |
+  Give a sequence of brief answers with no explanation.
+rt-outline: |
+  Give a brief account or summary.
+rt-identify: |
+  Provide an answer from a number of possibilities.
+rt-assemble: |
+  Combine or gather pre-existing material without change.
+rt-approximate: |
+  Imitate with lack of detail.
+rt-reiterate: |
+  Repeat or restate, largely without change.
+rt-describe: |
+  Give a detailed account.
+rt-demonstrate: |
+  Make clear by reasoning or evidence, illustrating with examples or practical application.
+rt-distinguish: |
+  Make clear the differences between two or more concepts or items.
+rt-exhibit: |
+  Demonstrate a characteristic in the appropriate context.
+rt-transmit: |
+  Give a formulaic rendition of an existing work or style.
+rt-recreate: |
+  Produce a representation of an original.
+rt-explain: |
+  Give a detailed account, including reasons or causes.
+rt-investigate: |
+  Observe, study, or make a detailed and systematic examination in order to establish facts and reach new conclusions.
+rt-justify: |
+  Give valid reasons or evidence to support an answer or conclusion.
+rt-realize: |
+  Plan and create a work according to convention or practice.
+rt-shape: |
+  Modify and develop existing material.
+rt-adapt: |
+  Adjust existing material to suit a new context or style.
+rt-discuss: |
+  Offer a considered and balanced review supported by appropriate evidence.
+rt-examine: |
+  Consider an argument or concept in a way that uncovers the assumptions and interrelationships of the issue.
+rt-evaluate: |
+  Make an appraisal by weighing up the strengths and limitations.
+rt-personalize: |
+  Bring personal ideas and interpretations to a work or practice.
+rt-synthesize: |
+  Combine and blend existing elements, styles, or techniques to create new work.
+rt-transform: |
+  Change and develop existing work to create new work.

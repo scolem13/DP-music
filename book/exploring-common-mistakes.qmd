@@ -1,0 +1,95 @@
+---
+title: "Exploring: Common Mistakes"
+description: "Five recurring problems in Exploring Music in Context submissions, with examples showing what distinguishes stronger from weaker work."
+categories: [Reference, Assessment, Exploring]
+toc: true
+toc-depth: 2
+---
+
+*See also: [Assessment Rubrics → Exploring](../resources/rubrics.html#exploring-music-in-context)*
+
+These are the problems that appear most consistently across Exploring submissions. Understanding them in concrete terms is more useful than reading the rubric descriptors alone.
+
+---
+
+## 1. Non-specific descriptions
+
+**The problem:** Analysis that could apply to almost any piece in any style.
+
+Imagine being asked to describe two animals. You write: *"It has four legs. It has a tail. It makes sounds. It moves quickly."* Nothing here identifies which animal you mean. Now add one piece of information: *"It uses echolocation."* Immediately the field narrows to a handful of species. One more: *"It roosts in caves."* Now you are describing a bat specifically.
+
+The same logic applies to musical analysis. If someone reads your findings and cannot identify which style — or ideally which specific work — you are describing, your findings are not specific enough.
+
+Statements like "this piece is in four-four," "the tempo is allegro," or "the dynamic is forte" are equivalent to "it has four legs." They are true, they may be accurate, but they are not particular to anything. A student writing that a symphony is in four-four has not understood what is characteristic of a symphony. A student writing that mariachi music is "happy" has described a surface impression, not a convention.
+
+**What to ask instead:** What does this piece do that a piece in a different style would not? What is essential to this style — the feature that defines it rather than merely characterises it?
+
+**Why it matters for marking:** Findings that are non-specific cannot support a creating exercise or adaptation. If your analysis identifies only generic musical elements, your B2 implications will be weak, and your C1 and C2 exercises will lack a genuine foundation. The strength of the whole portfolio rests on the quality of what you found in section one.
+
+---
+
+## 2. Detail without purpose
+
+**The problem:** Volume of detail presented as a substitute for insight.
+
+Two anonymous piano pieces are shown to a group of musicians. They are asked to identify each one. One generates confident, convergent guesses (Stravinsky's *Rite of Spring*). The other generates no consensus (*Für Elise* by Beethoven).
+
+Why the difference? The description of the first piece included: *frequent and irregular metre changes, unusual scales, dissonant harmony associated with the early twentieth century, a famous scandalous premiere.* Every piece of information narrowed the field further until only one piece fit. The description of the second included: *tonal harmony, piano solo, triple metre.* Each fact is true, and each is shared by thousands of pieces.
+
+This illustrates the difference between *purposeful* and *descriptive* findings. A student who writes "the first three notes are G, E-flat, and E-flat, forte, with a rest" has given a lot of detail. None of it is useful, because none of it is particular to Beethoven's Fifth Symphony. A student who writes "the opening motivic cell — three short notes and a long — is used as the basis for almost every melodic and rhythmic idea throughout the symphony" has given one finding. It is highly purposeful.
+
+**The "so what" test:** For every musical observation, ask yourself: *so what?* If the answer is "nothing in particular — it's just a fact," the observation is probably not worth including. If the answer is "this is one of the features that defines this style, and without it the music would not be what it is," you have a purposeful finding.
+
+**Extra-musical findings:** The same test applies. "Mozart was born in Salzburg in 1756" is unlikely to pass the "so what" test. "The social function of Mozart's da Ponte operas required the music to characterise individual personalities through contrasting vocal textures" is extra-musical information that connects directly to the musical findings you might make about those operas.
+
+---
+
+## 3. Drawing conclusions from too little evidence
+
+**The problem:** A single example used to establish a convention.
+
+A researcher sent from another planet to determine what a dog looks like finds one photograph — of a three-legged dog. They conclude: dogs have three legs. The conclusion follows logically from the evidence available, and yet it is wrong, because one example cannot establish a convention.
+
+The equivalent in music: a student listens to *Norwegian Wood* by The Beatles, hears a sitar, and concludes that the sitar is a convention of British rock music. The student then builds their creating exercise around the sitar as the defining element of the style. The convention has been drawn from one piece, and it is not representative.
+
+Conventions are "accepted norms determined by historical research and authentic examples" (IB glossary). One piece is not enough.
+
+**The distinction between a convention and a feature:** A feature is something one piece does. A convention is something a style consistently does. Electric bass guitar, driving eighth-note patterns, a backbeat on beats two and four, distorted guitar in choruses — these are conventions of rock. A sitar in one song by one band is a feature, not a convention. It can still appear in your creating exercise, but it cannot be its defining element, because you cannot claim it represents the style.
+
+**How to check your conventions:** Ask whether your secondary sources — books, articles, musicological analyses of the style — support the conventions you have identified. If they do not appear in any general account of the style, they are probably features of your specific stimulus rather than conventions of the broader tradition.
+
+**Framing the stimulus correctly:** If you choose a piece that is genuinely atypical — a Beatles song that experiments with Indian instrumentation as part of a documented aesthetic direction — you can narrow your area of inquiry accordingly. Writing about "The Beatles' late-period experiments with Indian classical music" is a legitimate framing. Writing about "British rock conventions" and then presenting only the sitar is not.
+
+---
+
+## 4. Misidentifying areas of inquiry
+
+**The problem:** Assigning a piece to an area of inquiry based on how it is used, rather than what it is.
+
+A student selects a Mozart Requiem movement as an example of Area of Inquiry 3 (music for dramatic impact, movement and entertainment) because it appears in a film. The reasoning is: this music creates dramatic impact in the context of the film, therefore it belongs to Area of Inquiry 3.
+
+The problem is that the area of inquiry reflects the *original function and intention* of the music, not its later use. Mozart was composing a liturgical work. The Requiem belongs to Area of Inquiry 1 (music for sociocultural and political expression, including religious traditions) or could be argued into Area of Inquiry 3 on its own musical terms (dramatic intent in the text setting, for example) — but not because a filmmaker later chose it. The dramatic impact the film derives from the music is the filmmaker's achievement. Mozart was not composing for that film.
+
+This error is common with any classical or art music that has been licensed for commercial use. The use does not determine the area of inquiry. If you want to argue for a particular area of inquiry on this basis, the argument must be grounded in the *music itself* — in the composer's intention, the work's original context, or the musical means by which the effect is achieved.
+
+---
+
+## 5. Arrangement versus adaptation
+
+**The problem:** Treating the performed adaptation as a transcription or arrangement rather than an exploration of performing practices.
+
+The distinction between these three things is essential for C2:
+
+- **Transcription:** The notes of the original transferred to a different instrument, played as written.
+- **Arrangement:** The material reworked for a different medium — the notes changed, but still essentially the original piece in a new setting.
+- **Adaptation:** The *performing practices* of the original style applied to your own instrument, with modifications that account for your instrument's idiomatic possibilities and limitations.
+
+**What performing practices are:** They are the techniques, articulations, and expressive devices that experienced performers of a style use, most of which are *not written in the score*. A tango violinist does not just play the written notes. They apply specific bow techniques, rhythmic inflections, expressive slides, and articulation patterns that are learned by immersion in the tradition. These are the performing practices.
+
+Playing the notes of a tango on a flute is a transcription. Playing the notes and adding a few articulations is a transcription with ornamentation. An adaptation would identify *what the tango bow techniques do expressively*, then find equivalent techniques on the flute — breath accents, flutter-tongue, extended articulation — that produce an analogous effect. The adaptation demonstrates that you understand *why* the techniques exist, not just *what* they are.
+
+**Adapting to your instrument's idiomatic possibilities:** Extended techniques — sounds and effects that go beyond the instrument's conventional use — are often the mechanism by which performers adapt practices from other traditions. A pianist adapting tango techniques might explore the piano strings directly, use prepared piano, or use the pedals to approximate the sustained resonance of a bandoneón. These are not arbitrary novelties; they are solutions to the problem of realising an idiomatic practice on an instrument that was not designed for it.
+
+**Understanding is what is assessed, not polish:** The quality of the performance in terms of technique or production is not what this criterion rewards. A poorly played but genuinely adaptive performance — one where the student has clearly understood the performing practices and made specific decisions about how to adapt them — can score more highly than a polished transcription. Evidence of understanding in the written commentary is credited alongside what is heard in the audio.
+
+**Following the notation too closely:** If your adaptation stays very close to the written score, it is likely that you are transcribing rather than adapting. The performing practices of most styles require departure from the notation. For baroque music, this means ornamentation and phrasing conventions; for jazz, swing feel and stylistic inflection; for any style with a strong oral/aural tradition, it means applying what you have learned from listening to authentic performances, not just reading the page.

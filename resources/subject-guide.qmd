@@ -1,0 +1,15 @@
+---
+title: "DP Music Subject Guide"
+description: "The official IB DP Music Subject Guide (2020), embedded for quick reference."
+categories: [Reference]
+toc: false
+---
+
+```{=html}
+<iframe src="../pdfs/DP Music Subject Guide.pdf"
+        width="100%"
+        style="height:85vh; border:1px solid #e0d6c8; border-radius:4px;">
+</iframe>
+```
+
+[Download PDF ↗](../pdfs/DP Music Subject Guide.pdf){.btn .btn-secondary target="_blank"}

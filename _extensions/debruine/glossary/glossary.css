@@ -1,0 +1,77 @@
+.glossary {
+  color: purple;
+  text-decoration: underline;
+  cursor: help;
+  position: relative;
+  border: none;
+  padding: 0;
+  background: none;
+}
+
+/* .def is always hidden in-place; JS moves it to document.body and styles it inline */
+.glossary .def {
+  display: none;
+}
+
+/* Arrow styles — applied as classes on the detached .def element */
+.gldef-above::after,
+.gldef-below::after {
+  content: '';
+  position: absolute;
+  left: calc(50% + var(--arrow-offset, 0px));
+  transform: translateX(-50%);
+  border: 6px solid transparent;
+}
+.gldef-above::after {
+  top: 100%;
+  border-top-color: #333;
+}
+.gldef-below::after {
+  bottom: 100%;
+  border-bottom-color: #333;
+}
+
+/* Reveal.js override: don't clobber slide theme colours or sizing */
+.reveal .glossary {
+  color: inherit;
+  background: none;
+  font-size: inherit;
+  font-family: inherit;
+  text-decoration: underline dotted;
+  cursor: help;
+  border: none;
+  padding: 0;
+  position: relative;
+}
+
+/* Term highlight on arrival from "Used in" book link */
+@keyframes glterm-pulse {
+  0%   { background-color: transparent; outline: none; }
+  15%  { background-color: #fff3a0; outline: 2px solid #c8940a; outline-offset: 2px; }
+  75%  { background-color: #fff3a0; outline: 2px solid #c8940a; outline-offset: 2px; }
+  100% { background-color: transparent; outline: none; }
+}
+.glterm-highlight {
+  animation: glterm-pulse 2.5s ease-out forwards;
+  border-radius: 3px;
+}
+.reveal .glterm-highlight {
+  animation: glterm-pulse 2.5s ease-out forwards;
+}
+
+/* glossary table styles */
+.glossary_table td {
+  vertical-align: top;
+}
+
+.glossary_table td:first-child {
+  padding-right: 1em;
+}
+
+.glossary_table tr {
+  border-bottom: 1px solid #ddd;
+}
+
+.glossary_table tr:nth-child(even) {
+  background-color: #99999933;
+}

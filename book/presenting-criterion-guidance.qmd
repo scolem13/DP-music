@@ -1,0 +1,174 @@
+---
+title: "Presenting: What Each Level Means"
+description: "Criterion-by-criterion guidance on what the characteristic adjectives mean in practice for the Presenting Music component."
+categories: [Reference, Assessment, Presenting]
+toc: true
+toc-depth: 3
+---
+
+*See also: [Assessment Rubrics → Presenting](../resources/rubrics.html#presenting-music)*
+
+The Presenting rubrics list *possible characteristics* alongside the mark bands, but the subject guide does not define them. This page explains what each band looks like in practice, criterion by criterion.
+
+---
+
+## Criterion A: Programme Notes
+
+This criterion assesses how well the programme notes address all four areas of inquiry and justify the choices made. The criterion has two parts, marked independently then combined holistically:
+
+1. Whether all four areas of inquiry are addressed
+2. How well the choices are justified
+
+**A structural requirement applies to the first part:** if fewer than four areas of inquiry are addressed, achievement is capped at marks 1–2 for that aspect of the criterion. All four must be present.
+
+### The three levels of justification
+
+| Band | What it looks like |
+|------|-------------------|
+| **Ineffective / Rudimentary (1–2)** | Programme notes list or outline selections without linking them to specific areas of inquiry. Or: fewer than four AOIs are addressed at all. The reader cannot tell why this music was chosen or what it has to do with the stated area. |
+| **Suitable / Inconsistent (3–4)** | Programme notes describe selections and make some attempt to connect them to areas of inquiry, but the connection is not always convincing or consistent. The AOI is identified but the justification is partial, vague, or incorrect for one or more pieces. |
+| **Relevant / Purposeful (5–6)** | Programme notes explain selections and purposefully link each one to its area of inquiry with musical reasoning. Every AOI is addressed, identified, and justified. The connection between the music and the area is clear and supported by musical detail. |
+
+### Ian's three-step structure
+
+There are three distinct requirements for achieving in the upper mark band of Criterion A:
+
+1. **All four AOIs exist** — every piece has an area of inquiry assigned to it
+2. **Each AOI is codified** — the student explicitly states which AOI each piece belongs to (it is not enough to write about AOI themes generally without labelling which piece is which)
+3. **Each is explained** — the student says *why* and *in what way* this piece belongs to that AOI, with musical reasoning
+
+A programme that names all four AOIs but does not label which piece belongs to which is not addressed. A programme that labels all pieces but does not explain the connection will describe, not explain. All three steps are necessary for the upper mark band.
+
+### The role of scores and notation
+
+The programme notes are where scores, screenshots, and other visual representations of the creating should appear. The absence of any notation for a created work is self-limiting for Criterion A — in practice it is very unusual to achieve above mark 3 without notation of created work appearing in the programme notes. If the work is music technology, DAW screenshots count as notation provided they are annotated and explained.
+
+### Questions that separate a 4 from a 5–6
+
+- Does the student justify *why* each programme choice is linked to its area of inquiry, or simply state that it is?
+- Is the musical content discussed accurately and with proficiency?
+- Are any scores, screenshots, or visual representations relevant to the claims being made, or decorative?
+
+---
+
+## Criterion B: Musicality and Technical Proficiency of Created Works
+
+This criterion assesses the creating works in two parts:
+
+1. **Conventions** — how well the student applies the creating conventions of the chosen style
+2. **Technical proficiency** — how well the student demonstrates technical command of the compositional or production craft
+
+### The four levels
+
+| Band | Conventions | Technical proficiency |
+|------|------------|----------------------|
+| **Rudimentary (1–3)** | Approximates — imitates surface features without demonstrating understanding of what makes the style distinctive; or conventions are absent or incorrect | Rudimentary — notation is unplayable on the instrument(s) specified; instrument ranges or articulation are disregarded; very short duration; no dynamic or expressive markings; or computer-generated output with no musical decision-making visible |
+| **Inconsistent (4–6)** | Exhibits — applies recognisable conventions of the style, but formulaically; the style is identifiable but lacks personal musical choices | Inconsistent — some sections show control, others do not; ranges and articulation are mostly correct; some expressive marking present |
+| **Competent (7–9)** | Realizes — conventions are correctly and convincingly applied; the work is stylistically faithful and shows genuine understanding | Competent — the work is idiomatic for the instrument(s) or medium; playable, balanced, and musically coherent; notation provides sufficient detail for performance |
+| **Excellent (10–12)** | Synthesizes — combines and blends existing elements, styles, or techniques to create something genuinely new; a personal musical voice is evident | Excellent — exceptional technical command throughout; nuanced, idiomatic, and fully communicative |
+
+### Marking from the score, not the recording
+
+For created works, the score (or notation/screenshot) is the primary evidence. The quality of the recording of the creating work does not substitute for what the notation shows. A brilliant professional recording of a technically weak composition should be marked according to the composition, not the recording. Conversely, a technically accomplished score that was recorded poorly is marked on the composition's merits.
+
+**What "idiomatic" means:** writing that matches the musical capabilities, accepted timbres, performance styles, technical possibilities, and appropriate ranges of the instrument. A piano piece that could not be played by a pianist (e.g., requiring three hands, or writing in an impossible register in a way that is not stylistically intentional) lacks idiomatic integrity.
+
+### Duration and evidence
+
+A very short creating submission limits the evidence available. Two minutes of creating is not sufficient to demonstrate consistent technical proficiency or sustained musical development. In practice:
+- Two compositions of approximately three minutes each, or three compositions of approximately two minutes each, represents a typical submission
+- A 20-second music technology piece followed by brief fragments does not provide enough evidence for the upper mark bands
+
+### What counts as "creating" versus "arranging"
+
+The music guide states that *arranging and remixing do not feature in this component and will not be accepted for assessment*. However:
+- A student who begins with their own piece and then arranges it for orchestra — if the orchestration demonstrates musical decision-making and is the student's own work — is still creating
+- A student who quotes existing material and then develops it through variations is creating, provided the score makes clear what was done and what is original
+- A student who transcribes another composer's piece into a different instrumentation with no further development is not creating — it is transcription
+- The test is whether the work is *the student's own*, whether there is evidence of musical decision-making, and whether there is something identifiably personal in the result
+
+For music technology compositions: all parts must be MIDI entered or performed and recorded by the student. Sampled parts and drum loops are only acceptable if the teacher can verify they were performed or recorded by the student.
+
+---
+
+## Criterion C: Musicality and Technical Proficiency of Performed Works
+
+This criterion assesses the performed works in two parts:
+
+1. **Performing practices** — how well the student applies the performing conventions of the chosen style
+2. **Technical proficiency** — the level of mastery demonstrated in delivery
+
+### The four levels
+
+| Band | Performing practices | Technical proficiency |
+|------|---------------------|----------------------|
+| **Rudimentary (1–3)** | Approximates — imitates the style at surface level without applying its specific performing practices; or practices are incorrect or absent | Rudimentary — significant and consistent intonation problems; unstable rhythm; tone quality prevents assessment; or recording is so short (e.g. one minute) that there is insufficient evidence |
+| **Inconsistent (4–6)** | Transmits — applies recognisable performing practices of the style; technically accurate but may lack expressive depth or personal interpretation | Inconsistent — some technical control, some hesitation; uneven intonation across the performance; some sections competent, others weak |
+| **Competent (7–9)** | Shapes — performing practices are present and musically convincing; minor errors do not affect the overall impression; fluency and command of musical elements are evident | Competent — the performance demonstrates mature command; the music is delivered with appropriate style, expression, and control throughout |
+| **Excellent (10–12)** | Personalizes — the performance expresses a distinctive personal voice; performing practices are fully integrated and expressive, not merely technically correct | Excellent — compelling technical and musical achievement; everything in the performance is working together |
+
+### Intonation
+
+Intonation is part of technical proficiency and should be assessed with the same weight as all other technical elements. A technically fluent performance with consistently poor intonation cannot be considered competent.
+
+### Short recordings
+
+A recording of approximately one minute is insufficient to demonstrate technical proficiency or performing practice across the required demands of the style. A short performance is self-limiting in much the same way that a short creating work is — there is simply not enough evidence for the upper mark bands.
+
+### Ensemble submissions and audibility
+
+The student's individual contribution must be clearly audible for their work to be assessed individually. Where the student cannot be heard distinctly:
+- If the whole submission is ensemble: the examiner must mark the quality of the ensemble as a whole. This is self-limiting unless the ensemble is of high quality
+- If the submission is mixed (some solo, some ensemble): an extract (up to 2 minutes) demonstrating the student's individual part is required for the ensemble portion
+- Microphone placement close to the student, or use of small ensembles, significantly increases the likelihood of a fair individual mark
+
+### Not marking the accompanist
+
+Where an accompaniment is present — another instrumentalist, vocalist, or technology — the accompaniment is not assessed. For a duo where both parts are musically equal and interdependent (e.g., a violin and piano sonata), the examiner considers the two parts as an ensemble and marks accordingly. The focus remains on what the assessed student is doing.
+
+---
+
+## Criterion D: Musical Communication
+
+This criterion assesses the overall effectiveness of the student's musical communication across all three roles: as researcher, creator, and performer. It is assessed holistically — stronger work in one role compensates for weaker work in another.
+
+Musical communication includes: musical intentions, expression, interpretation, notation, and audio quality.
+
+### The four levels
+
+| Band | What it looks like |
+|------|-------------------|
+| **Ineffective (1–2)** | Communication does not allow full understanding of the work across the roles; the areas of inquiry are not addressed; audio quality prevents assessment; or there is minimal evidence across the roles |
+| **Suitable (3–4)** | Communication is present but may not allow full understanding across all chosen works; some roles are more successfully communicated than others |
+| **Competent (5–6)** | Communication is effective across the different roles and allows full understanding of the chosen works; the AOIs are addressed and recognisable in the submission |
+| **Compelling (7–8)** | Communication is compelling across different roles; the submission as a whole creates a strong, coherent impression; the listener wants to hear it again |
+
+### The natural starting point
+
+When the areas of inquiry are clearly addressed in the programme notes, and the recording quality is adequate, Criterion D tends to fall in the 5–6 range. This is not a prescribed mark, but the accumulated experience of examiners across many sessions. A submission where everything is working — AOIs addressed, notation present, recording clear, musical intentions discernible — is typically competent, meaning a mark of 5 or 6.
+
+To reach 7–8 (compelling), the creating *and* the performing both need to be outstanding. If one role is very strong and the other is moderate, the competent band is the likely outcome.
+
+**Compelling vs. competent:** A competent submission is one where everything is in order. A compelling submission is one that commands attention — something that you want to hear again, something that demonstrates a distinctive musical personality across all the roles.
+
+### Do not double penalise
+
+Criterion D is assessed across the roles. If technical limitations in the performing have already reduced the mark in Criterion C, those same limitations should not be described again as a failure of musical communication in Criterion D. The criterion D mark should reflect whether the musical communication across the *whole submission* is effective — not repeat observations already made in B and C.
+
+---
+
+## The Glossary
+
+Definitions from the Examiner Instructions that shape how examiners read Presenting submissions.
+
+| Term | IB definition |
+|------|--------------|
+| **Technical proficiency** | The level of mastery of musical skills that allows a candidate to access, create, perform, produce or reproduce musical material to a required standard. Technical proficiency enables candidates to interpret musical material and express themselves eloquently on a chosen instrument, voice, or medium. |
+| **Expression** | The use of techniques, musical dynamics and personal knowledge to enhance and express an artistic message. Communication of the intent and purpose of music in an informed and mature manner, informed by extra-musical and musical information combined with a personal and imaginative musical voice. |
+| **Idiomatic use of instruments** | Writing and arranging in a way that matches the musical capabilities, accepted timbres, performance styles, technical possibilities and appropriate ranges of the instrument. |
+| **Interpretation** | Informed by the original context of the chosen work, but may also be inspired by the interpretations of others. Shaped by continued practice, critical research, and engagement with the music. |
+| **Notation** | A representation of sound or performance instructions. Forms of notation should be effective and appropriate to the chosen style — including graphic scores, numeric notation, tablature, sargam, solfège, screenshots, technology notes, staff/stave notation, or other forms of visual evidence. To effectively represent the music, choose the form appropriate to the musical conventions of the style. |
+| **Programme notes** | Supplement music selected for presentation by introducing chosen works, justifying choices, and enhancing understanding. Programme notes serve as a *holistic summary*, rather than a detailed discussion of individual works. |
+| **Accompaniment** | One or more parts to support the soloist. Choices of accompaniment must be justifiable in keeping with the performing conventions of the chosen style. Backing tracks of accompaniments not conceived as such are strongly discouraged. |
+| **Ensemble** | Any musical group comprising three or more members contributing in various capacities (the roles are not those of soloist with accompaniment). |
+| **Practices (musical)** | Include, but are not limited to, approaches and conventions, beliefs and ideas, and genres and styles of music-making. Musical practices are continuously evolving. |

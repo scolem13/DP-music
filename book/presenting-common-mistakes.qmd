@@ -1,0 +1,111 @@
+---
+title: "Presenting: Common Mistakes"
+description: "Recurring problems in Presenting Music submissions, with concrete examples showing what distinguishes stronger from weaker work."
+categories: [Reference, Assessment, Presenting]
+toc: true
+toc-depth: 2
+---
+
+*See also: [Assessment Rubrics → Presenting](../resources/rubrics.html#presenting-music)*
+
+These are the problems that appear most consistently across Presenting submissions. Understanding them concretely is more useful than reading the rubric descriptors alone.
+
+---
+
+## 1. AOIs that exist but are not linked
+
+**The problem:** Areas of inquiry are named — on the teacher form, in headings, or in passing — but the programme notes never explain the connection between the AOI and the specific piece.
+
+This is the most common way to fail the upper band of Criterion A. The issue is not that the student chose the wrong AOI; it is that the link is asserted rather than demonstrated.
+
+**What the examiner needs:** Three distinct things, in order:
+1. **Existence** — all four AOIs appear in the programme notes
+2. **Codification** — each piece is explicitly labelled with its AOI ("This piece is Area of Inquiry 2 because…")
+3. **Explanation** — the student explains *in what way* and *why* the music belongs to that area, with musical reasoning
+
+A programme that lists four AOIs at the start and then never mentions them again in relation to individual pieces has done step 1 but not steps 2 or 3. A programme that labels each piece correctly but says only "I chose this because it is dramatic" has done steps 1 and 2 but not step 3.
+
+**The mark difference this makes:** Meeting all three steps reliably puts the criterion in the 5–6 band. Stopping at step 2 lands in the 3–4 band. Stopping at step 1, or not addressing all four AOIs, limits the mark to 1–2.
+
+**Presenting only:** Presenting is the only component where all four areas of inquiry must be addressed. There is no requirement to cover contexts (personal, local, global); that framework applies to Exploring and Experimenting, not Presenting. If a student mentions contexts in their programme notes, it is not wrong, but it uses word count that could be spent on more relevant content.
+
+---
+
+## 2. Treating "creating" as arrangement or transcription
+
+**The problem:** A student takes an existing piece and writes it out for different instruments, or produces a MIDI mockup of a score without making any musical decisions of their own. This is transcription. The music guide states that *arranging and remixing do not feature in this component and will not be accepted for assessment*.
+
+**What counts and what does not:**
+
+| Acceptable | Not acceptable |
+|------------|---------------|
+| Composing an original work | Transcribing a piece for different instrumentation |
+| Writing variations on a quoted theme (provided the score shows clearly what is original) | Changing tempo, key, or instrumentation of an existing piece without further development |
+| Orchestrating your own existing work (the orchestration itself demonstrates musical decision-making) | Producing a MIDI file of an existing score and calling it a composition |
+| A music technology composition where all parts are MIDI entered or performed by the student | Using a pre-made drum loop or sample without teacher authentication that it was created by the student |
+
+**Why this matters:** If there is no evidence of the student's own musical decision-making, the examiner cannot assess creating conventions or technical proficiency in composition. A very polished recording of an arrangement of another composer's work is not evidence of the student's creating ability. The mark is for the student's compositional decisions, not for what someone else composed.
+
+**The score is primary evidence for creating.** Examiners are asked to mark the composition from the score, not from the quality of its recording. A brilliant recording of a weak composition should be marked as a weak composition. A thoughtful, technically accomplished score with a mediocre recording should be marked as a thoughtful composition. Do not let recording quality substitute for compositional evidence.
+
+---
+
+## 3. Not being audible in ensembles
+
+**The problem:** A student performs in a large ensemble and submits the ensemble recording, but their individual contribution cannot be heard clearly enough to be assessed.
+
+When the examiner cannot identify what the student is doing, they can only mark the ensemble as a whole. This is self-limiting: if the ensemble is of average quality, the student gets a mark reflecting the ensemble's average quality, regardless of their individual level.
+
+**How this plays out:**
+- **Whole submission is ensemble:** an extract of approximately 2 minutes showing the student's own part is required. Without this, the mark cannot reflect the student's individual level
+- **Mixed submission (some solo, some ensemble):** extracts are expected for ensemble portions; the solo works provide direct evidence of individual level
+- **Small ensemble or clearly audible part (e.g., a prominent cello solo in a trio):** the individual contribution may be identifiable without an extract
+
+**Practical implications:** A student who is a very capable performer but submits only a large ensemble recording with no extract may receive a lower mark than a less technically able student who submits clear solo recordings. The issue is evidential, not musical.
+
+**Ensemble = three or more performers in various capacities** (not soloist with accompaniment). A violin and piano duo where both parts are equally important is treated as an ensemble for assessment purposes.
+
+---
+
+## 4. Submissions that are too short
+
+**The problem:** The student submits very little creating or performing material, which makes it impossible for the examiner to assess technical proficiency or musical development at the upper mark bands.
+
+**For creating:** The submission total is a maximum of 6 minutes. Two compositions of approximately 3 minutes, or three of approximately 2 minutes, provides sufficient evidence. A 20-second music technology piece, or a single 2-minute composition, does not provide enough evidence to demonstrate consistent stylistic understanding and technical control. A very short submission is self-limiting.
+
+**For performing:** The maximum is 12 minutes. A recording of approximately 1 minute is insufficient to demonstrate technical proficiency — there is simply not enough evidence for the examiner to assess intonation, rhythm, tone quality, and style across the work. A 1-minute performance approximates by default because the evidence is too thin.
+
+**The word count works the same way:** 600 words is the maximum for programme notes. Under-use is self-limiting if something is consequently missing. However, a very concise set of notes that explains everything clearly and purposefully can still achieve a high mark — brevity is not penalised if the content is complete.
+
+---
+
+## 5. Notation that doesn't communicate
+
+**The problem:** Scores are submitted but they contain no expressive markings, no dynamic indications, no articulation, no phrase markings — just pitches and rhythms. Or, for music technology, a screenshot of the DAW is submitted with no annotation or explanation of what it shows.
+
+The purpose of notation in this component is to be *an effective representation of sound or performance instructions*. If the notation does not communicate what the student intended and how, it cannot evidence compositional decision-making.
+
+**What examiners look for in notation:**
+- Dynamic markings: where things get louder, quieter, and by how much
+- Articulation: how individual notes are to be played
+- Phrase markings or bowing/breath indications
+- Tempo and character markings
+- For ensemble writing: that ranges are playable, that the melody can actually be heard through the texture, that the balance of voices is considered
+
+**For music technology scores:** DAW screenshots alone are limited. The student should annotate them and explain what specific parameters, filters, or effects are doing. Graphic notation showing changes in filters or parameters over time is more communicative than a waveform image. A piano roll view (MIDI data) is more informative than many DAW notation views, which can be inaccurate. Audio waveform screenshots represent sound, not music — they do not communicate compositional decisions.
+
+**Notation definition (IB):** Notation may take any form appropriate to the style, including graphic scores, numeric notation, tablature, sargam, solfège, screenshots, technology notes, and staff/stave notation. The form matters less than whether it effectively communicates the student's musical decisions.
+
+---
+
+## 6. Criterion D treated as a repeat of B and C
+
+**The problem:** A student's performing has clear technical limitations. The examiner marks Criterion C accordingly. They then repeat the same observations in Criterion D — "the musical communication is weak because of the technical limitations in performance."
+
+This is double penalising. A student who has already received a lower mark in C for technical reasons should not receive a further reduction in D for the same reason.
+
+**What Criterion D is actually asking:** How effectively does the submission as a whole communicate musical intentions across all three roles — researcher, creator, and performer? It is a holistic picture: do the programme notes, the notation, the recordings, and the overall shape of the submission cohere into something that communicates the student's musical ideas?
+
+**The practical starting point:** When the areas of inquiry are addressed in the programme notes and the recording quality is adequate, Criterion D tends to settle in the 5–6 range. The question for 7–8 (compelling) is whether the whole submission — not just one element — creates a genuinely compelling impression. This typically requires both the creating and the performing to be outstanding.
+
+**Compelling vs. competent:** Competent means everything is in order. Compelling means the listener wants to engage with it again — something distinctive and musically purposeful comes through. It is qualitative, not just technical.

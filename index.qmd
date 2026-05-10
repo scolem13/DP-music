@@ -1,0 +1,22 @@
+---
+title: "IB Music"
+subtitle: "DP1 Music — Course Hub"
+---
+
+Welcome. Use the navigation above to find what you need.
+
+- **Presentations** — slides and notes from each class session
+- **Glossary** — key terms with definitions and IPA pronunciations
+- **Course Book** — written material for independent study and review
+
+::: {.callout-tip}
+## New to the course?
+Start with the [Course Book](book/index.qmd) for a structured overview, or browse the [Glossary](resources/glossary.qmd) to look up any term you encounter.
+:::
+
+::: {.callout-note}
+## The Central Questions
+**"How does music communicate?"** and **"How does musical context shape meaning?"**
+
+IB Music asks you to listen analytically, perform with intention, and create with an awareness of how music works across cultures, histories, and technologies.
+:::

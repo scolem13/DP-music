@@ -1,0 +1,16 @@
+[
+  {
+    "listing": "/resources.html",
+    "items": [
+      "/resources/assessment-guidance.html",
+      "/resources/rubric-terms.html",
+      "/resources/rubrics.html",
+      "/resources/subject-guide.html",
+      "/resources/glossary.html"
+    ]
+  },
+  {
+    "listing": "/presentations.html",
+    "items": []
+  }
+]

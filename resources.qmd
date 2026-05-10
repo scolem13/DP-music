@@ -1,0 +1,13 @@
+---
+title: "Resources"
+listing:
+  contents: resources
+  type: table
+  fields: [title, categories, description]
+  sort: "title asc"
+  sort-ui: true
+  filter-ui: true
+  categories: true
+---
+
+Reference materials, listening guides, and concept tools. Use the search box to filter by topic.

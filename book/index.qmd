@@ -1,0 +1,16 @@
+---
+title: "Preface"
+---
+
+This book is the written companion to the DP Music course. It is organized by the four assessment components and is designed for independent study and review.
+
+For key term definitions and pronunciations, see the [Glossary](../resources/glossary.html).
+
+---
+
+**The four components:**
+
+- **Exploring Music in Context** — Research, analysis, and practical exercises demonstrating knowledge of musical conventions and performance practices
+- **Experimenting with Music** — A series of documented experiments in creating and performing, developing musical ideas through informed decision-making
+- **Presenting Music** — A portfolio of completed performing and creating works, presented with programme notes across four areas of inquiry
+- **The Contemporary Music Maker** (HL only) — A collaborative real-life musical project, documented as a multimedia presentation

@@ -1,0 +1,166 @@
+---
+title: "Exploring: What Each Level Means"
+description: "Criterion-by-criterion guidance on what the characteristic adjectives mean in practice for the Exploring Music in Context component."
+categories: [Reference, Assessment, Exploring]
+toc: true
+toc-depth: 3
+---
+
+*See also: [Assessment Rubrics → Exploring](../resources/rubrics.html#exploring-music-in-context)*
+
+The Exploring rubrics list *possible characteristics* (Ineffective, Suitable, Purposeful, etc.) alongside the mark bands, but the subject guide does not define them. This page explains what each band looks like in practice, criterion by criterion.
+
+---
+
+## Criterion A: Selection of Evidence
+
+This criterion focuses on the diversity, breadth, and balance of the material you select as evidence.
+
+**What "diversity and breadth" requires:** contrasting materials from personal, local, and global contexts across at least two areas of inquiry.
+
+**What "balance" requires:** roughly equal treatment of the areas of inquiry and contexts across the portfolio — not three pieces from one area and one token piece from another.
+
+### The three levels
+
+| Band | What it looks like |
+|------|-------------------|
+| **Ineffective / Rudimentary** | Evidence doesn't meaningfully support your claims. Generic, unverifiable, or out of context. No in-text references to specific sources, scores, or recordings. The examiner cannot trace your statements back to anything. |
+| **Suitable / Inconsistently balanced** | Evidence is present and relevant but uneven — some strong, some weak. Some areas of inquiry are treated more thoroughly than others. References may be present in some sections but missing elsewhere. |
+| **Relevant / Purposefully balanced** | Evidence is well-chosen and directly supports your musical and extra-musical claims. In-text references allow the examiner to verify every claim. Areas of inquiry and contexts are treated with equity across the portfolio. Both notated and audio examples are used where appropriate, with timestamps that correctly match the cited track. |
+
+### What this looks like in practice
+
+**Stating areas of inquiry without justification** — saying "this piece belongs to Area of Inquiry 3" is not enough. You need to *explain and justify* why. What about the music's function, context, or purpose places it there?
+
+**Effective use of evidence** — presenting both a score excerpt and the corresponding audio, with timestamps that correctly match the recording, makes your evidence verifiable. An examiner can check it. That is effective evidence.
+
+**In-text references** — every claim that depends on a source (a recording, a score, a journal article, an interview) needs an in-text reference. A bibliography at the end does not substitute for in-text citations. Without them, the evidence is unsubstantiated regardless of how well-written the argument is.
+
+**Score without annotation** — including a score excerpt with no markings or commentary leaves the examiner unable to see how it supports your argument. Evidence must do visible work.
+
+**Incorrect area of inquiry designation** — assigning a piece to the wrong area of inquiry affects your mark through the first bullet point. The most common error is presenting pre-existing concert music as "film music" simply because it appeared in a film. The area of inquiry reflects the *original function and intention* of the music, not its later use.
+
+---
+
+## Criterion B1: Conducting Musical Research
+
+This criterion assesses the quality of your musical analysis — how well you locate, communicate, and apply musical and extra-musical findings.
+
+The criterion has three distinct parts assessed separately:
+
+1. **The findings themselves** — are they listed, described, or explained?
+2. **The effectiveness of the findings** — are they superficial, reasonable, or purposeful?
+3. **Terminology** — is it inaccurate, inconsistent, or accurate?
+4. **Localisation** — are musical findings placed inaccurately, inconsistently, or accurately in the score/recording?
+
+### The three levels
+
+| Band | What it looks like |
+|------|-------------------|
+| **Ineffective / Superficial** | Analysis narrates events rather than explaining them. Lists facts about the music that could apply to almost any piece (tempo, time signature, dynamic markings). Terminology is absent or misused. No bar numbers or timestamps. |
+| **Inconsistent / Reasonable** | Some analysis goes beyond description, but inconsistently. Some findings are purposeful; others remain at the surface. Terminology is present but not always applied correctly. Localisation is sometimes precise, sometimes vague. |
+| **Accurate / Purposeful** | Analysis explains *why* musical devices are used, not just *what* they are. Findings are connected to the area of inquiry — the analysis serves a purpose beyond cataloguing. Terminology is accurate and used fluently. Bar numbers and timestamps are consistently provided. |
+
+### What this looks like in practice
+
+**Purposeful analysis** — a student analysing a Mozart duet who identifies structural phrase patterns *and* connects them to how the music depicts the character's personality is doing purposeful analysis. The musical device is linked to its function within the area of inquiry. This is explaining, not describing.
+
+**Indicating obvious things** — colour-coding notes in a score to show their register, or naming which instruments play which part, may look like analysis but is not. The examiner can see this without the student's help. Describing what is already obvious on the page does not constitute musical research.
+
+**Vague and generalised** — writing "the music is expressive and uses many dynamics" without referencing specific moments, measures, or effects is vague. There is no localisation, no precise terminology, no analytical claim.
+
+**The "so what" test** — for every finding, ask: *so what?* If the answer is "nothing in particular, it's just a fact about the piece," the finding is probably not purposeful. If the answer is "this is what makes this style distinctive, and it's why I can apply it in my creation," it is purposeful.
+
+**Extra-musical findings** — these come from sources *about* the music (journal articles, documentaries, interviews) rather than from the music itself. They are purposeful when they contextualise your musical findings — explaining historical context, cultural significance, or the composer's intention. They are not purposeful when they are general background information that has no bearing on your analysis.
+
+---
+
+## Criterion B2: Implications
+
+This criterion assesses how clearly you connect your research (section 1) to your practical work (creating and adaptation).
+
+### The three levels
+
+| Band | What it looks like |
+|------|-------------------|
+| **Outlines** | A basic connection is stated but not developed. The student identifies what was found but does not explain how it shaped the creative or adaptive decisions. |
+| **Describes** | The connection between exploration and practice is explained at a general level. The student describes how the research influenced their decisions but does not demonstrate deliberate, specific application. |
+| **Explains** | The link is analytical and specific. The student identifies particular stylistic or performance conventions found during exploration, then demonstrates — with reference to the actual work — how each was embedded into the creating or adaptation exercise. |
+
+### What this looks like in practice
+
+**Strong implications** — after exploring Gamelan music, a student addresses the specific challenge of adapting idiomatic Gamelan techniques to piano. They identify what they found, explain the idiomatic limitation, and describe the specific solution adopted. The reader can see the chain: *research finding → challenge → decision*.
+
+**Explicit reconnection** — placing the stimulus material and the student's creation side-by-side, pointing directly to which element from the exploration appears where in the creation, is a strong technique. The link is demonstrated, not just asserted.
+
+**Weak implications** — basing the creating or adaptation exercise on a style that was not explored in section one. Without genuine research underpinning the practical work, implications cannot be established.
+
+**Note on double-penalising** — if your exploration contains inaccurate findings (e.g., identifying a feature that is not actually a convention of the style), you will not be penalised twice — once in B1 and again in B2. If you sincerely derived implications from your research, even if the research was imperfect, those implications can still be credited in B2.
+
+---
+
+## Criterion C1: Understanding Creating Conventions
+
+This criterion assesses the creating exercise — specifically whether it demonstrates genuine understanding of the stylistic and technical conventions of the chosen style.
+
+### The three levels
+
+| Band | What it looks like |
+|------|-------------------|
+| **Approximates** | The creation imitates the surface features of a style without demonstrating understanding of what is essential to it. Generic or incorrect elements are presented as conventions. |
+| **Exhibits** | The creation applies recognisable conventions of the style. The student demonstrates familiarity with the style, but the application may be formulaic — technically correct but without personal musical choices. |
+| **Realizes** | The creation demonstrates confident, stylistically convincing application of conventions. The student shows genuine understanding of what makes the style distinctive, and the conventions are applied with intention and control. |
+
+### What this looks like in practice
+
+**Harmonic conventions in pop** — correctly identifying that a style uses specific harmonic progressions as a *characteristic* feature, and incorporating similar progressions purposefully into the creation, demonstrates understanding of convention. Mentioning that the piece uses chords without explaining why they are stylistically significant does not.
+
+**Strong realisation (Bach chorales)** — a student who identifies the use of imperfect cadences in a Bach chorale, annotates the stimulus accordingly, and then incorporates this technique into their composition demonstrates stylistic understanding. Minor notation errors elsewhere do not negate evidence of understanding in C1.
+
+**Vague conventions (jazz)** — stating "I am composing in a jazz style" without identifying specific jazz conventions (extended harmony, swing rhythm, modal language, call-and-response) leaves the claim unsubstantiated. The piece may incidentally *sound* jazz-like, but without explicit identification and application of conventions, the evidence of understanding is not there.
+
+**Style versus stimulus** — the creating exercise is assessed against the *style*, not just the single stimulus piece. If your stimulus is a piece that uses an instrument or technique unusual for its style, using that instrument or technique as the basis of your creation does not demonstrate understanding of the style as a whole. The creating conventions must be representative of the broader style, not just features of the one piece you happened to select.
+
+**Arrangements** — the music guide permits the creating exercise to take the form of an arrangement. If you arrange existing material in a different style (your *explored* style), the question becomes whether the arrangement demonstrates understanding of the creating conventions of that style — polyrhythms, characteristic bass lines, harmonic language, and so on. The arrangement stands or falls on how convincingly it deploys those conventions, not on how ambitious or polished it sounds.
+
+---
+
+## Criterion C2: Understanding Performing Practices
+
+This criterion assesses the performed adaptation — specifically whether it demonstrates understanding and application of the *performing practices* of the chosen style, adapted to your own instrument.
+
+### The three levels
+
+| Band | What it looks like |
+|------|-------------------|
+| **Approximates** | The student plays through the material without applying performing practices. The result is a transcription or playthrough — technically derived from the style but without its idiomatic techniques. |
+| **Transmits** | The student applies the performing practices of the style in a recognisable, accurate way. The rendition is technically correct but may lack expressive depth or personal adaptation. |
+| **Shapes** | The student modifies and develops the performing practices, adapting them idiomatically to their own instrument. The performance demonstrates control, expressive intent, and genuine understanding of what the style demands. |
+
+### What this looks like in practice
+
+**Transcription versus adaptation** — playing the written notes of a tango on a different instrument is a transcription. The performance practices that make a tango sound like a tango — the specific articulations, rhythmic inflections, extended bow techniques, expressive slides — are not on the page. These must be understood, applied, and adapted. Playing the notes without these techniques is playing *the skeleton* of a tango, not the tango.
+
+**Adaptation to your instrument** — if you are adapting music that uses techniques specific to another instrument, you need to find equivalent techniques on your own. A flautist adapting violin tango techniques must identify what the technique *does expressively* and find an analogous technique for flute. This requires genuine understanding, not transcription.
+
+**Notation and adaptation** — following the written notation closely does not constitute adaptation. If anything, the expectation is that you depart from the literal notation and apply the performance practices that experienced performers of the style use. For Baroque music, this means ornamentation, articulation, and phrasing conventions not marked in the score. For jazz, it means swing feel, improvisation conventions, and expressive inflection.
+
+**Understanding is rewarded, polish is not** — if your technique is limited, but your written commentary and your performance both demonstrate that you understood the performing practices and made genuine decisions about how to apply them to your instrument, that understanding is credited. A technically imperfect performance that shows understanding can score higher than a polished performance that is simply a playthrough.
+
+---
+
+## The Glossary
+
+These definitions are IB-published and shape how examiners read your work.
+
+| Term | IB definition |
+|------|---------------|
+| **Balanced** | A systematic and well-rounded study and/or representation of the chosen music. |
+| **Conventions** | Accepted norms of creating music according to the chosen style, which are determined by historical research and authentic examples. |
+| **Musical findings** | Information found by looking at the music itself — scores, performances, recordings. |
+| **Extra-musical findings** | Information about the music found from sources outside the music — journal articles, interviews, documentaries — used to contextualise musical findings. |
+| **Performed adaptation** | The candidate adjusts or modifies music with consideration of the original style and the instrument the music is being adapted for. Conventions of the original performance practice are explored and applied to their own instrument. |
+| **Primary sources** | The music itself and people directly involved in its creation or performance: scores, live performances, recordings, composer interviews. |
+| **Secondary sources** | Materials about the music by researchers not directly connected to it: critiques, documentaries, journal articles, editions. |
+| **Stylistic demands** | The technical and idiomatic requirements to engage with a music-making process in a certain style. |
+| **Creating exercise** | A short creation of 16–32 bars or 1 minute, notated appropriately for the chosen style. It applies and demonstrates knowledge of the conventions of the chosen context. |

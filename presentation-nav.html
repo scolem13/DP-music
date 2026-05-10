@@ -1,0 +1,172 @@
+<script>
+(function () {
+  const path = window.location.pathname;
+  if (!path.includes('/presentations/') || path.includes('-slides')) return;
+
+  const rootMatch = path.match(/^(.*?)\/presentations\//);
+  const root = rootMatch ? rootMatch[1] : '';
+
+  // ── Iframe seek on load ───────────────────────────────────────
+  // If URL contains #seek=anchor, find the iframe and navigate it
+  // to the corresponding slide in the reveal.js deck
+  function seekIframe() {
+    const hash = window.location.hash;
+    if (!hash.startsWith('#seek=')) return;
+    const anchor = hash.slice(6);
+    if (!anchor) return;
+
+    // Find the iframe on this page
+    const iframe = document.querySelector('iframe');
+    if (!iframe) return;
+
+    // Wait for iframe to load, then navigate to the slide
+    function doSeek() {
+      try {
+        // Build the slides URL from the iframe src, replacing the fragment
+        const src = iframe.src.split('#')[0];
+        iframe.src = src + '#/' + anchor;
+      } catch(e) {}
+      // Clean up the hash from the parent URL without triggering a reload
+      history.replaceState(null, '', window.location.pathname);
+    }
+
+    if (iframe.contentDocument && iframe.contentDocument.readyState === 'complete') {
+      doSeek();
+    } else {
+      iframe.addEventListener('load', doSeek, { once: true });
+    }
+  }
+
+  // Run on DOM ready
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', seekIframe);
+  } else {
+    seekIframe();
+  }
+
+  // ── Prev/next navigation ──────────────────────────────────────
+  function decodeEntities(str) {
+    const el = document.createElement('textarea');
+    el.innerHTML = str;
+    return el.value;
+  }
+
+  function fetchTitle(url) {
+    return fetch(root + url)
+      .then(r => r.text())
+      .then(html => {
+        const match = html.match(/<title>([^<]*)<\/title>/);
+        if (!match) return null;
+        return decodeEntities(match[1].split('|')[0].trim());
+      })
+      .catch(() => null);
+  }
+
+  fetch(root + '/listings.json')
+    .then(r => r.json())
+    .then(async listings => {
+      const entry = listings.find(l => l.listing === root + '/presentations.html');
+      if (!entry) return;
+
+      const items = [...entry.items].reverse();
+      const current = items.findIndex(url => {
+        const normalised = url.replace(/\.html$/, '');
+        const curr = path.replace(/\.html$/, '').replace(/\/$/, '');
+        return curr.endsWith(normalised) || normalised.endsWith(curr);
+      });
+
+      if (current === -1) return;
+
+      const prevUrl = current > 0 ? items[current - 1] : null;
+      const nextUrl = current < items.length - 1 ? items[current + 1] : null;
+
+      const [prevTitle, nextTitle] = await Promise.all([
+        prevUrl ? fetchTitle(prevUrl) : Promise.resolve(null),
+        nextUrl ? fetchTitle(nextUrl) : Promise.resolve(null),
+      ]);
+
+      const nav = document.createElement('nav');
+      nav.setAttribute('aria-label', 'Presentation navigation');
+      nav.style.cssText = [
+        'display:flex',
+        'justify-content:space-between',
+        'align-items:center',
+        'margin-top:2.5rem',
+        'padding-top:1rem',
+        'border-top:1px solid #e0d6c8',
+        'font-size:0.9rem',
+        'gap:1rem',
+      ].join(';');
+
+      const makeLink = (url, title, direction) => {
+        const a = document.createElement('a');
+        a.href = root + url;
+        a.style.cssText = [
+          'text-decoration:none',
+          'color:#2c2416',
+          'display:flex',
+          'flex-direction:column',
+          'max-width:45%',
+        ].join(';');
+        const hint = document.createElement('span');
+        hint.style.cssText = 'font-size:0.75rem; color:#888; margin-bottom:0.2rem;';
+        hint.textContent = direction === 'prev' ? '← Previous' : 'Next →';
+        const label = document.createElement('span');
+        label.textContent = title || url.split('/').pop().replace(/\.html$/, '');
+        if (direction === 'next') {
+          a.style.textAlign = 'right';
+          a.style.marginLeft = 'auto';
+        }
+        a.appendChild(hint);
+        a.appendChild(label);
+        return a;
+      };
+
+      if (prevUrl && prevTitle) nav.appendChild(makeLink(prevUrl, prevTitle, 'prev'));
+      if (nextUrl && nextTitle) nav.appendChild(makeLink(nextUrl, nextTitle, 'next'));
+
+      if (nav.children.length === 0) return;
+
+      const main = document.querySelector('main') || document.querySelector('#quarto-content');
+      if (main) main.appendChild(nav);
+    })
+    .catch(() => {});
+})();
+</script>
+
+<script>
+// Intercept link clicks inside the slides iframe and navigate the top window
+(function() {
+  function attachIframeLinks() {
+    var iframe = document.querySelector('iframe');
+    if (!iframe) return;
+
+    function bindLinks() {
+      try {
+        var doc = iframe.contentDocument;
+        if (!doc) return;
+        doc.addEventListener('click', function(e) {
+          var a = e.target.closest('a');
+          if (!a || !a.href) return;
+          if (a.href.indexOf('#') === 0 || a.getAttribute('href').indexOf('#') === 0) return;
+          if (a.target === '_blank') return;
+          e.preventDefault();
+          e.stopPropagation();
+          window.top.location.href = a.href;
+        }, true);
+      } catch(e) {}
+    }
+
+    if (iframe.contentDocument && iframe.contentDocument.readyState === 'complete') {
+      bindLinks();
+    }
+    iframe.addEventListener('load', bindLinks);
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', attachIframeLinks);
+  } else {
+    attachIframeLinks();
+  }
+})();
+</script>

@@ -1,0 +1,303 @@
+---
+title: "Assessment Guidance"
+description: "Consolidated IB guidance across all four DP Music components, synthesised from the Additional Guidance document and five subject reports (Nov 2022 – May 2025)."
+categories: [Reference, Assessment]
+toc: true
+toc-depth: 3
+---
+
+*Synthesised from: DP Music Additional Guidance (IB, 2024) and subject reports Nov 2022, May 2023, May 2024, Nov 2024, May 2025.*
+
+---
+
+## Requirements that apply to every component
+
+**Areas of inquiry must be justified, not just stated.** Every piece must be connected to an AOI through analytical argument. Naming the AOI and then listing unrelated musical features does not constitute justification. The analysis must explain what, specifically, in the music supports that classification. A piece can fit multiple AOIs; the student must provide evidence for whichever they claim. One way to approach this is to think of the exploring report as a persuasive essay in which you state the AOI and then convince the reader through use of evidence.
+
+**In-text references are not optional.** All sources — scores, recordings, journal articles, interviews — must be cited at the point where they are used. A bibliography at the end does not substitute for in-text references. Unsupported claims are unsubstantiated regardless of how well-written they are.
+
+**Timestamps and bar numbers must point to submitted evidence.** Any audio reference must correspond to a file the examiner can access — Upload 2 or Upload 3 depending on the component. Timestamps from YouTube, Spotify, or original tracks are unverifiable and do not count as evidence. Similarly, score references need bar numbers, instrument designation, clef, and key marked clearly.
+
+**Use annotated excerpts, not decorative ones.** Score excerpts, screenshots, and images must do visible analytical work. A front page of a score, an image of a composer, or an unannotated DAW screenshot does not constitute evidence. If the student is not pointing to something specific, the examiner cannot see the analytical claim.
+
+***Characteristics* are not conventions.** A feature found in one piece is not necessarily a convention of a style. Establishing a convention requires examining multiple representative examples of a style. A symphony written in A major does not mean all symphonies are in A major; the use of figured bass in Baroque music is a convention. The distinction must be made before building a creating exercise or adaptation on it.
+
+---
+
+## Exploring Music in Context
+
+### Recommended approach
+
+The component has a clear chain: research → written exploration → practical exercises. These are not independent tasks. The exploration in section 1 must be the foundation for the work in sections 2 and 3. Submissions that treat them as separate tasks cannot establish implications (Criterion B2) and cannot demonstrate informed conventions and performance practices (C1/C2).
+
+The recommended sequence:
+
+1. Analyse a wide range of music across two areas of inquiry and three contexts (personal, local, global)
+2. Decide which pieces will serve as the stimulus for the creating exercise and performed adaptation
+3. Identify and extract the specific creating and performing conventions from those pieces
+4. Apply those conventions in the practical exercises
+5. Explain how the research informed the practical work, including challenges and successes
+
+### Repertoire selection
+
+- **Required**: music from personal, local, and global contexts; at least two areas of inquiry
+- **Recommended**: 3–4 pieces; fewer risks too little diversity, more risks too little depth within the word limit. More pieces explored shallowly typically score lower than fewer pieces explored purposefully
+- The creating exercise and performed adaptation must be based on pieces that appear and are genuinely explored in section 1
+
+### Score and audio reference materials
+
+- All score excerpts must appear in the body of the written work, annotated and labelled with bar numbers, instrumentation, clef, and key visible. Appendix-only score references are not practical for examiners
+- Audio evidence: use only timestamps from Upload 3 (the audio reference material), not from original recordings. Do not reference YouTube, Spotify, or original commercial tracks as locatable evidence
+- Timestamps must be precise and point to the specific moment being analysed; a 40-second audio example that says "here you will find contrasting dynamics" makes the examiner do the analysis, not the student
+
+### Creating exercise (Criterion C1)
+
+The creating exercise is best understood as a musical sketch that expresses the wider conventions of the source material's style — not a sophisticated re-interpretation. The test is whether the student has demonstrated understanding of what makes the style distinctive, not whether the result is polished. An exercise that composes "in a style" without identifying specific conventions that are accepted norms across multiple representative examples of that style will not score well.
+
+- The exercise must be based on a piece already explored in section 1
+- Arrangements, compositions, and improvisations are all acceptable creating processes
+- Notation requirements: include score up to 32 bars and/or 1 minute of audio appropriate to the style; bar numbers, clef, and key signature must appear
+
+### Performed adaptation (Criterion C2)
+
+The adaptation is a musical problem-solving exercise: identifying how performing practices specific to a style can be transferred to the student's own instrument, using that instrument's idiomatic capabilities. It is not a transcription of the notes.
+
+- Playing the notes of a tango on a flute is a transcription. A performance adaptation of tango on flute requires identifying the specific bow/articulation techniques of tango violin — strong accents, staccatos, fast glissandos, playing behind the bridge — and finding equivalent extended techniques for flute: flutter tongue, key clicks, jet whistle, tongue stop. The adaptation should make the flute sound, as closely as possible, as if it were playing in the tango style *on violin*
+- The adaptation is most likely to succeed when the source material uses a significantly different instrument or voice from the student's own; this creates the productive challenge of genuine adaptation
+- Performing to a backing track or simply changing the instrumentation without applying performance practices does not constitute adaptation. However, using a backing track is permitted
+- The commentary must describe which specific performing practices from the original were identified and how they were transferred to the student's instrument
+
+#### Music technology in performing adaptation
+
+- The submission must demonstrate active, real-time control of the technology — triggering sounds, manipulating parameters, controlling dynamics in performance
+- The hands and physical engagement of the student must be audible in the recording
+- Adaptations that blur the line between performance and composition are unlikely to do well
+- The teacher authenticates the student's live engagement in the Music–Coursework Authentication Form
+
+### Criterion-specific notes
+
+**Criterion A (Selection of Evidence)**
+
+- AOI designation affects the mark if incorrect. The most persistent error: pre-existing concert music (Bach, Beethoven, Mozart) used in a film is NOT film music. The AOI reflects the original compositional function, not subsequent use. Music composed for dramatic impact (ballet, opera, incidental music) can legitimately be AOI 3 — but only if the analysis focuses on the musical elements that support the dramatic function
+- A Chopin waltz is not AOI 3 (entertainment/dance) simply because waltzes are danced — Chopin's Opp. 18–64 are art music for listening (AOI 2), not functional dance music; the analysis must engage with that distinction
+- Evidence must be informative and specific. A vague audio reference ("here you'll find dynamics") cannot be credited as evidence
+
+**Criterion B1 (Conducting Musical Research)**
+
+- Anecdotal biographical information (date of birth, childhood events, education) is rarely relevant and uses word count that could support analytical claims. Select only what determines the conventions or performance practices of the style
+- Research limited to the first website found is not likely to be purposeful. The research must draw from primary sources (scores, recordings, interviews with performers/composers) and credible secondary sources (musicological texts, journal articles)
+- Extra-musical findings must be relevant to the music, not general context. They contextualize the musical findings; they do not replace them
+- Analysis must connect musical findings to the AOI: a candidate selecting electronic music must explain the specific technology-based elements that constitute its defining features, not just name a key or tempo
+
+**Criterion B2 (Implications)**
+
+- Implications require genuine exploration to exist. If the practical exercises draw on pieces not explored in section 1, the implication cannot be established. Several reports across all sessions identify this as a recurring problem: pieces listed in sections 2–3 with no corresponding analysis in section 1
+
+**Criterion C1 (Understanding Creating Conventions)**
+
+- The creating exercise is assessed against the style, not only the single stimulus piece. The student must demonstrate understanding of what is conventional across the style, not just features of the one chosen piece. Mozart's *Ein musikalischer Spaß* (K 522) deliberately violates classical conventions through satire (parallel fifths, dissonances, wrong keys in sonata form); a student exploring only this piece would misidentify those satirical elements as conventions of the 1st Vienna School
+- Compositions that freely "compose in a style" without grounding specific choices in identified conventions generally reach only the lower mark bands
+
+**Criterion C2 (Understanding Performing Practices)**
+
+- Adaptation, not arrangement: arranging a flamenco stimulus into jazz is not adaptation; it is producing a new piece in a different style. The adaptation must engage with the specific performing practices of the original style and transfer them to the student's instrument
+- Following the written notation closely is a sign that transcription is occurring, not adaptation. For baroque music, this means adding period ornamentation and appropriate articulation. For jazz, it means applying swing and stylistic inflection. For any tradition with a strong oral/aural dimension, it means learning from listening rather than reading
+
+---
+
+## Experimenting with Music
+
+### Structure
+
+Six experiments in total: three in creating, three in performing. Within each role:
+- Performing experiments form a progressive series: each grows from the previous one
+- Creating experiments form a separate progressive series: each grows from the previous one
+- The two series must **not** be linked to each other; they evolve from different sources/stimuli
+
+The goal is developing musical ideas through informed, experimental decision-making — personalising and transforming a stimulus rather than recreating it. The component is assessed as "doing something to see what happens, then analysing the outcome to inform the next intentional step."
+
+Students who include evaluative commentary *and* a connecting statement that explains their musical intentions for the next experiment consistently achieve higher marks.
+
+### Performing experiments
+
+- Based on experimentation with performing techniques: bowing, articulation, flutter tongue, overblowing, pitch bending, phrasing, stylistic interpretation
+- The focus should be techniques the student does not normally use — unfamiliar or innovative approaches to a stimulus
+- The commentary must focus on performance aspects only, not on improvement or refinement of playing skill. A diary-like account of "what I practised" or "how my technique improved" does not address the criterion
+- Performing experimentally does not require radical technique; it requires that experimenting decisions are applied, that the effect is audible in the recording, and that the student has evaluated what happened
+
+### Creating experiments
+
+- Begin with a clearly identified stimulus; experiments that start from a style or artist without a specific piece are harder for examiners to evaluate for development of musical ideas
+- Arranging, composing, and improvisation are all acceptable creating processes
+- Candidates who compose in a style without connecting to an actual stimulus tend to achieve only the recreating mark band, because there is no source material against which the development of ideas can be evaluated
+- Three disconnected creating samples score less well than a purposeful series where each experiment grows from analysis of the previous
+
+### Developing the commentary
+
+For each experiment, the commentary should address:
+- **What**: what source material is being used (cite and reference it)
+- **Why**: why this source or approach was chosen (musical reasoning, not personal preference)
+- **How**: how the source material informed the experiment and the musical decisions made
+- **What next**: how the results/findings of this experiment inform the intentions for the next one (criteria A and C)
+
+Use musical terminology and elements to describe the experimental process concretely. Screenshots of DAW screens must be explained; an unannotated image of a DAW communicates nothing on its own.
+
+### Areas of inquiry and contexts in Experimenting
+
+- Students investigate music from local or global contexts; **personal context does not apply in this component**
+- The justification of context is how the student explains why they selected their source material; it should be connected to musical reasons
+- The AOI should be connected to the purpose or function of the music and should appear in the rationale and recur meaningfully in the commentary — not only be named at the start and then ignored
+
+### Assessment submission requirements
+
+- Include a brief audio clip (maximum 20 seconds) of the source material at the start of each experiment
+- Scores for creating/performing as applicable should be included as an appendix
+- Exact locations in scores and audio files must be given: measure numbers, beats, voice/instrument designations; exact timings in audio files
+- Criteria B and D assess the treatment of source material (reiterate → recreate → adapt → transform); written and audio evidence must clearly support what is claimed
+
+### Technology in Experimenting
+
+- Specify which AOI the technology serves within the experiment
+- Explain how the technology was used to develop the practical work — decision-making, not just "I used a DAW"
+- Use correct terminology for the software and hardware
+- In performed experiments using technology: the use must demonstrate active, real-time manipulation — live electronic performance, DJing, computer-based performance, interactive installations. Performed experiments that blur the line between performance and pre-composed output are not likely to score well
+- Students engaging in technology performance should detail in the commentary how they engaged with the technology in live performance; this is authenticated by the teacher
+
+---
+
+## Presenting Music
+
+### Programme notes (Criterion A)
+
+- The programme notes justify the choice of works by showing that the student has addressed the required diversity and breadth across all four areas of inquiry
+- AOIs should be a central part of the notes, not an afterthought. Each work's connection to its AOI must be explained, not just stated
+- Avoid personal reminiscence ("I chose this piece because it reminds me of my grandmother") and lengthy biographical background on composers. Concentrate on musical facts and the link to the area of inquiry
+- The most effective programme notes are written in the third person, present or past tense, and rely on musical specificity
+- All sources must be referenced in-text and compiled in a bibliography at the end of the programme notes
+- Where scores accompany created works, they must be included; submissions without scores for created works cannot fully demonstrate what the student has done
+
+### Ensemble submissions
+
+For the student's work to be assessed fairly, their individual contribution must be distinctly audible. Where this is not possible:
+- Prefer smaller ensembles or works where the individual can be identified
+- Recording the ensemble with a microphone positioned close to the student is strongly recommended
+- Submit a balance of ensemble and solo works; this provides more comprehensive evidence
+- Where no solo works exist, submit clearly chosen excerpts of the student's individual part from ensemble recordings; these must demonstrate the full range of the student's musical and technical capability, aligned in quality and demand with the ensemble submission
+
+### Music technology performance — video submission
+
+Technology performances are submitted via video (Upload 3). The video must show the student's hands and physical engagement with the technology — not a screen recording from a DAW. Examples of what constitutes active technology performance:
+- Real-time sound manipulation
+- Dynamic control via physical controllers
+- Triggering sounds rhythmically using launchpads or foot pedals
+- Synchronising physical movement to loops or sequences in real time (loop pedals, Ableton-style triggering)
+
+Submissions where the student primarily monitors pre-composed playback are not demonstrating performance skills.
+
+### Presenting as creator
+
+- Technology-based improvisations and compositions must be submitted as audio (Upload 2); video cannot be evaluated for creating
+- Visual evidence supporting the creating role — DAW screenshots, annotated score extracts — belongs in the programme notes (Upload 1)
+- Notation is required for all created works:
+  - Staff/stave screenshots from a DAW alone are limited; annotate and explain them
+  - Graphic notation showing filter changes and parameter shifts is useful for electronic works
+  - MIDI piano roll view (not notation view) is preferred for showing note data; GarageBand's notation view is often inaccurate
+  - Do not submit audio waveform screenshots — these represent sound, not musical notes
+
+### Criterion D (Musical Communication)
+
+- Musical intentions described in the programme notes must be recognisable in the recordings; features discussed in the notes should be audible in the audio
+- Recording quality matters significantly. Recordings from laptops and phones are often insufficient. Schools should ensure students have access to appropriate recording equipment
+- Performances submitted for "presenting as performer" may not be mastered or otherwise edited
+- Backing tracks are discouraged; they prevent demonstrating a full range of musical skills. Where necessary, the backing track should be played through good speakers, carefully balanced, and the student should remain clearly audible
+- Intonation is part of technical proficiency and should be treated with the same priority as all other musical elements
+
+### Instrument declaration
+
+If a student performs on more than one instrument or combines singing with playing, this must be declared in the 6/MPM form and reflected in the programme notes. It is rarely the case that a student has equal technical facility on multiple instruments; including an additional instrument or voice at which the student is weaker may reduce rather than enhance the overall mark.
+
+---
+
+## The Contemporary Music Maker (HL only)
+
+### Overview
+
+CMM requires students to engage in collaborative, real-life musical projects as researchers, creators, and performers. The emphasis is on artistic control and musical leadership within a project the student designs. This component puts the greatest premium on the depth of musical process, decision-making, and collaboration — not polish or finished product alone.
+
+### Roles
+
+- Students identify one primary practical musical role (creator or performer); research is an inherent part of all roles
+- The identified primary role is the one assessed in Criterion C (technical and musical proficiency)
+- It is not necessary to engage all three roles, but the student must clearly identify and lead in their primary practical role
+- Other roles (managerial, directorial) are natural in collaborative projects but should not overshadow musical development in the documentation
+
+### Musical intention
+
+Musical intentions include: the role of the student leader, the nature and scope of collaboration, and the intended outcome and audience. Students establish specific musical goals informed by their artistic intentions, their research, and the needs of the project.
+
+### Collaborators
+
+- Collaborators must be of school age — secondary school students or younger, from the same or different schools
+- It is not acceptable to collaborate with graduates, college students, professionals, or teachers
+- Collaboration requires genuine interpersonal musical exchange that can be documented. Responding to a stimulus independently (e.g., writing music inspired by a painting without interaction) does not constitute collaboration for the purposes of Criterion B
+
+### Process documentation (Criterion B)
+
+Criterion B is consistently the most challenging across all assessment sessions. Full marks require evidence of all of the following in relation to the student's stated aims:
+- Discussion of challenges and successes
+- Examination of areas for development and strategies for improvement
+- Evaluation of musical and collaborative choices made
+
+The process documentation (Upload 1, Part 1) should:
+- Reference the stages of development clearly and in order
+- Include reflective and evaluative commentary throughout (not just planning)
+- Provide precise references to scores, workstation visuals, and audio timestamps
+- Avoid spending the majority of time on planning; the planning section should synthesize the project's key concepts briefly, leaving the majority of space for the development process
+
+Many students spend significant space on planning and insufficient space on process. The criterion B descriptors are about the process, not the plan.
+
+### Multimedia presentation
+
+- Include continuous narration in the form of voice-over or subtitles
+- Speak slowly and clearly — this aids understanding of the student's reasoning
+- Align visuals carefully with the narrated/subtitled commentary
+- Include visuals and text on screen to support the commentary; over-reliance on speaking over static slides is discouraged
+- Dynamic elements — rehearsal footage, interviews, behind-the-scenes content — engage the assessor and provide better evidence of the collaborative process
+
+### Upload structure
+
+**Upload 1 (max 15 minutes)**:
+- Organized as: process evidence first, final product second
+- Part 1 (process): document how the project developed; focus on criterion B evidence; can be organized chronologically or around each criterion B descriptor
+- Part 2 (final product): may be curated; must not exceed 7 minutes of the 15-minute total; the student is assessed only on material presented in the video; criterion C mark is based on the final product evidence alone
+
+**Upload 2**:
+- The detailed project plan is the primary document; introduce it with a brief synthesis paragraph
+- Include full scores of any compositions referenced in the multimedia presentation
+- All primary and secondary sources must be included; if the student has arranged material, the original material must also be uploaded so the examiner can assess the student's work against it
+
+### Identifying the student
+
+The student must be clearly identifiable within the video submission. Face blurring is not required. A brief visual or verbal self-introduction is effective. In collaborative projects, it must be unambiguous which work and which contributions belong to the assessed student.
+
+---
+
+## Assessment submission checklist (all components)
+
+|                                           | Exploring | Experimenting | Presenting | CMM |
+|-------------------------------------------|-----------|---------------|------------|-----|
+| AOIs justified                            | ✓         | ✓             | ✓          | —   |
+| Contexts justified                        | ✓         | ✓             | —          | —   |
+| In-text references                        | ✓         | ✓             | ✓          | ✓   |
+| Annotated score excerpts                  | ✓         | ✓             | ✓          | ✓   |
+| Audio timestamps                          | ✓         | ✓             | —          | ✓   |
+| Performance practices applied             | ✓         | ✓             | ✓          | —   |
+| Technology = real-time active performance | ✓         | ✓             | ✓          | —   |
+| Student individually identifiable         | —         | —             | ✓          | ✓   |
+| Personal context NOT applicable           | —         | ✓             | —          | —   |
+
+
+*Note regarding personal context: You must **not** engage with familiar pieces for Experimenting; for Presenting and the CMM, you may, but there is no need to justify it.* *In Exploring, you **must** include at least one (and probably only one) piece from personal context.* 
+
+---
+

@@ -1,0 +1,50 @@
+project:
+  type: website
+  resources:
+    - audio/
+    - images/
+    - pdfs/
+
+
+website:
+  title: "IB Music"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: resources/glossary.qmd
+        text: Glossary
+      - href: resources.qmd
+        text: Resources
+      - href: book/index.qmd
+        text: Course Book
+  sidebar:
+    - title: "Course Book"
+      style: docked
+      contents:
+        - book/index.qmd
+        - book/assessment-guidance.qmd
+        - section: "Exploring Music in Context"
+          contents:
+            - book/exploring-criterion-guidance.qmd
+            - book/exploring-common-mistakes.qmd
+        - section: "Experimenting with Music"
+          contents:
+            - book/ewm-overview.qmd
+        - section: "Presenting Music"
+          contents:
+            - book/presenting-criterion-guidance.qmd
+            - book/presenting-common-mistakes.qmd
+        - section: "The Contemporary Music Maker (HL)"
+          contents:
+            - book/cmm-overview.qmd
+  search:
+    copy-button: true
+    show-item-context: true
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    include-after-body: presentation-nav.html

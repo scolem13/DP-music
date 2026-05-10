@@ -1,0 +1,11 @@
+.DS_Store
+.idea
+*.log
+tmp/
+
+
+.quarto/
+/pdf
+/mp3
+
+/.quarto/
