@@ -19,6 +19,7 @@ These are the problems that appear most consistently across Presenting submissio
 This is the most common way to fail the upper band of Criterion A. The issue is not that the student chose the wrong AOI; it is that the link is asserted rather than demonstrated.
 
 **What the examiner needs:** Three distinct things, in order:
+
 1. **Existence** — all four AOIs appear in the programme notes
 2. **Codification** — each piece is explicitly labelled with its AOI ("This piece is Area of Inquiry 2 because…")
 3. **Explanation** — the student explains *in what way* and *why* the music belongs to that area, with musical reasoning
@@ -57,6 +58,7 @@ A programme that lists four AOIs at the start and then never mentions them again
 When the examiner cannot identify what the student is doing, they can only mark the ensemble as a whole. This is self-limiting: if the ensemble is of average quality, the student gets a mark reflecting the ensemble's average quality, regardless of their individual level.
 
 **How this plays out:**
+
 - **Whole submission is ensemble:** an extract of approximately 2 minutes showing the student's own part is required. Without this, the mark cannot reflect the student's individual level
 - **Mixed submission (some solo, some ensemble):** extracts are expected for ensemble portions; the solo works provide direct evidence of individual level
 - **Small ensemble or clearly audible part (e.g., a prominent cello solo in a trio):** the individual contribution may be identifiable without an extract
@@ -86,6 +88,7 @@ When the examiner cannot identify what the student is doing, they can only mark 
 The purpose of notation in this component is to be *an effective representation of sound or performance instructions*. If the notation does not communicate what the student intended and how, it cannot evidence compositional decision-making.
 
 **What examiners look for in notation:**
+
 - Dynamic markings: where things get louder, quieter, and by how much
 - Articulation: how individual notes are to be played
 - Phrase markings or bowing/breath indications

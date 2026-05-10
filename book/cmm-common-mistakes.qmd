@@ -1,0 +1,102 @@
+---
+title: "CMM: Common Mistakes"
+description: "Recurring problems in Contemporary Music Maker submissions, with concrete examples showing what distinguishes stronger from weaker work."
+categories: [Reference, Assessment, CMM]
+toc: true
+toc-depth: 2
+---
+
+*See also: [Assessment Rubrics → The Contemporary Music Maker](../resources/rubrics.html#the-contemporary-music-maker)*
+
+---
+
+## 1. The project plan treated as process evidence
+
+**The problem:** The majority of the multimedia presentation is devoted to the project plan — vision statements, timelines, collaborator lists, logistics — with little or no documentation of what actually happened musically.
+
+The project plan provides context for understanding the project's aims. It is not process evidence. Criterion A rewards documentation of musical development: how the music evolved, what decisions were made along the way, what was tried and revised. Criterion B requires reflection on that development.
+
+A submission dominated by planning material, with minimal evidence of how the music developed, will be limited in both Criterion A and Criterion B regardless of how well-organised or ambitious the plan is. The project plan introduces the project — the majority of the presentation should then show what actually happened.
+
+---
+
+## 2. All words, no musical evidence
+
+**The problem:** The discussion of process is entirely or almost entirely verbal — the student explains what they did, but there are no scores, audio extracts, DAW screenshots, or other material evidence to support the claims.
+
+To *demonstrate* a choice requires showing it through material evidence. This is the threshold between the 1–3 and 4–6 bands in Criterion B. A student can *state* choices at 1–3. To reach 4–6, the choices must be shown through the music itself — not just described in words.
+
+The implication is practical: if a student says "I decided to change the harmonic progression in the chorus," the examiner must be able to hear or see that decision. Without the audio or score showing it, the claim is unverifiable.
+
+---
+
+## 3. Describing collaboration, not reflecting on musical decisions
+
+**The problem:** Criterion B asks how collaboration shaped musical choices. Students often describe the fact of collaboration (who was involved, what roles were assigned, what the team did) without reflecting on how the collaborative interactions changed the music.
+
+What is being assessed is not the management of the project but the musical consequences of the collaborative process. The progression from lower to higher marks in this strand:
+
+- 1–3: States they collaborated; does not reflect on how it affected the work
+- 4–6: Describes the collaboration but focuses on teamwork rather than musical decisions
+- 7–9: Explains the impact of collaboration on the creative process
+- 10–12: Examines and evaluates how collaboration shaped musical choices and the final outcome
+
+A submission where collaboration is described as logistics ("we met on Tuesdays, X did the recording, Y managed the calendar") without connecting those interactions to specific musical outcomes cannot achieve the higher marks in this strand.
+
+---
+
+## 4. Using higher-level language without higher-level thinking
+
+**The problem:** A student writes "I evaluated my choices" or "I examined areas for development," but the content that follows is a basic description or list without the analytical depth those terms require.
+
+Using the vocabulary of a higher mark band does not earn marks for that band. What matters is whether the thinking demonstrated matches what the term requires:
+
+- *Evaluate* means weighing strengths and limitations — comparing alternatives and arriving at a reasoned judgment about effectiveness
+- *Examine* means uncovering assumptions and interrelationships — going beyond what happened to ask why it mattered and what it reveals
+- *Justify* means providing valid reasons that connect the decision to musical intentions — not just stating the decision
+
+If the surrounding content does not match the level of the term used, the mark reflects the content, not the vocabulary.
+
+---
+
+## 5. A non-musical role
+
+**The problem:** A student identifies their role as concert organiser, logistics manager, or social media coordinator — a role that has no directly assessable musical output.
+
+Criterion C assesses technical proficiency and musicianship in the identified role. A purely logistical or administrative role cannot be assessed musically. If this is the stated role, the examiner must look for any other musical evidence in the submission (e.g., the same student also performed) and assess that instead. Where no musical evidence is present at all, this must be reflected in the mark.
+
+The identified role should align with the musical aims of the project and produce output that can be heard or seen.
+
+---
+
+## 6. Multiple students sharing the same presentation
+
+**The problem:** In collaborative projects, several students use an identical or near-identical multimedia presentation, making it impossible to distinguish individual contributions and roles.
+
+Each student must submit their own individual presentation that explicitly demonstrates their personal process and musical role. While using the same final product is permitted, the process documentation must be individual. A shared presentation cannot be assessed for individual marks.
+
+---
+
+## 7. The final product is missing
+
+**The problem:** A student documents the process thoroughly but does not include the final product in the multimedia presentation.
+
+The final product must be presented to the intended audience as part of the submission, and the video recording of it must be included. If it is absent, Criterion D will receive the lowest mark, regardless of the quality of the process documentation.
+
+---
+
+## 8. Insufficient use of the time allowance
+
+**The problem:** A submission is 5 or 6 minutes long when the maximum is 15 minutes (7 for the final product, 8 for process).
+
+There is no minimum time requirement, but brief presentations rarely provide sufficient evidence for depth across all four criteria. Presentations significantly under 10 minutes will typically leave key aspects of the process underdeveloped. The time allowance is designed to give space for the kind of comprehensive documentation that the higher mark bands require.
+
+Using the full allowance purposefully — not just extending the presentation artificially — is a practical necessity for achieving in the upper bands.
+
+---
+
+## 9. The arrangement problem
+
+**The problem:** A student submits an arrangement without providing the original source material.
+
+When the student's role involves arranging, the original material (score or audio) must be available alongside the arrangement so that the student's own contribution can be assessed. Without the original, it is impossible to evaluate what the student created, adapted, or transformed. If the original is absent, the examiner must look for another assessable role in the submission.

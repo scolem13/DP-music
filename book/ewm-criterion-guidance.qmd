@@ -1,0 +1,137 @@
+---
+title: "Experimenting: What Each Level Means"
+description: "Criterion-by-criterion guidance on what the characteristic adjectives mean in practice for the Experimenting with Music component."
+categories: [Reference, Assessment, Experimenting]
+toc: true
+toc-depth: 3
+---
+
+*See also: [Assessment Rubrics → Experimenting](../resources/rubrics.html#experimenting-with-music)*
+
+---
+
+## Component Structure
+
+Experimenting has four criteria organised in two parallel pairs:
+
+| Pair | Criterion | Focus | Max marks |
+|------|-----------|-------|:---------:|
+| Creating | **A** | Rationale and commentary | 6 |
+| Creating | **B** | Practical experiments | 8 |
+| Performing | **C** | Rationale and commentary | 6 |
+| Performing | **D** | Practical experiments | 8 |
+
+Criteria A and C have the same structure. Criteria B and D have the same structure. The creating series and the performing series evolve from different sources and must not be linked to each other.
+
+---
+
+## Criteria A & C: Rationale and Commentary
+
+Each criterion has two independently assessed parts:
+
+1. **The rationale** — how well you justified your choice of source material, including AOI and context
+2. **The commentary** — how well you explained the experimentation process and your musical decision-making
+
+You will usually find these two parts point in the same direction. If they diverge — a strong rationale but weak commentary, or vice versa — the mark reflects the balance between them.
+
+### The three levels
+
+#### Part 1: The rationale
+
+| Band | What it looks like |
+|------|-------------------|
+| **Ineffective (1–2)** | The choice of stimulus is stated but not justified. No meaningful connection to AOI, context, or research. The examiner cannot tell why this material was chosen or what musical purpose the experimentation serves. |
+| **Suitable (3–4)** | The rationale makes a reasonable case for the choice. Some connection to AOI and context is present. The justification is sufficient but may lack specificity or depth. |
+| **Purposeful (5–6)** | The rationale clearly justifies the choice of source material with musical reasoning, connects it to the AOI and context, and refers to research. The motivation for the experimentation is convincing. |
+
+**Note:** a purposeful rationale should justify the choice and give a sense of the motivation for experimenting — but it does not need to predict the outcomes. Research has no direct mark; its value lies in how it informs the rationale and process.
+
+#### Part 2: The commentary on the experimentation process
+
+| Band | What it looks like |
+|------|-------------------|
+| **Outlines (1–2)** | Names what was done without explanation. Reads like a list of actions. |
+| **Describes (3–4)** | Gives a detailed account of what happened and how. Musical decisions are reported but not explained. |
+| **Explains (5–6)** | Gives a detailed account including reasons. Connects decisions to musical intentions. Evaluates what worked, what didn't, and why — including negative outcomes if relevant. |
+
+### What this looks like in practice
+
+The difference between the three levels becomes concrete in single sentences. For **creating**:
+
+| Level | Example |
+|-------|---------|
+| Outline | *"I added some chords."* |
+| Describe | *"I included G7 and C7 chords in the piano part at the chorus."* |
+| Explain | *"To adapt to a jazz style, I added the seventh chords G7 and C7 in the chorus, since these are characteristic of the harmonic language of the style."* |
+
+For **performing**:
+
+| Level | Example |
+|-------|---------|
+| Outline | *"I tried playing it faster."* |
+| Describe | *"I increased the tempo, putting more weight on the accents."* |
+| Explain | *"To make it sound funkier, I tried increasing the tempo and pushing the off-beat accents, since this rhythmic emphasis is central to the performing practice of the style."* |
+
+### Evaluation and reflection
+
+Effective evaluation appears throughout the commentary — not just at the end. It includes:
+
+- Observations about what could have been done differently
+- Reasoning that motivates the next experiment
+- Honest negative assessments if the experiment did not produce the intended result
+
+A negative evaluation that is clearly expressed and used to inform subsequent decisions is as valuable as a positive one.
+
+### The role of illustrations
+
+Screenshots, score extracts, and other graphic elements should clarify and amplify the commentary. If an image appears without explanation, it does not earn marks. Visual material must be connected explicitly to the musical decisions being described.
+
+---
+
+## Criteria B & D: Practical Experiments
+
+Each criterion has two independently assessed parts:
+
+1. **Treatment of source material** — the degree to which the musical ideas have been developed
+2. **Evidence of musical decision-making** — the quality of the practical choices visible or audible in the experiments
+
+### The four levels
+
+#### Part 1: Treatment of source material
+
+| Band | What it looks like |
+|------|-------------------|
+| **Reiterates (1–2)** | Source material is reproduced largely unchanged. Limited or no development of musical ideas. The experiment cannot be distinguished from the original. |
+| **Recreates (3–4)** | Source material is rearranged or reformulated. The ideas are recognisable but not meaningfully transformed. Development is formulaic. |
+| **Adapts (5–6)** | Source material is adjusted and developed into new contexts. Personal musical decisions are evident. The result is purposeful and shows informed engagement with the material. |
+| **Transforms (7–8)** | Source material is fundamentally changed into something new with a distinctive identity. The development is imaginative and the result is compelling as a piece of music-making in its own right. |
+
+#### Part 2: Practical evidence of musical decision-making
+
+| Band | What it looks like |
+|------|-------------------|
+| **Superficial (1–2)** | Little evidence that informed decisions were made. Changes are surface-level (tempo, key, instrumentation) without deeper musical engagement. |
+| **Inconsistent (3–4)** | Some evidence of decision-making. Certain sections show musical awareness; others do not. |
+| **Proficient (5–6)** | Clear and consistent evidence of informed decisions. The choices are purposeful and their effect on the music is evident. |
+| **Compelling (7–8)** | Musical decision-making is resourceful and imaginative throughout. The decisions give the work a distinctive voice. |
+
+### Criterion D specifically: the audio as evidence
+
+For performing experiments, the audio recording is the primary evidence of the practical experiments. The commentary explains the decisions; the audio must make those decisions audible. If the performing decisions are not discernible in the recording — even if the commentary claims them — the mark for the practical evidence will be limited.
+
+The commentary for performing experiments should focus on performing aspects (technique, interpretation, articulation, stylistic elements) rather than compositional or arranging decisions. If a performing experiment is primarily about rewriting the music rather than about how it is executed, it is not a performing experiment.
+
+---
+
+## The Glossary
+
+Key terms from the IB Experimenting component, as defined in the Examiner Instructions.
+
+| Term | Definition |
+|------|-----------|
+| **Musical analysis** | Thoroughly deconstructing music to determine the use and manipulation of identified musical elements, compositional devices, and the relationships between them; evaluating how the findings relate to context, genre, and style |
+| **Commentary** | An explanation of the process of experimenting with and developing music, with specific reference to the details of the chosen musical excerpts |
+| **Musical material** | Any musical idea, complete or not, independent or not — such as motifs, sounds, loops, and so on; includes primary and secondary sources used to derive musical and extra-musical findings |
+| **Rationale** | An exposition of the reasons or objectives for research into or practical work related to musical processes, including justifications for decision-making and consideration of the implications of those decisions on the process |
+| **Musical findings** | Any information found in research by looking at the actual music — studying scores, performances, recordings |
+| **Experiment** | Doing something to see what happens as an outcome. The nature of experimenting is candidates doing something to see what happens. Candidates justify the focus of their experimentation in the rationale (A and C), which informs the examiner when assessing the practical work (B and D) |

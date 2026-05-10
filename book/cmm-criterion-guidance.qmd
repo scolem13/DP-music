@@ -1,0 +1,181 @@
+---
+title: "CMM: What Each Level Means"
+description: "Criterion-by-criterion guidance on what the characteristic adjectives mean in practice for the Contemporary Music Maker component."
+categories: [Reference, Assessment, CMM]
+toc: true
+toc-depth: 3
+---
+
+*See also: [Assessment Rubrics → The Contemporary Music Maker](../resources/rubrics.html#the-contemporary-music-maker)*
+
+---
+
+## Component Overview
+
+The CMM is assessed through four criteria, each with a distinct focus. Marks are not awarded for isolated moments but for patterns of evidence across the whole submission.
+
+| Criterion | Focus | Max marks |
+|-----------|-------|:---------:|
+| **A**: Selection of Evidence | Quality, relevance, and variety of evidence documenting the project | 8 |
+| **B**: Discussion of the Process | Depth of reflection on challenges, development, and musical choices | 12 |
+| **C**: Musicality and Technical Proficiency | Technical skill and musicianship in the identified role | 8 |
+| **D**: Organisation and Presentation | Clarity, coherence, and effectiveness of the multimedia presentation | 4 |
+
+Criterion B carries the greatest weight (12 marks) and is consistently the most challenging to do well. **Total: 32 marks.**
+
+A submission is read through three lenses: what were the musical aims, how did the project develop over time, and what was the student's specific contribution.
+
+---
+
+## Criterion A: Selection of Evidence
+
+This criterion assesses the quality and relevance of the evidence selected to document the project. The guiding question is: *Is the evidence appropriate and well-chosen?*
+
+Evidence may include text (slides, written narration), audio (voice-over, recordings), video (rehearsal footage, process clips), scores, DAW screenshots, photos, subtitles, annotations, and bibliography. Evidence of collaboration and research is particularly valued.
+
+**Critical distinction: evidence is valued by what it makes visible, not by how much of it there is.** A concise and purposeful selection can achieve the highest mark bands. A submission with many scores, recordings, and screenshots can still be limited if those materials do not illuminate the development of the work.
+
+### The four levels
+
+| Marks | Terminology | What it looks like |
+|-------|-------------|-------------------|
+| **1–2** | Ineffective / Rudimentary | Minimal, disorganised, or irrelevant. Lacks connection to the project. A few screenshots and text with no clear process visible. |
+| **3–4** | Sufficient / Suitable | Some relevant evidence but lacks variety or depth. Surface-level documentation. Basic images and descriptions; no development shown. |
+| **5–6** | Purposeful / Competent | Well-structured and relevant but could be more diverse. Score excerpts, rehearsal clips, DAW screenshots — but key moments underdeveloped. |
+| **7–8** | Resourceful / Compelling | Comprehensive, diverse, purposeful. Clearly shows the evolution of the project through varied materials: text, video, DAW, performance footage tracing the project's development. |
+
+### The most common limiter
+
+Students spend most of their presentation on the project plan, treating it as process evidence, and leave little time or space for documentation of what actually happened musically. **The project plan provides context but does not constitute process evidence.** Criterion A rewards documentation of musical development, not planning intentions.
+
+---
+
+## Criterion B: Discussion of the Process
+
+This is the most complex criterion and the one where differences between examiners most often emerge. It assesses the depth and quality of the student's reflection on the process in relation to the stated aims.
+
+Three aspects must be addressed, each assessed separately before a best-fit mark is determined:
+
+| Aspect | Progression (low → high) |
+|--------|--------------------------|
+| Challenges and successes | outlines → describes → explains → **discusses** |
+| Areas for development and strategies for improvement | identifies → distinguishes → investigates → **examines** |
+| Musical and collaborative choices | states → demonstrates → justifies → **evaluates** |
+
+### The four mark bands
+
+| Marks | Level | What it looks like |
+|-------|-------|-------------------|
+| **1–3** | Rudimentary | Names decisions. Outlines challenges without detail. Lists choices without context. No reasoning provided. |
+| **4–6** | Reasonable | Provides detail. Describes challenges and how they were addressed. Demonstrates choices through musical material. Some reasoning present. |
+| **7–9** | Proficient | Explains decisions with clear reasoning. Connects choices to musical intentions. Investigates multiple approaches. Justifies with supporting evidence. |
+| **10–12** | Excellent | Evaluates decisions by comparing alternatives. Weighs strengths and limitations. Discusses the impact of collaboration and process choices on the musical outcome. |
+
+### The key distinctions
+
+These terms are not interchangeable synonyms. Each represents a qualitatively different kind of thinking:
+
+**State vs Demonstrate:** Stating a choice names it. Demonstrating shows it through musical evidence — a score, audio extract, or DAW screenshot. The shift is from words alone to material evidence.
+
+**Demonstrate vs Justify:** Demonstrating shows what was done. Justifying explains *why* — connecting the decision to the musical intentions. The shift is from description to reasoning.
+
+**Justify vs Evaluate:** Justifying supports a decision with reasons. Evaluating weighs it — considering alternatives, comparing effectiveness, acknowledging limitations. The shift is from advocacy to appraisal.
+
+### What this looks like in practice
+
+The same musical decision written at four levels of depth:
+
+**Challenges and successes — melody example:**
+
+| Band | Example |
+|------|---------|
+| 1–3 | *"I had trouble composing, finding the right chords, and keeping everything in time."* |
+| 4–6 | *"I had trouble composing a melody that fit my chords. I tested a few options and found one I liked."* |
+| 7–9 | *"At first, I used a major scale, but it sounded too happy for the mood I wanted. I tried switching to a minor scale, which worked better."* |
+| 10–12 | *"I initially wrote a melody in a major scale, but it didn't match the mood I wanted. I tested different minor scales and found that the natural minor scale lacked tension. Using harmonic minor, I was able to create more expressive leaps while still maintaining the overall feel of the piece."* |
+
+**Musical choices — compression example:**
+
+| Band | Example |
+|------|---------|
+| 1–3 | *"I used compression on the drums."* |
+| 4–6 | *"I used compression to even out the drum levels."* |
+| 7–9 | *"I used compression to even out drum dynamics because some hits were too loud. I adjusted the threshold so the softer hits were still audible."* |
+| 10–12 | *"I experimented with different compression settings. Initially, I used a high ratio, but this made the sound too artificial. I tested a parallel compression technique, which preserved the natural attack while still controlling dynamics. In hindsight, using multi-band compression could have further refined the kick and snare balance."* |
+
+### What if the project went smoothly?
+
+A smooth process does not prevent high marks — it just changes what the reflection looks like. Even without major obstacles:
+
+- 1–3: States everything worked out, with little or no reflection
+- 4–6: Acknowledges the smooth process but describes some minor adjustments
+- 7–9: Explains how they refined their work even without major obstacles
+- 10–12: Discusses multiple approaches, weighing the strengths and weaknesses of different decisions even in the absence of problems
+
+### What if the discussion is entirely verbal — no musical material shown?
+
+Purely verbal commentary, however sophisticated, is significantly limited. To *demonstrate* a choice requires material evidence — a score, audio extract, or DAW screenshot. Without evidence, the response cannot reach the mid or upper bands. A student can state choices verbally at 1–3. To reach 4–6, material evidence must be present.
+
+### Applying best-fit across the three aspects
+
+When the three aspects fall in different mark bands:
+
+- Assess each aspect independently
+- Identify the dominant mark band (if two out of three aspects are in a higher band, the mark leans there)
+- If the evidence is evenly split, consider depth of reasoning and clarity of connection to musical aims
+
+A single instance of higher-level thinking does not determine the mark. What matters is whether that level of thinking is **sustained as the dominant pattern** across the response.
+
+---
+
+## Criterion C: Musicality and Technical Proficiency
+
+This criterion assesses the student's technical proficiency and musicianship in the identified role. Assessment must be grounded in what can be directly observed or heard — not in stated intentions alone.
+
+### The four levels
+
+| Marks | Terminology | What it looks like |
+|-------|-------------|-------------------|
+| **1–2** | Rudimentary | Basic execution. Lacks control and stylistic awareness. Ineffective musicianship. |
+| **3–4** | Sufficient / Inconsistent | Reasonable execution but with noticeable flaws. Sufficient musicianship. |
+| **5–6** | Competent / Proficient | Generally strong technical skill with minor inconsistencies. Well-structured musical ideas. |
+| **7–8** | Excellent / Compelling | Highly proficient. Stylistically appropriate, well-developed, compelling musicianship. |
+
+### What is assessed depends on the role
+
+Technical proficiency is always interpreted in relation to the specific role the student has identified. The most common roles:
+
+| Role | What is assessed |
+|------|-----------------|
+| **Performer** | Tuning, phrasing, rhythmic accuracy, dynamic range, control |
+| **Composer** | Manipulation of melody, harmony, rhythm, form, instrumentation, texture; score quality is also valued |
+| **Songwriter** | As composer, plus lyricism: language, prosody, expressive content |
+| **Producer** | Recording quality, audio editing, mixing balance, mastering, sonic coherence, DAW proficiency |
+| **Sound engineer** | As producer, with greater emphasis on recording and mastering; may include live reinforcement |
+
+The role must be identifiable from the evidence. If a student names a role but the submission does not provide sufficient evidence of that role, the examiner must base the assessment on whatever musical evidence is available.
+
+---
+
+## Criterion D: Organisation and Presentation
+
+This criterion assesses how clearly and effectively the submission communicates the project. It is about structure, coherence, and use of media — not about the quality of the content itself.
+
+### The four levels
+
+| Mark | Terminology | What it looks like |
+|------|-------------|-------------------|
+| **1** | Ineffective | Disorganised and difficult to follow. Lacks coherence. Scattered images and text with little explanation. |
+| **2** | Inconsistent | Some structure but unclear or repetitive. Certain sections hard to engage with. |
+| **3** | Purposeful | Logical structure, though some areas less engaging. Mix of text, images, and video but relying heavily on one medium. |
+| **4** | Resourceful | Well-structured, clear, and engaging throughout. Varied media used effectively and integrated smoothly. |
+
+### Practical considerations
+
+- Presentations significantly under 10 minutes rarely achieve the highest bands — there is insufficient space to document the project with depth
+- Submissions that rely exclusively on voice-over slides fall in the lower mark bands
+- Variety of media (video, audio, score, images, subtitles) is a positive indicator, but only if it serves clarity and communication
+- If the final product is missing, Criterion D will receive the lowest mark
+- Content beyond 15 minutes total (or 7 minutes for the final product) must not be assessed
+
+**Criterion D assesses how the work is presented, not what it says.** Do not allow content quality to influence this mark. There is a known tendency to cluster marks at 3. If the submission is genuinely engaging, varied, and clear throughout, a 4 is appropriate.

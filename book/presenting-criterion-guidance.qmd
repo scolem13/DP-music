@@ -76,12 +76,14 @@ For created works, the score (or notation/screenshot) is the primary evidence. T
 ### Duration and evidence
 
 A very short creating submission limits the evidence available. Two minutes of creating is not sufficient to demonstrate consistent technical proficiency or sustained musical development. In practice:
+
 - Two compositions of approximately three minutes each, or three compositions of approximately two minutes each, represents a typical submission
 - A 20-second music technology piece followed by brief fragments does not provide enough evidence for the upper mark bands
 
 ### What counts as "creating" versus "arranging"
 
 The music guide states that *arranging and remixing do not feature in this component and will not be accepted for assessment*. However:
+
 - A student who begins with their own piece and then arranges it for orchestra — if the orchestration demonstrates musical decision-making and is the student's own work — is still creating
 - A student who quotes existing material and then develops it through variations is creating, provided the score makes clear what was done and what is original
 - A student who transcribes another composer's piece into a different instrumentation with no further development is not creating — it is transcription
@@ -118,6 +120,7 @@ A recording of approximately one minute is insufficient to demonstrate technical
 ### Ensemble submissions and audibility
 
 The student's individual contribution must be clearly audible for their work to be assessed individually. Where the student cannot be heard distinctly:
+
 - If the whole submission is ensemble: the examiner must mark the quality of the ensemble as a whole. This is self-limiting unless the ensemble is of high quality
 - If the submission is mixed (some solo, some ensemble): an extract (up to 2 minutes) demonstrating the student's individual part is required for the ensemble portion
 - Microphone placement close to the student, or use of small ensembles, significantly increases the likelihood of a fair individual mark

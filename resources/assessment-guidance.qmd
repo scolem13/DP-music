@@ -80,7 +80,9 @@ The adaptation is a musical problem-solving exercise: identifying how performing
 
 - AOI designation affects the mark if incorrect. The most persistent error: pre-existing concert music (Bach, Beethoven, Mozart) used in a film is NOT film music. The AOI reflects the original compositional function, not subsequent use. Music composed for dramatic impact (ballet, opera, incidental music) can legitimately be AOI 3 — but only if the analysis focuses on the musical elements that support the dramatic function
 - A Chopin waltz is not AOI 3 (entertainment/dance) simply because waltzes are danced — Chopin's Opp. 18–64 are art music for listening (AOI 2), not functional dance music; the analysis must engage with that distinction
+- Piazzolla's tango works are not AOI 3 simply because "tango is dance music" — widely available scholarship demonstrates that Piazzolla's pieces were not intended for dancing. The AOI placement must be grounded in research, not assumption about the genre
 - Evidence must be informative and specific. A vague audio reference ("here you'll find dynamics") cannot be credited as evidence
+- Analyses based solely on audio excerpts are limited in sophistication, especially if the audio provided does not correspond to the specific passage being discussed
 
 **Criterion B1 (Conducting Musical Research)**
 
@@ -97,11 +99,13 @@ The adaptation is a musical problem-solving exercise: identifying how performing
 
 - The creating exercise is assessed against the style, not only the single stimulus piece. The student must demonstrate understanding of what is conventional across the style, not just features of the one chosen piece. Mozart's *Ein musikalischer Spaß* (K 522) deliberately violates classical conventions through satire (parallel fifths, dissonances, wrong keys in sonata form); a student exploring only this piece would misidentify those satirical elements as conventions of the 1st Vienna School
 - Compositions that freely "compose in a style" without grounding specific choices in identified conventions generally reach only the lower mark bands
+- Conventions stem from the organization of musical material within a style; they cannot be assembled by mixing isolated features from disparate pieces. Attempts to merge unrelated conventions from several different styles tend to be unconvincing and produce stylistically incoherent results
 
 **Criterion C2 (Understanding Performing Practices)**
 
 - Adaptation, not arrangement: arranging a flamenco stimulus into jazz is not adaptation; it is producing a new piece in a different style. The adaptation must engage with the specific performing practices of the original style and transfer them to the student's instrument
 - Following the written notation closely is a sign that transcription is occurring, not adaptation. For baroque music, this means adding period ornamentation and appropriate articulation. For jazz, it means applying swing and stylistic inflection. For any tradition with a strong oral/aural dimension, it means learning from listening rather than reading
+- Multi-track recordings are not automatically an adaptation. Layering parts on top of one another demonstrates production, not stylistic adaptation. The adaptation must show how performing practices of the original style are reinterpreted idiomatically for the student's instrument
 
 ---
 
@@ -110,6 +114,7 @@ The adaptation is a musical problem-solving exercise: identifying how performing
 ### Structure
 
 Six experiments in total: three in creating, three in performing. Within each role:
+
 - Performing experiments form a progressive series: each grows from the previous one
 - Creating experiments form a separate progressive series: each grows from the previous one
 - The two series must **not** be linked to each other; they evolve from different sources/stimuli
@@ -124,6 +129,8 @@ Students who include evaluative commentary *and* a connecting statement that exp
 - The focus should be techniques the student does not normally use — unfamiliar or innovative approaches to a stimulus
 - The commentary must focus on performance aspects only, not on improvement or refinement of playing skill. A diary-like account of "what I practised" or "how my technique improved" does not address the criterion
 - Performing experimentally does not require radical technique; it requires that experimenting decisions are applied, that the effect is audible in the recording, and that the student has evaluated what happened
+- Reproducing an existing adaptation found online (e.g., a jazz arrangement of a pop song from YouTube) and performing it in the same way is reiterating, not experimenting. The experimentation must originate with the student
+- Multi-tracking is not a substitute for performing. A student who multi-tracks themselves is producing layers of arrangement; the performing experiment is assessed on what is executed in performance, not on the arranging decisions that preceded it
 
 ### Creating experiments
 
@@ -135,6 +142,7 @@ Students who include evaluative commentary *and* a connecting statement that exp
 ### Developing the commentary
 
 For each experiment, the commentary should address:
+
 - **What**: what source material is being used (cite and reference it)
 - **Why**: why this source or approach was chosen (musical reasoning, not personal preference)
 - **How**: how the source material informed the experiment and the musical decisions made
@@ -147,6 +155,7 @@ Use musical terminology and elements to describe the experimental process concre
 - Students investigate music from local or global contexts; **personal context does not apply in this component**
 - The justification of context is how the student explains why they selected their source material; it should be connected to musical reasons
 - The AOI should be connected to the purpose or function of the music and should appear in the rationale and recur meaningfully in the commentary — not only be named at the start and then ignored
+- AOI 4 is not a default category for music that uses electronic instruments. Pop and rock music that happens to use electric guitars or synthesizers is not automatically AOI 4; the classification must reflect the music's relationship to electronic or digital technology as the defining characteristic of how it is created, performed, or produced
 
 ### Assessment submission requirements
 
@@ -154,6 +163,7 @@ Use musical terminology and elements to describe the experimental process concre
 - Scores for creating/performing as applicable should be included as an appendix
 - Exact locations in scores and audio files must be given: measure numbers, beats, voice/instrument designations; exact timings in audio files
 - Criteria B and D assess the treatment of source material (reiterate → recreate → adapt → transform); written and audio evidence must clearly support what is claimed
+- MuseScore is not a reliable source of authentic scores. It is an online library of user-submitted transcriptions with no guarantee of authenticity. Students using MuseScore should verify the material against authoritative sources before treating it as a primary score reference
 
 ### Technology in Experimenting
 
@@ -179,6 +189,7 @@ Use musical terminology and elements to describe the experimental process concre
 ### Ensemble submissions
 
 For the student's work to be assessed fairly, their individual contribution must be distinctly audible. Where this is not possible:
+
 - Prefer smaller ensembles or works where the individual can be identified
 - Recording the ensemble with a microphone positioned close to the student is strongly recommended
 - Submit a balance of ensemble and solo works; this provides more comprehensive evidence
@@ -187,6 +198,7 @@ For the student's work to be assessed fairly, their individual contribution must
 ### Music technology performance — video submission
 
 Technology performances are submitted via video (Upload 3). The video must show the student's hands and physical engagement with the technology — not a screen recording from a DAW. Examples of what constitutes active technology performance:
+
 - Real-time sound manipulation
 - Dynamic control via physical controllers
 - Triggering sounds rhythmically using launchpads or foot pedals
@@ -244,11 +256,13 @@ Musical intentions include: the role of the student leader, the nature and scope
 ### Process documentation (Criterion B)
 
 Criterion B is consistently the most challenging across all assessment sessions. Full marks require evidence of all of the following in relation to the student's stated aims:
+
 - Discussion of challenges and successes
 - Examination of areas for development and strategies for improvement
 - Evaluation of musical and collaborative choices made
 
 The process documentation (Upload 1, Part 1) should:
+
 - Reference the stages of development clearly and in order
 - Include reflective and evaluative commentary throughout (not just planning)
 - Provide precise references to scores, workstation visuals, and audio timestamps
@@ -256,22 +270,30 @@ The process documentation (Upload 1, Part 1) should:
 
 Many students spend significant space on planning and insufficient space on process. The criterion B descriptors are about the process, not the plan.
 
+A recurring problem is the use of criterion B language without the corresponding depth. Writing "I evaluated my choices" or "I examined areas for development" while providing only surface-level reflection does not satisfy the descriptors for those terms. The depth of engagement must match what the command term requires — *evaluate* means weighing strengths and limitations; *examine* means uncovering assumptions and interrelationships.
+
 ### Multimedia presentation
+
+The multimedia presentation should be treated as a designed artifact — a purposefully constructed piece of communication — rather than a spoken explanation accompanied by static slides.
 
 - Include continuous narration in the form of voice-over or subtitles
 - Speak slowly and clearly — this aids understanding of the student's reasoning
 - Align visuals carefully with the narrated/subtitled commentary
 - Include visuals and text on screen to support the commentary; over-reliance on speaking over static slides is discouraged
 - Dynamic elements — rehearsal footage, interviews, behind-the-scenes content — engage the assessor and provide better evidence of the collaborative process
+- Do not include hyperlinks. Examiners cannot click links within the submission; any material that exists only via a URL cannot be assessed
+- In collaborative projects, each student must submit their own individual presentation. Multiple students sharing the same multimedia presentation makes it impossible to distinguish individual contributions and will prevent individual assessment
 
 ### Upload structure
 
 **Upload 1 (max 15 minutes)**:
+
 - Organized as: process evidence first, final product second
 - Part 1 (process): document how the project developed; focus on criterion B evidence; can be organized chronologically or around each criterion B descriptor
 - Part 2 (final product): may be curated; must not exceed 7 minutes of the 15-minute total; the student is assessed only on material presented in the video; criterion C mark is based on the final product evidence alone
 
 **Upload 2**:
+
 - The detailed project plan is the primary document; introduce it with a brief synthesis paragraph
 - Include full scores of any compositions referenced in the multimedia presentation
 - All primary and secondary sources must be included; if the student has arranged material, the original material must also be uploaded so the examiner can assess the student's work against it

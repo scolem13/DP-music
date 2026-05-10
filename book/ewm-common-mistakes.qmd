@@ -1,0 +1,85 @@
+---
+title: "Experimenting: Common Mistakes"
+description: "Recurring problems in Experimenting with Music submissions, with concrete examples showing what distinguishes stronger from weaker work."
+categories: [Reference, Assessment, Experimenting]
+toc: true
+toc-depth: 2
+---
+
+*See also: [Assessment Rubrics → Experimenting](../resources/rubrics.html#experimenting-with-music)*
+
+---
+
+## 1. Presenting instead of experimenting
+
+**The problem:** A student submits what is essentially a free personal composition or a polished piece, framed as an "experiment."
+
+Experimenting with Music is not a free creating task. That work belongs in Presenting Music. The Experimenting component requires you to start from a specific stimulus, make decisions about how to develop it, and document that process of development across a series of three linked experiments. The experiments are assessed on how musical ideas evolve from the source material — not on the quality of the final product as an independent piece.
+
+A submission that presents a refined, complete composition without making the stimulus visible, or without showing the development across experiments, cannot demonstrate the treatment of source material that Criteria B and D require.
+
+## 2. Three disconnected experiments instead of a progressive series
+
+**The problem:** Three separate experiments that each start fresh, rather than a series where each one grows from what the previous one discovered.
+
+The three creating experiments should form a progressive series: each one builds on the findings of the last. The same applies to the three performing experiments. Experiments that are simply three different approaches to unrelated stimuli do not allow the development of ideas to be traced across the submission.
+
+Submissions where the commentary explicitly connects each experiment to the next — explaining what the current experiment discovered and how that motivates the subsequent one — consistently achieve higher marks in Criteria A, B, C, and D.
+
+## 3. Commentary that lists without explaining
+
+**The problem:** Commentary reads as a diary of events rather than an analysis of decisions.
+
+There is no mark specifically for research, and no mark for effort. Marks are awarded for the quality of explanation of the musical decision-making. The difference between the mark bands comes down to a single shift:
+
+- **Outline:** *"I added some chords."* ← States what happened. No musical reasoning.
+- **Describe:** *"I included G7 and C7 chords in the piano part at the chorus."* ← Reports what happened with detail. Still no reasoning.
+- **Explain:** *"To adapt to a jazz style, I added G7 and C7 chords in the chorus, since dominant seventh chords are characteristic of the harmonic language of the style."* ← Connects the decision to the musical intention.
+
+The same pattern applies to performing commentary:
+
+- *"I tried playing it faster"* → outline
+- *"I increased the tempo, putting more weight on the accents"* → describe
+- *"To make it sound funkier, I pushed the off-beat accents and increased the tempo, since this rhythmic emphasis is central to the performing practice of this style"* → explain
+
+The commentary for **performing** experiments should focus on performing decisions: technique, articulation, stylistic interpretation. If most of the commentary describes compositional or arranging decisions rather than how things were executed in performance, the performing experiment has not been adequately addressed.
+
+## 4. Performing experiments that are actually creating experiments
+
+**The problem:** A student arranges or rewrites the music, then performs the result, and calls this a performing experiment.
+
+Arranging the music, reharmonising it, or producing a new version before performing it is a creating activity. The performing experiment is assessed on what happens in the performance itself — the techniques, interpretations, and stylistic choices applied in execution. Preparation that involves creating new material is valid context, but it is not the central evidence for Criteria C and D.
+
+Similarly, multi-tracking — recording multiple separate layers and combining them — is a production and arranging technique. The performing experiment must be visible in what each layer does idiomatically; layering parts together is not in itself evidence of performing experimentation.
+
+## 5. Surface-level "transformation"
+
+**The problem:** A musical change is presented as stylistic transformation when it only touches surface features.
+
+Changing the time signature from 4/4 to 3/4 to create a "waltz" is not a stylistic transformation if the rhythmic emphasis, characteristic accompaniment patterns, phrasing, and performing conventions of the waltz are not addressed. The word "waltz" appears in the framing, but the generic features of waltz are not demonstrated in the music.
+
+Transformation requires that the musical ideas themselves are fundamentally changed — that the result has a distinctive new identity rooted in specific, researched stylistic features. Generic surface features (changing tempo, key, or meter) without engagement with the deeper conventions of the target style typically achieve only the recreating or adapting band.
+
+## 6. AOI 4 as a default for electronic music
+
+**The problem:** Any music that uses electronic instruments or production is classified as Area of Inquiry 4.
+
+AOI 4 focuses on music in which electronic or digital technology is central to how the music is *created, performed, or produced* — where the technology is a defining characteristic of the music's identity and methods. A pop song that uses electric guitar, synthesiser, or a DAW is not automatically AOI 4. If the music's primary relationship to the four areas is sociocultural expression (AOI 1), aesthetic performance (AOI 2), or dramatic/entertainment function (AOI 3), that is its area of inquiry regardless of the instruments used to make it.
+
+Misclassifying music as AOI 4 simply because it involves electronics affects the quality of the rationale (Criteria A/C) and can limit how well the conventions of the actual style are understood and applied.
+
+## 7. Personal context
+
+**Personal context does not apply in this component.** The Experimenting component requires investigation of music from *local or global* contexts — music that is less familiar to the student. Selecting music from the student's own cultural background and immediate personal experience is not aligned with the component's requirements.
+
+## 8. MuseScore as a primary source
+
+MuseScore is an online library of user-submitted transcriptions, not a repository of authenticated scores. Transcriptions on MuseScore have no guarantee of accuracy and cannot be cited as authoritative sources. If you use MuseScore to find material, verify the score against a reliable primary source before using it as evidence.
+
+Citing a MuseScore transcription as if it were the original published score undermines the credibility of any analysis based on it.
+
+## 9. Performing someone else's existing adaptation
+
+**The problem:** A student finds a jazz arrangement of a pop song on YouTube, learns it, and performs it as their performing experiment.
+
+This is reiterating an existing adaptation, not experimenting. The student is reproducing someone else's musical decisions, not making their own. The entire purpose of the performing experiment is to document the student's own process of developing musical ideas — which requires that the decisions originate with the student.
