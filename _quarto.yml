@@ -1,5 +1,6 @@
 project:
   type: website
+  pre-render: fix-blank-lines.py
   resources:
     - audio/
     - images/
@@ -26,6 +27,8 @@ website:
         - book/assessment-guidance.qmd
         - section: "Exploring Music in Context"
           contents:
+            - book/exploring-guide.qmd
+            - book/exploring-checklist.qmd
             - book/exploring-criterion-guidance.qmd
             - book/exploring-common-mistakes.qmd
         - section: "Experimenting with Music"

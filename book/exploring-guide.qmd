@@ -1,0 +1,145 @@
+---
+title: "Exploring: How to Do It"
+description: "A step-by-step guide through the Exploring Music in Context component."
+categories: [Reference, Assessment, Exploring]
+toc: true
+toc-depth: 2
+---
+
+::: {.content-visible when-format="html"}
+*See also: [Assessment Rubrics → Exploring](../resources/rubrics.html#exploring-music-in-context)*
+:::
+
+The Exploring component asks you to do three things: **research** diverse music, **create** a short piece in a style you explored, and **adapt** music from an unfamiliar context for your own instrument. These three parts are connected — your research must directly inform both exercises.
+
+**What you submit:**
+
+- Upload 1: one written document (max 2,400 words)
+- Upload 2: one audio file containing your practical work (max 4 min)
+- Upload 3: one audio file of the music you analysed (max 3 min)
+
+---
+
+## Step 1: Choose your repertoire
+
+Choose **3–4 pieces** early. They must collectively cover:
+
+- **At least two areas of inquiry** (AOI 1, 2, 3, or 4)
+- **All three contexts**: one personal, at least one local, at least one global
+
+At the same time, decide which piece will anchor each exercise:
+
+| Exercise             | Source                                 | AOI requirement                              | Context requirement                 |
+|----------------------|----------------------------------------|----------------------------------------------|-------------------------------------|
+| Creating exercise    | Any piece from your Section 1 research | —                                            | —                                   |
+| Performed adaptation | Music from a local or global context   | **Different AOI** from the creating exercise | Local or global only — NOT personal |
+
+---
+
+## Step 2: Research and write Section 1
+
+Section 1 is your exploration of the music — roughly 1800 words of the 2,400 total.
+
+For each piece, produce two types of findings:
+
+**Musical findings** — from the music itself (score, recording):
+
+- What musical elements and devices define this piece?
+- What makes this style distinctive — what conventions does it use?
+- How are these things used to create meaning or effect?
+
+**Extra-musical findings** — from sources about the music (articles, interviews, documentaries):
+
+- When and where was this music made? What was its context?
+- What was the composer's or performer's intention?
+- How does the context explain the musical choices?
+
+**Write analytically, not descriptively.** Don't narrate what you hear. Explain *why* the music works the way it does. Connect every finding to the style, the AOI, and/or the creative intention.
+
+Every musical observation needs a **bar number and/or timestamp** pointing to Upload 3. Every claim drawn from a source needs an **in-text citation**.
+
+---
+
+## Step 3: Creating exercise and Section 2 statement
+
+Compose a short piece (max 32 bars, or 1 min audio) in the style of one of your explored pieces. This is a **sketch**, not a polished work. The goal is to demonstrate that you understand the style's conventions.
+
+**Write a brief statement (~300 words) that explains:**
+
+- Which specific creating conventions you applied and where in the exercise
+- How your Section 1 research directly informed your choices
+- Any challenges you encountered
+
+Include the score or notation **embedded in the document**. If the style doesn't use staff notation, use an appropriate form (tablature, graphic notation, DAW screenshot). Include an audio track (max 1 min) in Upload 2.
+
+---
+
+## Step 4: Performed adaptation and Section 3 statement
+
+Record yourself adapting music from a **local or global** context for your own instrument. The stimulus (the original music you worked from) goes into Upload 2 (max 1 min). Your performed adaptation follows (max 2 min).
+
+The exercise is not a transcription. You are identifying the **performing practices** of the original style and finding ways to realize them on your instrument — which may require extended techniques or creative solutions.
+
+**Write a brief statement (~300 words) that explains:**
+
+- Which performing conventions or practices you identified in the original style
+- How you adapted them for your instrument, including where it worked and where it didn't
+- Any challenges and how you resolved them
+
+---
+
+## Step 5: Compile the submission
+
+**Upload 1 — Written document (max 2,400 words):**
+
+Compile in this order:
+
+1. Section 1: Exploration of diverse musical material
+2. Section 2: Statement on the creating exercise (with score embedded)
+3. Section 3: Statement on the performed adaptation
+4. Bibliography *(not counted in the word limit)*
+
+Visual evidence (score excerpts, annotated screenshots, diagrams) must be embedded in the text — not appended. Maximum 5 pages of visual material in total.
+
+**Upload 2 — Practical work (max 4 min total):**
+
+Compile in this order:
+
+1. Creating exercise audio *(max 1 min)*
+2. Stimulus for the performed adaptation *(max 1 min)*
+3. Performed adaptation *(max 2 min)*
+
+**Upload 3 — Reference material (max 3 min total):**
+
+Excerpts of the music you analyzed in Section 1, in the order they appear in your writing.
+
+---
+
+## Connection Between Sections
+
+Every part of the submission should connect logically:
+
+> Section 1 research → identifies conventions and practices →
+Section 2 creating exercise applies the creating conventions; Section 3 performed adaptation applies the performance practices
+
+```{mermaid}
+%%| fig-align: center
+flowchart TD
+    S1("**Section 1**<br>Research"):::section
+    S2("**Section 2**<br>Creating exercise"):::section
+    S3("**Section 3**<br>Performed adaptation"):::section
+    CONV["Identify conventions<br>& practices"]
+    CREA["apply creating<br>conventions"]
+    PERF["apply performance<br>practices"]
+        
+    CONV --> S1
+    S1 --> CREA 
+    CREA --> S2
+    S1 --> PERF 
+    PERF --> S3
+    
+    classDef section fill:#4a90d9,stroke:#2c5f8a,color:#fff
+
+```
+
+If the practical exercises do not grow from the research, Criterion B2 (Implications) cannot be awarded. If the research is superficial, there is nothing meaningful to apply.

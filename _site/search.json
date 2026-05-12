@@ -350,27 +350,107 @@
     ]
   },
   {
-    "objectID": "book/index.html",
-    "href": "book/index.html",
-    "title": "Preface",
+    "objectID": "book/presenting-common-mistakes.html",
+    "href": "book/presenting-common-mistakes.html",
+    "title": "Presenting: Common Mistakes",
     "section": "",
-    "text": "This book is the written companion to the DP Music course. It is organized by the four assessment components and is designed for independent study and review.\nFor key term definitions and pronunciations, see the Glossary.\n\nThe four components:\n\nExploring Music in Context — Research, analysis, and practical exercises demonstrating knowledge of musical conventions and performance practices\nExperimenting with Music — A series of documented experiments in creating and performing, developing musical ideas through informed decision-making\nPresenting Music — A portfolio of completed performing and creating works, presented with programme notes across four areas of inquiry\nThe Contemporary Music Maker (HL only) — A collaborative real-life musical project, documented as a multimedia presentation",
+    "text": "See also: Assessment Rubrics → Presenting\nThese are the problems that appear most consistently across Presenting submissions. Understanding them concretely is more useful than reading the rubric descriptors alone.",
     "crumbs": [
       "Course Book",
-      "Preface"
+      "Presenting Music",
+      "Presenting: Common Mistakes"
     ]
   },
   {
-    "objectID": "book/context-history.html",
-    "href": "book/context-history.html",
-    "title": "Music in Context: history",
+    "objectID": "book/presenting-common-mistakes.html#aois-that-exist-but-are-not-linked",
+    "href": "book/presenting-common-mistakes.html#aois-that-exist-but-are-not-linked",
+    "title": "Presenting: Common Mistakes",
+    "section": "1. AOIs that exist but are not linked",
+    "text": "1. AOIs that exist but are not linked\nThe problem: Areas of inquiry are named — on the teacher form, in headings, or in passing — but the programme notes never explain the connection between the AOI and the specific piece.\nThis is the most common way to fail the upper band of Criterion A. The issue is not that the student chose the wrong AOI; it is that the link is asserted rather than demonstrated.\nWhat the examiner needs: Three distinct things, in order:\n\nExistence — all four AOIs appear in the programme notes\nCodification — each piece is explicitly labelled with its AOI (“This piece is Area of Inquiry 2 because…”)\nExplanation — the student explains in what way and why the music belongs to that area, with musical reasoning\n\nA programme that lists four AOIs at the start and then never mentions them again in relation to individual pieces has done step 1 but not steps 2 or 3. A programme that labels each piece correctly but says only “I chose this because it is dramatic” has done steps 1 and 2 but not step 3.\nThe mark difference this makes: Meeting all three steps reliably puts the criterion in the 5–6 band. Stopping at step 2 lands in the 3–4 band. Stopping at step 1, or not addressing all four AOIs, limits the mark to 1–2.\nPresenting only: Presenting is the only component where all four areas of inquiry must be addressed. There is no requirement to cover contexts (personal, local, global); that framework applies to Exploring and Experimenting, not Presenting. If a student mentions contexts in their programme notes, it is not wrong, but it uses word count that could be spent on more relevant content.",
+    "crumbs": [
+      "Course Book",
+      "Presenting Music",
+      "Presenting: Common Mistakes"
+    ]
+  },
+  {
+    "objectID": "book/presenting-common-mistakes.html#treating-creating-as-arrangement-or-transcription",
+    "href": "book/presenting-common-mistakes.html#treating-creating-as-arrangement-or-transcription",
+    "title": "Presenting: Common Mistakes",
+    "section": "2. Treating “creating” as arrangement or transcription",
+    "text": "2. Treating “creating” as arrangement or transcription\nThe problem: A student takes an existing piece and writes it out for different instruments, or produces a MIDI mockup of a score without making any musical decisions of their own. This is transcription. The music guide states that arranging and remixing do not feature in this component and will not be accepted for assessment.\nWhat counts and what does not:\n\n\n\n\n\n\n\nAcceptable\nNot acceptable\n\n\n\n\nComposing an original work\nTranscribing a piece for different instrumentation\n\n\nWriting variations on a quoted theme (provided the score shows clearly what is original)\nChanging tempo, key, or instrumentation of an existing piece without further development\n\n\nOrchestrating your own existing work (the orchestration itself demonstrates musical decision-making)\nProducing a MIDI file of an existing score and calling it a composition\n\n\nA music technology composition where all parts are MIDI entered or performed by the student\nUsing a pre-made drum loop or sample without teacher authentication that it was created by the student\n\n\n\nWhy this matters: If there is no evidence of the student’s own musical decision-making, the examiner cannot assess creating conventions or technical proficiency in composition. A very polished recording of an arrangement of another composer’s work is not evidence of the student’s creating ability. The mark is for the student’s compositional decisions, not for what someone else composed.\nThe score is primary evidence for creating. Examiners are asked to mark the composition from the score, not from the quality of its recording. A brilliant recording of a weak composition should be marked as a weak composition. A thoughtful, technically accomplished score with a mediocre recording should be marked as a thoughtful composition. Do not let recording quality substitute for compositional evidence.",
+    "crumbs": [
+      "Course Book",
+      "Presenting Music",
+      "Presenting: Common Mistakes"
+    ]
+  },
+  {
+    "objectID": "book/presenting-common-mistakes.html#not-being-audible-in-ensembles",
+    "href": "book/presenting-common-mistakes.html#not-being-audible-in-ensembles",
+    "title": "Presenting: Common Mistakes",
+    "section": "3. Not being audible in ensembles",
+    "text": "3. Not being audible in ensembles\nThe problem: A student performs in a large ensemble and submits the ensemble recording, but their individual contribution cannot be heard clearly enough to be assessed.\nWhen the examiner cannot identify what the student is doing, they can only mark the ensemble as a whole. This is self-limiting: if the ensemble is of average quality, the student gets a mark reflecting the ensemble’s average quality, regardless of their individual level.\nHow this plays out:\n\nWhole submission is ensemble: an extract of approximately 2 minutes showing the student’s own part is required. Without this, the mark cannot reflect the student’s individual level\nMixed submission (some solo, some ensemble): extracts are expected for ensemble portions; the solo works provide direct evidence of individual level\nSmall ensemble or clearly audible part (e.g., a prominent cello solo in a trio): the individual contribution may be identifiable without an extract\n\nPractical implications: A student who is a very capable performer but submits only a large ensemble recording with no extract may receive a lower mark than a less technically able student who submits clear solo recordings. The issue is evidential, not musical.\nEnsemble = three or more performers in various capacities (not soloist with accompaniment). A violin and piano duo where both parts are equally important is treated as an ensemble for assessment purposes.",
+    "crumbs": [
+      "Course Book",
+      "Presenting Music",
+      "Presenting: Common Mistakes"
+    ]
+  },
+  {
+    "objectID": "book/presenting-common-mistakes.html#submissions-that-are-too-short",
+    "href": "book/presenting-common-mistakes.html#submissions-that-are-too-short",
+    "title": "Presenting: Common Mistakes",
+    "section": "4. Submissions that are too short",
+    "text": "4. Submissions that are too short\nThe problem: The student submits very little creating or performing material, which makes it impossible for the examiner to assess technical proficiency or musical development at the upper mark bands.\nFor creating: The submission total is a maximum of 6 minutes. Two compositions of approximately 3 minutes, or three of approximately 2 minutes, provides sufficient evidence. A 20-second music technology piece, or a single 2-minute composition, does not provide enough evidence to demonstrate consistent stylistic understanding and technical control. A very short submission is self-limiting.\nFor performing: The maximum is 12 minutes. A recording of approximately 1 minute is insufficient to demonstrate technical proficiency — there is simply not enough evidence for the examiner to assess intonation, rhythm, tone quality, and style across the work. A 1-minute performance approximates by default because the evidence is too thin.\nThe word count works the same way: 600 words is the maximum for programme notes. Under-use is self-limiting if something is consequently missing. However, a very concise set of notes that explains everything clearly and purposefully can still achieve a high mark — brevity is not penalised if the content is complete.",
+    "crumbs": [
+      "Course Book",
+      "Presenting Music",
+      "Presenting: Common Mistakes"
+    ]
+  },
+  {
+    "objectID": "book/presenting-common-mistakes.html#notation-that-doesnt-communicate",
+    "href": "book/presenting-common-mistakes.html#notation-that-doesnt-communicate",
+    "title": "Presenting: Common Mistakes",
+    "section": "5. Notation that doesn’t communicate",
+    "text": "5. Notation that doesn’t communicate\nThe problem: Scores are submitted but they contain no expressive markings, no dynamic indications, no articulation, no phrase markings — just pitches and rhythms. Or, for music technology, a screenshot of the DAW is submitted with no annotation or explanation of what it shows.\nThe purpose of notation in this component is to be an effective representation of sound or performance instructions. If the notation does not communicate what the student intended and how, it cannot evidence compositional decision-making.\nWhat examiners look for in notation:\n\nDynamic markings: where things get louder, quieter, and by how much\nArticulation: how individual notes are to be played\nPhrase markings or bowing/breath indications\nTempo and character markings\nFor ensemble writing: that ranges are playable, that the melody can actually be heard through the texture, that the balance of voices is considered\n\nFor music technology scores: DAW screenshots alone are limited. The student should annotate them and explain what specific parameters, filters, or effects are doing. Graphic notation showing changes in filters or parameters over time is more communicative than a waveform image. A piano roll view (MIDI data) is more informative than many DAW notation views, which can be inaccurate. Audio waveform screenshots represent sound, not music — they do not communicate compositional decisions.\nNotation definition (IB): Notation may take any form appropriate to the style, including graphic scores, numeric notation, tablature, sargam, solfège, screenshots, technology notes, and staff/stave notation. The form matters less than whether it effectively communicates the student’s musical decisions.",
+    "crumbs": [
+      "Course Book",
+      "Presenting Music",
+      "Presenting: Common Mistakes"
+    ]
+  },
+  {
+    "objectID": "book/presenting-common-mistakes.html#criterion-d-treated-as-a-repeat-of-b-and-c",
+    "href": "book/presenting-common-mistakes.html#criterion-d-treated-as-a-repeat-of-b-and-c",
+    "title": "Presenting: Common Mistakes",
+    "section": "6. Criterion D treated as a repeat of B and C",
+    "text": "6. Criterion D treated as a repeat of B and C\nThe problem: A student’s performing has clear technical limitations. The examiner marks Criterion C accordingly. They then repeat the same observations in Criterion D — “the musical communication is weak because of the technical limitations in performance.”\nThis is double penalising. A student who has already received a lower mark in C for technical reasons should not receive a further reduction in D for the same reason.\nWhat Criterion D is actually asking: How effectively does the submission as a whole communicate musical intentions across all three roles — researcher, creator, and performer? It is a holistic picture: do the programme notes, the notation, the recordings, and the overall shape of the submission cohere into something that communicates the student’s musical ideas?\nThe practical starting point: When the areas of inquiry are addressed in the programme notes and the recording quality is adequate, Criterion D tends to settle in the 5–6 range. The question for 7–8 (compelling) is whether the whole submission — not just one element — creates a genuinely compelling impression. This typically requires both the creating and the performing to be outstanding.\nCompelling vs. competent: Competent means everything is in order. Compelling means the listener wants to engage with it again — something distinctive and musically purposeful comes through. It is qualitative, not just technical.",
+    "crumbs": [
+      "Course Book",
+      "Presenting Music",
+      "Presenting: Common Mistakes"
+    ]
+  },
+  {
+    "objectID": "book/harm-form.html",
+    "href": "book/harm-form.html",
+    "title": "Harmony & Form: form",
     "section": "",
     "text": "Content coming soon."
   },
   {
-    "objectID": "book/context-technology.html",
-    "href": "book/context-technology.html",
-    "title": "Music in Context: technology",
+    "objectID": "book/ewm-overview.html",
+    "href": "book/ewm-overview.html",
+    "title": "Experimenting with Music",
+    "section": "",
+    "text": "Content coming soon."
+  },
+  {
+    "objectID": "book/fund-pitch.html",
+    "href": "book/fund-pitch.html",
+    "title": "Fundamentals: pitch",
     "section": "",
     "text": "Content coming soon."
   },
@@ -582,7 +662,7 @@
     "href": "resources/rubrics.html#the-contemporary-music-maker",
     "title": "DP Music Assessment Rubrics",
     "section": "The Contemporary Music Maker",
-    "text": "The Contemporary Music Maker\nGuidance on what each level means: What Each Level Means · Common Mistakes\n\nCriterion A: Selection of Evidence\nThis criterion focuses on the nature of the evidence.\nGuiding question\nIs the evidence selected to document the project appropriate and well chosen?\n\n\n\n\n\n\n\n\nMarks\nLevel Descriptors\nPossible Characteristics\n\n\n\n\n0\nThe work does not reach a standard described by the descriptors below.\n\n\n\n1-2\n\nThe student documents the project with an ineffective and/or rudimentary selection of evidence.\n\nIneffective\nInaccurate\nRudimentary\nLimited\nSuperficial\n\n\n3-4\n\nThe student documents the project with a suitable but formulaic selection of evidence.\n\nInconsistent\nFormulaic\nSufficient\nSuitable\nReasonable\n\n\n5-6\n\nThe student documents the project with a relevant and purposeful selection of evidence.\n\nAccurate\nProficient\nPurposeful\nRelevant\nCompetent\n\n\n7-8\n\nThe student documents the project with resourceful and compelling selection of evidence.\n\nImaginative\nResourceful\nCompelling\nAccomplished\nExcellent\n\n\n\n\n\nCriterion B: Discussion of the Process\nThis criterion focuses on how the student:\n\ndiscusses the challenges and successes of the project\nexamines areas for development and strategies for improvement\nevaluates the musical and collaborative choices made in relation to the stated aims of the project.\n\nGuiding question\nHow effective is the process in relation to the stated aims?\n\n\n\n\n\n\n\n\nMarks\nLevel Descriptors\nPossible Characteristics\n\n\n\n\n0\nThe work does not reach a standard described by the descriptors below.\n\n\n\n1-3\nIn relation to the stated aims, the student:\n\noutlines the challenges and successes\nidentifies areas for development and strategies for improvement\nstates the musical and collaborative choices made.\n\nIneffective\nInaccurate\nRudimentary\nLimited\nSuperficial\n\n\n4-6\nIn relation to the stated aims, the student:\n\ndescribes the challenges and successes\ndistinguishes areas for development and strategies for improvement\ndemonstrates the musical and collaborative choices made.\n\nInconsistent\nFormulaic\nSufficient\nSuitable\nReasonable\n\n\n7-9\nIn relation to the stated aims, the student:\n\nexplains the challenges and successes\ninvestigates areas for development and strategies for improvement\njustifies the musical and collaborative choices made.\n\nAccurate\nProficient\nPurposeful\nRelevant\nCompetent\n\n\n10-12\nIn relation to the stated aims, the student:\n\ndiscusses the challenges and successes\nexamines areas for development and strategies for improvement\nevaluates the musical and collaborative choices made.\n\nImaginative\nResourceful\nCompelling\nAccomplished\nExcellent\n\n\n\n\n\nCriterion C: Technical and musical proficiency in the identified role\nThis criterion focuses on the demonstration of technical proficiency and musicianship relating to the student’s identified role in the final project.\nGuiding questions\nHow effectively does the student demonstrate technical proficiency in the identified role?\nHow effectively does the student’s musicianship support the musical outcomes of the project?\n\n\n\n\n\n\n\n\nMarks\nLevel Descriptors\nPossible Characteristics\n\n\n\n\n0\nThe work does not reach a standard described by the descriptors below.\n\n\n\n1-2\n\nTechnical proficiency in the identified role is rudimentary.\nThe student approximates the musical aims of the project with\n\nineffective musicianship.\nIneffective\nInaccurate\nRudimentary\nLimited\nSuperficial\n\n\n3-4\n\nTechnical proficiency in the identified role is inconsistent.\nThe student transmits the musical aims of the project with\n\nsufficient musicianship.\nInconsistent\nFormulaic\nSufficient\nSuitable\nReasonable\n\n\n5-6\n\nTechnical proficiency in the identified role is competent.\nThe student realizes the musical aims of the project with\n\nproficient musicianship.\nAccurate\nProficient\nPurposeful\nRelevant\nCompetent\n\n\n7-8\n\nTechnical proficiency in the identified role is excellent.\nThe student personalizes the musical aims of the project with\n\ncompelling musicianship.\nImaginative\nResourceful\nCompelling\nAccomplished\nExcellent\n\n\n\n\n\nCriterion D: Organization and presentation\nThis criterion focuses on how well the student organizes and presents their work in the multimedia presentation.\nGuiding question\nHow well has the student organized and presented their work?\n\n\n\n\n\n\n\n\nMarks\nLevel Descriptors\nPossible Characteristics\n\n\n\n\n0\nThe work does not reach a standard described by the descriptors below.\n\n\n\n1\n\nThe submission is ineffective.\n\nIneffective\nInaccurate\nRudimentary\nLimited\nSuperficial\n\n\n2\n\nThe submission is inconsistent.\n\nInconsistent\nFormulaic\nSufficient\nSuitable\nReasonable\n\n\n3\n\nThe submission is purposeful.\n\nAccurate\nProficient\nPurposeful\nRelevant\nCompetent\n\n\n4\n\nThe submission is resourceful and imaginative.\n\nImaginative\nResourceful\nCompelling\nAccomplished\nExcellent"
+    "text": "The Contemporary Music Maker\nGuidance on what each level means: What Each Level Means · Common Mistakes\n\nCriterion A: Selection of Evidence\nThis criterion focuses on the nature of the evidence.\nGuiding question\nIs the evidence selected to document the project appropriate and well chosen?\n\n\n\n\n\n\n\n\nMarks\nLevel Descriptors\nPossible Characteristics\n\n\n\n\n0\nThe work does not reach a standard described by the descriptors below.\n\n\n\n1-2\n\nThe student documents the project with an ineffective and/or rudimentary selection of evidence.\n\nIneffective\nInaccurate\nRudimentary\nLimited\nSuperficial\n\n\n3-4\n\nThe student documents the project with a suitable but formulaic selection of evidence.\n\nInconsistent\nFormulaic\nSufficient\nSuitable\nReasonable\n\n\n5-6\n\nThe student documents the project with a relevant and purposeful selection of evidence.\n\nAccurate\nProficient\nPurposeful\nRelevant\nCompetent\n\n\n7-8\n\nThe student documents the project with resourceful and compelling selection of evidence.\n\nImaginative\nResourceful\nCompelling\nAccomplished\nExcellent\n\n\n\n\n\nCriterion B: Discussion of the Process\nThis criterion focuses on how the student:\n\ndiscusses the challenges and successes of the project\nexamines areas for development and strategies for improvement\nevaluates the musical and collaborative choices made in relation to the stated aims of the project.\n\nGuiding question\nHow effective is the process in relation to the stated aims?\n\n\n\n\n\n\n\n\nMarks\nLevel Descriptors\nPossible Characteristics\n\n\n\n\n0\nThe work does not reach a standard described by the descriptors below.\n\n\n\n1-3\nIn relation to the stated aims, the student:\n\noutlines the challenges and successes\nidentifies areas for development and strategies for improvement\nstates the musical and collaborative choices made.\n\nIneffective\nInaccurate\nRudimentary\nLimited\nSuperficial\n\n\n4-6\nIn relation to the stated aims, the student:\n\ndescribes the challenges and successes\ndistinguishes areas for development and strategies for improvement\ndemonstrates the musical and collaborative choices made.\n\nInconsistent\nFormulaic\nSufficient\nSuitable\nReasonable\n\n\n7-9\nIn relation to the stated aims, the student:\n\nexplains the challenges and successes\ninvestigates areas for development and strategies for improvement\njustifies the musical and collaborative choices made.\n\nAccurate\nProficient\nPurposeful\nRelevant\nCompetent\n\n\n10-12\nIn relation to the stated aims, the student:\n\ndiscusses the challenges and successes\nexamines areas for development and strategies for improvement\nevaluates the musical and collaborative choices made.\n\nImaginative\nResourceful\nCompelling\nAccomplished\nExcellent\n\n\n\n\n\nCriterion C: Technical and musical proficiency in the identified role\nThis criterion focuses on the demonstration of technical proficiency and musicianship relating to the student’s identified role in the final project.\nGuiding questions\nHow effectively does the student demonstrate technical proficiency in the identified role?\nHow effectively does the student’s musicianship support the musical outcomes of the project?\n\n\n\n\n\n\n\n\nMarks\nLevel Descriptors\nPossible Characteristics\n\n\n\n\n0\nThe work does not reach a standard described by the descriptors below.\n\n\n\n1-2\n\nTechnical proficiency in the identified role is rudimentary.\nThe student approximates the musical aims of the project with ineffective musicianship.\n\nIneffective\nInaccurate\nRudimentary\nLimited\nSuperficial\n\n\n3-4\n\nTechnical proficiency in the identified role is inconsistent.\nThe student transmits the musical aims of the project with sufficient musicianship.\n\nInconsistent\nFormulaic\nSufficient\nSuitable\nReasonable\n\n\n5-6\n\nTechnical proficiency in the identified role is competent.\nThe student realizes the musical aims of the project with proficient musicianship.\n\nAccurate\nProficient\nPurposeful\nRelevant\nCompetent\n\n\n7-8\n\nTechnical proficiency in the identified role is excellent.\nThe student personalizes the musical aims of the project with compelling musicianship.\n\nImaginative\nResourceful\nCompelling\nAccomplished\nExcellent\n\n\n\n\n\nCriterion D: Organization and presentation\nThis criterion focuses on how well the student organizes and presents their work in the multimedia presentation.\nGuiding question\nHow well has the student organized and presented their work?\n\n\n\n\n\n\n\n\nMarks\nLevel Descriptors\nPossible Characteristics\n\n\n\n\n0\nThe work does not reach a standard described by the descriptors below.\n\n\n\n1\n\nThe submission is ineffective.\n\nIneffective\nInaccurate\nRudimentary\nLimited\nSuperficial\n\n\n2\n\nThe submission is inconsistent.\n\nInconsistent\nFormulaic\nSufficient\nSuitable\nReasonable\n\n\n3\n\nThe submission is purposeful.\n\nAccurate\nProficient\nPurposeful\nRelevant\nCompetent\n\n\n4\n\nThe submission is resourceful and imaginative.\n\nImaginative\nResourceful\nCompelling\nAccomplished\nExcellent"
   },
   {
     "objectID": "resources/rubrics.html#assessment-terms",
@@ -678,108 +758,220 @@
     ]
   },
   {
-    "objectID": "book/fund-pitch.html",
-    "href": "book/fund-pitch.html",
-    "title": "Fundamentals: pitch",
+    "objectID": "book/exploring-guide.html",
+    "href": "book/exploring-guide.html",
+    "title": "Exploring: How to Do It",
+    "section": "",
+    "text": "See also: Assessment Rubrics → Exploring\nThe Exploring component asks you to do three things: research diverse music, create a short piece in a style you explored, and adapt music from an unfamiliar context for your own instrument. These three parts are connected — your research must directly inform both exercises.\nWhat you submit:",
+    "crumbs": [
+      "Course Book",
+      "Exploring Music in Context",
+      "Exploring: How to Do It"
+    ]
+  },
+  {
+    "objectID": "book/exploring-guide.html#step-1-choose-your-repertoire",
+    "href": "book/exploring-guide.html#step-1-choose-your-repertoire",
+    "title": "Exploring: How to Do It",
+    "section": "Step 1: Choose your repertoire",
+    "text": "Step 1: Choose your repertoire\nChoose 3–4 pieces early. They must collectively cover:\n\nAt least two areas of inquiry (AOI 1, 2, 3, or 4)\nAll three contexts: one personal, at least one local, at least one global\n\nAt the same time, decide which piece will anchor each exercise:\n\n\n\n\n\n\n\n\n\nExercise\nSource\nAOI requirement\nContext requirement\n\n\n\n\nCreating exercise\nAny piece from your Section 1 research\n—\n—\n\n\nPerformed adaptation\nMusic from a local or global context\nDifferent AOI from the creating exercise\nLocal or global only — NOT personal",
+    "crumbs": [
+      "Course Book",
+      "Exploring Music in Context",
+      "Exploring: How to Do It"
+    ]
+  },
+  {
+    "objectID": "book/exploring-guide.html#step-2-research-and-write-section-1",
+    "href": "book/exploring-guide.html#step-2-research-and-write-section-1",
+    "title": "Exploring: How to Do It",
+    "section": "Step 2: Research and write Section 1",
+    "text": "Step 2: Research and write Section 1\nSection 1 is your exploration of the music — roughly 1800 words of the 2,400 total.\nFor each piece, produce two types of findings:\nMusical findings — from the music itself (score, recording):\n\nWhat musical elements and devices define this piece?\nWhat makes this style distinctive — what conventions does it use?\nHow are these things used to create meaning or effect?\n\nExtra-musical findings — from sources about the music (articles, interviews, documentaries):\n\nWhen and where was this music made? What was its context?\nWhat was the composer’s or performer’s intention?\nHow does the context explain the musical choices?\n\nWrite analytically, not descriptively. Don’t narrate what you hear. Explain why the music works the way it does. Connect every finding to the style, the AOI, and/or the creative intention.\nEvery musical observation needs a bar number and/or timestamp pointing to Upload 3. Every claim drawn from a source needs an in-text citation.",
+    "crumbs": [
+      "Course Book",
+      "Exploring Music in Context",
+      "Exploring: How to Do It"
+    ]
+  },
+  {
+    "objectID": "book/exploring-guide.html#step-3-creating-exercise-and-section-2-statement",
+    "href": "book/exploring-guide.html#step-3-creating-exercise-and-section-2-statement",
+    "title": "Exploring: How to Do It",
+    "section": "Step 3: Creating exercise and Section 2 statement",
+    "text": "Step 3: Creating exercise and Section 2 statement\nCompose a short piece (max 32 bars, or 1 min audio) in the style of one of your explored pieces. This is a sketch, not a polished work. The goal is to demonstrate that you understand the style’s conventions.\nWrite a brief statement (~300 words) that explains:\n\nWhich specific creating conventions you applied and where in the exercise\nHow your Section 1 research directly informed your choices\nAny challenges you encountered\n\nInclude the score or notation embedded in the document. If the style doesn’t use staff notation, use an appropriate form (tablature, graphic notation, DAW screenshot). Include an audio track (max 1 min) in Upload 2.",
+    "crumbs": [
+      "Course Book",
+      "Exploring Music in Context",
+      "Exploring: How to Do It"
+    ]
+  },
+  {
+    "objectID": "book/exploring-guide.html#step-4-performed-adaptation-and-section-3-statement",
+    "href": "book/exploring-guide.html#step-4-performed-adaptation-and-section-3-statement",
+    "title": "Exploring: How to Do It",
+    "section": "Step 4: Performed adaptation and Section 3 statement",
+    "text": "Step 4: Performed adaptation and Section 3 statement\nRecord yourself adapting music from a local or global context for your own instrument. The stimulus (the original music you worked from) goes into Upload 2 (max 1 min). Your performed adaptation follows (max 2 min).\nThe exercise is not a transcription. You are identifying the performing practices of the original style and finding ways to realize them on your instrument — which may require extended techniques or creative solutions.\nWrite a brief statement (~300 words) that explains:\n\nWhich performing conventions or practices you identified in the original style\nHow you adapted them for your instrument, including where it worked and where it didn’t\nAny challenges and how you resolved them",
+    "crumbs": [
+      "Course Book",
+      "Exploring Music in Context",
+      "Exploring: How to Do It"
+    ]
+  },
+  {
+    "objectID": "book/exploring-guide.html#step-5-compile-the-submission",
+    "href": "book/exploring-guide.html#step-5-compile-the-submission",
+    "title": "Exploring: How to Do It",
+    "section": "Step 5: Compile the submission",
+    "text": "Step 5: Compile the submission\nUpload 1 — Written document (max 2,400 words):\nCompile in this order:\n\nSection 1: Exploration of diverse musical material\nSection 2: Statement on the creating exercise (with score embedded)\nSection 3: Statement on the performed adaptation\nBibliography (not counted in the word limit)\n\nVisual evidence (score excerpts, annotated screenshots, diagrams) must be embedded in the text — not appended. Maximum 5 pages of visual material in total.\nUpload 2 — Practical work (max 4 min total):\nCompile in this order:\n\nCreating exercise audio (max 1 min)\nStimulus for the performed adaptation (max 1 min)\nPerformed adaptation (max 2 min)\n\nUpload 3 — Reference material (max 3 min total):\nExcerpts of the music you analyzed in Section 1, in the order they appear in your writing.",
+    "crumbs": [
+      "Course Book",
+      "Exploring Music in Context",
+      "Exploring: How to Do It"
+    ]
+  },
+  {
+    "objectID": "book/exploring-guide.html#the-chain-that-must-hold",
+    "href": "book/exploring-guide.html#the-chain-that-must-hold",
+    "title": "Exploring: How to Do It",
+    "section": "The chain that must hold",
+    "text": "The chain that must hold\nEvery part of the submission should connect logically:\n\nSection 1 research → identifies conventions/practices → Section 2 creating exercise applies them → Section 3 adaptation explores them in performance\n\nIf the practical exercises do not grow from the research, Criterion B2 (Implications) cannot be awarded. If the research is superficial, there is nothing meaningful to apply.",
+    "crumbs": [
+      "Course Book",
+      "Exploring Music in Context",
+      "Exploring: How to Do It"
+    ]
+  },
+  {
+    "objectID": "book/context-technology.html",
+    "href": "book/context-technology.html",
+    "title": "Music in Context: technology",
     "section": "",
     "text": "Content coming soon."
   },
   {
-    "objectID": "book/ewm-overview.html",
-    "href": "book/ewm-overview.html",
-    "title": "Experimenting with Music",
+    "objectID": "book/context-history.html",
+    "href": "book/context-history.html",
+    "title": "Music in Context: history",
     "section": "",
     "text": "Content coming soon."
   },
   {
-    "objectID": "book/harm-form.html",
-    "href": "book/harm-form.html",
-    "title": "Harmony & Form: form",
+    "objectID": "book/index.html",
+    "href": "book/index.html",
+    "title": "Preface",
     "section": "",
-    "text": "Content coming soon."
+    "text": "This book is the written companion to the DP Music course. It is organized by the four assessment components and is designed for independent study and review.\nFor key term definitions and pronunciations, see the Glossary.\n\nThe four components:\n\nExploring Music in Context — Research, analysis, and practical exercises demonstrating knowledge of musical conventions and performance practices\nExperimenting with Music — A series of documented experiments in creating and performing, developing musical ideas through informed decision-making\nPresenting Music — A portfolio of completed performing and creating works, presented with programme notes across four areas of inquiry\nThe Contemporary Music Maker (HL only) — A collaborative real-life musical project, documented as a multimedia presentation",
+    "crumbs": [
+      "Course Book",
+      "Preface"
+    ]
   },
   {
-    "objectID": "book/presenting-common-mistakes.html",
-    "href": "book/presenting-common-mistakes.html",
-    "title": "Presenting: Common Mistakes",
+    "objectID": "book/exploring-checklist.html",
+    "href": "book/exploring-checklist.html",
+    "title": "Exploring: Checklist",
     "section": "",
-    "text": "See also: Assessment Rubrics → Presenting\nThese are the problems that appear most consistently across Presenting submissions. Understanding them concretely is more useful than reading the rubric descriptors alone.",
+    "text": "See also: Assessment Rubrics → Exploring",
     "crumbs": [
       "Course Book",
-      "Presenting Music",
-      "Presenting: Common Mistakes"
+      "Exploring Music in Context",
+      "Exploring: Checklist"
     ]
   },
   {
-    "objectID": "book/presenting-common-mistakes.html#aois-that-exist-but-are-not-linked",
-    "href": "book/presenting-common-mistakes.html#aois-that-exist-but-are-not-linked",
-    "title": "Presenting: Common Mistakes",
-    "section": "1. AOIs that exist but are not linked",
-    "text": "1. AOIs that exist but are not linked\nThe problem: Areas of inquiry are named — on the teacher form, in headings, or in passing — but the programme notes never explain the connection between the AOI and the specific piece.\nThis is the most common way to fail the upper band of Criterion A. The issue is not that the student chose the wrong AOI; it is that the link is asserted rather than demonstrated.\nWhat the examiner needs: Three distinct things, in order:\n\nExistence — all four AOIs appear in the programme notes\nCodification — each piece is explicitly labelled with its AOI (“This piece is Area of Inquiry 2 because…”)\nExplanation — the student explains in what way and why the music belongs to that area, with musical reasoning\n\nA programme that lists four AOIs at the start and then never mentions them again in relation to individual pieces has done step 1 but not steps 2 or 3. A programme that labels each piece correctly but says only “I chose this because it is dramatic” has done steps 1 and 2 but not step 3.\nThe mark difference this makes: Meeting all three steps reliably puts the criterion in the 5–6 band. Stopping at step 2 lands in the 3–4 band. Stopping at step 1, or not addressing all four AOIs, limits the mark to 1–2.\nPresenting only: Presenting is the only component where all four areas of inquiry must be addressed. There is no requirement to cover contexts (personal, local, global); that framework applies to Exploring and Experimenting, not Presenting. If a student mentions contexts in their programme notes, it is not wrong, but it uses word count that could be spent on more relevant content.",
+    "objectID": "book/exploring-checklist.html#repertoire-decisions",
+    "href": "book/exploring-checklist.html#repertoire-decisions",
+    "title": "Exploring: Checklist",
+    "section": "Repertoire decisions",
+    "text": "Repertoire decisions\n\nAt least two different areas of inquiry are represented across all pieces\nAll three contexts are covered: personal, local, and global\nCreating exercise stimulus is identified (a piece explored in Section 1)\nAdaptation stimulus is identified: local or global context, different AOI from creating\nCreating exercise and performed adaptation are from different areas of inquiry",
     "crumbs": [
       "Course Book",
-      "Presenting Music",
-      "Presenting: Common Mistakes"
+      "Exploring Music in Context",
+      "Exploring: Checklist"
     ]
   },
   {
-    "objectID": "book/presenting-common-mistakes.html#treating-creating-as-arrangement-or-transcription",
-    "href": "book/presenting-common-mistakes.html#treating-creating-as-arrangement-or-transcription",
-    "title": "Presenting: Common Mistakes",
-    "section": "2. Treating “creating” as arrangement or transcription",
-    "text": "2. Treating “creating” as arrangement or transcription\nThe problem: A student takes an existing piece and writes it out for different instruments, or produces a MIDI mockup of a score without making any musical decisions of their own. This is transcription. The music guide states that arranging and remixing do not feature in this component and will not be accepted for assessment.\nWhat counts and what does not:\n\n\n\n\n\n\n\nAcceptable\nNot acceptable\n\n\n\n\nComposing an original work\nTranscribing a piece for different instrumentation\n\n\nWriting variations on a quoted theme (provided the score shows clearly what is original)\nChanging tempo, key, or instrumentation of an existing piece without further development\n\n\nOrchestrating your own existing work (the orchestration itself demonstrates musical decision-making)\nProducing a MIDI file of an existing score and calling it a composition\n\n\nA music technology composition where all parts are MIDI entered or performed by the student\nUsing a pre-made drum loop or sample without teacher authentication that it was created by the student\n\n\n\nWhy this matters: If there is no evidence of the student’s own musical decision-making, the examiner cannot assess creating conventions or technical proficiency in composition. A very polished recording of an arrangement of another composer’s work is not evidence of the student’s creating ability. The mark is for the student’s compositional decisions, not for what someone else composed.\nThe score is primary evidence for creating. Examiners are asked to mark the composition from the score, not from the quality of its recording. A brilliant recording of a weak composition should be marked as a weak composition. A thoughtful, technically accomplished score with a mediocre recording should be marked as a thoughtful composition. Do not let recording quality substitute for compositional evidence.",
+    "objectID": "book/exploring-checklist.html#section-1-exploration-of-diverse-musical-material",
+    "href": "book/exploring-checklist.html#section-1-exploration-of-diverse-musical-material",
+    "title": "Exploring: Checklist",
+    "section": "Section 1: Exploration of diverse musical material",
+    "text": "Section 1: Exploration of diverse musical material\nFor each piece:\n\nArea of inquiry is stated and justified — not just named\nContext (personal/local/global) is stated\nMusical findings are present (from scores/recordings): conventions, devices, techniques\nMusical findings are located with bar numbers or exact timestamps pointing to Upload 3\nExtra-musical findings are present (from articles, interviews, etc.)\nExtra-musical findings are relevant to the music — not anecdotal biography\nAll sources have in-text citations — not only a bibliography at the end\nAnalysis explains why devices are used (not just what is there)",
     "crumbs": [
       "Course Book",
-      "Presenting Music",
-      "Presenting: Common Mistakes"
+      "Exploring Music in Context",
+      "Exploring: Checklist"
     ]
   },
   {
-    "objectID": "book/presenting-common-mistakes.html#not-being-audible-in-ensembles",
-    "href": "book/presenting-common-mistakes.html#not-being-audible-in-ensembles",
-    "title": "Presenting: Common Mistakes",
-    "section": "3. Not being audible in ensembles",
-    "text": "3. Not being audible in ensembles\nThe problem: A student performs in a large ensemble and submits the ensemble recording, but their individual contribution cannot be heard clearly enough to be assessed.\nWhen the examiner cannot identify what the student is doing, they can only mark the ensemble as a whole. This is self-limiting: if the ensemble is of average quality, the student gets a mark reflecting the ensemble’s average quality, regardless of their individual level.\nHow this plays out:\n\nWhole submission is ensemble: an extract of approximately 2 minutes showing the student’s own part is required. Without this, the mark cannot reflect the student’s individual level\nMixed submission (some solo, some ensemble): extracts are expected for ensemble portions; the solo works provide direct evidence of individual level\nSmall ensemble or clearly audible part (e.g., a prominent cello solo in a trio): the individual contribution may be identifiable without an extract\n\nPractical implications: A student who is a very capable performer but submits only a large ensemble recording with no extract may receive a lower mark than a less technically able student who submits clear solo recordings. The issue is evidential, not musical.\nEnsemble = three or more performers in various capacities (not soloist with accompaniment). A violin and piano duo where both parts are equally important is treated as an ensemble for assessment purposes.",
+    "objectID": "book/exploring-checklist.html#section-2-creating-exercise",
+    "href": "book/exploring-checklist.html#section-2-creating-exercise",
+    "title": "Exploring: Checklist",
+    "section": "Section 2: Creating exercise",
+    "text": "Section 2: Creating exercise\n\nBased on a style explored in Section 1\nScore or notation embedded in the document (max 32 bars or 1 min audio)\nNotation is appropriate to the style and clearly communicates the exercise\nStatement explains which creating conventions were applied and where\nStatement explains how Section 1 research directly informed the exercise\nChallenges are addressed (if applicable)\nCreating exercise AOI is confirmed as different from adaptation AOI",
     "crumbs": [
       "Course Book",
-      "Presenting Music",
-      "Presenting: Common Mistakes"
+      "Exploring Music in Context",
+      "Exploring: Checklist"
     ]
   },
   {
-    "objectID": "book/presenting-common-mistakes.html#submissions-that-are-too-short",
-    "href": "book/presenting-common-mistakes.html#submissions-that-are-too-short",
-    "title": "Presenting: Common Mistakes",
-    "section": "4. Submissions that are too short",
-    "text": "4. Submissions that are too short\nThe problem: The student submits very little creating or performing material, which makes it impossible for the examiner to assess technical proficiency or musical development at the upper mark bands.\nFor creating: The submission total is a maximum of 6 minutes. Two compositions of approximately 3 minutes, or three of approximately 2 minutes, provides sufficient evidence. A 20-second music technology piece, or a single 2-minute composition, does not provide enough evidence to demonstrate consistent stylistic understanding and technical control. A very short submission is self-limiting.\nFor performing: The maximum is 12 minutes. A recording of approximately 1 minute is insufficient to demonstrate technical proficiency — there is simply not enough evidence for the examiner to assess intonation, rhythm, tone quality, and style across the work. A 1-minute performance approximates by default because the evidence is too thin.\nThe word count works the same way: 600 words is the maximum for programme notes. Under-use is self-limiting if something is consequently missing. However, a very concise set of notes that explains everything clearly and purposefully can still achieve a high mark — brevity is not penalised if the content is complete.",
+    "objectID": "book/exploring-checklist.html#section-3-performed-adaptation",
+    "href": "book/exploring-checklist.html#section-3-performed-adaptation",
+    "title": "Exploring: Checklist",
+    "section": "Section 3: Performed adaptation",
+    "text": "Section 3: Performed adaptation\n\nStimulus (original music) included in Upload 2 (max 1 min)\nPerformed adaptation audio included in Upload 2 (max 2 min)\nFrom a local or global context — NOT personal\nStatement explains which performing practices were identified in the original style\nStatement explains how practices were adapted for your instrument\nChallenges and solutions addressed\nAdaptation AOI is confirmed as different from creating AOI",
     "crumbs": [
       "Course Book",
-      "Presenting Music",
-      "Presenting: Common Mistakes"
+      "Exploring Music in Context",
+      "Exploring: Checklist"
     ]
   },
   {
-    "objectID": "book/presenting-common-mistakes.html#notation-that-doesnt-communicate",
-    "href": "book/presenting-common-mistakes.html#notation-that-doesnt-communicate",
-    "title": "Presenting: Common Mistakes",
-    "section": "5. Notation that doesn’t communicate",
-    "text": "5. Notation that doesn’t communicate\nThe problem: Scores are submitted but they contain no expressive markings, no dynamic indications, no articulation, no phrase markings — just pitches and rhythms. Or, for music technology, a screenshot of the DAW is submitted with no annotation or explanation of what it shows.\nThe purpose of notation in this component is to be an effective representation of sound or performance instructions. If the notation does not communicate what the student intended and how, it cannot evidence compositional decision-making.\nWhat examiners look for in notation:\n\nDynamic markings: where things get louder, quieter, and by how much\nArticulation: how individual notes are to be played\nPhrase markings or bowing/breath indications\nTempo and character markings\nFor ensemble writing: that ranges are playable, that the melody can actually be heard through the texture, that the balance of voices is considered\n\nFor music technology scores: DAW screenshots alone are limited. The student should annotate them and explain what specific parameters, filters, or effects are doing. Graphic notation showing changes in filters or parameters over time is more communicative than a waveform image. A piano roll view (MIDI data) is more informative than many DAW notation views, which can be inaccurate. Audio waveform screenshots represent sound, not music — they do not communicate compositional decisions.\nNotation definition (IB): Notation may take any form appropriate to the style, including graphic scores, numeric notation, tablature, sargam, solfège, screenshots, technology notes, and staff/stave notation. The form matters less than whether it effectively communicates the student’s musical decisions.",
+    "objectID": "book/exploring-checklist.html#upload-1-written-document",
+    "href": "book/exploring-checklist.html#upload-1-written-document",
+    "title": "Exploring: Checklist",
+    "section": "Upload 1: Written document",
+    "text": "Upload 1: Written document\n\nWord count is within 2,400 words (citations and bibliography excluded)\nCompiled in order: Section 1 → Section 2 → Section 3 → Bibliography\nVisual evidence is embedded in the text, not appended\nVisual evidence does not exceed 5 pages\nScore for creating exercise is embedded in Section 2\nTrack list and timings included as appendix (not in word count)\nBibliography complete and includes all scores, recordings, and secondary sources",
     "crumbs": [
       "Course Book",
-      "Presenting Music",
-      "Presenting: Common Mistakes"
+      "Exploring Music in Context",
+      "Exploring: Checklist"
     ]
   },
   {
-    "objectID": "book/presenting-common-mistakes.html#criterion-d-treated-as-a-repeat-of-b-and-c",
-    "href": "book/presenting-common-mistakes.html#criterion-d-treated-as-a-repeat-of-b-and-c",
-    "title": "Presenting: Common Mistakes",
-    "section": "6. Criterion D treated as a repeat of B and C",
-    "text": "6. Criterion D treated as a repeat of B and C\nThe problem: A student’s performing has clear technical limitations. The examiner marks Criterion C accordingly. They then repeat the same observations in Criterion D — “the musical communication is weak because of the technical limitations in performance.”\nThis is double penalising. A student who has already received a lower mark in C for technical reasons should not receive a further reduction in D for the same reason.\nWhat Criterion D is actually asking: How effectively does the submission as a whole communicate musical intentions across all three roles — researcher, creator, and performer? It is a holistic picture: do the programme notes, the notation, the recordings, and the overall shape of the submission cohere into something that communicates the student’s musical ideas?\nThe practical starting point: When the areas of inquiry are addressed in the programme notes and the recording quality is adequate, Criterion D tends to settle in the 5–6 range. The question for 7–8 (compelling) is whether the whole submission — not just one element — creates a genuinely compelling impression. This typically requires both the creating and the performing to be outstanding.\nCompelling vs. competent: Competent means everything is in order. Compelling means the listener wants to engage with it again — something distinctive and musically purposeful comes through. It is qualitative, not just technical.",
+    "objectID": "book/exploring-checklist.html#upload-2-audio-evidence",
+    "href": "book/exploring-checklist.html#upload-2-audio-evidence",
+    "title": "Exploring: Checklist",
+    "section": "Upload 2: Audio evidence",
+    "text": "Upload 2: Audio evidence\n\nTotal audio does not exceed 4 minutes\nCompiled in order: Creating exercise → Stimulus → Performed adaptation\nCreating exercise audio does not exceed 1 minute (if applicable)\nStimulus does not exceed 1 minute\nPerformed adaptation does not exceed 2 minutes\nAudio quality allows full assessment of the exercises\nExact timings are specified in the written document",
     "crumbs": [
       "Course Book",
-      "Presenting Music",
-      "Presenting: Common Mistakes"
+      "Exploring Music in Context",
+      "Exploring: Checklist"
+    ]
+  },
+  {
+    "objectID": "book/exploring-checklist.html#upload-3-audio-reference-material",
+    "href": "book/exploring-checklist.html#upload-3-audio-reference-material",
+    "title": "Exploring: Checklist",
+    "section": "Upload 3: Audio reference material",
+    "text": "Upload 3: Audio reference material\n\nTotal audio does not exceed 3 minutes\nContains only excerpts of music analysed in Section 1\nCompiled in the order excerpts appear in the writing\nTimestamps in Upload 3 match the references in the written document",
+    "crumbs": [
+      "Course Book",
+      "Exploring Music in Context",
+      "Exploring: Checklist"
+    ]
+  },
+  {
+    "objectID": "book/exploring-checklist.html#common-errors-to-rule-out",
+    "href": "book/exploring-checklist.html#common-errors-to-rule-out",
+    "title": "Exploring: Checklist",
+    "section": "Common errors to rule out",
+    "text": "Common errors to rule out\n\nTimestamps in writing point to Upload 3 — not to YouTube, Spotify, or original commercial recordings\nScore excerpts are annotated and connected to specific analytical claims — not decorative\nAOIs are justified with musical evidence — not just labelled\nCreating and adaptation are from two different AOIs\nPerformed adaptation is based on local or global music — not personal\nCreating exercise and adaptation are both referenced back to Section 1 research\nWord count checked with citations removed\n6/MCAF authentication form completed by teacher",
+    "crumbs": [
+      "Course Book",
+      "Exploring Music in Context",
+      "Exploring: Checklist"
     ]
   },
   {
@@ -994,5 +1186,17 @@
     "title": "Presentations",
     "section": "",
     "text": "Each row links to the slides and notes from that class session.\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\nTitle\nDate\nCategories\nDescription\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "book/exploring-guide.html#connection-between-sections",
+    "href": "book/exploring-guide.html#connection-between-sections",
+    "title": "Exploring: How to Do It",
+    "section": "Connection Between Sections",
+    "text": "Connection Between Sections\nEvery part of the submission should connect logically:\n\nSection 1 research → identifies conventions and practices → Section 2 creating exercise applies the creating conventions; Section 3 performed adaptation applies the performance practices\n\n\n\n\n\n\nflowchart TD\n    S1(\"**Section 1**&lt;br&gt;Research\"):::section\n    S2(\"**Section 2**&lt;br&gt;Creating exercise\"):::section\n    S3(\"**Section 3**&lt;br&gt;Performed adaptation\"):::section\n    CONV[\"Identify conventions&lt;br&gt;& practices\"]\n    CREA[\"apply creating&lt;br&gt;conventions\"]\n    PERF[\"apply performance&lt;br&gt;practices\"]\n        \n    CONV --&gt; S1\n    S1 --&gt; CREA \n    CREA --&gt; S2\n    S1 --&gt; PERF \n    PERF --&gt; S3\n    \n    classDef section fill:#4a90d9,stroke:#2c5f8a,color:#fff\n\n\n\n\n\n\n\nIf the practical exercises do not grow from the research, Criterion B2 (Implications) cannot be awarded. If the research is superficial, there is nothing meaningful to apply.",
+    "crumbs": [
+      "Course Book",
+      "Exploring Music in Context",
+      "Exploring: How to Do It"
+    ]
   }
 ]

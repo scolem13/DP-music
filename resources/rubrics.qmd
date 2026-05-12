@@ -84,6 +84,24 @@ document.addEventListener('DOMContentLoaded', function () {
     btn.appendChild(document.createTextNode(strong.textContent));
     strong.parentNode.replaceChild(btn, strong);
   });
+
+  // ── Arrival handler: #sectionid,rt-term → scroll to section, highlight button ──
+  var hash = window.location.hash.slice(1);
+  if (hash.includes(',')) {
+    var parts = hash.split(',');
+    var sectionId = parts[0];
+    var termId    = parts[1];
+    history.replaceState(null, '', window.location.pathname + window.location.search);
+    var section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      var allBtns = Array.from(document.querySelectorAll('button.glossary[data-term="' + termId + '"]'));
+      var btn = allBtns.find(function (b) {
+        return !!(section.compareDocumentPosition(b) & Node.DOCUMENT_POSITION_FOLLOWING);
+      });
+      if (btn) { btn.classList.add('glterm-highlight'); }
+    }
+  }
 });
 </script>
 ```
@@ -154,7 +172,7 @@ Is evidence well-chosen and appropriate to the exploration?
 |                        |                                                                                                                                      | Competent                            |
 +------------------------+--------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------+
 
-### Criterion B1: Conducting Musical Research
+### Criterion B1: Conducting Musical Research {#emc-b1}
 
 This criterion focuses on how well students **extract musical** and extra-musical findings, and how well they locate and explain these findings.
 
@@ -204,7 +222,7 @@ How effectively does the student locate the **musical findings**?
 |                        |                                                                                                                                      | Competent                            |
 +------------------------+--------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------+
 
-### Criterion B2: Implications
+### Criterion B2: Implications {#emc-b2}
 
 This criterion focuses on how well students understand the implications of their research for creating and performing.
 
@@ -248,7 +266,7 @@ Does the student explain the implications of their research for creating and per
 |                        |                                                                                                                                      | Competent                            |
 +------------------------+--------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------+
 
-### Criterion C1: Understanding creating conventions
+### Criterion C1: Understanding creating conventions {#emc-c1}
 
 This criterion focuses on the understanding of creating conventions according and/or **musical demands** of the chosen style.
 
@@ -292,7 +310,7 @@ How well has the student realized the creating conventions of a musical style?
 |                        |                                                                                                                                      | Competent                            |
 +------------------------+--------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------+
 
-### Criterion C2: Understanding performing practices
+### Criterion C2: Understanding performing practices {#emc-c2}
 
 This criterion focuses on the understanding of performing practices according and/or **musical** demands of the chosen style.
 
@@ -343,7 +361,7 @@ How well has the student shaped performing practices of a musical style?
 
 *Guidance on what each level means: [What Each Level Means](../book/ewm-criterion-guidance.html) · [Common Mistakes](../book/ewm-common-mistakes.html)*
 
-### Criterion A: Rationale and commentary for musical experiments in creating
+### Criterion A: Rationale and commentary for musical experiments in creating {#ewm-a}
 
 This criterion focuses on the articulation of a persuasive and logical rationale for musical experiments in creating supported by a relevant selection of stimuli for experimentation. The commentary
 should clearly evidence and explain the musical decision-making processes that have guided the experimentation. For the purpose of this task, students provide:
@@ -394,7 +412,7 @@ Is the explanation of the experimentation process and of musical decision-making
 |                        |                                                                                                                                      | Competent                            |
 +------------------------+--------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------+
 
-### Criterion B: Practical musical experiments in creating
+### Criterion B: Practical musical experiments in creating {#ewm-b}
 
 This criterion focuses on the processes of musical experimentation in creating that generate innovative musical ideas with personal intent and purpose, resulting from informed musical decision-making.
 
@@ -449,7 +467,7 @@ Is there practical evidence of informed musical decision-making in the musical e
 |                        |                                                                                                                                      | Excellent                            |
 +------------------------+--------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------+
 
-### Criterion C: Rationale and commentary for musical experiments in performing
+### Criterion C: Rationale and commentary for musical experiments in performing {#ewm-c}
 
 This criterion focuses on the articulation of a persuasive and logical rationale for musical experiments in performing supported by a relevant selection of stimuli for experimentation. The commentary
 should clearly evidence and explain the musical decision-making processes that have guided the experimentation. For the purpose of this task, students provide:
@@ -500,7 +518,7 @@ Is the explanation of the experimentation process and of musical decision-making
 |                        |                                                                                                                                      | Competent                            |
 +------------------------+--------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------+
 
-### Criterion D: Practical musical experiments in performing
+### Criterion D: Practical musical experiments in performing {#ewm-d}
 
 This criterion focuses on the processes of musical experimentation in performing that generate innovative musical ideas with personal intent and purpose, resulting from informed musical
 decision-making.
@@ -563,7 +581,7 @@ Is there practical evidence of informed musical decision-making in the musical e
 
 *Guidance on what each level means: [What Each Level Means](../book/presenting-criterion-guidance.html) · [Common Mistakes](../book/presenting-common-mistakes.html)*
 
-### Criterion A: Program Notes
+### Criterion A: Program Notes {#pm-a}
 
 ***Guiding questions***
 
@@ -607,7 +625,7 @@ How well are the student's program choices justified?
 |                        |                                                                                                                                      | Competent                            |
 +------------------------+--------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------+
 
-### Criterion B: Musicality and technical proficiency of created works
+### Criterion B: Musicality and technical proficiency of created works {#pm-b}
 
 ***Guiding question***
 
@@ -659,7 +677,7 @@ How evident is musicality and technical proficiency in the created works?
 |                        |                                                                                                                                      | Excellent                            |
 +------------------------+--------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------+
 
-### Criterion C: Musicality and technical proficiency of performed works
+### Criterion C: Musicality and technical proficiency of performed works {#pm-c}
 
 ***Guiding question***
 
@@ -828,7 +846,7 @@ Is the evidence selected to document the project appropriate and well chosen?
 |                        |                                                                                                                                      | Excellent                            |
 +------------------------+--------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------+
 
-### Criterion B: Discussion of the Process
+### Criterion B: Discussion of the Process {#cmm-b}
 
 This criterion focuses on how the student:
 
@@ -888,7 +906,7 @@ How effective is the process in relation to the stated aims?
 |                        |                                                                                                                                      | Excellent                            |
 +------------------------+--------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------+
 
-### Criterion C: Technical and musical proficiency in the identified role
+### Criterion C: Technical and musical proficiency in the identified role {#cmm-c}
 
 This criterion focuses on the demonstration of technical proficiency and musicianship relating to the student's identified role in the final project.
 
@@ -905,9 +923,9 @@ How effectively does the student's musicianship support the musical outcomes of 
 +------------------------+--------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------+
 | 1-2                    | - Technical proficiency in the identified role is **rudimentary**.                                                                   | Ineffective                          |
 |                        |                                                                                                                                      |                                      |
-|                        | - The student **approximates** the musical aims of the project with                                                                  | Inaccurate                           |
+|                        | - The student **approximates** the musical aims of the project with  **ineffective** musicianship.                                   | Inaccurate                           |
 |                        |                                                                                                                                      |                                      |
-|                        | **ineffective** musicianship.                                                                                                        | Rudimentary                          |
+|                        |                                                                                                                                      | Rudimentary                          |
 |                        |                                                                                                                                      |                                      |
 |                        |                                                                                                                                      | Limited                              |
 |                        |                                                                                                                                      |                                      |
@@ -915,9 +933,9 @@ How effectively does the student's musicianship support the musical outcomes of 
 +------------------------+--------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------+
 | 3-4                    | - Technical proficiency in the identified role is **inconsistent**.                                                                  | Inconsistent                         |
 |                        |                                                                                                                                      |                                      |
-|                        | - The student **transmits** the musical aims of the project with                                                                     | Formulaic                            |
+|                        | - The student **transmits** the musical aims of the project with  **sufficient** musicianship.                                       | Formulaic                            |
 |                        |                                                                                                                                      |                                      |
-|                        | **sufficient** musicianship.                                                                                                         | Sufficient                           |
+|                        |                                                                                                                                      | Sufficient                           |
 |                        |                                                                                                                                      |                                      |
 |                        |                                                                                                                                      | Suitable                             |
 |                        |                                                                                                                                      |                                      |
@@ -925,9 +943,9 @@ How effectively does the student's musicianship support the musical outcomes of 
 +------------------------+--------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------+
 | 5-6                    | - Technical proficiency in the identified role is **competent**.                                                                     | Accurate                             |
 |                        |                                                                                                                                      |                                      |
-|                        | - The student **realizes** the musical aims of the project with                                                                      | Proficient                           |
+|                        | - The student **realizes** the musical aims of the project with **proficient** musicianship.                                         | Proficient                           |
 |                        |                                                                                                                                      |                                      |
-|                        | **proficient** musicianship.                                                                                                         | Purposeful                           |
+|                        |                                                                                                                                      | Purposeful                           |
 |                        |                                                                                                                                      |                                      |
 |                        |                                                                                                                                      | Relevant                             |
 |                        |                                                                                                                                      |                                      |
@@ -935,9 +953,9 @@ How effectively does the student's musicianship support the musical outcomes of 
 +------------------------+--------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------+
 | 7-8                    | - Technical proficiency in the identified role is **excellent**.                                                                     | Imaginative                          |
 |                        |                                                                                                                                      |                                      |
-|                        | - The student **personalizes** the musical aims of the project with                                                                  | Resourceful                          |
+|                        | - The student **personalizes** the musical aims of the project with **compelling** musicianship.                                     | Resourceful                          |
 |                        |                                                                                                                                      |                                      |
-|                        | **compelling** musicianship.                                                                                                         | Compelling                           |
+|                        |                                                                                                                                      | Compelling                           |
 |                        |                                                                                                                                      |                                      |
 |                        |                                                                                                                                      | Accomplished                         |
 |                        |                                                                                                                                      |                                      |

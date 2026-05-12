@@ -10,6 +10,8 @@ book:
     - assessment-guidance.qmd
     - part: "Exploring Music in Context"
       chapters:
+        - exploring-guide.qmd
+        - exploring-checklist.qmd
         - exploring-criterion-guidance.qmd
         - exploring-common-mistakes.qmd
     - part: "Experimenting with Music"

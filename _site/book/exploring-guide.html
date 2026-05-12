@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Recurring problems in Contemporary Music Maker submissions, with concrete examples showing what distinguishes stronger from weaker work.">
+<meta name="description" content="A step-by-step guide through the Exploring Music in Context component.">
 
-<title>CMM: Common Mistakes – IB Music</title>
+<title>Exploring: How to Do It – IB Music</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -68,6 +68,9 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script src="../site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="../site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 <link rel="stylesheet" href="../styles.css">
@@ -117,7 +120,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../book/cmm-criterion-guidance.html">The Contemporary Music Maker (HL)</a></li><li class="breadcrumb-item"><a href="../book/cmm-common-mistakes.html">CMM: Common Mistakes</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../book/exploring-guide.html">Exploring Music in Context</a></li><li class="breadcrumb-item"><a href="../book/exploring-guide.html">Exploring: How to Do It</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -152,7 +155,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../book/exploring-guide.html" class="sidebar-item-text sidebar-link">
+  <a href="../book/exploring-guide.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Exploring: How to Do It</span></a>
   </div>
 </li>
@@ -239,7 +242,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../book/cmm-common-mistakes.html" class="sidebar-item-text sidebar-link active">
+  <a href="../book/cmm-common-mistakes.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">CMM: Common Mistakes</span></a>
   </div>
 </li>
@@ -255,34 +258,31 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul class="collapse">
-  <li><a href="#the-project-plan-treated-as-process-evidence" id="toc-the-project-plan-treated-as-process-evidence" class="nav-link active" data-scroll-target="#the-project-plan-treated-as-process-evidence">1. The project plan treated as process evidence</a></li>
-  <li><a href="#all-words-no-musical-evidence" id="toc-all-words-no-musical-evidence" class="nav-link" data-scroll-target="#all-words-no-musical-evidence">2. All words, no musical evidence</a></li>
-  <li><a href="#describing-collaboration-not-reflecting-on-musical-decisions" id="toc-describing-collaboration-not-reflecting-on-musical-decisions" class="nav-link" data-scroll-target="#describing-collaboration-not-reflecting-on-musical-decisions">3. Describing collaboration, not reflecting on musical decisions</a></li>
-  <li><a href="#using-higher-level-language-without-higher-level-thinking" id="toc-using-higher-level-language-without-higher-level-thinking" class="nav-link" data-scroll-target="#using-higher-level-language-without-higher-level-thinking">4. Using higher-level language without higher-level thinking</a></li>
-  <li><a href="#a-non-musical-role" id="toc-a-non-musical-role" class="nav-link" data-scroll-target="#a-non-musical-role">5. A non-musical role</a></li>
-  <li><a href="#multiple-students-sharing-the-same-presentation" id="toc-multiple-students-sharing-the-same-presentation" class="nav-link" data-scroll-target="#multiple-students-sharing-the-same-presentation">6. Multiple students sharing the same presentation</a></li>
-  <li><a href="#the-final-product-is-missing" id="toc-the-final-product-is-missing" class="nav-link" data-scroll-target="#the-final-product-is-missing">7. The final product is missing</a></li>
-  <li><a href="#insufficient-use-of-the-time-allowance" id="toc-insufficient-use-of-the-time-allowance" class="nav-link" data-scroll-target="#insufficient-use-of-the-time-allowance">8. Insufficient use of the time allowance</a></li>
-  <li><a href="#the-arrangement-problem" id="toc-the-arrangement-problem" class="nav-link" data-scroll-target="#the-arrangement-problem">9. The arrangement problem</a></li>
+  <li><a href="#step-1-choose-your-repertoire" id="toc-step-1-choose-your-repertoire" class="nav-link active" data-scroll-target="#step-1-choose-your-repertoire">Step 1: Choose your repertoire</a></li>
+  <li><a href="#step-2-research-and-write-section-1" id="toc-step-2-research-and-write-section-1" class="nav-link" data-scroll-target="#step-2-research-and-write-section-1">Step 2: Research and write Section 1</a></li>
+  <li><a href="#step-3-creating-exercise-and-section-2-statement" id="toc-step-3-creating-exercise-and-section-2-statement" class="nav-link" data-scroll-target="#step-3-creating-exercise-and-section-2-statement">Step 3: Creating exercise and Section 2 statement</a></li>
+  <li><a href="#step-4-performed-adaptation-and-section-3-statement" id="toc-step-4-performed-adaptation-and-section-3-statement" class="nav-link" data-scroll-target="#step-4-performed-adaptation-and-section-3-statement">Step 4: Performed adaptation and Section 3 statement</a></li>
+  <li><a href="#step-5-compile-the-submission" id="toc-step-5-compile-the-submission" class="nav-link" data-scroll-target="#step-5-compile-the-submission">Step 5: Compile the submission</a></li>
+  <li><a href="#connection-between-sections" id="toc-connection-between-sections" class="nav-link" data-scroll-target="#connection-between-sections">Connection Between Sections</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../book/cmm-criterion-guidance.html">The Contemporary Music Maker (HL)</a></li><li class="breadcrumb-item"><a href="../book/cmm-common-mistakes.html">CMM: Common Mistakes</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../book/exploring-guide.html">Exploring Music in Context</a></li><li class="breadcrumb-item"><a href="../book/exploring-guide.html">Exploring: How to Do It</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">CMM: Common Mistakes</h1>
+<h1 class="title">Exploring: How to Do It</h1>
   <div class="quarto-categories">
     <div class="quarto-category">Reference</div>
     <div class="quarto-category">Assessment</div>
-    <div class="quarto-category">CMM</div>
+    <div class="quarto-category">Exploring</div>
   </div>
   </div>
 
 <div>
   <div class="description">
-    Recurring problems in Contemporary Music Maker submissions, with concrete examples showing what distinguishes stronger from weaker work.
+    A step-by-step guide through the Exploring Music in Context component.
   </div>
 </div>
 
@@ -299,77 +299,155 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><em>See also: <a href="../resources/rubrics.html#the-contemporary-music-maker">Assessment Rubrics → The Contemporary Music Maker</a></em></p>
-<hr>
-<section id="the-project-plan-treated-as-process-evidence" class="level2">
-<h2 class="anchored" data-anchor-id="the-project-plan-treated-as-process-evidence">1. The project plan treated as process evidence</h2>
-<p><strong>The problem:</strong> The majority of the multimedia presentation is devoted to the project plan — vision statements, timelines, collaborator lists, logistics — with little or no documentation of what actually happened musically.</p>
-<p>The project plan provides context for understanding the project’s aims. It is not process evidence. Criterion A rewards documentation of musical development: how the music evolved, what decisions were made along the way, what was tried and revised. Criterion B requires reflection on that development.</p>
-<p>A submission dominated by planning material, with minimal evidence of how the music developed, will be limited in both Criterion A and Criterion B regardless of how well-organised or ambitious the plan is. The project plan introduces the project — the majority of the presentation should then show what actually happened.</p>
-<hr>
-</section>
-<section id="all-words-no-musical-evidence" class="level2">
-<h2 class="anchored" data-anchor-id="all-words-no-musical-evidence">2. All words, no musical evidence</h2>
-<p><strong>The problem:</strong> The discussion of process is entirely or almost entirely verbal — the student explains what they did, but there are no scores, audio extracts, DAW screenshots, or other material evidence to support the claims.</p>
-<p>To <em>demonstrate</em> a choice requires showing it through material evidence. This is the threshold between the 1–3 and 4–6 bands in Criterion B. A student can <em>state</em> choices at 1–3. To reach 4–6, the choices must be shown through the music itself — not just described in words.</p>
-<p>The implication is practical: if a student says “I decided to change the harmonic progression in the chorus,” the examiner must be able to hear or see that decision. Without the audio or score showing it, the claim is unverifiable.</p>
-<hr>
-</section>
-<section id="describing-collaboration-not-reflecting-on-musical-decisions" class="level2">
-<h2 class="anchored" data-anchor-id="describing-collaboration-not-reflecting-on-musical-decisions">3. Describing collaboration, not reflecting on musical decisions</h2>
-<p><strong>The problem:</strong> Criterion B asks how collaboration shaped musical choices. Students often describe the fact of collaboration (who was involved, what roles were assigned, what the team did) without reflecting on how the collaborative interactions changed the music.</p>
-<p>What is being assessed is not the management of the project but the musical consequences of the collaborative process. The progression from lower to higher marks in this strand:</p>
+<p><em>See also: <a href="../resources/rubrics.html#exploring-music-in-context">Assessment Rubrics → Exploring</a></em></p>
+<p>The Exploring component asks you to do three things: <strong>research</strong> diverse music, <strong>create</strong> a short piece in a style you explored, and <strong>adapt</strong> music from an unfamiliar context for your own instrument. These three parts are connected — your research must directly inform both exercises.</p>
+<p><strong>What you submit:</strong></p>
 <ul>
-<li>1–3: States they collaborated; does not reflect on how it affected the work</li>
-<li>4–6: Describes the collaboration but focuses on teamwork rather than musical decisions</li>
-<li>7–9: Explains the impact of collaboration on the creative process</li>
-<li>10–12: Examines and evaluates how collaboration shaped musical choices and the final outcome</li>
+<li>Upload 1: one written document (max 2,400 words)</li>
+<li>Upload 2: one audio file containing your practical work (max 4 min)</li>
+<li>Upload 3: one audio file of the music you analysed (max 3 min)</li>
 </ul>
-<p>A submission where collaboration is described as logistics (“we met on Tuesdays, X did the recording, Y managed the calendar”) without connecting those interactions to specific musical outcomes cannot achieve the higher marks in this strand.</p>
 <hr>
-</section>
-<section id="using-higher-level-language-without-higher-level-thinking" class="level2">
-<h2 class="anchored" data-anchor-id="using-higher-level-language-without-higher-level-thinking">4. Using higher-level language without higher-level thinking</h2>
-<p><strong>The problem:</strong> A student writes “I evaluated my choices” or “I examined areas for development,” but the content that follows is a basic description or list without the analytical depth those terms require.</p>
-<p>Using the vocabulary of a higher mark band does not earn marks for that band. What matters is whether the thinking demonstrated matches what the term requires:</p>
+<section id="step-1-choose-your-repertoire" class="level2">
+<h2 class="anchored" data-anchor-id="step-1-choose-your-repertoire">Step 1: Choose your repertoire</h2>
+<p>Choose <strong>3–4 pieces</strong> early. They must collectively cover:</p>
 <ul>
-<li><em>Evaluate</em> means weighing strengths and limitations — comparing alternatives and arriving at a reasoned judgment about effectiveness</li>
-<li><em>Examine</em> means uncovering assumptions and interrelationships — going beyond what happened to ask why it mattered and what it reveals</li>
-<li><em>Justify</em> means providing valid reasons that connect the decision to musical intentions — not just stating the decision</li>
+<li><strong>At least two areas of inquiry</strong> (AOI 1, 2, 3, or 4)</li>
+<li><strong>All three contexts</strong>: one personal, at least one local, at least one global</li>
 </ul>
-<p>If the surrounding content does not match the level of the term used, the mark reflects the content, not the vocabulary.</p>
+<p>At the same time, decide which piece will anchor each exercise:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 15%">
+<col style="width: 27%">
+<col style="width: 31%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Exercise</th>
+<th>Source</th>
+<th>AOI requirement</th>
+<th>Context requirement</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Creating exercise</td>
+<td>Any piece from your Section 1 research</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="even">
+<td>Performed adaptation</td>
+<td>Music from a local or global context</td>
+<td><strong>Different AOI</strong> from the creating exercise</td>
+<td>Local or global only — NOT personal</td>
+</tr>
+</tbody>
+</table>
 <hr>
 </section>
-<section id="a-non-musical-role" class="level2">
-<h2 class="anchored" data-anchor-id="a-non-musical-role">5. A non-musical role</h2>
-<p><strong>The problem:</strong> A student identifies their role as concert organiser, logistics manager, or social media coordinator — a role that has no directly assessable musical output.</p>
-<p>Criterion C assesses technical proficiency and musicianship in the identified role. A purely logistical or administrative role cannot be assessed musically. If this is the stated role, the examiner must look for any other musical evidence in the submission (e.g., the same student also performed) and assess that instead. Where no musical evidence is present at all, this must be reflected in the mark.</p>
-<p>The identified role should align with the musical aims of the project and produce output that can be heard or seen.</p>
+<section id="step-2-research-and-write-section-1" class="level2">
+<h2 class="anchored" data-anchor-id="step-2-research-and-write-section-1">Step 2: Research and write Section 1</h2>
+<p>Section 1 is your exploration of the music — roughly 1800 words of the 2,400 total.</p>
+<p>For each piece, produce two types of findings:</p>
+<p><strong>Musical findings</strong> — from the music itself (score, recording):</p>
+<ul>
+<li>What musical elements and devices define this piece?</li>
+<li>What makes this style distinctive — what conventions does it use?</li>
+<li>How are these things used to create meaning or effect?</li>
+</ul>
+<p><strong>Extra-musical findings</strong> — from sources about the music (articles, interviews, documentaries):</p>
+<ul>
+<li>When and where was this music made? What was its context?</li>
+<li>What was the composer’s or performer’s intention?</li>
+<li>How does the context explain the musical choices?</li>
+</ul>
+<p><strong>Write analytically, not descriptively.</strong> Don’t narrate what you hear. Explain <em>why</em> the music works the way it does. Connect every finding to the style, the AOI, and/or the creative intention.</p>
+<p>Every musical observation needs a <strong>bar number and/or timestamp</strong> pointing to Upload 3. Every claim drawn from a source needs an <strong>in-text citation</strong>.</p>
 <hr>
 </section>
-<section id="multiple-students-sharing-the-same-presentation" class="level2">
-<h2 class="anchored" data-anchor-id="multiple-students-sharing-the-same-presentation">6. Multiple students sharing the same presentation</h2>
-<p><strong>The problem:</strong> In collaborative projects, several students use an identical or near-identical multimedia presentation, making it impossible to distinguish individual contributions and roles.</p>
-<p>Each student must submit their own individual presentation that explicitly demonstrates their personal process and musical role. While using the same final product is permitted, the process documentation must be individual. A shared presentation cannot be assessed for individual marks.</p>
+<section id="step-3-creating-exercise-and-section-2-statement" class="level2">
+<h2 class="anchored" data-anchor-id="step-3-creating-exercise-and-section-2-statement">Step 3: Creating exercise and Section 2 statement</h2>
+<p>Compose a short piece (max 32 bars, or 1 min audio) in the style of one of your explored pieces. This is a <strong>sketch</strong>, not a polished work. The goal is to demonstrate that you understand the style’s conventions.</p>
+<p><strong>Write a brief statement (~300 words) that explains:</strong></p>
+<ul>
+<li>Which specific creating conventions you applied and where in the exercise</li>
+<li>How your Section 1 research directly informed your choices</li>
+<li>Any challenges you encountered</li>
+</ul>
+<p>Include the score or notation <strong>embedded in the document</strong>. If the style doesn’t use staff notation, use an appropriate form (tablature, graphic notation, DAW screenshot). Include an audio track (max 1 min) in Upload 2.</p>
 <hr>
 </section>
-<section id="the-final-product-is-missing" class="level2">
-<h2 class="anchored" data-anchor-id="the-final-product-is-missing">7. The final product is missing</h2>
-<p><strong>The problem:</strong> A student documents the process thoroughly but does not include the final product in the multimedia presentation.</p>
-<p>The final product must be presented to the intended audience as part of the submission, and the video recording of it must be included. If it is absent, Criterion D will receive the lowest mark, regardless of the quality of the process documentation.</p>
+<section id="step-4-performed-adaptation-and-section-3-statement" class="level2">
+<h2 class="anchored" data-anchor-id="step-4-performed-adaptation-and-section-3-statement">Step 4: Performed adaptation and Section 3 statement</h2>
+<p>Record yourself adapting music from a <strong>local or global</strong> context for your own instrument. The stimulus (the original music you worked from) goes into Upload 2 (max 1 min). Your performed adaptation follows (max 2 min).</p>
+<p>The exercise is not a transcription. You are identifying the <strong>performing practices</strong> of the original style and finding ways to realize them on your instrument — which may require extended techniques or creative solutions.</p>
+<p><strong>Write a brief statement (~300 words) that explains:</strong></p>
+<ul>
+<li>Which performing conventions or practices you identified in the original style</li>
+<li>How you adapted them for your instrument, including where it worked and where it didn’t</li>
+<li>Any challenges and how you resolved them</li>
+</ul>
 <hr>
 </section>
-<section id="insufficient-use-of-the-time-allowance" class="level2">
-<h2 class="anchored" data-anchor-id="insufficient-use-of-the-time-allowance">8. Insufficient use of the time allowance</h2>
-<p><strong>The problem:</strong> A submission is 5 or 6 minutes long when the maximum is 15 minutes (7 for the final product, 8 for process).</p>
-<p>There is no minimum time requirement, but brief presentations rarely provide sufficient evidence for depth across all four criteria. Presentations significantly under 10 minutes will typically leave key aspects of the process underdeveloped. The time allowance is designed to give space for the kind of comprehensive documentation that the higher mark bands require.</p>
-<p>Using the full allowance purposefully — not just extending the presentation artificially — is a practical necessity for achieving in the upper bands.</p>
+<section id="step-5-compile-the-submission" class="level2">
+<h2 class="anchored" data-anchor-id="step-5-compile-the-submission">Step 5: Compile the submission</h2>
+<p><strong>Upload 1 — Written document (max 2,400 words):</strong></p>
+<p>Compile in this order:</p>
+<ol type="1">
+<li>Section 1: Exploration of diverse musical material</li>
+<li>Section 2: Statement on the creating exercise (with score embedded)</li>
+<li>Section 3: Statement on the performed adaptation</li>
+<li>Bibliography <em>(not counted in the word limit)</em></li>
+</ol>
+<p>Visual evidence (score excerpts, annotated screenshots, diagrams) must be embedded in the text — not appended. Maximum 5 pages of visual material in total.</p>
+<p><strong>Upload 2 — Practical work (max 4 min total):</strong></p>
+<p>Compile in this order:</p>
+<ol type="1">
+<li>Creating exercise audio <em>(max 1 min)</em></li>
+<li>Stimulus for the performed adaptation <em>(max 1 min)</em></li>
+<li>Performed adaptation <em>(max 2 min)</em></li>
+</ol>
+<p><strong>Upload 3 — Reference material (max 3 min total):</strong></p>
+<p>Excerpts of the music you analyzed in Section 1, in the order they appear in your writing.</p>
 <hr>
 </section>
-<section id="the-arrangement-problem" class="level2">
-<h2 class="anchored" data-anchor-id="the-arrangement-problem">9. The arrangement problem</h2>
-<p><strong>The problem:</strong> A student submits an arrangement without providing the original source material.</p>
-<p>When the student’s role involves arranging, the original material (score or audio) must be available alongside the arrangement so that the student’s own contribution can be assessed. Without the original, it is impossible to evaluate what the student created, adapted, or transformed. If the original is absent, the examiner must look for another assessable role in the submission.</p>
+<section id="connection-between-sections" class="level2">
+<h2 class="anchored" data-anchor-id="connection-between-sections">Connection Between Sections</h2>
+<p>Every part of the submission should connect logically:</p>
+<blockquote class="blockquote">
+<p>Section 1 research → identifies conventions and practices → Section 2 creating exercise applies the creating conventions; Section 3 performed adaptation applies the performance practices</p>
+</blockquote>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart TD
+    S1("**Section 1**&lt;br&gt;Research"):::section
+    S2("**Section 2**&lt;br&gt;Creating exercise"):::section
+    S3("**Section 3**&lt;br&gt;Performed adaptation"):::section
+    CONV["Identify conventions&lt;br&gt;&amp; practices"]
+    CREA["apply creating&lt;br&gt;conventions"]
+    PERF["apply performance&lt;br&gt;practices"]
+        
+    CONV --&gt; S1
+    S1 --&gt; CREA 
+    CREA --&gt; S2
+    S1 --&gt; PERF 
+    PERF --&gt; S3
+    
+    classDef section fill:#4a90d9,stroke:#2c5f8a,color:#fff
+
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+<p>If the practical exercises do not grow from the research, Criterion B2 (Implications) cannot be awarded. If the research is superficial, there is nothing meaningful to apply.</p>
 
 
 </section>

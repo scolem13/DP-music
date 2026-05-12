@@ -1,0 +1,106 @@
+---
+title: "Exploring: Checklist"
+description: "A submission checklist for the Exploring Music in Context component."
+categories: [Reference, Assessment, Exploring]
+toc: true
+toc-depth: 2
+---
+
+::: {.content-visible when-format="html"}
+*See also: [Assessment Rubrics → Exploring](../resources/rubrics.html#exploring-music-in-context)*
+:::
+
+---
+
+## Repertoire decisions
+
+- [ ] At least **two different areas of inquiry** are represented across all pieces
+- [ ] All **three contexts** are covered: personal, local, and global
+- [ ] Creating exercise stimulus is identified (a piece explored in Section 1)
+- [ ] Adaptation stimulus is identified: **local or global context**, different AOI from creating
+- [ ] Creating exercise and performed adaptation are from **different areas of inquiry**
+
+---
+
+## Section 1: Exploration of diverse musical material
+
+**For each piece:**
+
+- [ ] Area of inquiry is **stated and justified** — not just named
+- [ ] Context (personal/local/global) is stated
+- [ ] **Musical findings** are present (from scores/recordings): conventions, devices, techniques
+- [ ] Musical findings are located with **bar numbers or exact timestamps** pointing to Upload 3
+- [ ] **Extra-musical findings** are present (from articles, interviews, etc.)
+- [ ] Extra-musical findings are **relevant** to the music — not anecdotal biography
+- [ ] All sources have **in-text citations** — not only a bibliography at the end
+- [ ] Analysis explains *why* devices are used (not just *what* is there)
+
+---
+
+## Section 2: Creating exercise
+
+- [ ] Based on a style **explored in Section 1**
+- [ ] Score or notation **embedded in the document** (max 32 bars or 1 min audio)
+- [ ] Notation is appropriate to the style and clearly communicates the exercise
+- [ ] Statement explains which **creating conventions** were applied and **where**
+- [ ] Statement explains how **Section 1 research directly informed** the exercise
+- [ ] Challenges are addressed (if applicable)
+- [ ] Creating exercise AOI is confirmed as **different from adaptation** AOI
+
+---
+
+## Section 3: Performed adaptation
+
+- [ ] Stimulus (original music) included in Upload 2 *(max 1 min)*
+- [ ] Performed adaptation audio included in Upload 2 *(max 2 min)*
+- [ ] From a **local or global** context — NOT personal
+- [ ] Statement explains which **performing practices** were identified in the original style
+- [ ] Statement explains how practices were **adapted for your instrument**
+- [ ] Challenges and solutions addressed
+- [ ] Adaptation AOI is confirmed as **different from creating** AOI
+
+---
+
+## Upload 1: Written document
+
+- [ ] Word count is within **2,400 words** (citations and bibliography excluded)
+- [ ] Compiled in order: **Section 1 → Section 2 → Section 3 → Bibliography**
+- [ ] Visual evidence is **embedded in the text**, not appended
+- [ ] Visual evidence does not exceed **5 pages**
+- [ ] Score for creating exercise is embedded in Section 2
+- [ ] Track list and timings included as appendix (not in word count)
+- [ ] Bibliography complete and includes all scores, recordings, and secondary sources
+
+---
+
+## Upload 2: Audio evidence
+
+- [ ] Total audio does not exceed **4 minutes**
+- [ ] Compiled in order: **Creating exercise → Stimulus → Performed adaptation**
+- [ ] Creating exercise audio does not exceed **1 minute** *(if applicable)*
+- [ ] Stimulus does not exceed **1 minute**
+- [ ] Performed adaptation does not exceed **2 minutes**
+- [ ] Audio quality allows full assessment of the exercises
+- [ ] Exact timings are specified in the written document
+
+---
+
+## Upload 3: Audio reference material
+
+- [ ] Total audio does not exceed **3 minutes**
+- [ ] Contains only excerpts of **music analysed in Section 1**
+- [ ] Compiled in the order excerpts appear in the writing
+- [ ] Timestamps in Upload 3 match the references in the written document
+
+---
+
+## Common errors to rule out
+
+- [ ] Timestamps in writing point to **Upload 3** — not to YouTube, Spotify, or original commercial recordings
+- [ ] Score excerpts are **annotated** and connected to specific analytical claims — not decorative
+- [ ] AOIs are **justified with musical evidence** — not just labelled
+- [ ] Creating and adaptation are from **two different AOIs**
+- [ ] Performed adaptation is based on **local or global** music — not personal
+- [ ] Creating exercise and adaptation are both referenced **back to Section 1 research**
+- [ ] Word count checked with citations removed
+- [ ] 6/MCAF authentication form completed by teacher

@@ -212,8 +212,11 @@ Submissions where the student primarily monitors pre-composed playback are not d
 - Visual evidence supporting the creating role — DAW screenshots, annotated score extracts — belongs in the programme notes (Upload 1)
 - Notation is required for all created works:
   - Staff/stave screenshots from a DAW alone are limited; annotate and explain them
+
   - Graphic notation showing filter changes and parameter shifts is useful for electronic works
+
   - MIDI piano roll view (not notation view) is preferred for showing note data; GarageBand's notation view is often inaccurate
+
   - Do not submit audio waveform screenshots — these represent sound, not musical notes
 
 ### Criterion D (Musical Communication)
