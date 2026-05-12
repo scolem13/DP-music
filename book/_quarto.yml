@@ -16,6 +16,7 @@ book:
         - exploring-common-mistakes.qmd
     - part: "Experimenting with Music"
       chapters:
+        - ewm-checklist.qmd
         - ewm-criterion-guidance.qmd
         - ewm-common-mistakes.qmd
     - part: "Presenting Music"

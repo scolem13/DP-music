@@ -10,15 +10,128 @@ toc-depth: 2
 *See also: [Assessment Rubrics → Exploring](../resources/rubrics.html#exploring-music-in-context)*
 :::
 
+```{=html}
+<script>
+(function () {
+  var PIECES_KEY = 'pieces:exploring';
+  var CB_KEY     = 'checklist:' + window.location.pathname;
+  var N          = 4;
+  var AOI_OPTS   = ['', '1', '2', '3', '4'];
+  var CTX_OPTS   = ['', 'Personal', 'Local', 'Global'];
+  var PRAC_OPTS  = ['None', 'Creating', 'Performing'];
+  var INP = 'font-size:.82rem;padding:.2rem .3rem;border:1px solid #c8bfaf;border-radius:2px;background:#faf8f5;color:#2c2416;width:100%;box-sizing:border-box;';
+  var SEL = INP + 'cursor:pointer;';
+  var TH  = 'text-align:left;font-size:.7rem;text-transform:uppercase;letter-spacing:.05em;color:#999;padding:.3rem .3rem;border-bottom:1px solid #e0d6c8;font-weight:400;white-space:nowrap;';
+  var TD  = 'padding:.25rem .2rem;';
+
+  function blank() { return { name:'', composer:'', genre:'', aoi:'', context:'', practical:'' }; }
+  function loadPieces() {
+    try { var d = JSON.parse(localStorage.getItem(PIECES_KEY))||[]; while(d.length<N)d.push(blank()); return d.slice(0,N); }
+    catch(e) { return Array(N).fill(null).map(blank); }
+  }
+  var pieces = loadPieces();
+  function savePieces() { try{localStorage.setItem(PIECES_KEY,JSON.stringify(pieces));}catch(e){} }
+  function esc(s) { return (s||'').replace(/&/g,'&amp;').replace(/"/g,'&quot;'); }
+
+  function buildSel(field, opts, val, row) {
+    var h = '<select data-row="'+row+'" data-field="'+field+'" style="'+SEL+'">';
+    opts.forEach(function(o){ h+='<option value="'+esc(o)+'"'+(val===o?' selected':'')+'>'+(o||'—')+'</option>'; });
+    return h+'</select>';
+  }
+
+  function renderTracker() {
+    var c = document.getElementById('piece-tracker');
+    if (!c) return;
+    var h = '<'+'table style="width:100%;border-collapse:collapse;font-size:.82rem;margin-bottom:.5rem;">';
+    h += '<thead><tr>';
+    ['Piece','Composer','Genre','AOI','Context','Practical exercise'].forEach(function(lbl){ h+='<th style="'+TH+'">'+lbl+'</th>'; });
+    h += '</tr></thead><tbody>';
+    for (var r=0; r<N; r++) {
+      h += '<tr>';
+      ['name','composer','genre'].forEach(function(f){
+        h += '<td style="'+TD+'"><input type="text" data-row="'+r+'" data-field="'+f+'" value="'+esc(pieces[r][f])+'" style="'+INP+'" /></td>';
+      });
+      h += '<td style="'+TD+'width:5em;">'+buildSel('aoi',      AOI_OPTS,  pieces[r].aoi,      r)+'</td>';
+      h += '<td style="'+TD+'width:7em;">'+buildSel('context',  CTX_OPTS,  pieces[r].context,  r)+'</td>';
+      h += '<td style="'+TD+'width:9em;">'+buildSel('practical',PRAC_OPTS, pieces[r].practical, r)+'</td>';
+      h += '</tr>';
+    }
+    h += '</tbody></table>';
+    c.innerHTML = h;
+    c.querySelectorAll('input,select').forEach(function(el){
+      el.addEventListener('change', function(){
+        pieces[+el.dataset.row][el.dataset.field] = el.value;
+        savePieces(); runAutoChecks(); saveCheckboxes();
+      });
+    });
+  }
+
+  function setCheck(substr, val) {
+    document.querySelectorAll('.task-list li').forEach(function(li){
+      if (li.textContent.indexOf(substr) > -1) {
+        var cb = li.querySelector('input[type="checkbox"]');
+        if (cb) cb.checked = val;
+      }
+    });
+  }
+
+  function runAutoChecks() {
+    var aois  = pieces.map(function(p){return p.aoi;}).filter(Boolean);
+    var ctxs  = pieces.map(function(p){return p.context;}).filter(Boolean);
+    var creat = pieces.filter(function(p){return p.practical==='Creating';});
+    var perf  = pieces.filter(function(p){return p.practical==='Performing'&&(p.context==='Local'||p.context==='Global');});
+
+    setCheck('two different areas of inquiry', new Set(aois).size >= 2);
+    setCheck('three contexts', ctxs.indexOf('Personal')>-1 && ctxs.indexOf('Local')>-1 && ctxs.indexOf('Global')>-1);
+    setCheck('Creating exercise stimulus', creat.length >= 1);
+
+    var adaptOk = perf.length >= 1;
+    if (adaptOk && creat.length >= 1 && creat[0].aoi && perf[0].aoi) adaptOk = perf[0].aoi !== creat[0].aoi;
+    setCheck('Performed adaptation stimulus', adaptOk);
+  }
+
+  var boxes;
+  function saveCheckboxes() {
+    try{localStorage.setItem(CB_KEY,JSON.stringify((boxes||[]).map(function(b){return b.checked;})));}catch(e){}
+  }
+
+  document.addEventListener('DOMContentLoaded', function () {
+    renderTracker();
+    boxes = Array.from(document.querySelectorAll('.task-list input[type="checkbox"]'));
+    boxes.forEach(function(cb){ cb.removeAttribute('disabled'); cb.style.cursor='pointer'; });
+    try {
+      var sv = JSON.parse(localStorage.getItem(CB_KEY));
+      if (Array.isArray(sv)) boxes.forEach(function(cb,i){ if(sv[i]!==undefined)cb.checked=!!sv[i]; });
+    } catch(e) {}
+    runAutoChecks();
+    boxes.forEach(function(cb){ cb.addEventListener('change', saveCheckboxes); });
+  });
+
+  window.resetExploringChecklist = function() {
+    pieces = Array(N).fill(null).map(blank);
+    savePieces(); renderTracker();
+    if (boxes) { boxes.forEach(function(b){b.checked=false;}); saveCheckboxes(); runAutoChecks(); saveCheckboxes(); }
+  };
+})();
+</script>
+<style>
+.task-list input[type="checkbox"] { width: 1em; height: 1em; margin-right: 0.4em; }
+</style>
+<div style="margin-bottom:1.5rem;">
+<button onclick="resetExploringChecklist();" style="font-size:0.78rem;padding:0.25rem 0.7rem;border:1px solid #c8bfaf;border-radius:3px;background:transparent;color:#888;cursor:pointer;">Reset checklist</button>
+</div>
+```
+
 ---
 
 ## Repertoire decisions
 
+<div id="piece-tracker" style="margin-bottom:1rem;overflow-x:auto;"></div>
+
 - [ ] At least **two different areas of inquiry** are represented across all pieces
 - [ ] All **three contexts** are covered: personal, local, and global
 - [ ] Creating exercise stimulus is identified (a piece explored in Section 1)
-- [ ] Adaptation stimulus is identified: **local or global context**, different AOI from creating
-- [ ] Creating exercise and performed adaptation are from **different areas of inquiry**
+- [ ] Performed adaptation stimulus is identified: **local or global context**, different AOI from creating
 
 ---
 
@@ -27,25 +140,24 @@ toc-depth: 2
 **For each piece:**
 
 - [ ] Area of inquiry is **stated and justified** — not just named
-- [ ] Context (personal/local/global) is stated
+- [ ] Context (personal/local/global) is justified
 - [ ] **Musical findings** are present (from scores/recordings): conventions, devices, techniques
 - [ ] Musical findings are located with **bar numbers or exact timestamps** pointing to Upload 3
 - [ ] **Extra-musical findings** are present (from articles, interviews, etc.)
 - [ ] Extra-musical findings are **relevant** to the music — not anecdotal biography
 - [ ] All sources have **in-text citations** — not only a bibliography at the end
-- [ ] Analysis explains *why* devices are used (not just *what* is there)
+- [ ] Analysis explains *why* devices are used 
 
 ---
 
 ## Section 2: Creating exercise
 
 - [ ] Based on a style **explored in Section 1**
+- [ ] Creating exercise audio included in Upload 2 *(max 1 min)*
 - [ ] Score or notation **embedded in the document** (max 32 bars or 1 min audio)
 - [ ] Notation is appropriate to the style and clearly communicates the exercise
 - [ ] Statement explains which **creating conventions** were applied and **where**
 - [ ] Statement explains how **Section 1 research directly informed** the exercise
-- [ ] Challenges are addressed (if applicable)
-- [ ] Creating exercise AOI is confirmed as **different from adaptation** AOI
 
 ---
 
@@ -56,15 +168,14 @@ toc-depth: 2
 - [ ] From a **local or global** context — NOT personal
 - [ ] Statement explains which **performing practices** were identified in the original style
 - [ ] Statement explains how practices were **adapted for your instrument**
-- [ ] Challenges and solutions addressed
 - [ ] Adaptation AOI is confirmed as **different from creating** AOI
 
 ---
 
 ## Upload 1: Written document
 
-- [ ] Word count is within **2,400 words** (citations and bibliography excluded)
-- [ ] Compiled in order: **Section 1 → Section 2 → Section 3 → Bibliography**
+- [ ] Word count is within **2,400 words** (in-text citations and bibliography excluded)
+- [ ] Compiled in one pdf in order: **Section 1 → Section 2 → Section 3 → Bibliography**
 - [ ] Visual evidence is **embedded in the text**, not appended
 - [ ] Visual evidence does not exceed **5 pages**
 - [ ] Score for creating exercise is embedded in Section 2
@@ -77,7 +188,7 @@ toc-depth: 2
 
 - [ ] Total audio does not exceed **4 minutes**
 - [ ] Compiled in order: **Creating exercise → Stimulus → Performed adaptation**
-- [ ] Creating exercise audio does not exceed **1 minute** *(if applicable)*
+- [ ] Creating exercise audio does not exceed **1 minute**
 - [ ] Stimulus does not exceed **1 minute**
 - [ ] Performed adaptation does not exceed **2 minutes**
 - [ ] Audio quality allows full assessment of the exercises
@@ -99,8 +210,7 @@ toc-depth: 2
 - [ ] Timestamps in writing point to **Upload 3** — not to YouTube, Spotify, or original commercial recordings
 - [ ] Score excerpts are **annotated** and connected to specific analytical claims — not decorative
 - [ ] AOIs are **justified with musical evidence** — not just labelled
-- [ ] Creating and adaptation are from **two different AOIs**
+- [ ] Creating exercise and performed adaptation are from **two different AOIs**
 - [ ] Performed adaptation is based on **local or global** music — not personal
 - [ ] Creating exercise and adaptation are both referenced **back to Section 1 research**
 - [ ] Word count checked with citations removed
-- [ ] 6/MCAF authentication form completed by teacher

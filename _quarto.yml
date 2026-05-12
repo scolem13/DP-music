@@ -33,6 +33,7 @@ website:
             - book/exploring-common-mistakes.qmd
         - section: "Experimenting with Music"
           contents:
+            - book/ewm-checklist.qmd
             - book/ewm-criterion-guidance.qmd
             - book/ewm-common-mistakes.qmd
         - section: "Presenting Music"

@@ -187,6 +187,12 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="../book/ewm-checklist.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Experimenting: Checklist</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="../book/ewm-criterion-guidance.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Experimenting: What Each Level Means</span></a>
   </div>
@@ -299,15 +305,126 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p><em>See also: <a href="../resources/rubrics.html#exploring-music-in-context">Assessment Rubrics → Exploring</a></em></p>
+<script>
+(function () {
+  var PIECES_KEY = 'pieces:exploring';
+  var CB_KEY     = 'checklist:' + window.location.pathname;
+  var N          = 4;
+  var AOI_OPTS   = ['', '1', '2', '3', '4'];
+  var CTX_OPTS   = ['', 'Personal', 'Local', 'Global'];
+  var PRAC_OPTS  = ['None', 'Creating', 'Performing'];
+  var INP = 'font-size:.82rem;padding:.2rem .3rem;border:1px solid #c8bfaf;border-radius:2px;background:#faf8f5;color:#2c2416;width:100%;box-sizing:border-box;';
+  var SEL = INP + 'cursor:pointer;';
+  var TH  = 'text-align:left;font-size:.7rem;text-transform:uppercase;letter-spacing:.05em;color:#999;padding:.3rem .3rem;border-bottom:1px solid #e0d6c8;font-weight:400;white-space:nowrap;';
+  var TD  = 'padding:.25rem .2rem;';
+
+  function blank() { return { name:'', composer:'', genre:'', aoi:'', context:'', practical:'' }; }
+  function loadPieces() {
+    try { var d = JSON.parse(localStorage.getItem(PIECES_KEY))||[]; while(d.length<N)d.push(blank()); return d.slice(0,N); }
+    catch(e) { return Array(N).fill(null).map(blank); }
+  }
+  var pieces = loadPieces();
+  function savePieces() { try{localStorage.setItem(PIECES_KEY,JSON.stringify(pieces));}catch(e){} }
+  function esc(s) { return (s||'').replace(/&/g,'&amp;').replace(/"/g,'&quot;'); }
+
+  function buildSel(field, opts, val, row) {
+    var h = '<select data-row="'+row+'" data-field="'+field+'" style="'+SEL+'">';
+    opts.forEach(function(o){ h+='<option value="'+esc(o)+'"'+(val===o?' selected':'')+'>'+(o||'—')+'</option>'; });
+    return h+'</select>';
+  }
+
+  function renderTracker() {
+    var c = document.getElementById('piece-tracker');
+    if (!c) return;
+    var h = '<'+'table style="width:100%;border-collapse:collapse;font-size:.82rem;margin-bottom:.5rem;">';
+    h += '<thead><tr>';
+    ['Piece','Composer','Genre','AOI','Context','Practical exercise'].forEach(function(lbl){ h+='<th style="'+TH+'">'+lbl+'</th>'; });
+    h += '</tr></thead><tbody>';
+    for (var r=0; r<N; r++) {
+      h += '<tr>';
+      ['name','composer','genre'].forEach(function(f){
+        h += '<td style="'+TD+'"><input type="text" data-row="'+r+'" data-field="'+f+'" value="'+esc(pieces[r][f])+'" style="'+INP+'" /></td>';
+      });
+      h += '<td style="'+TD+'width:5em;">'+buildSel('aoi',      AOI_OPTS,  pieces[r].aoi,      r)+'</td>';
+      h += '<td style="'+TD+'width:7em;">'+buildSel('context',  CTX_OPTS,  pieces[r].context,  r)+'</td>';
+      h += '<td style="'+TD+'width:9em;">'+buildSel('practical',PRAC_OPTS, pieces[r].practical, r)+'</td>';
+      h += '</tr>';
+    }
+    h += '</tbody></table>';
+    c.innerHTML = h;
+    c.querySelectorAll('input,select').forEach(function(el){
+      el.addEventListener('change', function(){
+        pieces[+el.dataset.row][el.dataset.field] = el.value;
+        savePieces(); runAutoChecks(); saveCheckboxes();
+      });
+    });
+  }
+
+  function setCheck(substr, val) {
+    document.querySelectorAll('.task-list li').forEach(function(li){
+      if (li.textContent.indexOf(substr) > -1) {
+        var cb = li.querySelector('input[type="checkbox"]');
+        if (cb) cb.checked = val;
+      }
+    });
+  }
+
+  function runAutoChecks() {
+    var aois  = pieces.map(function(p){return p.aoi;}).filter(Boolean);
+    var ctxs  = pieces.map(function(p){return p.context;}).filter(Boolean);
+    var creat = pieces.filter(function(p){return p.practical==='Creating';});
+    var perf  = pieces.filter(function(p){return p.practical==='Performing'&&(p.context==='Local'||p.context==='Global');});
+
+    setCheck('two different areas of inquiry', new Set(aois).size >= 2);
+    setCheck('three contexts', ctxs.indexOf('Personal')>-1 && ctxs.indexOf('Local')>-1 && ctxs.indexOf('Global')>-1);
+    setCheck('Creating exercise stimulus', creat.length >= 1);
+
+    var adaptOk = perf.length >= 1;
+    if (adaptOk && creat.length >= 1 && creat[0].aoi && perf[0].aoi) adaptOk = perf[0].aoi !== creat[0].aoi;
+    setCheck('Performed adaptation stimulus', adaptOk);
+  }
+
+  var boxes;
+  function saveCheckboxes() {
+    try{localStorage.setItem(CB_KEY,JSON.stringify((boxes||[]).map(function(b){return b.checked;})));}catch(e){}
+  }
+
+  document.addEventListener('DOMContentLoaded', function () {
+    renderTracker();
+    boxes = Array.from(document.querySelectorAll('.task-list input[type="checkbox"]'));
+    boxes.forEach(function(cb){ cb.removeAttribute('disabled'); cb.style.cursor='pointer'; });
+    try {
+      var sv = JSON.parse(localStorage.getItem(CB_KEY));
+      if (Array.isArray(sv)) boxes.forEach(function(cb,i){ if(sv[i]!==undefined)cb.checked=!!sv[i]; });
+    } catch(e) {}
+    runAutoChecks();
+    boxes.forEach(function(cb){ cb.addEventListener('change', saveCheckboxes); });
+  });
+
+  window.resetExploringChecklist = function() {
+    pieces = Array(N).fill(null).map(blank);
+    savePieces(); renderTracker();
+    if (boxes) { boxes.forEach(function(b){b.checked=false;}); saveCheckboxes(); runAutoChecks(); saveCheckboxes(); }
+  };
+})();
+</script>
+<style>
+.task-list input[type="checkbox"] { width: 1em; height: 1em; margin-right: 0.4em; }
+</style>
+<div style="margin-bottom:1.5rem;">
+<button onclick="resetExploringChecklist();" style="font-size:0.78rem;padding:0.25rem 0.7rem;border:1px solid #c8bfaf;border-radius:3px;background:transparent;color:#888;cursor:pointer;">Reset checklist</button>
+</div>
 <hr>
 <section id="repertoire-decisions" class="level2">
 <h2 class="anchored" data-anchor-id="repertoire-decisions">Repertoire decisions</h2>
+<div id="piece-tracker" style="margin-bottom:1rem;overflow-x:auto;">
+
+</div>
 <ul class="task-list">
 <li><label><input type="checkbox">At least <strong>two different areas of inquiry</strong> are represented across all pieces</label></li>
 <li><label><input type="checkbox">All <strong>three contexts</strong> are covered: personal, local, and global</label></li>
 <li><label><input type="checkbox">Creating exercise stimulus is identified (a piece explored in Section 1)</label></li>
-<li><label><input type="checkbox">Adaptation stimulus is identified: <strong>local or global context</strong>, different AOI from creating</label></li>
-<li><label><input type="checkbox">Creating exercise and performed adaptation are from <strong>different areas of inquiry</strong></label></li>
+<li><label><input type="checkbox">Performed adaptation stimulus is identified: <strong>local or global context</strong>, different AOI from creating</label></li>
 </ul>
 <hr>
 </section>
@@ -316,13 +433,13 @@ ul.task-list li input[type="checkbox"] {
 <p><strong>For each piece:</strong></p>
 <ul class="task-list">
 <li><label><input type="checkbox">Area of inquiry is <strong>stated and justified</strong> — not just named</label></li>
-<li><label><input type="checkbox">Context (personal/local/global) is stated</label></li>
+<li><label><input type="checkbox">Context (personal/local/global) is justified</label></li>
 <li><label><input type="checkbox"><strong>Musical findings</strong> are present (from scores/recordings): conventions, devices, techniques</label></li>
 <li><label><input type="checkbox">Musical findings are located with <strong>bar numbers or exact timestamps</strong> pointing to Upload 3</label></li>
 <li><label><input type="checkbox"><strong>Extra-musical findings</strong> are present (from articles, interviews, etc.)</label></li>
 <li><label><input type="checkbox">Extra-musical findings are <strong>relevant</strong> to the music — not anecdotal biography</label></li>
 <li><label><input type="checkbox">All sources have <strong>in-text citations</strong> — not only a bibliography at the end</label></li>
-<li><label><input type="checkbox">Analysis explains <em>why</em> devices are used (not just <em>what</em> is there)</label></li>
+<li><label><input type="checkbox">Analysis explains <em>why</em> devices are used</label></li>
 </ul>
 <hr>
 </section>
@@ -330,12 +447,11 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="section-2-creating-exercise">Section 2: Creating exercise</h2>
 <ul class="task-list">
 <li><label><input type="checkbox">Based on a style <strong>explored in Section 1</strong></label></li>
+<li><label><input type="checkbox">Creating exercise audio included in Upload 2 <em>(max 1 min)</em></label></li>
 <li><label><input type="checkbox">Score or notation <strong>embedded in the document</strong> (max 32 bars or 1 min audio)</label></li>
 <li><label><input type="checkbox">Notation is appropriate to the style and clearly communicates the exercise</label></li>
 <li><label><input type="checkbox">Statement explains which <strong>creating conventions</strong> were applied and <strong>where</strong></label></li>
 <li><label><input type="checkbox">Statement explains how <strong>Section 1 research directly informed</strong> the exercise</label></li>
-<li><label><input type="checkbox">Challenges are addressed (if applicable)</label></li>
-<li><label><input type="checkbox">Creating exercise AOI is confirmed as <strong>different from adaptation</strong> AOI</label></li>
 </ul>
 <hr>
 </section>
@@ -347,7 +463,6 @@ ul.task-list li input[type="checkbox"] {
 <li><label><input type="checkbox">From a <strong>local or global</strong> context — NOT personal</label></li>
 <li><label><input type="checkbox">Statement explains which <strong>performing practices</strong> were identified in the original style</label></li>
 <li><label><input type="checkbox">Statement explains how practices were <strong>adapted for your instrument</strong></label></li>
-<li><label><input type="checkbox">Challenges and solutions addressed</label></li>
 <li><label><input type="checkbox">Adaptation AOI is confirmed as <strong>different from creating</strong> AOI</label></li>
 </ul>
 <hr>
@@ -355,8 +470,8 @@ ul.task-list li input[type="checkbox"] {
 <section id="upload-1-written-document" class="level2">
 <h2 class="anchored" data-anchor-id="upload-1-written-document">Upload 1: Written document</h2>
 <ul class="task-list">
-<li><label><input type="checkbox">Word count is within <strong>2,400 words</strong> (citations and bibliography excluded)</label></li>
-<li><label><input type="checkbox">Compiled in order: <strong>Section 1 → Section 2 → Section 3 → Bibliography</strong></label></li>
+<li><label><input type="checkbox">Word count is within <strong>2,400 words</strong> (in-text citations and bibliography excluded)</label></li>
+<li><label><input type="checkbox">Compiled in one pdf in order: <strong>Section 1 → Section 2 → Section 3 → Bibliography</strong></label></li>
 <li><label><input type="checkbox">Visual evidence is <strong>embedded in the text</strong>, not appended</label></li>
 <li><label><input type="checkbox">Visual evidence does not exceed <strong>5 pages</strong></label></li>
 <li><label><input type="checkbox">Score for creating exercise is embedded in Section 2</label></li>
@@ -370,7 +485,7 @@ ul.task-list li input[type="checkbox"] {
 <ul class="task-list">
 <li><label><input type="checkbox">Total audio does not exceed <strong>4 minutes</strong></label></li>
 <li><label><input type="checkbox">Compiled in order: <strong>Creating exercise → Stimulus → Performed adaptation</strong></label></li>
-<li><label><input type="checkbox">Creating exercise audio does not exceed <strong>1 minute</strong> <em>(if applicable)</em></label></li>
+<li><label><input type="checkbox">Creating exercise audio does not exceed <strong>1 minute</strong></label></li>
 <li><label><input type="checkbox">Stimulus does not exceed <strong>1 minute</strong></label></li>
 <li><label><input type="checkbox">Performed adaptation does not exceed <strong>2 minutes</strong></label></li>
 <li><label><input type="checkbox">Audio quality allows full assessment of the exercises</label></li>
@@ -394,11 +509,10 @@ ul.task-list li input[type="checkbox"] {
 <li><label><input type="checkbox">Timestamps in writing point to <strong>Upload 3</strong> — not to YouTube, Spotify, or original commercial recordings</label></li>
 <li><label><input type="checkbox">Score excerpts are <strong>annotated</strong> and connected to specific analytical claims — not decorative</label></li>
 <li><label><input type="checkbox">AOIs are <strong>justified with musical evidence</strong> — not just labelled</label></li>
-<li><label><input type="checkbox">Creating and adaptation are from <strong>two different AOIs</strong></label></li>
+<li><label><input type="checkbox">Creating exercise and performed adaptation are from <strong>two different AOIs</strong></label></li>
 <li><label><input type="checkbox">Performed adaptation is based on <strong>local or global</strong> music — not personal</label></li>
 <li><label><input type="checkbox">Creating exercise and adaptation are both referenced <strong>back to Section 1 research</strong></label></li>
 <li><label><input type="checkbox">Word count checked with citations removed</label></li>
-<li><label><input type="checkbox">6/MCAF authentication form completed by teacher</label></li>
 </ul>
 
 
