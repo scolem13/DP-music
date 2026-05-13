@@ -285,6 +285,11 @@ document.addEventListener('DOMContentLoaded', function () {
 /* Compact the "Possible Characteristics" column — one word per line generates tall cells */
 table td:last-child p { margin-top: 0.05rem; margin-bottom: 0.05rem; line-height: 1.25; }
 table td:last-child { font-size: 0.85rem; line-height: 1.25; }
+/* Assessment Terms table */
+.assessment-terms table tbody td:nth-child(3),
+.assessment-terms table tbody td:nth-child(6) { text-align: left; }
+.assessment-terms table thead th:nth-child(4),
+.assessment-terms table tbody td:nth-child(4) { border-right: 2px solid #6c757d; }
 </style>
 <section id="exploring-music-in-context" class="level2">
 <h2 class="anchored" data-anchor-id="exploring-music-in-context">Exploring Music in Context</h2>
@@ -1510,48 +1515,68 @@ Is there practical evidence of informed musical decision-making in the musical e
 <section id="assessment-terms" class="level2">
 <h2 class="anchored" data-anchor-id="assessment-terms">Assessment Terms</h2>
 <p>Click any term for its IB definition.</p>
+<div class="assessment-terms">
 <table class="caption-top table">
 <colgroup>
-<col style="width: 35%">
-<col style="width: 21%">
-<col style="width: 21%">
-<col style="width: 21%">
+<col style="width: 5%">
+<col style="width: 3%">
+<col style="width: 41%">
+<col style="width: 3%">
+<col style="width: 3%">
+<col style="width: 41%">
+<col style="width: 3%">
 </colgroup>
 <thead>
 <tr class="header">
-<th style="text-align: center;">Level</th>
-<th>Description</th>
-<th>Research / Written</th>
-<th>Practical</th>
+<th style="text-align: center;">Marks</th>
+<th style="text-align: left;"></th>
+<th style="text-align: center;">Research / Written</th>
+<th style="text-align: left;"></th>
+<th style="text-align: left;"></th>
+<th style="text-align: center;">Practical</th>
+<th style="text-align: left;"></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td style="text-align: center;">1</td>
-<td>Uninformed imitation</td>
-<td><button class="glossary" data-term="rt-list" data-def="Give a sequence of brief answers with no explanation." data-glossary-url="glossary.html"><span class="def">Give a sequence of brief answers with no explanation.</span>List</button> · <button class="glossary" data-term="rt-outline" data-def="Give a brief account or summary." data-glossary-url="glossary.html"><span class="def">Give a brief account or summary.</span>Outline</button> · <button class="glossary" data-term="rt-identify" data-def="Provide an answer from a number of possibilities." data-glossary-url="glossary.html"><span class="def">Provide an answer from a number of possibilities.</span>Identify</button></td>
-<td><button class="glossary" data-term="rt-assemble" data-def="Combine or gather pre-existing material without change." data-glossary-url="glossary.html"><span class="def">Combine or gather pre-existing material without change.</span>Assemble</button> · <button class="glossary" data-term="rt-approximate" data-def="Imitate with lack of detail." data-glossary-url="glossary.html"><span class="def">Imitate with lack of detail.</span>Approximate</button> · <button class="glossary" data-term="rt-reiterate" data-def="Repeat or restate, largely without change." data-glossary-url="glossary.html"><span class="def">Repeat or restate, largely without change.</span>Reiterate</button></td>
+<td style="text-align: left;"><p><button class="glossary" data-term="rt-list" data-def="Give a sequence of brief answers with no explanation." data-glossary-url="glossary.html"><span class="def">Give a sequence of brief answers with no explanation.</span>List</button></p></td>
+<td style="text-align: center;"><p><button class="glossary" data-term="rt-outline" data-def="Give a brief account or summary." data-glossary-url="glossary.html"><span class="def">Give a brief account or summary.</span>Outline</button></p></td>
+<td style="text-align: left;"><p><button class="glossary" data-term="rt-identify" data-def="Provide an answer from a number of possibilities." data-glossary-url="glossary.html"><span class="def">Provide an answer from a number of possibilities.</span>Identify</button></p></td>
+<td style="text-align: left;"><p><button class="glossary" data-term="rt-assemble" data-def="Combine or gather pre-existing material without change." data-glossary-url="glossary.html"><span class="def">Combine or gather pre-existing material without change.</span>Assemble</button></p></td>
+<td style="text-align: center;"><p><button class="glossary" data-term="rt-approximate" data-def="Imitate with lack of detail." data-glossary-url="glossary.html"><span class="def">Imitate with lack of detail.</span>Approximate</button></p></td>
+<td style="text-align: left;"><p><button class="glossary" data-term="rt-reiterate" data-def="Repeat or restate, largely without change." data-glossary-url="glossary.html"><span class="def">Repeat or restate, largely without change.</span>Reiterate</button></p></td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">2</td>
-<td>Precise imitation</td>
-<td><button class="glossary" data-term="rt-describe" data-def="Give a detailed account." data-glossary-url="glossary.html"><span class="def">Give a detailed account.</span>Describe</button> · <button class="glossary" data-term="rt-demonstrate" data-def="Make clear by reasoning or evidence, illustrating with examples or practical application." data-glossary-url="glossary.html"><span class="def">Make clear by reasoning or evidence, illustrating with examples or practical application.</span>Demonstrate</button> · <button class="glossary" data-term="rt-distinguish" data-def="Make clear the differences between two or more concepts or items." data-glossary-url="glossary.html"><span class="def">Make clear the differences between two or more concepts or items.</span>Distinguish</button></td>
-<td><button class="glossary" data-term="rt-exhibit" data-def="Demonstrate a characteristic in the appropriate context." data-glossary-url="glossary.html"><span class="def">Demonstrate a characteristic in the appropriate context.</span>Exhibit</button> · <button class="glossary" data-term="rt-transmit" data-def="Give a formulaic rendition of an existing work or style." data-glossary-url="glossary.html"><span class="def">Give a formulaic rendition of an existing work or style.</span>Transmit</button> · <button class="glossary" data-term="rt-recreate" data-def="Produce a representation of an original." data-glossary-url="glossary.html"><span class="def">Produce a representation of an original.</span>Recreate</button></td>
+<td style="text-align: left;"><p><button class="glossary" data-term="rt-describe" data-def="Give a detailed account." data-glossary-url="glossary.html"><span class="def">Give a detailed account.</span>Describe</button></p></td>
+<td style="text-align: center;"><p><button class="glossary" data-term="rt-demonstrate" data-def="Make clear by reasoning or evidence, illustrating with examples or practical application." data-glossary-url="glossary.html"><span class="def">Make clear by reasoning or evidence, illustrating with examples or practical application.</span>Demonstrate</button></p></td>
+<td style="text-align: left;"><p><button class="glossary" data-term="rt-distinguish" data-def="Make clear the differences between two or more concepts or items." data-glossary-url="glossary.html"><span class="def">Make clear the differences between two or more concepts or items.</span>Distinguish</button></p></td>
+<td style="text-align: left;"><p><button class="glossary" data-term="rt-exhibit" data-def="Demonstrate a characteristic in the appropriate context." data-glossary-url="glossary.html"><span class="def">Demonstrate a characteristic in the appropriate context.</span>Exhibit</button></p></td>
+<td style="text-align: center;"><p><button class="glossary" data-term="rt-transmit" data-def="Give a formulaic rendition of an existing work or style." data-glossary-url="glossary.html"><span class="def">Give a formulaic rendition of an existing work or style.</span>Transmit</button></p></td>
+<td style="text-align: left;"><p><button class="glossary" data-term="rt-recreate" data-def="Produce a representation of an original." data-glossary-url="glossary.html"><span class="def">Produce a representation of an original.</span>Recreate</button></p></td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;">3</td>
-<td>Informed proficiency</td>
-<td><button class="glossary" data-term="rt-explain" data-def="Give a detailed account, including reasons or causes." data-glossary-url="glossary.html"><span class="def">Give a detailed account, including reasons or causes.</span>Explain</button> · <button class="glossary" data-term="rt-investigate" data-def="Observe, study, or make a detailed and systematic examination in order to establish facts and reach new conclusions." data-glossary-url="glossary.html"><span class="def">Observe, study, or make a detailed and systematic examination in order to establish facts and reach new conclusions.</span>Investigate</button> · <button class="glossary" data-term="rt-justify" data-def="Give valid reasons or evidence to support an answer or conclusion." data-glossary-url="glossary.html"><span class="def">Give valid reasons or evidence to support an answer or conclusion.</span>Justify</button></td>
-<td><button class="glossary" data-term="rt-realize" data-def="Plan and create a work according to convention or practice." data-glossary-url="glossary.html"><span class="def">Plan and create a work according to convention or practice.</span>Realize</button> · <button class="glossary" data-term="rt-shape" data-def="Modify and develop existing material." data-glossary-url="glossary.html"><span class="def">Modify and develop existing material.</span>Shape</button> · <button class="glossary" data-term="rt-adapt" data-def="Adjust existing material to suit a new context or style." data-glossary-url="glossary.html"><span class="def">Adjust existing material to suit a new context or style.</span>Adapt</button></td>
+<td style="text-align: left;"><p><button class="glossary" data-term="rt-explain" data-def="Give a detailed account, including reasons or causes." data-glossary-url="glossary.html"><span class="def">Give a detailed account, including reasons or causes.</span>Explain</button></p></td>
+<td style="text-align: center;"><p><button class="glossary" data-term="rt-investigate" data-def="Observe, study, or make a detailed and systematic examination in order to establish facts and reach new conclusions." data-glossary-url="glossary.html"><span class="def">Observe, study, or make a detailed and systematic examination in order to establish facts and reach new conclusions.</span>Investigate</button></p></td>
+<td style="text-align: left;"><p><button class="glossary" data-term="rt-justify" data-def="Give valid reasons or evidence to support an answer or conclusion." data-glossary-url="glossary.html"><span class="def">Give valid reasons or evidence to support an answer or conclusion.</span>Justify</button></p></td>
+<td style="text-align: left;"><p><button class="glossary" data-term="rt-realize" data-def="Plan and create a work according to convention or practice." data-glossary-url="glossary.html"><span class="def">Plan and create a work according to convention or practice.</span>Realize</button></p></td>
+<td style="text-align: center;"><p><button class="glossary" data-term="rt-shape" data-def="Modify and develop existing material." data-glossary-url="glossary.html"><span class="def">Modify and develop existing material.</span>Shape</button></p></td>
+<td style="text-align: left;"><p><button class="glossary" data-term="rt-adapt" data-def="Adjust existing material to suit a new context or style." data-glossary-url="glossary.html"><span class="def">Adjust existing material to suit a new context or style.</span>Adapt</button></p></td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">4</td>
-<td>Mastery &amp; resourcefulness</td>
-<td><button class="glossary" data-term="rt-discuss" data-def="Offer a considered and balanced review supported by appropriate evidence." data-glossary-url="glossary.html"><span class="def">Offer a considered and balanced review supported by appropriate evidence.</span>Discuss</button> · <button class="glossary" data-term="rt-examine" data-def="Consider an argument or concept in a way that uncovers the assumptions and interrelationships of the issue." data-glossary-url="glossary.html"><span class="def">Consider an argument or concept in a way that uncovers the assumptions and interrelationships of the issue.</span>Examine</button> · <button class="glossary" data-term="rt-evaluate" data-def="Make an appraisal by weighing up the strengths and limitations." data-glossary-url="glossary.html"><span class="def">Make an appraisal by weighing up the strengths and limitations.</span>Evaluate</button></td>
-<td><button class="glossary" data-term="rt-synthesize" data-def="Combine and blend existing elements, styles, or techniques to create new work." data-glossary-url="glossary.html"><span class="def">Combine and blend existing elements, styles, or techniques to create new work.</span>Synthesize</button> · <button class="glossary" data-term="rt-personalize" data-def="Bring personal ideas and interpretations to a work or practice." data-glossary-url="glossary.html"><span class="def">Bring personal ideas and interpretations to a work or practice.</span>Personalize</button> · <button class="glossary" data-term="rt-transform" data-def="Change and develop existing work to create new work." data-glossary-url="glossary.html"><span class="def">Change and develop existing work to create new work.</span>Transform</button></td>
+<td style="text-align: left;"><p><button class="glossary" data-term="rt-discuss" data-def="Offer a considered and balanced review supported by appropriate evidence." data-glossary-url="glossary.html"><span class="def">Offer a considered and balanced review supported by appropriate evidence.</span>Discuss</button></p></td>
+<td style="text-align: center;"><p><button class="glossary" data-term="rt-examine" data-def="Consider an argument or concept in a way that uncovers the assumptions and interrelationships of the issue." data-glossary-url="glossary.html"><span class="def">Consider an argument or concept in a way that uncovers the assumptions and interrelationships of the issue.</span>Examine</button></p></td>
+<td style="text-align: left;"><p><button class="glossary" data-term="rt-evaluate" data-def="Make an appraisal by weighing up the strengths and limitations." data-glossary-url="glossary.html"><span class="def">Make an appraisal by weighing up the strengths and limitations.</span>Evaluate</button></p></td>
+<td style="text-align: left;"><p><button class="glossary" data-term="rt-synthesize" data-def="Combine and blend existing elements, styles, or techniques to create new work." data-glossary-url="glossary.html"><span class="def">Combine and blend existing elements, styles, or techniques to create new work.</span>Synthesize</button></p></td>
+<td style="text-align: center;"><p><button class="glossary" data-term="rt-personalize" data-def="Bring personal ideas and interpretations to a work or practice." data-glossary-url="glossary.html"><span class="def">Bring personal ideas and interpretations to a work or practice.</span>Personalize</button></p></td>
+<td style="text-align: left;"><p><button class="glossary" data-term="rt-transform" data-def="Change and develop existing work to create new work." data-glossary-url="glossary.html"><span class="def">Change and develop existing work to create new work.</span>Transform</button></p></td>
 </tr>
 </tbody>
 </table>
+</div>
 
 
 </section>

@@ -436,6 +436,7 @@ ul.task-list li input[type="checkbox"] {
   var EWM_KEY  = 'pieces:experimenting';
   var EWM_N    = 2;
   var EWM_AOI  = ['', '1', '2', '3', '4'];
+  var EWM_CTX  = ['', 'Local', 'Global'];
   var EWM_PRACTICALS = ['Creating', 'Performing'];
 
   function ewmBlank() { return {name:'',composer:'',genre:'',aoi:'',context:'',practical:''}; }
@@ -454,7 +455,7 @@ ul.task-list li input[type="checkbox"] {
     if (!c) return;
     var h = '<table style="width:100%;border-collapse:collapse;font-size:.82rem;margin-bottom:.5rem;">';
     h += '<thead><tr>';
-    ['Piece','Composer','Genre','AOI','Practical exercise'].forEach(function(lbl){ h+='<th style="'+TH+'">'+lbl+'</th>'; });
+    ['Piece','Composer','Genre','AOI','Context'].forEach(function(lbl){ h+='<th style="'+TH+'">'+lbl+'</th>'; });
     h += '</tr></thead><tbody>';
     for (var r=0; r<EWM_N; r++) {
       h += '<tr>';
@@ -462,6 +463,7 @@ ul.task-list li input[type="checkbox"] {
         h += '<td style="'+TD+'"><input type="text" data-src="ewm" data-row="'+r+'" data-field="'+f+'" value="'+esc(ewmPieces[r][f])+'" style="'+INP+'" /></td>';
       });
       h += '<td style="'+TD+'width:5em;">'+buildSel('ewm',r,'aoi',EWM_AOI,ewmPieces[r].aoi)+'</td>';
+      h += '<td style="'+TD+'width:7em;">'+buildSel('ewm',r,'context',EWM_CTX,ewmPieces[r].context)+'</td>';
       h += '<td style="'+TD+'width:9em;color:#777;font-size:.82rem;padding-left:.4rem;">'+EWM_PRACTICALS[r]+'</td>';
       h += '</tr>';
     }
@@ -709,8 +711,9 @@ ul.task-list li input[type="checkbox"] {
   var nCrea = Math.min(CREA_MAX, Math.max(CREA_MIN, parseInt(localStorage.getItem(NCREA_KEY))||2));
 
   var CREA_AOI = ['', '1', '2', '3', '4'];
+  var CREA_METHOD_OPTS = ['', 'Staff Notation', 'DAW', 'Alternative notation', 'Improvisation'];
 
-  function creaBlank() { return {name:'',composer:'',genre:'',aoi:'',lenMin:'',lenSec:''}; }
+  function creaBlank() { return {name:'',method:'',genre:'',aoi:'',lenMin:'',lenSec:''}; }
   function loadCrea() {
     try { var d=JSON.parse(localStorage.getItem(CREA_KEY))||[]; while(d.length<CREA_SLOTS)d.push(creaBlank()); return d.slice(0,CREA_SLOTS); }
     catch(e) { return Array(CREA_SLOTS).fill(null).map(creaBlank); }
@@ -726,15 +729,15 @@ ul.task-list li input[type="checkbox"] {
     var h = '<table style="width:100%;border-collapse:collapse;font-size:.82rem;margin-bottom:.5rem;table-layout:fixed;">';
     h += '<colgroup><col style="width:35%"><col style="width:24%"><col style="width:18%"><col style="width:7%"><col style="width:8%"><col style="width:8%"></colgroup>';
     h += '<thead><tr>';
-    ['Piece','Composer','Genre','AOI','Min','Sec'].forEach(function(lbl){ h+='<th style="'+TH+'">'+lbl+'</th>'; });
+    ['Piece','Method','Genre','AOI','Min','Sec'].forEach(function(lbl){ h+='<th style="'+TH+'">'+lbl+'</th>'; });
     h += '</tr></thead><tbody>';
 
     for (var r=0; r<nCrea; r++) {
       var p = creaPieces[r];
       h += '<tr>';
-      ['name','composer','genre'].forEach(function(f){
-        h += '<td style="'+TD+'"><input type="text" data-src="crea" data-row="'+r+'" data-field="'+f+'" value="'+esc(p[f])+'" style="'+INP+'" /></td>';
-      });
+      h += '<td style="'+TD+'"><input type="text" data-src="crea" data-row="'+r+'" data-field="name" value="'+esc(p.name||'')+'" style="'+INP+'" /></td>';
+      h += '<td style="'+TD+'">'+buildSel('crea',r,'method',CREA_METHOD_OPTS,(p.method||''))+'</td>';
+      h += '<td style="'+TD+'"><input type="text" data-src="crea" data-row="'+r+'" data-field="genre" value="'+esc(p.genre||'')+'" style="'+INP+'" /></td>';
       h += '<td style="'+TD+'">'+buildSel('crea',r,'aoi',CREA_AOI,p.aoi)+'</td>';
       h += '<td style="'+TD+'"><input type="number" min="0" max="99" data-src="crea" data-row="'+r+'" data-field="lenMin" value="'+esc(String(p.lenMin||''))+'" style="'+INP+'" /></td>';
       h += '<td style="'+TD+'"><input type="number" min="0" max="59" data-src="crea" data-row="'+r+'" data-field="lenSec" value="'+esc(String(p.lenSec||''))+'" style="'+INP+'" /></td>';
@@ -792,6 +795,7 @@ ul.task-list li input[type="checkbox"] {
     if (ewmAC) ewmAC.innerHTML = '<ul class="ac-list">'
       + '<li><span class="auto-indicator" id="ac-ewm-aoi"></span>At least <strong>two different areas of inquiry</strong> are represented across all pieces</li>'
       + '<li><span class="auto-indicator" id="ac-ewm-four"></span>All <strong>four areas of inquiry</strong> are covered between Exploring and Experimenting</li>'
+      + '<li><span class="auto-indicator" id="ac-ewm-ctx"></span>Both <strong>contexts</strong> are covered: local and global</li>'
       + '</ul>';
 
     var presAC = document.getElementById('ac-presenting');
@@ -824,11 +828,13 @@ ul.task-list li input[type="checkbox"] {
     setInd('ac-exp-adp', adaptError ? 'error' : adaptOk);
 
     var ewmAOIs = ewmPieces.map(function(p){ return p.aoi; }).filter(Boolean);
+    var ewmCtxs = ewmPieces.map(function(p){ return p.context; }).filter(Boolean);
     setInd('ac-ewm-aoi', new Set(ewmAOIs).size >= 2);
     var allAOIs = new Set(ewmAOIs.concat(expAOIs));
     var fourOK  = allAOIs.has('1') && allAOIs.has('2') && allAOIs.has('3') && allAOIs.has('4');
     var fourError = !fourOK && ewmAOIs.length >= EWM_N && expAOIs.length >= 3;
     setInd('ac-ewm-four', fourError ? 'error' : fourOK);
+    setInd('ac-ewm-ctx', ewmCtxs.indexOf('Local') > -1 && ewmCtxs.indexOf('Global') > -1);
 
     var perfAOIs = perfPieces.slice(0, nPerf).map(function(p){ return p.aoi; }).filter(Boolean);
     var creaAOIs = creaPieces.slice(0, nCrea).map(function(p){ return p.aoi; }).filter(Boolean);

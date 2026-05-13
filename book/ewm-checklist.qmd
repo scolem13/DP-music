@@ -18,6 +18,7 @@ toc-depth: 2
   var CB_KEY         = 'checklist:experimenting';
   var N              = 2;
   var AOI_OPTS       = ['', '1', '2', '3', '4'];
+  var CTX_OPTS       = ['', 'Local', 'Global'];
   var PRACTICALS     = ['Creating', 'Performing'];
   var INP = 'font-size:.82rem;padding:.2rem .3rem;border:1px solid #c8bfaf;border-radius:2px;background:#faf8f5;color:#2c2416;width:100%;box-sizing:border-box;';
   var SEL = INP + 'cursor:pointer;';
@@ -49,7 +50,7 @@ toc-depth: 2
     if (!c) return;
     var h = '<table style="width:100%;border-collapse:collapse;font-size:.82rem;margin-bottom:.5rem;">';
     h += '<thead><tr>';
-    ['Piece','Composer','Genre','AOI','Practical exercise'].forEach(function(lbl){ h+='<th style="'+TH+'">'+lbl+'</th>'; });
+    ['Piece','Composer','Genre','AOI','Context','Practical exercise'].forEach(function(lbl){ h+='<th style="'+TH+'">'+lbl+'</th>'; });
     h += '</tr></thead><tbody>';
     for (var r=0; r<N; r++) {
       h += '<tr>';
@@ -57,6 +58,7 @@ toc-depth: 2
         h += '<td style="'+TD+'"><input type="text" data-row="'+r+'" data-field="'+f+'" value="'+esc(pieces[r][f])+'" style="'+INP+'" /></td>';
       });
       h += '<td style="'+TD+'width:5em;">'+buildSel('aoi', AOI_OPTS, pieces[r].aoi, r)+'</td>';
+      h += '<td style="'+TD+'width:7em;">'+buildSel('context', CTX_OPTS, pieces[r].context, r)+'</td>';
       h += '<td style="'+TD+'width:9em;color:#777;font-size:.82rem;padding-left:.4rem;">'+PRACTICALS[r]+'</td>';
       h += '</tr>';
     }
@@ -118,6 +120,9 @@ toc-depth: 2
     var expAOIs  = exploring.map(function(p){return p.aoi;}).filter(Boolean);
 
     setCheck('two different areas of inquiry', new Set(ewmAOIs).size >= 2);
+
+    var ewmCtxs = pieces.map(function(p){ return p.context; }).filter(Boolean);
+    setCheck('local and global', ewmCtxs.indexOf('Local') > -1 && ewmCtxs.indexOf('Global') > -1);
 
     var allAOIs = new Set(ewmAOIs.concat(expAOIs));
     var fourOK  = allAOIs.has('1') && allAOIs.has('2') && allAOIs.has('3') && allAOIs.has('4');
@@ -205,3 +210,4 @@ toc-depth: 2
 
 - [ ] At least **two different areas of inquiry** are represented across all pieces
 - [ ] All **four areas of inquiry** are covered between Exploring and Experimenting
+- [ ] Both **contexts** are covered: local and global

@@ -111,6 +111,11 @@ document.addEventListener('DOMContentLoaded', function () {
 /* Compact the "Possible Characteristics" column — one word per line generates tall cells */
 table td:last-child p { margin-top: 0.05rem; margin-bottom: 0.05rem; line-height: 1.25; }
 table td:last-child { font-size: 0.85rem; line-height: 1.25; }
+/* Assessment Terms table */
+.assessment-terms table tbody td:nth-child(3),
+.assessment-terms table tbody td:nth-child(6) { text-align: left; }
+.assessment-terms table thead th:nth-child(4),
+.assessment-terms table tbody td:nth-child(4) { border-right: 2px solid #6c757d; }
 </style>
 ```
 
@@ -1024,9 +1029,11 @@ How well has the student organized and presented their work?
 
 Click any term for its IB definition.
 
-| Level | Description | Research / Written | Practical |
-|:---:|---|---|---|
-| 1 | Uninformed imitation | {{< glossary rt-list display="List" >}} · {{< glossary rt-outline display="Outline" >}} · {{< glossary rt-identify display="Identify" >}} | {{< glossary rt-assemble display="Assemble" >}} · {{< glossary rt-approximate display="Approximate" >}} · {{< glossary rt-reiterate display="Reiterate" >}} |
-| 2 | Precise imitation | {{< glossary rt-describe display="Describe" >}} · {{< glossary rt-demonstrate display="Demonstrate" >}} · {{< glossary rt-distinguish display="Distinguish" >}} | {{< glossary rt-exhibit display="Exhibit" >}} · {{< glossary rt-transmit display="Transmit" >}} · {{< glossary rt-recreate display="Recreate" >}} |
-| 3 | Informed proficiency | {{< glossary rt-explain display="Explain" >}} · {{< glossary rt-investigate display="Investigate" >}} · {{< glossary rt-justify display="Justify" >}} | {{< glossary rt-realize display="Realize" >}} · {{< glossary rt-shape display="Shape" >}} · {{< glossary rt-adapt display="Adapt" >}} |
-| 4 | Mastery & resourcefulness | {{< glossary rt-discuss display="Discuss" >}} · {{< glossary rt-examine display="Examine" >}} · {{< glossary rt-evaluate display="Evaluate" >}} | {{< glossary rt-synthesize display="Synthesize" >}} · {{< glossary rt-personalize display="Personalize" >}} · {{< glossary rt-transform display="Transform" >}} |
+::: {.assessment-terms}
+| Marks |                                                 | Research / Written                                    |                                                       |                                                     | Practical                                             |                                                   |
+|:-----:|:---|:-----------------------------------------------------:|:---|:---|:-----------------------------------------------------:|:---|
+| 1     | {{< glossary rt-list display="List" >}}         | {{< glossary rt-outline display="Outline" >}}         | {{< glossary rt-identify display="Identify" >}}       | {{< glossary rt-assemble display="Assemble" >}}     | {{< glossary rt-approximate display="Approximate" >}} | {{< glossary rt-reiterate display="Reiterate" >}} |
+| 2     | {{< glossary rt-describe display="Describe" >}} | {{< glossary rt-demonstrate display="Demonstrate" >}} | {{< glossary rt-distinguish display="Distinguish" >}} | {{< glossary rt-exhibit display="Exhibit" >}}       | {{< glossary rt-transmit display="Transmit" >}}       | {{< glossary rt-recreate display="Recreate" >}}   |
+| 3     | {{< glossary rt-explain display="Explain" >}}   | {{< glossary rt-investigate display="Investigate" >}} | {{< glossary rt-justify display="Justify" >}}         | {{< glossary rt-realize display="Realize" >}}       | {{< glossary rt-shape display="Shape" >}}             | {{< glossary rt-adapt display="Adapt" >}}         |
+| 4     | {{< glossary rt-discuss display="Discuss" >}}   | {{< glossary rt-examine display="Examine" >}}         | {{< glossary rt-evaluate display="Evaluate" >}}       | {{< glossary rt-synthesize display="Synthesize" >}} | {{< glossary rt-personalize display="Personalize" >}} | {{< glossary rt-transform display="Transform" >}} |
+:::
