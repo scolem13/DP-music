@@ -17,7 +17,7 @@ toc-depth: 2
   var CREA_KEY   = 'pieces:presenting:creating';
   var NPERF_KEY  = 'presenting:nPerf';
   var NCREA_KEY  = 'presenting:nCrea';
-  var CB_KEY     = 'checklist:' + window.location.pathname;
+  var CB_KEY     = 'checklist:presenting';
   var PERF_SLOTS = 5;
   var CREA_SLOTS = 3;
   var PERF_MIN   = 3; var PERF_MAX = 5;

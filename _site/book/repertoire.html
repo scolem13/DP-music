@@ -318,7 +318,7 @@ ul.task-list li input[type="checkbox"] {
 <script>
 // ── Apply shared data from URL before localStorage is read ───────────────────
 (function() {
-  var SHARE_KEYS = ['pieces:exploring','pieces:experimenting','pieces:presenting:performing','pieces:presenting:creating','presenting:nPerf','presenting:nCrea'];
+  var SHARE_KEYS = ['pieces:exploring','pieces:experimenting','pieces:presenting:performing','pieces:presenting:creating','presenting:nPerf','presenting:nCrea','checklist:exploring','checklist:experimenting','checklist:presenting'];
   var m = location.search.match(/[?&]share=([^&]+)/);
   if (!m) return;
   try {
@@ -859,7 +859,7 @@ ul.task-list li input[type="checkbox"] {
   });
 
   // ── Share link ───────────────────────────────────────────────────────────────
-  var SHARE_KEYS = ['pieces:exploring','pieces:experimenting','pieces:presenting:performing','pieces:presenting:creating','presenting:nPerf','presenting:nCrea'];
+  var SHARE_KEYS = ['pieces:exploring','pieces:experimenting','pieces:presenting:performing','pieces:presenting:creating','presenting:nPerf','presenting:nCrea','checklist:exploring','checklist:experimenting','checklist:presenting'];
 
   function buildShareURL() {
     var data = {};

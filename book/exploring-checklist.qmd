@@ -14,7 +14,7 @@ toc-depth: 2
 <script>
 (function () {
   var PIECES_KEY = 'pieces:exploring';
-  var CB_KEY     = 'checklist:' + window.location.pathname;
+  var CB_KEY     = 'checklist:exploring';
   var N          = 4;
   var AOI_OPTS   = ['', '1', '2', '3', '4'];
   var CTX_OPTS   = ['', 'Personal', 'Local', 'Global'];
