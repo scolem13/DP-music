@@ -220,22 +220,6 @@ toc-depth: 2
 
 ---
 
-## Performing
-
-<div id="pres-perf-tracker" style="margin-bottom:.5rem;overflow-x:auto;"></div>
-
-<div style="margin-bottom:1rem;">
-<button id="perf-remove" style="font-size:.78rem;padding:.2rem .5rem;border:1px solid #c8bfaf;border-radius:3px;background:transparent;color:#666;cursor:pointer;margin-right:.3rem;">&#8722; Remove Piece</button>
-<button id="perf-add"    style="font-size:.78rem;padding:.2rem .5rem;border:1px solid #c8bfaf;border-radius:3px;background:transparent;color:#666;cursor:pointer;">&#43; Add Piece</button>
-</div>
-
-- [ ] All pieces are from **local or global** contexts — not personal
-- [ ] Each piece has a clearly stated and **justified area of inquiry**
-- [ ] Total performance time does not exceed **12 minutes**
-- [ ] Performance recording audio quality is sufficient for assessment
-
----
-
 ## Creating
 
 <div id="pres-crea-tracker" style="margin-bottom:.5rem;overflow-x:auto;"></div>
@@ -251,6 +235,22 @@ toc-depth: 2
 - [ ] Statement explains how creating conventions were applied
 
 - [ ] All **four areas of inquiry** are represented across all pieces
+
+---
+
+## Performing
+
+<div id="pres-perf-tracker" style="margin-bottom:.5rem;overflow-x:auto;"></div>
+
+<div style="margin-bottom:1rem;">
+<button id="perf-remove" style="font-size:.78rem;padding:.2rem .5rem;border:1px solid #c8bfaf;border-radius:3px;background:transparent;color:#666;cursor:pointer;margin-right:.3rem;">&#8722; Remove Piece</button>
+<button id="perf-add"    style="font-size:.78rem;padding:.2rem .5rem;border:1px solid #c8bfaf;border-radius:3px;background:transparent;color:#666;cursor:pointer;">&#43; Add Piece</button>
+</div>
+
+- [ ] All pieces are from **local or global** contexts — not personal
+- [ ] Each piece has a clearly stated and **justified area of inquiry**
+- [ ] Total performance time does not exceed **12 minutes**
+- [ ] Performance recording audio quality is sufficient for assessment
 
 ---
 

@@ -292,7 +292,18 @@
     "href": "book/repertoire.html#presenting-music",
     "title": "Repertoire",
     "section": "Presenting Music",
-    "text": "Presenting Music\n\nPerforming\nDefault 4 pieces. Use the buttons to adjust between 3 and 5.\n\n\n\n\n\n\n\n\nCreating\nDefault 2 pieces. Use the buttons to adjust between 1 and 3.",
+    "text": "Presenting Music\n\nCreating\nDefault 2 pieces. Use the buttons to adjust between 1 and 3.\n\n\n\n\n\nPerforming\nDefault 4 pieces. Use the buttons to adjust between 3 and 5.",
+    "crumbs": [
+      "Course Book",
+      "Repertoire"
+    ]
+  },
+  {
+    "objectID": "book/repertoire.html#share-your-data",
+    "href": "book/repertoire.html#share-your-data",
+    "title": "Repertoire",
+    "section": "Share your data",
+    "text": "Share your data\nYour data is saved to this browser only. Use the link below to open it on another device or share it with your teacher — anyone who opens the link will see your current data loaded and ready to edit.\n\nCopy link\n\n\nThe link encodes your full data as a URL. Sharing it gives read/write access — open it on any device or browser and it will load your selections directly.",
     "crumbs": [
       "Course Book",
       "Repertoire"
@@ -771,11 +782,11 @@
     ]
   },
   {
-    "objectID": "book/presenting-checklist.html#performing",
-    "href": "book/presenting-checklist.html#performing",
+    "objectID": "book/presenting-checklist.html#creating",
+    "href": "book/presenting-checklist.html#creating",
     "title": "Presenting: Checklist",
-    "section": "Performing",
-    "text": "Performing\n\n\n\n\n\n− Remove Piece\n\n\n+ Add Piece\n\n\n\nAll pieces are from local or global contexts — not personal\nEach piece has a clearly stated and justified area of inquiry\nTotal performance time does not exceed 12 minutes\nPerformance recording audio quality is sufficient for assessment",
+    "section": "Creating",
+    "text": "Creating\n\n\n\n\n\n− Remove Piece\n\n\n+ Add Piece\n\n\n\nEach piece has a clearly stated and justified area of inquiry\nCreating work is no longer than 6 minutes of audio total\nScore or notation is included for each creating piece\nStatement explains how creating conventions were applied\nAll four areas of inquiry are represented across all pieces",
     "crumbs": [
       "Course Book",
       "Presenting Music",
@@ -783,11 +794,11 @@
     ]
   },
   {
-    "objectID": "book/presenting-checklist.html#creating",
-    "href": "book/presenting-checklist.html#creating",
+    "objectID": "book/presenting-checklist.html#performing",
+    "href": "book/presenting-checklist.html#performing",
     "title": "Presenting: Checklist",
-    "section": "Creating",
-    "text": "Creating\n\n\n\n\n\n− Remove Piece\n\n\n+ Add Piece\n\n\n\nEach piece has a clearly stated and justified area of inquiry\nCreating work is no longer than 6 minutes of audio total\nScore or notation is included for each creating piece\nStatement explains how creating conventions were applied\nAll four areas of inquiry are represented across all pieces",
+    "section": "Performing",
+    "text": "Performing\n\n\n\n\n\n− Remove Piece\n\n\n+ Add Piece\n\n\n\nAll pieces are from local or global contexts — not personal\nEach piece has a clearly stated and justified area of inquiry\nTotal performance time does not exceed 12 minutes\nPerformance recording audio quality is sufficient for assessment",
     "crumbs": [
       "Course Book",
       "Presenting Music",

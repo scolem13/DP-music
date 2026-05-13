@@ -8,6 +8,22 @@ toc-depth: 3
 
 ```{=html}
 <script>
+// ── Apply shared data from URL before localStorage is read ───────────────────
+(function() {
+  var SHARE_KEYS = ['pieces:exploring','pieces:experimenting','pieces:presenting:performing','pieces:presenting:creating','presenting:nPerf','presenting:nCrea'];
+  var m = location.search.match(/[?&]share=([^&]+)/);
+  if (!m) return;
+  try {
+    var data = JSON.parse(decodeURIComponent(escape(atob(m[1]))));
+    if (data && typeof data === 'object') {
+      SHARE_KEYS.forEach(function(k) {
+        if (data[k] !== undefined) localStorage.setItem(k, JSON.stringify(data[k]));
+      });
+    }
+    history.replaceState(null, '', location.pathname);
+  } catch(e) {}
+})();
+
 (function () {
   // ── Shared styles ────────────────────────────────────────────────────────────
   var INP = 'font-size:.82rem;padding:.2rem .3rem;border:1px solid #c8bfaf;border-radius:2px;background:#faf8f5;color:#2c2416;width:100%;box-sizing:border-box;';
@@ -112,8 +128,7 @@ toc-depth: 3
   var EWM_KEY  = 'pieces:experimenting';
   var EWM_N    = 2;
   var EWM_AOI  = ['', '1', '2', '3', '4'];
-  var EWM_CTX  = ['', 'Local', 'Global'];
-  var EWM_PRAC = ['', 'Creating', 'Performing'];
+  var EWM_PRACTICALS = ['Creating', 'Performing'];
 
   function ewmBlank() { return {name:'',composer:'',genre:'',aoi:'',context:'',practical:''}; }
   function loadEWM() {
@@ -121,14 +136,17 @@ toc-depth: 3
     catch(e) { return Array(EWM_N).fill(null).map(ewmBlank); }
   }
   var ewmPieces = loadEWM();
+  ewmPieces[0].practical = 'Creating';
+  ewmPieces[1].practical = 'Performing';
   function saveEWM() { try{localStorage.setItem(EWM_KEY,JSON.stringify(ewmPieces));}catch(e){} }
+  saveEWM();
 
   function renderEWM() {
     var c = document.getElementById('rep-experimenting');
     if (!c) return;
     var h = '<table style="width:100%;border-collapse:collapse;font-size:.82rem;margin-bottom:.5rem;">';
     h += '<thead><tr>';
-    ['Piece','Composer','Genre','AOI','Context','Practical exercise'].forEach(function(lbl){ h+='<th style="'+TH+'">'+lbl+'</th>'; });
+    ['Piece','Composer','Genre','AOI','Practical exercise'].forEach(function(lbl){ h+='<th style="'+TH+'">'+lbl+'</th>'; });
     h += '</tr></thead><tbody>';
     for (var r=0; r<EWM_N; r++) {
       h += '<tr>';
@@ -136,8 +154,7 @@ toc-depth: 3
         h += '<td style="'+TD+'"><input type="text" data-src="ewm" data-row="'+r+'" data-field="'+f+'" value="'+esc(ewmPieces[r][f])+'" style="'+INP+'" /></td>';
       });
       h += '<td style="'+TD+'width:5em;">'+buildSel('ewm',r,'aoi',EWM_AOI,ewmPieces[r].aoi)+'</td>';
-      h += '<td style="'+TD+'width:7em;">'+buildSel('ewm',r,'context',EWM_CTX,ewmPieces[r].context)+'</td>';
-      h += '<td style="'+TD+'width:9em;">'+buildSel('ewm',r,'practical',EWM_PRAC,ewmPieces[r].practical)+'</td>';
+      h += '<td style="'+TD+'width:9em;color:#777;font-size:.82rem;padding-left:.4rem;">'+EWM_PRACTICALS[r]+'</td>';
       h += '</tr>';
     }
     h += '</tbody></table>';
@@ -173,7 +190,7 @@ toc-depth: 3
   function savePerf() { try{localStorage.setItem(PERF_KEY,JSON.stringify(perfPieces));}catch(e){} }
   function saveNPerf() { try{localStorage.setItem(NPERF_KEY,String(nPerf));}catch(e){} }
 
-  var EXCERPT_POLICY = "If students submit ensemble performances only, these must be accompanied by representative excerpts demonstrating the students' individual contributions to the ensemble. The selection of excerpts must be a maximum of 2 minutes. Students must select the excerpt carefully to demonstrate their musicality and technical proficiency. The excerpt does not need to be a recording from a live performance—it may be recorded before or after a performance, without an audience.";
+  var EXCERPT_POLICY = "You may need or want to submit excerpts of your parts of ensemble pieces. Double-click to see more information in the Subject Guide.";
 
   // ── Excerpt policy popup (standalone — not relying on glossary.js internals) ─
   var _excPopup = null;
@@ -214,10 +231,10 @@ toc-depth: 3
     if (!c) return;
 
     // Column widths (must match excerpt table)
-    var W = {name:'30%',composer:'17%',genre:'11%',aoi:'7%',min:'6%',sec:'6%',ens:'7%',exc:'16%'};
+    var W = {name:'28%',composer:'20%',genre:'13%',aoi:'7%',min:'8%',sec:'8%',ens:'8%',exc:'8%'};
 
-    var excHeaderBtn = '<button class="excerpt-policy-btn" style="color:#5b9bd5;font-size:.6rem;text-transform:uppercase;letter-spacing:.05em;font-weight:400;white-space:normal;word-break:break-word;border:none;padding:0;background:none;cursor:help;text-decoration:underline dotted;text-align:right;">'
-      + 'Excerpt Required?'
+    var excHeaderBtn = '<button class="excerpt-policy-btn" style="color:#5b9bd5;font-size:.6rem;text-transform:uppercase;letter-spacing:.05em;font-weight:400;border:none;padding:0;background:none;cursor:help;text-decoration:underline dotted;">'
+      + 'Excerpt?'
       + '</button>';
 
     var h = '<table style="width:100%;border-collapse:collapse;font-size:.82rem;table-layout:fixed;">';
@@ -229,8 +246,8 @@ toc-depth: 3
     h += '<th style="'+TH+'">Piece</th><th style="'+TH+'">Composer</th><th style="'+TH+'">Genre</th>';
     h += '<th style="'+TH+'">AOI</th>';
     h += '<th style="'+TH+'">Min</th><th style="'+TH+'">Sec</th>';
-    h += '<th style="'+TH+'">Ensemble?</th>';
-    h += '<th style="'+TH+'white-space:normal;word-break:break-word;text-align:right;">'+excHeaderBtn+'</th>';
+    h += '<th style="'+TH+'font-size:.6rem;overflow:hidden;">Ensemble?</th>';
+    h += '<th style="'+TH+'font-size:.6rem;text-align:right;">'+excHeaderBtn+'</th>';
     h += '</tr></thead><tbody>';
 
     for (var r=0; r<nPerf; r++) {
@@ -245,8 +262,8 @@ toc-depth: 3
       var ensChecked = p.ensemble ? ' checked' : '';
       var excDisabled = p.ensemble ? '' : ' disabled';
       var excChecked = (p.ensemble && p.excerptRequired) ? ' checked' : '';
-      h += '<td style="'+TD+'text-align:center;"><input type="checkbox" data-src="perf" data-row="'+r+'" data-field="ensemble"'+ensChecked+' style="cursor:pointer;width:1em;height:1em;" /></td>';
-      h += '<td style="'+TD+'text-align:center;"><input type="checkbox" data-src="perf" data-row="'+r+'" data-field="excerptRequired"'+excChecked+excDisabled+' style="cursor:pointer;width:1em;height:1em;" /></td>';
+      h += '<td style="'+TD+'text-align:center;"><input type="checkbox" data-src="perf" data-row="'+r+'" data-field="ensemble"'+ensChecked+' style="cursor:pointer;width:1em;height:1em;display:block;margin:0 auto;" /></td>';
+      h += '<td style="'+TD+'text-align:center;"><input type="checkbox" data-src="perf" data-row="'+r+'" data-field="excerptRequired"'+excChecked+excDisabled+' style="cursor:pointer;width:1em;height:1em;display:block;margin:0 auto;" /></td>';
       h += '</tr>';
     }
     h += '</tbody></table>';
@@ -398,7 +415,8 @@ toc-depth: 3
     var c = document.getElementById('rep-creating');
     if (!c) return;
 
-    var h = '<table style="width:100%;border-collapse:collapse;font-size:.82rem;margin-bottom:.5rem;">';
+    var h = '<table style="width:100%;border-collapse:collapse;font-size:.82rem;margin-bottom:.5rem;table-layout:fixed;">';
+    h += '<colgroup><col style="width:35%"><col style="width:24%"><col style="width:18%"><col style="width:7%"><col style="width:8%"><col style="width:8%"></colgroup>';
     h += '<thead><tr>';
     ['Piece','Composer','Genre','AOI','Min','Sec'].forEach(function(lbl){ h+='<th style="'+TH+'">'+lbl+'</th>'; });
     h += '</tr></thead><tbody>';
@@ -409,9 +427,9 @@ toc-depth: 3
       ['name','composer','genre'].forEach(function(f){
         h += '<td style="'+TD+'"><input type="text" data-src="crea" data-row="'+r+'" data-field="'+f+'" value="'+esc(p[f])+'" style="'+INP+'" /></td>';
       });
-      h += '<td style="'+TD+'width:5em;">'+buildSel('crea',r,'aoi',CREA_AOI,p.aoi)+'</td>';
-      h += '<td style="'+TD+'width:4em;"><input type="number" min="0" max="99" data-src="crea" data-row="'+r+'" data-field="lenMin" value="'+esc(String(p.lenMin||''))+'" style="'+INP+'" /></td>';
-      h += '<td style="'+TD+'width:4em;"><input type="number" min="0" max="59" data-src="crea" data-row="'+r+'" data-field="lenSec" value="'+esc(String(p.lenSec||''))+'" style="'+INP+'" /></td>';
+      h += '<td style="'+TD+'">'+buildSel('crea',r,'aoi',CREA_AOI,p.aoi)+'</td>';
+      h += '<td style="'+TD+'"><input type="number" min="0" max="99" data-src="crea" data-row="'+r+'" data-field="lenMin" value="'+esc(String(p.lenMin||''))+'" style="'+INP+'" /></td>';
+      h += '<td style="'+TD+'"><input type="number" min="0" max="59" data-src="crea" data-row="'+r+'" data-field="lenSec" value="'+esc(String(p.lenSec||''))+'" style="'+INP+'" /></td>';
       h += '</tr>';
     }
     h += '</tbody></table>';
@@ -531,6 +549,50 @@ toc-depth: 3
       });
     }
   });
+
+  // ── Share link ───────────────────────────────────────────────────────────────
+  var SHARE_KEYS = ['pieces:exploring','pieces:experimenting','pieces:presenting:performing','pieces:presenting:creating','presenting:nPerf','presenting:nCrea'];
+
+  function buildShareURL() {
+    var data = {};
+    SHARE_KEYS.forEach(function(k) {
+      var v = localStorage.getItem(k);
+      if (v != null) try { data[k] = JSON.parse(v); } catch(e) { data[k] = v; }
+    });
+    var encoded = btoa(unescape(encodeURIComponent(JSON.stringify(data))));
+    return location.protocol + '//' + location.host + location.pathname + '?share=' + encoded;
+  }
+
+  window.copyShareLink = function() {
+    var url = buildShareURL();
+    var btn  = document.getElementById('share-btn');
+    var note = document.getElementById('share-note');
+    function onCopied() {
+      if (btn)  { btn.textContent  = 'Copied!'; setTimeout(function(){ btn.textContent  = 'Copy link'; }, 2500); }
+      if (note) { note.textContent = url.length > 80 ? url.slice(0,80)+'...' : url; }
+    }
+    function onFailed() {
+      if (btn) btn.textContent = 'Copy failed — see console';
+    }
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(url).then(onCopied).catch(function() {
+        fallbackCopy(url, onCopied, onFailed);
+      });
+    } else {
+      fallbackCopy(url, onCopied, onFailed);
+    }
+  };
+
+  function fallbackCopy(text, onOk, onFail) {
+    var ta = document.createElement('textarea');
+    ta.value = text;
+    ta.style.cssText = 'position:fixed;opacity:0;top:0;left:0;';
+    document.body.appendChild(ta);
+    ta.focus(); ta.select();
+    try { document.execCommand('copy') ? onOk() : onFail(); }
+    catch(e) { onFail(); }
+    document.body.removeChild(ta);
+  }
 })();
 </script>
 <style>
@@ -592,6 +654,13 @@ toc-depth: 3
 
 ## Presenting Music
 
+### Creating
+
+*Default 2 pieces. Use the buttons to adjust between 1 and 3.*
+
+<div id="rep-creating" style="overflow-x:auto;"></div>
+
+
 ### Performing
 
 *Default 4 pieces. Use the buttons to adjust between 3 and 5.*
@@ -600,10 +669,18 @@ toc-depth: 3
 
 <div id="rep-excerpts-container"></div>
 
-### Creating
-
-*Default 2 pieces. Use the buttons to adjust between 1 and 3.*
-
-<div id="rep-creating" style="overflow-x:auto;"></div>
-
 <div id="ac-presenting"></div>
+
+---
+
+## Share your data
+
+Your data is saved to this browser only. Use the link below to open it on another device or share it with your teacher — anyone who opens the link will see your current data loaded and ready to edit.
+
+```{=html}
+<div style="margin:1rem 0;">
+<button id="share-btn" onclick="copyShareLink()" style="font-size:.85rem;padding:.35rem .9rem;border:1px solid #c8bfaf;border-radius:3px;background:transparent;color:#555;cursor:pointer;">Copy link</button>
+<span id="share-note" style="font-size:.8rem;color:#999;margin-left:.75rem;"></span>
+</div>
+<p style="font-size:.82rem;color:#888;margin-top:.25rem;">The link encodes your full data as a URL. Sharing it gives read/write access — open it on any device or browser and it will load your selections directly.</p>
+```

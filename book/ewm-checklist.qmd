@@ -18,8 +18,7 @@ toc-depth: 2
   var CB_KEY         = 'checklist:' + window.location.pathname;
   var N              = 2;
   var AOI_OPTS       = ['', '1', '2', '3', '4'];
-  var CTX_OPTS       = ['', 'Local', 'Global'];
-  var PRAC_OPTS      = ['', 'Creating', 'Performing'];
+  var PRACTICALS     = ['Creating', 'Performing'];
   var INP = 'font-size:.82rem;padding:.2rem .3rem;border:1px solid #c8bfaf;border-radius:2px;background:#faf8f5;color:#2c2416;width:100%;box-sizing:border-box;';
   var SEL = INP + 'cursor:pointer;';
   var TH  = 'text-align:left;font-size:.7rem;text-transform:uppercase;letter-spacing:.05em;color:#999;padding:.3rem .3rem;border-bottom:1px solid #e0d6c8;font-weight:400;white-space:nowrap;';
@@ -32,7 +31,11 @@ toc-depth: 2
     catch(e) { return Array(count).fill(null).map(blank); }
   }
   var pieces = loadPieces(PIECES_KEY);
+  // Practical exercise is fixed for EWM
+  pieces[0].practical = 'Creating';
+  pieces[1].practical = 'Performing';
   function savePieces() { try{localStorage.setItem(PIECES_KEY,JSON.stringify(pieces));}catch(e){} }
+  savePieces();
   function esc(s) { return (s||'').replace(/&/g,'&amp;').replace(/"/g,'&quot;'); }
 
   function buildSel(field, opts, val, row) {
@@ -46,16 +49,15 @@ toc-depth: 2
     if (!c) return;
     var h = '<table style="width:100%;border-collapse:collapse;font-size:.82rem;margin-bottom:.5rem;">';
     h += '<thead><tr>';
-    ['Piece','Composer','Genre','AOI','Context','Practical exercise'].forEach(function(lbl){ h+='<th style="'+TH+'">'+lbl+'</th>'; });
+    ['Piece','Composer','Genre','AOI','Practical exercise'].forEach(function(lbl){ h+='<th style="'+TH+'">'+lbl+'</th>'; });
     h += '</tr></thead><tbody>';
     for (var r=0; r<N; r++) {
       h += '<tr>';
       ['name','composer','genre'].forEach(function(f){
         h += '<td style="'+TD+'"><input type="text" data-row="'+r+'" data-field="'+f+'" value="'+esc(pieces[r][f])+'" style="'+INP+'" /></td>';
       });
-      h += '<td style="'+TD+'width:5em;">'+buildSel('aoi',      AOI_OPTS,  pieces[r].aoi,      r)+'</td>';
-      h += '<td style="'+TD+'width:7em;">'+buildSel('context',  CTX_OPTS,  pieces[r].context,  r)+'</td>';
-      h += '<td style="'+TD+'width:9em;">'+buildSel('practical',PRAC_OPTS, pieces[r].practical, r)+'</td>';
+      h += '<td style="'+TD+'width:5em;">'+buildSel('aoi', AOI_OPTS, pieces[r].aoi, r)+'</td>';
+      h += '<td style="'+TD+'width:9em;color:#777;font-size:.82rem;padding-left:.4rem;">'+PRACTICALS[r]+'</td>';
       h += '</tr>';
     }
     h += '</tbody></table>';
