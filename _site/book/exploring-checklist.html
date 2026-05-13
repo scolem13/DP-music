@@ -141,6 +141,12 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Assessment Guidance</span></a>
   </div>
 </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../book/repertoire.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Repertoire</span></a>
+  </div>
+</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
@@ -214,6 +220,12 @@ ul.task-list li input[type="checkbox"] {
           </a> 
       </div>
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../book/presenting-checklist.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Presenting: Checklist</span></a>
+  </div>
+</li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../book/presenting-criterion-guidance.html" class="sidebar-item-text sidebar-link">
@@ -312,11 +324,13 @@ ul.task-list li input[type="checkbox"] {
   var N          = 4;
   var AOI_OPTS   = ['', '1', '2', '3', '4'];
   var CTX_OPTS   = ['', 'Personal', 'Local', 'Global'];
-  var PRAC_OPTS  = ['None', 'Creating', 'Performing'];
+  var PRAC_OPTS  = ['', 'Creating', 'Performing'];
   var INP = 'font-size:.82rem;padding:.2rem .3rem;border:1px solid #c8bfaf;border-radius:2px;background:#faf8f5;color:#2c2416;width:100%;box-sizing:border-box;';
   var SEL = INP + 'cursor:pointer;';
   var TH  = 'text-align:left;font-size:.7rem;text-transform:uppercase;letter-spacing:.05em;color:#999;padding:.3rem .3rem;border-bottom:1px solid #e0d6c8;font-weight:400;white-space:nowrap;';
   var TD  = 'padding:.25rem .2rem;';
+
+  var show4th = false;
 
   function blank() { return { name:'', composer:'', genre:'', aoi:'', context:'', practical:'' }; }
   function loadPieces() {
@@ -336,12 +350,13 @@ ul.task-list li input[type="checkbox"] {
   function renderTracker() {
     var c = document.getElementById('piece-tracker');
     if (!c) return;
-    var h = '<'+'table style="width:100%;border-collapse:collapse;font-size:.82rem;margin-bottom:.5rem;">';
+    var h = '<table style="width:100%;border-collapse:collapse;font-size:.82rem;margin-bottom:.5rem;">';
     h += '<thead><tr>';
     ['Piece','Composer','Genre','AOI','Context','Practical exercise'].forEach(function(lbl){ h+='<th style="'+TH+'">'+lbl+'</th>'; });
     h += '</tr></thead><tbody>';
     for (var r=0; r<N; r++) {
-      h += '<tr>';
+      var hidden = (r === 3 && !show4th) ? ' style="display:none;"' : '';
+      h += '<tr'+hidden+'>';
       ['name','composer','genre'].forEach(function(f){
         h += '<td style="'+TD+'"><input type="text" data-row="'+r+'" data-field="'+f+'" value="'+esc(pieces[r][f])+'" style="'+INP+'" /></td>';
       });
@@ -355,25 +370,61 @@ ul.task-list li input[type="checkbox"] {
     c.querySelectorAll('input,select').forEach(function(el){
       el.addEventListener('change', function(){
         pieces[+el.dataset.row][el.dataset.field] = el.value;
-        savePieces(); runAutoChecks(); saveCheckboxes();
+        savePieces(); runAutoChecks();
       });
     });
+    var btn = document.getElementById('toggle4th');
+    if (btn) btn.textContent = show4th ? 'Remove 4th Piece' : 'Add 4th Piece';
   }
 
-  function setCheck(substr, val) {
-    document.querySelectorAll('.task-list li').forEach(function(li){
+  function initAutoIndicators() {
+    var headings = document.querySelectorAll('h2');
+    var repEl = null;
+    headings.forEach(function(h) {
+      if (/repertoire/i.test(h.textContent)) repEl = h;
+    });
+    if (!repEl) return;
+    var el = repEl.nextElementSibling;
+    while (el && el.tagName !== 'H2' && el.tagName !== 'HR') {
+      el.querySelectorAll('li').forEach(function(li) {
+        var cb = li.querySelector('input[type="checkbox"]');
+        if (!cb) return;
+        cb.classList.add('auto-check');
+        cb.style.display = 'none';
+        cb.disabled = true;
+        var lbl = li.querySelector('label');
+        if (lbl) lbl.style.pointerEvents = 'none';
+        li.style.cursor = 'default';
+        var ind = document.createElement('span');
+        ind.className = 'auto-indicator';
+        li.insertBefore(ind, li.firstChild);
+      });
+      el = el.nextElementSibling;
+    }
+  }
+
+  function setCheck(substr, val, error) {
+    document.querySelectorAll('li').forEach(function(li){
       if (li.textContent.indexOf(substr) > -1) {
         var cb = li.querySelector('input[type="checkbox"]');
-        if (cb) cb.checked = val;
+        if (!cb) return;
+        cb.checked = !!val;
+        var ind = li.querySelector('.auto-indicator');
+        if (ind) {
+          ind.classList.remove('auto-checked', 'auto-error');
+          if (error) ind.classList.add('auto-error');
+          else if (val) ind.classList.add('auto-checked');
+        }
       }
     });
   }
 
   function runAutoChecks() {
-    var aois  = pieces.map(function(p){return p.aoi;}).filter(Boolean);
-    var ctxs  = pieces.map(function(p){return p.context;}).filter(Boolean);
-    var creat = pieces.filter(function(p){return p.practical==='Creating';});
-    var perf  = pieces.filter(function(p){return p.practical==='Performing'&&(p.context==='Local'||p.context==='Global');});
+    var aois     = pieces.map(function(p){return p.aoi;}).filter(Boolean);
+    var ctxs     = pieces.map(function(p){return p.context;}).filter(Boolean);
+    var creat    = pieces.filter(function(p){return p.practical==='Creating';});
+    var allPerf  = pieces.filter(function(p){return p.practical==='Performing';});
+    var perf     = allPerf.filter(function(p){return p.context==='Local'||p.context==='Global';});
 
     setCheck('two different areas of inquiry', new Set(aois).size >= 2);
     setCheck('three contexts', ctxs.indexOf('Personal')>-1 && ctxs.indexOf('Local')>-1 && ctxs.indexOf('Global')>-1);
@@ -381,7 +432,15 @@ ul.task-list li input[type="checkbox"] {
 
     var adaptOk = perf.length >= 1;
     if (adaptOk && creat.length >= 1 && creat[0].aoi && perf[0].aoi) adaptOk = perf[0].aoi !== creat[0].aoi;
-    setCheck('Performed adaptation stimulus', adaptOk);
+    var adaptError = false;
+    if (allPerf.length > 0) {
+      var hasPersonal = allPerf.some(function(p){ return p.context === 'Personal'; });
+      var hasSameAOI  = creat.length > 0 && allPerf.some(function(p){
+        return p.aoi && creat[0].aoi && p.aoi === creat[0].aoi;
+      });
+      adaptError = hasPersonal || hasSameAOI;
+    }
+    setCheck('Performed adaptation stimulus', adaptOk, adaptError);
   }
 
   var boxes;
@@ -391,7 +450,9 @@ ul.task-list li input[type="checkbox"] {
 
   document.addEventListener('DOMContentLoaded', function () {
     renderTracker();
-    boxes = Array.from(document.querySelectorAll('.task-list input[type="checkbox"]'));
+    initAutoIndicators();
+    boxes = Array.from(document.querySelectorAll('input[type="checkbox"]'))
+      .filter(function(cb){ return !cb.classList.contains('auto-check'); });
     boxes.forEach(function(cb){ cb.removeAttribute('disabled'); cb.style.cursor='pointer'; });
     try {
       var sv = JSON.parse(localStorage.getItem(CB_KEY));
@@ -399,17 +460,65 @@ ul.task-list li input[type="checkbox"] {
     } catch(e) {}
     runAutoChecks();
     boxes.forEach(function(cb){ cb.addEventListener('change', saveCheckboxes); });
+
+    var btn = document.getElementById('toggle4th');
+    if (btn) {
+      btn.addEventListener('click', function() {
+        show4th = !show4th;
+        if (!show4th) { pieces[3] = blank(); savePieces(); }
+        renderTracker();
+        runAutoChecks();
+      });
+    }
   });
 
   window.resetExploringChecklist = function() {
-    pieces = Array(N).fill(null).map(blank);
-    savePieces(); renderTracker();
-    if (boxes) { boxes.forEach(function(b){b.checked=false;}); saveCheckboxes(); runAutoChecks(); saveCheckboxes(); }
+    if (boxes) { boxes.forEach(function(b){b.checked=false;}); saveCheckboxes(); }
   };
 })();
 </script>
 <style>
 .task-list input[type="checkbox"] { width: 1em; height: 1em; margin-right: 0.4em; }
+.auto-indicator {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  border: 1.5px solid #bbb;
+  background: #f0ede8;
+  margin-right: 0.4em;
+  vertical-align: middle;
+  position: relative;
+  top: -1px;
+  cursor: not-allowed;
+  flex-shrink: 0;
+}
+.auto-indicator.auto-checked {
+  border-color: #2e7d32;
+  background: #2e7d32;
+}
+.auto-indicator.auto-checked::after {
+  content: '✓';
+  color: #fff;
+  font-size: .6em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.auto-indicator.auto-error {
+  border-color: #c0392b;
+  background: #c0392b;
+}
+.auto-indicator.auto-error::after {
+  content: '✗';
+  color: #fff;
+  font-size: .6em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 </style>
 <div style="margin-bottom:1.5rem;">
 <button onclick="resetExploringChecklist();" style="font-size:0.78rem;padding:0.25rem 0.7rem;border:1px solid #c8bfaf;border-radius:3px;background:transparent;color:#888;cursor:pointer;">Reset checklist</button>
@@ -417,8 +526,13 @@ ul.task-list li input[type="checkbox"] {
 <hr>
 <section id="repertoire-decisions" class="level2">
 <h2 class="anchored" data-anchor-id="repertoire-decisions">Repertoire decisions</h2>
-<div id="piece-tracker" style="margin-bottom:1rem;overflow-x:auto;">
+<div id="piece-tracker" style="margin-bottom:.5rem;overflow-x:auto;">
 
+</div>
+<div style="margin-bottom:1rem;">
+<button id="toggle4th" style="font-size:.78rem;padding:.2rem .6rem;border:1px solid #c8bfaf;border-radius:3px;background:transparent;color:#666;cursor:pointer;">
+Add 4th Piece
+</button>
 </div>
 <ul class="task-list">
 <li><label><input type="checkbox">At least <strong>two different areas of inquiry</strong> are represented across all pieces</label></li>

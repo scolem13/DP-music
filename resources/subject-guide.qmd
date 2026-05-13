@@ -6,6 +6,18 @@ toc: false
 ---
 
 ```{=html}
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var m = (window.location.hash || '').match(/#page=(\d+)/);
+  if (m) {
+    var iframe = document.querySelector('iframe[src*=".pdf"]');
+    if (iframe) {
+      var base = iframe.getAttribute('src').replace(/#.*$/, '');
+      iframe.setAttribute('src', base + '#page=' + m[1]);
+    }
+  }
+});
+</script>
 <iframe src="../pdfs/DP Music Subject Guide.pdf"
         width="100%"
         style="height:85vh; border:1px solid #e0d6c8; border-radius:4px;">

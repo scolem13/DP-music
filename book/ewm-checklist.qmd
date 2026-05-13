@@ -16,19 +16,20 @@ toc-depth: 2
   var PIECES_KEY     = 'pieces:experimenting';
   var EXPLORING_KEY  = 'pieces:exploring';
   var CB_KEY         = 'checklist:' + window.location.pathname;
-  var N              = 4;
+  var N              = 2;
   var AOI_OPTS       = ['', '1', '2', '3', '4'];
   var CTX_OPTS       = ['', 'Local', 'Global'];
-  var PRAC_OPTS      = ['Creating', 'Performing'];
+  var PRAC_OPTS      = ['', 'Creating', 'Performing'];
   var INP = 'font-size:.82rem;padding:.2rem .3rem;border:1px solid #c8bfaf;border-radius:2px;background:#faf8f5;color:#2c2416;width:100%;box-sizing:border-box;';
   var SEL = INP + 'cursor:pointer;';
   var TH  = 'text-align:left;font-size:.7rem;text-transform:uppercase;letter-spacing:.05em;color:#999;padding:.3rem .3rem;border-bottom:1px solid #e0d6c8;font-weight:400;white-space:nowrap;';
   var TD  = 'padding:.25rem .2rem;';
 
   function blank() { return { name:'', composer:'', genre:'', aoi:'', context:'', practical:'' }; }
-  function loadPieces(key) {
-    try { var d = JSON.parse(localStorage.getItem(key))||[]; while(d.length<N)d.push(blank()); return d.slice(0,N); }
-    catch(e) { return Array(N).fill(null).map(blank); }
+  function loadPieces(key, n) {
+    var count = n || N;
+    try { var d = JSON.parse(localStorage.getItem(key))||[]; while(d.length<count)d.push(blank()); return d.slice(0,count); }
+    catch(e) { return Array(count).fill(null).map(blank); }
   }
   var pieces = loadPieces(PIECES_KEY);
   function savePieces() { try{localStorage.setItem(PIECES_KEY,JSON.stringify(pieces));}catch(e){} }
@@ -43,7 +44,7 @@ toc-depth: 2
   function renderTracker() {
     var c = document.getElementById('piece-tracker');
     if (!c) return;
-    var h = '<'+'table style="width:100%;border-collapse:collapse;font-size:.82rem;margin-bottom:.5rem;">';
+    var h = '<table style="width:100%;border-collapse:collapse;font-size:.82rem;margin-bottom:.5rem;">';
     h += '<thead><tr>';
     ['Piece','Composer','Genre','AOI','Context','Practical exercise'].forEach(function(lbl){ h+='<th style="'+TH+'">'+lbl+'</th>'; });
     h += '</tr></thead><tbody>';
@@ -62,32 +63,64 @@ toc-depth: 2
     c.querySelectorAll('input,select').forEach(function(el){
       el.addEventListener('change', function(){
         pieces[+el.dataset.row][el.dataset.field] = el.value;
-        savePieces(); runAutoChecks(); saveCheckboxes();
+        savePieces(); runAutoChecks();
       });
     });
   }
 
-  function setCheck(substr, val) {
-    document.querySelectorAll('.task-list li').forEach(function(li){
+  function initAutoIndicators() {
+    var headings = document.querySelectorAll('h2');
+    var repEl = null;
+    headings.forEach(function(h) {
+      if (/repertoire/i.test(h.textContent)) repEl = h;
+    });
+    if (!repEl) return;
+    var el = repEl.nextElementSibling;
+    while (el && el.tagName !== 'H2' && el.tagName !== 'HR') {
+      el.querySelectorAll('li').forEach(function(li) {
+        var cb = li.querySelector('input[type="checkbox"]');
+        if (!cb) return;
+        cb.classList.add('auto-check');
+        cb.style.display = 'none';
+        cb.disabled = true;
+        var lbl = li.querySelector('label');
+        if (lbl) lbl.style.pointerEvents = 'none';
+        li.style.cursor = 'default';
+        var ind = document.createElement('span');
+        ind.className = 'auto-indicator';
+        li.insertBefore(ind, li.firstChild);
+      });
+      el = el.nextElementSibling;
+    }
+  }
+
+  function setCheck(substr, val, error) {
+    document.querySelectorAll('li').forEach(function(li){
       if (li.textContent.indexOf(substr) > -1) {
         var cb = li.querySelector('input[type="checkbox"]');
-        if (cb) cb.checked = val;
+        if (!cb) return;
+        cb.checked = !!val;
+        var ind = li.querySelector('.auto-indicator');
+        if (ind) {
+          ind.classList.remove('auto-checked', 'auto-error');
+          if (error) ind.classList.add('auto-error');
+          else if (val) ind.classList.add('auto-checked');
+        }
       }
     });
   }
 
   function runAutoChecks() {
-    var ewmAOIs = pieces.map(function(p){return p.aoi;}).filter(Boolean);
+    var ewmAOIs  = pieces.map(function(p){return p.aoi;}).filter(Boolean);
+    var exploring = loadPieces(EXPLORING_KEY, 4);
+    var expAOIs  = exploring.map(function(p){return p.aoi;}).filter(Boolean);
 
-    // 1. At least two different AOIs in Experimenting
     setCheck('two different areas of inquiry', new Set(ewmAOIs).size >= 2);
 
-    // 2. All four AOIs covered across Exploring + Experimenting
-    var exploring = loadPieces(EXPLORING_KEY);
-    var allAOIs   = new Set(
-      ewmAOIs.concat(exploring.map(function(p){return p.aoi;}).filter(Boolean))
-    );
-    setCheck('four areas of inquiry', allAOIs.has('1') && allAOIs.has('2') && allAOIs.has('3') && allAOIs.has('4'));
+    var allAOIs = new Set(ewmAOIs.concat(expAOIs));
+    var fourOK  = allAOIs.has('1') && allAOIs.has('2') && allAOIs.has('3') && allAOIs.has('4');
+    var fourError = !fourOK && ewmAOIs.length >= N && expAOIs.length >= 3;
+    setCheck('four areas of inquiry', fourOK, fourError);
   }
 
   var boxes;
@@ -97,7 +130,9 @@ toc-depth: 2
 
   document.addEventListener('DOMContentLoaded', function () {
     renderTracker();
-    boxes = Array.from(document.querySelectorAll('.task-list input[type="checkbox"]'));
+    initAutoIndicators();
+    boxes = Array.from(document.querySelectorAll('input[type="checkbox"]'))
+      .filter(function(cb){ return !cb.classList.contains('auto-check'); });
     boxes.forEach(function(cb){ cb.removeAttribute('disabled'); cb.style.cursor='pointer'; });
     try {
       var sv = JSON.parse(localStorage.getItem(CB_KEY));
@@ -108,14 +143,52 @@ toc-depth: 2
   });
 
   window.resetEWMChecklist = function() {
-    pieces = Array(N).fill(null).map(blank);
-    savePieces(); renderTracker();
-    if (boxes) { boxes.forEach(function(b){b.checked=false;}); saveCheckboxes(); runAutoChecks(); saveCheckboxes(); }
+    if (boxes) { boxes.forEach(function(b){b.checked=false;}); saveCheckboxes(); }
   };
 })();
 </script>
 <style>
 .task-list input[type="checkbox"] { width: 1em; height: 1em; margin-right: 0.4em; }
+.auto-indicator {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  border: 1.5px solid #bbb;
+  background: #f0ede8;
+  margin-right: 0.4em;
+  vertical-align: middle;
+  position: relative;
+  top: -1px;
+  cursor: not-allowed;
+  flex-shrink: 0;
+}
+.auto-indicator.auto-checked {
+  border-color: #2e7d32;
+  background: #2e7d32;
+}
+.auto-indicator.auto-checked::after {
+  content: '✓';
+  color: #fff;
+  font-size: .6em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.auto-indicator.auto-error {
+  border-color: #c0392b;
+  background: #c0392b;
+}
+.auto-indicator.auto-error::after {
+  content: '✗';
+  color: #fff;
+  font-size: .6em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 </style>
 <div style="margin-bottom:1.5rem;">
 <button onclick="resetEWMChecklist();" style="font-size:0.78rem;padding:0.25rem 0.7rem;border:1px solid #c8bfaf;border-radius:3px;background:transparent;color:#888;cursor:pointer;">Reset checklist</button>

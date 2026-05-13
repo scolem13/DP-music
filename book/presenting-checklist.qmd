@@ -1,0 +1,270 @@
+---
+title: "Presenting: Checklist"
+description: "A submission checklist for the Presenting Music component."
+categories: [Reference, Assessment, Presenting]
+toc: true
+toc-depth: 2
+---
+
+::: {.content-visible when-format="html"}
+*See also: [Assessment Rubrics → Presenting](../resources/rubrics.html#presenting-music)*
+:::
+
+```{=html}
+<script>
+(function () {
+  var PERF_KEY   = 'pieces:presenting:performing';
+  var CREA_KEY   = 'pieces:presenting:creating';
+  var NPERF_KEY  = 'presenting:nPerf';
+  var NCREA_KEY  = 'presenting:nCrea';
+  var CB_KEY     = 'checklist:' + window.location.pathname;
+  var PERF_SLOTS = 5;
+  var CREA_SLOTS = 3;
+  var PERF_MIN   = 3; var PERF_MAX = 5;
+  var CREA_MIN   = 1; var CREA_MAX = 3;
+  var nPerf = Math.min(PERF_MAX, Math.max(PERF_MIN, parseInt(localStorage.getItem(NPERF_KEY))||4));
+  var nCrea = Math.min(CREA_MAX, Math.max(CREA_MIN, parseInt(localStorage.getItem(NCREA_KEY))||2));
+  var AOI_OPTS = ['', '1', '2', '3', '4'];
+  var INP = 'font-size:.82rem;padding:.2rem .3rem;border:1px solid #c8bfaf;border-radius:2px;background:#faf8f5;color:#2c2416;width:100%;box-sizing:border-box;';
+  var SEL = INP + 'cursor:pointer;';
+  var TH  = 'text-align:left;font-size:.7rem;text-transform:uppercase;letter-spacing:.05em;color:#999;padding:.3rem .3rem;border-bottom:1px solid #e0d6c8;font-weight:400;white-space:nowrap;';
+  var TD  = 'padding:.25rem .2rem;';
+  var BTN = 'font-size:.78rem;padding:.2rem .5rem;border:1px solid #c8bfaf;border-radius:3px;background:transparent;color:#666;cursor:pointer;margin-right:.3rem;';
+
+  function esc(s) { return (s||'').replace(/&/g,'&amp;').replace(/"/g,'&quot;'); }
+
+  function perfBlank() { return {name:'',composer:'',genre:'',aoi:'',lenMin:'',lenSec:'',ensemble:false,excerptRequired:false,excerptMin:'',excerptSec:''}; }
+  function creaBlank() { return {name:'',composer:'',genre:'',aoi:'',lenMin:'',lenSec:''}; }
+
+  function loadPieces(key, slots, blankFn) {
+    try { var d=JSON.parse(localStorage.getItem(key))||[]; while(d.length<slots)d.push(blankFn()); return d.slice(0,slots); }
+    catch(e) { return Array(slots).fill(null).map(blankFn); }
+  }
+  var perfPieces = loadPieces(PERF_KEY, PERF_SLOTS, perfBlank);
+  var creaPieces = loadPieces(CREA_KEY, CREA_SLOTS, creaBlank);
+
+  function savePerf() { try{localStorage.setItem(PERF_KEY,JSON.stringify(perfPieces));}catch(e){} }
+  function saveCrea() { try{localStorage.setItem(CREA_KEY,JSON.stringify(creaPieces));}catch(e){} }
+  function saveNPerf() { try{localStorage.setItem(NPERF_KEY,String(nPerf));}catch(e){} }
+  function saveNCrea() { try{localStorage.setItem(NCREA_KEY,String(nCrea));}catch(e){} }
+
+  function buildSel(row, field, opts, val, store) {
+    var h = '<select data-store="'+store+'" data-row="'+row+'" data-field="'+field+'" style="'+SEL+'">';
+    opts.forEach(function(o){ h+='<option value="'+esc(o)+'"'+(val===o?' selected':'')+'>'+(o||'—')+'</option>'; });
+    return h+'</select>';
+  }
+
+  function renderTracker(containerId, pieces, n, store) {
+    var c = document.getElementById(containerId);
+    if (!c) return;
+    var h = '<table style="width:100%;border-collapse:collapse;font-size:.82rem;margin-bottom:.5rem;">';
+    h += '<thead><tr>';
+    ['Piece','Composer','Genre','AOI'].forEach(function(lbl){ h+='<th style="'+TH+'">'+lbl+'</th>'; });
+    h += '</tr></thead><tbody>';
+    for (var r=0; r<n; r++) {
+      h += '<tr>';
+      ['name','composer','genre'].forEach(function(f){
+        h += '<td style="'+TD+'"><input type="text" data-store="'+store+'" data-row="'+r+'" data-field="'+f+'" value="'+esc(pieces[r][f])+'" style="'+INP+'" /></td>';
+      });
+      h += '<td style="'+TD+'width:5em;">'+buildSel(r,'aoi',AOI_OPTS,pieces[r].aoi,store)+'</td>';
+      h += '</tr>';
+    }
+    h += '</tbody></table>';
+    c.innerHTML = h;
+    c.querySelectorAll('input,select').forEach(function(el){
+      el.addEventListener('change', function(){
+        var row = +el.dataset.row, field = el.dataset.field;
+        if (el.dataset.store === 'perf') { perfPieces[row][field] = el.value; savePerf(); }
+        else                             { creaPieces[row][field] = el.value; saveCrea(); }
+        runAutoChecks();
+      });
+    });
+  }
+
+  function setCheck(substr, val, error) {
+    document.querySelectorAll('li').forEach(function(li){
+      if (li.textContent.indexOf(substr) > -1) {
+        var cb = li.querySelector('input[type="checkbox"]');
+        if (!cb) return;
+        cb.checked = !!val;
+        var ind = li.querySelector('.auto-indicator');
+        if (ind) {
+          ind.classList.remove('auto-checked', 'auto-error');
+          if (error) ind.classList.add('auto-error');
+          else if (val) ind.classList.add('auto-checked');
+        }
+      }
+    });
+  }
+
+  function initAutoIndicators() {
+    // Find the auto-check items below the Creating section (after the last h3 before hr/h2)
+    var headings = document.querySelectorAll('h3');
+    var creaEl = null;
+    headings.forEach(function(h) {
+      if (/creating/i.test(h.textContent)) creaEl = h;
+    });
+    if (!creaEl) return;
+    var el = creaEl.nextElementSibling;
+    while (el && el.tagName !== 'H2' && el.tagName !== 'H3' && el.tagName !== 'HR') {
+      el.querySelectorAll('li').forEach(function(li) {
+        var cb = li.querySelector('input[type="checkbox"]');
+        if (!cb) return;
+        cb.classList.add('auto-check');
+        cb.style.display = 'none';
+        cb.disabled = true;
+        var lbl = li.querySelector('label');
+        if (lbl) lbl.style.pointerEvents = 'none';
+        li.style.cursor = 'default';
+        var ind = document.createElement('span');
+        ind.className = 'auto-indicator';
+        li.insertBefore(ind, li.firstChild);
+      });
+      el = el.nextElementSibling;
+    }
+  }
+
+  function runAutoChecks() {
+    var perfAOIs = perfPieces.slice(0,nPerf).map(function(p){ return p.aoi; }).filter(Boolean);
+    var creaAOIs = creaPieces.slice(0,nCrea).map(function(p){ return p.aoi; }).filter(Boolean);
+    var allAOIs  = new Set(perfAOIs.concat(creaAOIs));
+    var fourOK   = allAOIs.has('1') && allAOIs.has('2') && allAOIs.has('3') && allAOIs.has('4');
+    setCheck('four areas of inquiry', fourOK);
+  }
+
+  function renderPerf() {
+    renderTracker('pres-perf-tracker', perfPieces, nPerf, 'perf');
+    var addBtn = document.getElementById('perf-add');
+    var remBtn = document.getElementById('perf-remove');
+    if (addBtn) { addBtn.disabled = nPerf >= PERF_MAX; addBtn.style.opacity = nPerf>=PERF_MAX?'.4':'1'; }
+    if (remBtn) { remBtn.disabled = nPerf <= PERF_MIN; remBtn.style.opacity = nPerf<=PERF_MIN?'.4':'1'; }
+  }
+
+  function renderCrea() {
+    renderTracker('pres-crea-tracker', creaPieces, nCrea, 'crea');
+    var addBtn = document.getElementById('crea-add');
+    var remBtn = document.getElementById('crea-remove');
+    if (addBtn) { addBtn.disabled = nCrea >= CREA_MAX; addBtn.style.opacity = nCrea>=CREA_MAX?'.4':'1'; }
+    if (remBtn) { remBtn.disabled = nCrea <= CREA_MIN; remBtn.style.opacity = nCrea<=CREA_MIN?'.4':'1'; }
+  }
+
+  var boxes;
+  function saveCheckboxes() {
+    try{localStorage.setItem(CB_KEY,JSON.stringify((boxes||[]).map(function(b){return b.checked;})));}catch(e){}
+  }
+
+  document.addEventListener('DOMContentLoaded', function () {
+    renderPerf();
+    renderCrea();
+    initAutoIndicators();
+    boxes = Array.from(document.querySelectorAll('input[type="checkbox"]'))
+      .filter(function(cb){ return !cb.classList.contains('auto-check'); });
+    boxes.forEach(function(cb){ cb.removeAttribute('disabled'); cb.style.cursor='pointer'; });
+    try {
+      var sv = JSON.parse(localStorage.getItem(CB_KEY));
+      if (Array.isArray(sv)) boxes.forEach(function(cb,i){ if(sv[i]!==undefined)cb.checked=!!sv[i]; });
+    } catch(e) {}
+    runAutoChecks();
+    boxes.forEach(function(cb){ cb.addEventListener('change', saveCheckboxes); });
+
+    document.getElementById('perf-add') && document.getElementById('perf-add').addEventListener('click', function(){
+      if (nPerf < PERF_MAX) { nPerf++; saveNPerf(); renderPerf(); runAutoChecks(); }
+    });
+    document.getElementById('perf-remove') && document.getElementById('perf-remove').addEventListener('click', function(){
+      if (nPerf > PERF_MIN) { nPerf--; saveNPerf(); renderPerf(); runAutoChecks(); }
+    });
+    document.getElementById('crea-add') && document.getElementById('crea-add').addEventListener('click', function(){
+      if (nCrea < CREA_MAX) { nCrea++; saveNCrea(); renderCrea(); runAutoChecks(); }
+    });
+    document.getElementById('crea-remove') && document.getElementById('crea-remove').addEventListener('click', function(){
+      if (nCrea > CREA_MIN) { nCrea--; saveNCrea(); renderCrea(); runAutoChecks(); }
+    });
+  });
+
+  window.resetPresentingChecklist = function() {
+    if (boxes) { boxes.forEach(function(b){b.checked=false;}); saveCheckboxes(); }
+  };
+})();
+</script>
+<style>
+.task-list input[type="checkbox"] { width: 1em; height: 1em; margin-right: 0.4em; }
+.auto-indicator {
+  display: inline-block;
+  width: 1em; height: 1em;
+  border-radius: 50%;
+  border: 1.5px solid #bbb;
+  background: #f0ede8;
+  margin-right: .4em;
+  vertical-align: middle;
+  position: relative;
+  top: -1px;
+  cursor: not-allowed;
+  flex-shrink: 0;
+}
+.auto-indicator.auto-checked { border-color: #2e7d32; background: #2e7d32; }
+.auto-indicator.auto-checked::after,
+.auto-indicator.auto-error::after {
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: .6em; color: #fff;
+}
+.auto-indicator.auto-checked::after { content: '✓'; }
+.auto-indicator.auto-error { border-color: #c0392b; background: #c0392b; }
+.auto-indicator.auto-error::after  { content: '✗'; }
+</style>
+<div style="margin-bottom:1.5rem;">
+<button onclick="resetPresentingChecklist();" style="font-size:0.78rem;padding:0.25rem 0.7rem;border:1px solid #c8bfaf;border-radius:3px;background:transparent;color:#888;cursor:pointer;">Reset checklist</button>
+</div>
+```
+
+---
+
+## Performing
+
+<div id="pres-perf-tracker" style="margin-bottom:.5rem;overflow-x:auto;"></div>
+
+<div style="margin-bottom:1rem;">
+<button id="perf-remove" style="font-size:.78rem;padding:.2rem .5rem;border:1px solid #c8bfaf;border-radius:3px;background:transparent;color:#666;cursor:pointer;margin-right:.3rem;">&#8722; Remove Piece</button>
+<button id="perf-add"    style="font-size:.78rem;padding:.2rem .5rem;border:1px solid #c8bfaf;border-radius:3px;background:transparent;color:#666;cursor:pointer;">&#43; Add Piece</button>
+</div>
+
+- [ ] All pieces are from **local or global** contexts — not personal
+- [ ] Each piece has a clearly stated and **justified area of inquiry**
+- [ ] Total performance time does not exceed **12 minutes**
+- [ ] Performance recording audio quality is sufficient for assessment
+
+---
+
+## Creating
+
+<div id="pres-crea-tracker" style="margin-bottom:.5rem;overflow-x:auto;"></div>
+
+<div style="margin-bottom:1rem;">
+<button id="crea-remove" style="font-size:.78rem;padding:.2rem .5rem;border:1px solid #c8bfaf;border-radius:3px;background:transparent;color:#666;cursor:pointer;margin-right:.3rem;">&#8722; Remove Piece</button>
+<button id="crea-add"    style="font-size:.78rem;padding:.2rem .5rem;border:1px solid #c8bfaf;border-radius:3px;background:transparent;color:#666;cursor:pointer;">&#43; Add Piece</button>
+</div>
+
+- [ ] Each piece has a clearly stated and **justified area of inquiry**
+- [ ] Creating work is no longer than **6 minutes** of audio total
+- [ ] Score or notation is included for each creating piece
+- [ ] Statement explains how creating conventions were applied
+
+- [ ] All **four areas of inquiry** are represented across all pieces
+
+---
+
+## Commentary
+
+- [ ] Commentary is within **600 words**
+- [ ] Commentary addresses both performing and creating work
+- [ ] Musical terminology is used accurately
+
+---
+
+## Submission
+
+- [ ] All audio uploaded to the correct submission folder
+- [ ] File names follow the required naming convention
+- [ ] Scores and notation are clearly legible
+- [ ] Word count verified with any excluded text removed
