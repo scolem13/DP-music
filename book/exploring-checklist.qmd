@@ -240,25 +240,25 @@ toc-depth: 2
 
 **For each piece:**
 
-- [ ] Area of inquiry is **stated and justified** — not just named
-- [ ] Context (personal/local/global) is justified
-- [ ] **Musical findings** are present (from scores/recordings): conventions, devices, techniques
-- [ ] Musical findings are located with **bar numbers or exact timestamps** pointing to Upload 3
-- [ ] **Extra-musical findings** are present (from articles, interviews, etc.)
-- [ ] Extra-musical findings are **relevant** to the music — not anecdotal biography
-- [ ] All sources have **in-text citations** — not only a bibliography at the end
-- [ ] Analysis explains *why* devices are used
+- [ ] Area of inquiry is **stated and justified** — not just named ([EMC B1](../resources/rubrics.html#emc-b1,rt-explain))
+- [ ] Context (personal/local/global) is justified ([EMC B1](../resources/rubrics.html#emc-b1,rt-explain))
+- [ ] **Musical findings** are present (from scores/recordings): conventions, devices, techniques ([EMC B1](../resources/rubrics.html#emc-b1,rt-explain))
+- [ ] Musical findings are located with **bar numbers or exact timestamps** pointing to Upload 3 ([EMC B1](../resources/rubrics.html#emc-b1,rt-explain))
+- [ ] **Extra-musical findings** are present (from articles, interviews, etc.) ([EMC B1](../resources/rubrics.html#emc-b1,rt-explain))
+- [ ] Extra-musical findings are **relevant** to the music — not anecdotal biography ([EMC B1](../resources/rubrics.html#emc-b1,rt-explain))
+- [ ] All sources have **in-text citations** — not only a bibliography at the end ([EMC B1](../resources/rubrics.html#emc-b1,rt-explain))
+- [ ] Analysis explains *why* devices are used ([EMC B1](../resources/rubrics.html#emc-b1,rt-explain) · [EMC B2](../resources/rubrics.html#emc-b2,rt-explain))
 
 ---
 
 ## Section 2: Creating exercise
 
-- [ ] Based on a style **explored in Section 1**
+- [ ] Based on a style **explored in Section 1** ([EMC B2](../resources/rubrics.html#emc-b2,rt-explain) · [EMC C1](../resources/rubrics.html#emc-c1,rt-realize))
 - [ ] Creating exercise audio included in Upload 2 *(max 1 min)*
 - [ ] Score or notation **embedded in the document** (max 32 bars or 1 min audio)
-- [ ] Notation is appropriate to the style and clearly communicates the exercise
-- [ ] Statement explains which **creating conventions** were applied and **where**
-- [ ] Statement explains how **Section 1 research directly informed** the exercise
+- [ ] Notation is appropriate to the style and clearly communicates the exercise ([EMC C1](../resources/rubrics.html#emc-c1,rt-realize))
+- [ ] Statement explains which **creating conventions** were applied and **where** ([EMC C1](../resources/rubrics.html#emc-c1,rt-realize))
+- [ ] Statement explains how **Section 1 research directly informed** the exercise ([EMC B2](../resources/rubrics.html#emc-b2,rt-explain) · [EMC C1](../resources/rubrics.html#emc-c1,rt-realize))
 
 ---
 
@@ -266,10 +266,10 @@ toc-depth: 2
 
 - [ ] Stimulus (original music) included in Upload 2 *(max 1 min)*
 - [ ] Performed adaptation audio included in Upload 2 *(max 2 min)*
-- [ ] From a **local or global** context — NOT personal
-- [ ] Statement explains which **performing practices** were identified in the original style
-- [ ] Statement explains how practices were **adapted for your instrument**
-- [ ] Adaptation AOI is confirmed as **different from creating** AOI
+- [ ] From a **local or global** context — NOT personal ([EMC C2](../resources/rubrics.html#emc-c2,rt-shape))
+- [ ] Statement explains which **performing practices** were identified in the original style ([EMC C2](../resources/rubrics.html#emc-c2,rt-shape))
+- [ ] Statement explains how practices were **adapted for your instrument** ([EMC C2](../resources/rubrics.html#emc-c2,rt-shape))
+- [ ] Adaptation AOI is confirmed as **different from creating** AOI ([EMC C1](../resources/rubrics.html#emc-c1,rt-realize) · [EMC C2](../resources/rubrics.html#emc-c2,rt-shape))
 
 ---
 
@@ -309,9 +309,9 @@ toc-depth: 2
 ## Common errors to rule out
 
 - [ ] Timestamps in writing point to **Upload 3** — not to YouTube, Spotify, or original commercial recordings
-- [ ] Score excerpts are **annotated** and connected to specific analytical claims — not decorative
-- [ ] AOIs are **justified with musical evidence** — not just labelled
-- [ ] Creating exercise and performed adaptation are from **two different AOIs**
-- [ ] Performed adaptation is based on **local or global** music — not personal
-- [ ] Creating exercise and adaptation are both referenced **back to Section 1 research**
+- [ ] Score excerpts are **annotated** and connected to specific analytical claims — not decorative ([EMC B1](../resources/rubrics.html#emc-b1,rt-explain))
+- [ ] AOIs are **justified with musical evidence** — not just labelled ([EMC B1](../resources/rubrics.html#emc-b1,rt-explain))
+- [ ] Creating exercise and performed adaptation are from **two different AOIs** ([EMC C1](../resources/rubrics.html#emc-c1,rt-realize) · [EMC C2](../resources/rubrics.html#emc-c2,rt-shape))
+- [ ] Performed adaptation is based on **local or global** music — not personal ([EMC C2](../resources/rubrics.html#emc-c2,rt-shape))
+- [ ] Creating exercise and adaptation are both referenced **back to Section 1 research** ([EMC B2](../resources/rubrics.html#emc-b2,rt-explain))
 - [ ] Word count checked with citations removed
