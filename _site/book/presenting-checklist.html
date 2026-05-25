@@ -106,10 +106,6 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link active" href="../book/index.html" aria-current="page"> 
 <span class="menu-text">Course Book</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../curriculum-map.html"> 
-<span class="menu-text">Curriculum Map</span></a>
-  </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -225,6 +221,12 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Experimenting: Common Mistakes</span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../book/ewm-tasks.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Experimenting: Task Reference</span></a>
+  </div>
+</li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
@@ -264,12 +266,6 @@ ul.task-list li input[type="checkbox"] {
   <div class="sidebar-item-container"> 
   <a href="../book/presenting-tasks.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Presenting: Task Reference</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../book/performing-tasks.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Performing: Task Reference</span></a>
   </div>
 </li>
       </ul>
@@ -328,7 +324,9 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#creating" id="toc-creating" class="nav-link active" data-scroll-target="#creating">Creating</a></li>
   <li><a href="#performing" id="toc-performing" class="nav-link" data-scroll-target="#performing">Performing</a></li>
   <li><a href="#programme-notes" id="toc-programme-notes" class="nav-link" data-scroll-target="#programme-notes">Programme Notes</a></li>
-  <li><a href="#submission" id="toc-submission" class="nav-link" data-scroll-target="#submission">Submission</a></li>
+  <li><a href="#upload-1-programme-notes-and-scores" id="toc-upload-1-programme-notes-and-scores" class="nav-link" data-scroll-target="#upload-1-programme-notes-and-scores">Upload 1: Programme notes and scores</a></li>
+  <li><a href="#upload-2-audio-evidence" id="toc-upload-2-audio-evidence" class="nav-link" data-scroll-target="#upload-2-audio-evidence">Upload 2: Audio evidence</a></li>
+  <li><a href="#upload-3-music-technology-only" id="toc-upload-3-music-technology-only" class="nav-link" data-scroll-target="#upload-3-music-technology-only">Upload 3: Music technology only</a></li>
   </ul>
 </nav>
     </div>
@@ -378,6 +376,50 @@ ul.task-list li input[type="checkbox"] {
   var CREA_MIN   = 1; var CREA_MAX = 3;
   var nPerf = Math.min(PERF_MAX, Math.max(PERF_MIN, parseInt(localStorage.getItem(NPERF_KEY))||4));
   var nCrea = Math.min(CREA_MAX, Math.max(CREA_MIN, parseInt(localStorage.getItem(NCREA_KEY))||2));
+
+  // ── Upload timing / word-count helpers ────────────────────────────────────────
+  var TH2 = 'text-align:left;font-size:.7rem;text-transform:uppercase;letter-spacing:.05em;color:#999;padding:.3rem .3rem;border-bottom:1px solid #e0d6c8;font-weight:400;white-space:nowrap;';
+  var TD2 = 'padding:.25rem .3rem;vertical-align:middle;';
+  var INP2 = 'font-size:.82rem;padding:.2rem .3rem;border:1px solid #c8bfaf;border-radius:2px;background:#faf8f5;color:#2c2416;width:100%;box-sizing:border-box;';
+  var JUMP_BTN = 'background:none;border:none;padding:0;color:#5b9bd5;cursor:pointer;text-decoration:underline dotted;font-family:inherit;';
+
+  function fmtTime(s) { var m=Math.floor(s/60),r=s%60; return m+':'+(r<10?'0':'')+r; }
+
+  function timeBar(secs, maxSecs) {
+    var over = secs > maxSecs;
+    var pct = maxSecs ? Math.min(secs/maxSecs*100,100).toFixed(1) : 0;
+    var ratio = maxSecs ? Math.min(secs/maxSecs,1) : 0;
+    var barColor, timeColor;
+    if (over) { barColor='#c0392b'; timeColor='#c0392b'; }
+    else { var hue=Math.round(120+ratio*3),sat=Math.round(36+ratio*10),lit=Math.round(75-ratio*41); barColor='hsl('+hue+','+sat+'%,'+lit+'%)'; timeColor='#444'; }
+    return '<div style="margin:.3rem 0 .7rem;">'
+      +'<div style="background:#e8e4df;border-radius:3px;height:5px;overflow:hidden;margin-bottom:.3rem;">'
+      +'<div style="background:'+barColor+';width:'+pct+'%;height:100%;border-radius:3px;transition:width .3s;"></div></div>'
+      +'<span style="color:'+timeColor+';font-size:.82rem;font-weight:600;">'+fmtTime(secs)+'</span>'
+      +'<span style="color:#aaa;font-size:.82rem;"> / '+fmtTime(maxSecs)+' max</span>'
+      +(over?'<span style="color:#c0392b;font-size:.75rem;margin-left:.5rem;">&#9888; over limit</span>':'')
+      +'</div>';
+  }
+
+  function wordBar(words, maxWords) {
+    var over = words > maxWords;
+    var pct = maxWords ? Math.min(words/maxWords*100,100).toFixed(1) : 0;
+    var ratio = maxWords ? Math.min(words/maxWords,1) : 0;
+    var barColor, wordColor;
+    if (over) { barColor='#c0392b'; wordColor='#c0392b'; }
+    else { var hue=Math.round(120+ratio*3),sat=Math.round(36+ratio*10),lit=Math.round(75-ratio*41); barColor='hsl('+hue+','+sat+'%,'+lit+'%)'; wordColor='#444'; }
+    return '<div style="margin:.3rem 0 .7rem;">'
+      +'<div style="background:#e8e4df;border-radius:3px;height:5px;overflow:hidden;margin-bottom:.3rem;">'
+      +'<div style="background:'+barColor+';width:'+pct+'%;height:100%;border-radius:3px;transition:width .3s;"></div></div>'
+      +'<span style="color:'+wordColor+';font-size:.82rem;font-weight:600;">'+words+' words</span>'
+      +'<span style="color:#aaa;font-size:.82rem;"> / '+maxWords+' max</span>'
+      +(over?'<span style="color:#c0392b;font-size:.75rem;margin-left:.5rem;">&#9888; over limit</span>':'')
+      +'</div>';
+  }
+
+  function inlineOverWarning(secs, maxSecs) {
+    return secs > maxSecs ? '<span style="color:#c0392b;font-size:.72rem;margin-left:.4rem;">&#9888; over '+fmtTime(maxSecs)+'</span>' : '';
+  }
   var AOI_OPTS = ['', '1', '2', '3', '4'];
   var CREA_METHOD_OPTS = ['', 'Staff Notation', 'DAW', 'Alternative notation', 'Improvisation'];
   var INP = 'font-size:.82rem;padding:.2rem .3rem;border:1px solid #c8bfaf;border-radius:2px;background:#faf8f5;color:#2c2416;width:100%;box-sizing:border-box;';
@@ -387,6 +429,44 @@ ul.task-list li input[type="checkbox"] {
   var BTN = 'font-size:.78rem;padding:.2rem .5rem;border:1px solid #c8bfaf;border-radius:3px;background:transparent;color:#666;cursor:pointer;margin-right:.3rem;';
 
   function esc(s) { return (s||'').replace(/&/g,'&amp;').replace(/"/g,'&quot;'); }
+
+  // ── Piece display helpers ─────────────────────────────────────────────────────
+  function presCreaPieceText(idx) {
+    var p = creaPieces && creaPieces[idx];
+    var name = p && p.name;
+    return name ? esc(name) : '<em style="color:#bbb;font-style:italic;font-size:.8rem;">Creating piece '+(idx+1)+'</em>';
+  }
+  function presPerfPieceText(idx) {
+    var p = perfPieces && perfPieces[idx];
+    var name = p && p.name;
+    return name ? esc(name) : '<em style="color:#bbb;font-style:italic;font-size:.8rem;">Performing piece '+(idx+1)+'</em>';
+  }
+
+  window.presJumpCrea = function(idx) {
+    var tracker = document.getElementById('pres-crea-tracker');
+    if (!tracker) return;
+    var rows = tracker.querySelectorAll('tbody tr');
+    var target = rows[idx];
+    if (!target || target.style.display === 'none') return;
+    target.scrollIntoView({ behavior:'smooth', block:'center' });
+    target.classList.remove('piece-row-highlight');
+    void target.offsetWidth;
+    target.classList.add('piece-row-highlight');
+    setTimeout(function(){ target.classList.remove('piece-row-highlight'); }, 2500);
+  };
+
+  window.presJumpPerf = function(idx) {
+    var tracker = document.getElementById('pres-perf-tracker');
+    if (!tracker) return;
+    var rows = tracker.querySelectorAll('tbody tr');
+    var target = rows[idx];
+    if (!target || target.style.display === 'none') return;
+    target.scrollIntoView({ behavior:'smooth', block:'center' });
+    target.classList.remove('piece-row-highlight');
+    void target.offsetWidth;
+    target.classList.add('piece-row-highlight');
+    setTimeout(function(){ target.classList.remove('piece-row-highlight'); }, 2500);
+  };
 
   function perfBlank() { return {name:'',composer:'',genre:'',aoi:'',lenMin:'',lenSec:'',ensemble:false,excerptRequired:false,excerptMin:'',excerptSec:''}; }
   function creaBlank() { return {name:'',method:'',genre:'',aoi:'',lenMin:'',lenSec:''}; }
@@ -402,6 +482,152 @@ ul.task-list li input[type="checkbox"] {
   function saveCrea() { try{localStorage.setItem(CREA_KEY,JSON.stringify(creaPieces));}catch(e){} }
   function saveNPerf() { try{localStorage.setItem(NPERF_KEY,String(nPerf));}catch(e){} }
   function saveNCrea() { try{localStorage.setItem(NCREA_KEY,String(nCrea));}catch(e){} }
+
+  // ── Presenting Upload 1: programme notes word counts ──────────────────────────
+  var PRES_U1_KEY = 'pres-upload1-words';
+  var presU1 = {cw0:'',cw1:'',cw2:'',pw0:'',pw1:'',pw2:'',pw3:'',pw4:''};
+  try { var _pu1 = JSON.parse(localStorage.getItem(PRES_U1_KEY)); if (_pu1) { Object.keys(presU1).forEach(function(k){ if(_pu1[k]!==undefined) presU1[k]=_pu1[k]; }); } } catch(e) {}
+  function savePresU1() { try{localStorage.setItem(PRES_U1_KEY,JSON.stringify(presU1));}catch(e){} }
+
+  function renderPresUpload1() {
+    var c = document.getElementById('pres-upload1-tracker');
+    if (!c) return;
+    var total = nCrea + nPerf;
+    var rec = Math.round(600 / total);
+    var h = '<table style="width:100%;border-collapse:collapse;font-size:.82rem;margin-bottom:.4rem;">';
+    h += '<thead><tr>'
+      +'<th style="'+TH2+'">Piece</th>'
+      +'<th style="'+TH2+'">Recommended</th>'
+      +'<th style="'+TH2+'width:8em;">Word count</th>'
+      +'</tr></thead><tbody>';
+    // Creating group header
+    h += '<tr style="background:#f5f3ef;">'
+      +'<td colspan="3" style="padding:.25rem .3rem;font-size:.72rem;color:#999;font-weight:600;letter-spacing:.06em;text-transform:uppercase;">Creating</td>'
+      +'</tr>';
+    for (var ci=0; ci<nCrea; ci++) {
+      var ckey = 'cw'+ci;
+      h += '<tr>'
+        +'<td style="'+TD2+'padding-left:.8rem;"><button onclick="presJumpCrea('+ci+')" style="'+JUMP_BTN+'font-size:.82rem;" title="Jump to piece in tracker">'+presCreaPieceText(ci)+'</button></td>'
+        +'<td style="'+TD2+'font-size:.75rem;color:#aaa;">~'+rec+'</td>'
+        +'<td style="'+TD2+'"><input type="number" min="0" data-presu1key="'+ckey+'" value="'+esc(String(presU1[ckey]||''))+'" placeholder="0" style="'+INP2+'" /></td>'
+        +'</tr>';
+    }
+    // Performing group header
+    h += '<tr style="background:#f5f3ef;">'
+      +'<td colspan="3" style="padding:.25rem .3rem;font-size:.72rem;color:#999;font-weight:600;letter-spacing:.06em;text-transform:uppercase;">Performing</td>'
+      +'</tr>';
+    for (var pi=0; pi<nPerf; pi++) {
+      var pkey = 'pw'+pi;
+      h += '<tr>'
+        +'<td style="'+TD2+'padding-left:.8rem;"><button onclick="presJumpPerf('+pi+')" style="'+JUMP_BTN+'font-size:.82rem;" title="Jump to piece in tracker">'+presPerfPieceText(pi)+'</button></td>'
+        +'<td style="'+TD2+'font-size:.75rem;color:#aaa;">~'+rec+'</td>'
+        +'<td style="'+TD2+'"><input type="number" min="0" data-presu1key="'+pkey+'" value="'+esc(String(presU1[pkey]||''))+'" placeholder="0" style="'+INP2+'" /></td>'
+        +'</tr>';
+    }
+    h += '</tbody></table>';
+    var totalWords = 0;
+    for (var cj=0; cj<CREA_SLOTS; cj++) { totalWords += parseInt(presU1['cw'+cj])||0; }
+    for (var pj=0; pj<PERF_SLOTS; pj++) { totalWords += parseInt(presU1['pw'+pj])||0; }
+    h += wordBar(totalWords, 600);
+    c.innerHTML = h;
+    c.querySelectorAll('input[data-presu1key]').forEach(function(el) {
+      el.addEventListener('change', function() { presU1[el.dataset.presu1key] = el.value; savePresU1(); renderPresUpload1(); });
+    });
+  }
+
+  // ── Presenting Upload 2: audio times ─────────────────────────────────────────
+  var PRES_U2_KEY = 'pres-upload2-times';
+  var presU2 = {cm0:'',cs0:'',cm1:'',cs1:'',cm2:'',cs2:'',pm0:'',ps0:'',pm1:'',ps1:'',pm2:'',ps2:'',pm3:'',ps3:'',pm4:'',ps4:''};
+  try { var _pu2 = JSON.parse(localStorage.getItem(PRES_U2_KEY)); if (_pu2) { Object.keys(presU2).forEach(function(k){ if(_pu2[k]!==undefined) presU2[k]=_pu2[k]; }); } } catch(e) {}
+  function savePresU2() { try{localStorage.setItem(PRES_U2_KEY,JSON.stringify(presU2));}catch(e){} }
+
+  function renderPresUpload2() {
+    var c = document.getElementById('pres-upload2-tracker');
+    if (!c) return;
+    var h = '<table style="width:100%;border-collapse:collapse;font-size:.82rem;margin-bottom:.4rem;">';
+    h += '<thead><tr>'
+      +'<th style="'+TH2+'">Piece</th>'
+      +'<th style="'+TH2+'width:5em;">Min</th>'
+      +'<th style="'+TH2+'width:5em;">Sec</th>'
+      +'</tr></thead><tbody>';
+    // Creating group
+    h += '<tr style="background:#f5f3ef;">'
+      +'<td colspan="3" style="padding:.25rem .3rem;font-size:.72rem;color:#999;font-weight:600;letter-spacing:.06em;text-transform:uppercase;">Creating <span style="font-weight:400;color:#bbb;">(max 6:00)</span></td>'
+      +'</tr>';
+    var creaSecs = 0;
+    for (var ci=0; ci<nCrea; ci++) {
+      var cmk='cm'+ci, csk='cs'+ci;
+      creaSecs += (parseInt(presU2[cmk])||0)*60 + (parseInt(presU2[csk])||0);
+      h += '<tr>'
+        +'<td style="'+TD2+'padding-left:.8rem;"><button onclick="presJumpCrea('+ci+')" style="'+JUMP_BTN+'font-size:.82rem;" title="Jump to piece in tracker">'+presCreaPieceText(ci)+'</button></td>'
+        +'<td style="'+TD2+'"><input type="number" min="0" max="99" data-presu2key="'+cmk+'" value="'+esc(String(presU2[cmk]||''))+'" placeholder="0" style="'+INP2+'" /></td>'
+        +'<td style="'+TD2+'"><input type="number" min="0" max="59" data-presu2key="'+csk+'" value="'+esc(String(presU2[csk]||''))+'" placeholder="0" style="'+INP2+'" /></td>'
+        +'</tr>';
+    }
+    h += '</tbody></table>';
+    h += timeBar(creaSecs, 6*60);
+    // Performing group
+    h += '<table style="width:100%;border-collapse:collapse;font-size:.82rem;margin-bottom:.4rem;">';
+    h += '<thead><tr>'
+      +'<th style="'+TH2+'">Piece</th>'
+      +'<th style="'+TH2+'width:5em;">Min</th>'
+      +'<th style="'+TH2+'width:5em;">Sec</th>'
+      +'</tr></thead><tbody>';
+    h += '<tr style="background:#f5f3ef;">'
+      +'<td colspan="3" style="padding:.25rem .3rem;font-size:.72rem;color:#999;font-weight:600;letter-spacing:.06em;text-transform:uppercase;">Performing <span style="font-weight:400;color:#bbb;">(max 12:00)</span></td>'
+      +'</tr>';
+    var perfSecs = 0;
+    for (var pi=0; pi<nPerf; pi++) {
+      var pmk='pm'+pi, psk='ps'+pi;
+      perfSecs += (parseInt(presU2[pmk])||0)*60 + (parseInt(presU2[psk])||0);
+      h += '<tr>'
+        +'<td style="'+TD2+'padding-left:.8rem;"><button onclick="presJumpPerf('+pi+')" style="'+JUMP_BTN+'font-size:.82rem;" title="Jump to piece in tracker">'+presPerfPieceText(pi)+'</button></td>'
+        +'<td style="'+TD2+'"><input type="number" min="0" max="99" data-presu2key="'+pmk+'" value="'+esc(String(presU2[pmk]||''))+'" placeholder="0" style="'+INP2+'" /></td>'
+        +'<td style="'+TD2+'"><input type="number" min="0" max="59" data-presu2key="'+psk+'" value="'+esc(String(presU2[psk]||''))+'" placeholder="0" style="'+INP2+'" /></td>'
+        +'</tr>';
+    }
+    h += '</tbody></table>';
+    h += timeBar(perfSecs, 12*60);
+    h += '<div style="margin-top:.2rem;"><strong style="font-size:.78rem;color:#666;">Grand total</strong></div>';
+    h += timeBar(creaSecs + perfSecs, 20*60);
+    c.innerHTML = h;
+    c.querySelectorAll('input[data-presu2key]').forEach(function(el) {
+      el.addEventListener('change', function() { presU2[el.dataset.presu2key] = el.value; savePresU2(); renderPresUpload2(); });
+    });
+  }
+
+  // ── Presenting Upload 3: music technology video ───────────────────────────────
+  var PRES_U3_KEY = 'pres-upload3-times';
+  var presU3 = {min:'', sec:''};
+  try { var _pu3 = JSON.parse(localStorage.getItem(PRES_U3_KEY)); if (_pu3) { presU3.min=_pu3.min||''; presU3.sec=_pu3.sec||''; } } catch(e) {}
+  function savePresU3() { try{localStorage.setItem(PRES_U3_KEY,JSON.stringify(presU3));}catch(e){} }
+
+  function renderPresUpload3() {
+    var c = document.getElementById('pres-upload3-tracker');
+    if (!c) return;
+    var totalSecs = (parseInt(presU3.min)||0)*60 + (parseInt(presU3.sec)||0);
+    var h = '<table style="width:100%;border-collapse:collapse;font-size:.82rem;margin-bottom:.4rem;">';
+    h += '<thead><tr>'
+      +'<th style="'+TH2+'">Item</th>'
+      +'<th style="'+TH2+'width:5em;">Max</th>'
+      +'<th style="'+TH2+'width:5em;">Min</th>'
+      +'<th style="'+TH2+'width:5em;">Sec</th>'
+      +'<th style="'+TH2+'"></th>'
+      +'</tr></thead><tbody>';
+    h += '<tr>'
+      +'<td style="'+TD2+'font-size:.82rem;">Video presentation</td>'
+      +'<td style="'+TD2+'font-size:.75rem;color:#aaa;">12:00</td>'
+      +'<td style="'+TD2+'"><input type="number" min="0" max="99" data-presu3field="min" value="'+esc(String(presU3.min||''))+'" placeholder="0" style="'+INP2+'" /></td>'
+      +'<td style="'+TD2+'"><input type="number" min="0" max="59" data-presu3field="sec" value="'+esc(String(presU3.sec||''))+'" placeholder="0" style="'+INP2+'" /></td>'
+      +'<td style="'+TD2+'font-size:.75rem;">'+inlineOverWarning(totalSecs, 12*60)+'</td>'
+      +'</tr>';
+    h += '</tbody></table>';
+    h += timeBar(totalSecs, 12*60);
+    c.innerHTML = h;
+    c.querySelectorAll('input[data-presu3field]').forEach(function(el) {
+      el.addEventListener('change', function() { presU3[el.dataset.presu3field] = el.value; savePresU3(); renderPresUpload3(); });
+    });
+  }
 
   function buildSel(row, field, opts, val, store) {
     var h = '<select data-store="'+store+'" data-row="'+row+'" data-field="'+field+'" style="'+SEL+'">';
@@ -438,6 +664,7 @@ ul.task-list li input[type="checkbox"] {
         if (el.dataset.store === 'perf') { perfPieces[row][field] = el.value; savePerf(); }
         else                             { creaPieces[row][field] = el.value; saveCrea(); }
         runAutoChecks();
+        renderPresUpload1(); renderPresUpload2();
       });
     });
   }
@@ -528,17 +755,21 @@ ul.task-list li input[type="checkbox"] {
     runAutoChecks();
     boxes.forEach(function(cb){ cb.addEventListener('change', saveCheckboxes); });
 
+    renderPresUpload1();
+    renderPresUpload2();
+    renderPresUpload3();
+
     document.getElementById('perf-add') && document.getElementById('perf-add').addEventListener('click', function(){
-      if (nPerf < PERF_MAX) { nPerf++; saveNPerf(); renderPerf(); runAutoChecks(); }
+      if (nPerf < PERF_MAX) { nPerf++; saveNPerf(); renderPerf(); runAutoChecks(); renderPresUpload1(); renderPresUpload2(); }
     });
     document.getElementById('perf-remove') && document.getElementById('perf-remove').addEventListener('click', function(){
-      if (nPerf > PERF_MIN) { nPerf--; saveNPerf(); renderPerf(); runAutoChecks(); }
+      if (nPerf > PERF_MIN) { nPerf--; saveNPerf(); renderPerf(); runAutoChecks(); renderPresUpload1(); renderPresUpload2(); }
     });
     document.getElementById('crea-add') && document.getElementById('crea-add').addEventListener('click', function(){
-      if (nCrea < CREA_MAX) { nCrea++; saveNCrea(); renderCrea(); runAutoChecks(); }
+      if (nCrea < CREA_MAX) { nCrea++; saveNCrea(); renderCrea(); runAutoChecks(); renderPresUpload1(); renderPresUpload2(); }
     });
     document.getElementById('crea-remove') && document.getElementById('crea-remove').addEventListener('click', function(){
-      if (nCrea > CREA_MIN) { nCrea--; saveNCrea(); renderCrea(); runAutoChecks(); }
+      if (nCrea > CREA_MIN) { nCrea--; saveNCrea(); renderCrea(); runAutoChecks(); renderPresUpload1(); renderPresUpload2(); }
     });
   });
 
@@ -573,6 +804,13 @@ ul.task-list li input[type="checkbox"] {
 .auto-indicator.auto-checked::after { content: '✓'; }
 .auto-indicator.auto-error { border-color: #c0392b; background: #c0392b; }
 .auto-indicator.auto-error::after  { content: '✗'; }
+@keyframes piece-row-pulse {
+  0%   { background-color: transparent; }
+  15%  { background-color: #fff3a0; outline: 2px solid #c8940a; outline-offset: 1px; }
+  75%  { background-color: #fff3a0; outline: 2px solid #c8940a; outline-offset: 1px; }
+  100% { background-color: transparent; outline: none; }
+}
+.piece-row-highlight { animation: piece-row-pulse 2.5s ease-out forwards; }
 </style>
 <div style="margin-bottom:1.5rem;">
 <button onclick="resetPresentingChecklist();" style="font-size:0.78rem;padding:0.25rem 0.7rem;border:1px solid #c8bfaf;border-radius:3px;background:transparent;color:#888;cursor:pointer;">Reset checklist</button>
@@ -634,16 +872,20 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 <hr>
 </section>
-<section id="submission" class="level2">
-<h2 class="anchored" data-anchor-id="submission">Submission</h2>
-<p><strong>Upload 1 — Programme notes and scores:</strong></p>
+<section id="upload-1-programme-notes-and-scores" class="level2">
+<h2 class="anchored" data-anchor-id="upload-1-programme-notes-and-scores">Upload 1: Programme notes and scores</h2>
+<div id="pres-upload1-tracker" style="margin-bottom:1rem;"></div>
 <ul class="task-list">
 <li><label><input type="checkbox">Programme notes are within <strong>600 words</strong></label></li>
 <li><label><input type="checkbox">Track list included according to the IB template</label></li>
 <li><label><input type="checkbox">Scores or visual representation included for all created works</label></li>
 <li><label><input type="checkbox">Bibliography included</label></li>
 </ul>
-<p><strong>Upload 2 — Audio evidence:</strong></p>
+<hr>
+</section>
+<section id="upload-2-audio-evidence" class="level2">
+<h2 class="anchored" data-anchor-id="upload-2-audio-evidence">Upload 2: Audio evidence</h2>
+<div id="pres-upload2-tracker" style="margin-bottom:1rem;"></div>
 <ul class="task-list">
 <li><label><input type="checkbox">Total audio does not exceed <strong>20 minutes</strong></label></li>
 <li><label><input type="checkbox">Creating section does not exceed <strong>6 minutes</strong></label></li>
@@ -651,7 +893,11 @@ ul.task-list li input[type="checkbox"] {
 <li><label><input type="checkbox">Compiled in order: creator first, then performer</label></li>
 <li><label><input type="checkbox">Ensemble-only submissions include excerpts of individual parts <em>(max 2 minutes)</em></label></li>
 </ul>
-<p><strong>Upload 3 — Music technology only:</strong></p>
+<hr>
+</section>
+<section id="upload-3-music-technology-only" class="level2">
+<h2 class="anchored" data-anchor-id="upload-3-music-technology-only">Upload 3: Music technology only</h2>
+<div id="pres-upload3-tracker" style="margin-bottom:1rem;"></div>
 <ul class="task-list">
 <li><label><input type="checkbox">Video recording submitted if any music technology performance is included <em>(max 12 minutes)</em></label></li>
 </ul>

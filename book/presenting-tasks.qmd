@@ -1,17 +1,15 @@
 ---
 title: "Presenting: Task Reference"
-description: "Task descriptions and requirements for recurring Presenting Music assignments, including the Performing component."
+description: "Task descriptions and requirements for recurring Presenting Music assignments."
 toc: true
 toc-depth: 2
 ---
 
-Task descriptions for the Presenting and Performing components. For component-level strategy and assessment criteria, see the [Presenting Guide](presenting-guide.qmd) and [Assessment Guidance](assessment-guidance.qmd).
+Task descriptions for the Presenting component. For component-level strategy and assessment criteria, see the [Presenting Guide](presenting-guide.qmd) and [Assessment Guidance](assessment-guidance.qmd).
 
 ---
 
-## Performing
-
-### Piece for Solo Performance Selection
+## Piece for Solo Performance Selection
 
 Choose a piece to perform at the IB Recital in March. Think about the level of difficulty that is appropriate for you now compared to where you want to be then.
 
@@ -44,7 +42,7 @@ For titles or names not in the Roman alphabet, include all three: original scrip
 Provide an English name only if the artist uses one.
 :::
 
-#### Rubric
+### Rubric
 
 | Marks | Level Descriptors |
 |---|---|
@@ -55,7 +53,7 @@ Provide an English name only if the artist uses one.
 
 ---
 
-### Repertoire Pre-Reading
+## Repertoire Pre-Reading
 
 Before beginning to play a new piece of music, you must understand it.
 
@@ -63,7 +61,7 @@ Before beginning to play a new piece of music, you must understand it.
 
 Work through each section below before your first practice session.
 
-#### Basics
+### Basics
 
 - Title; composer; stylistic era / genre
 - What is the story, poetry, or imagery about? What feelings are you intending to provoke?
@@ -72,48 +70,48 @@ Work through each section below before your first practice session.
 - Your instrument; your role in the texture; all other instruments in the piece
 - What clef are you reading? Is transposition needed? Any other modifications needed?
 
-#### Rhythm and Meter
+### Rhythm and Meter
 
 - Time signature(s); tempo and metronome markings indicated
 - Does the meter change? If so, where?
 - Any fermatas, breaks, or tempo changes? Where?
 - Any unusual, unfamiliar, or especially challenging rhythmic figures? Where?
 
-#### Melody
+### Melody
 
 - Highest and lowest pitches — identify pitches and location
 - Any unusual, unfamiliar, or especially challenging melodic figures? Where?
 
-#### Phrasing
+### Phrasing
 
 - Do the phrases tend to be a certain length? How long?
 - Are there bowings, breath marks, etc.? Where?
 - Any unfamiliar or especially challenging aspects of phrasing?
 
-#### Harmony
+### Harmony
 
 - What key is this piece in? Which notes are altered in the key signature?
 - Does the key change? If so, where and to which key?
 - Any accidentals? List all chords in the piece.
 - Any unusual, unfamiliar, or especially challenging chord progressions? Where?
 
-#### Expression
+### Expression
 
 - Dynamic range; any crescendi / diminuendi? Where?
 - All articulations included; any especially challenging ones?
 
-#### Form
+### Form
 
 - Is there a clear, standardised structure? If so, what is it? Diagram it with measure numbers.
 - Where is the climax?
 
-#### Instrumental Techniques
+### Instrumental Techniques
 
 - List any extended techniques used
 - Any areas where fingering/picking/bowing choice is unclear? Where?
 - Any especially challenging technical passages?
 
-#### Score Markup
+### Score Markup
 
 Before your first practice, mark the following in pencil:
 
@@ -128,11 +126,11 @@ Before your first practice, mark the following in pencil:
 
 ---
 
-### IB Recital Repertoire Challenges
+## IB Recital Repertoire Challenges
 
 What challenges are you currently experiencing with your IB Recital repertoire? Be as specific as possible, especially in locating passages by measure number.
 
-#### Technical Challenges
+### Technical Challenges
 
 **Finger dexterity**
 > "I'm struggling with the fast 16th-note passages in measures 32–36 of my Bach Prelude. My fingers feel tense, and I can't maintain evenness at tempo."
@@ -149,7 +147,7 @@ What challenges are you currently experiencing with your IB Recital repertoire? 
 **Rhythmic accuracy**
 > "The syncopated rhythm in measures 20–24 of my jazz piece is tricky. I keep losing the beat during the offbeat accents."
 
-#### Musical Challenges
+### Musical Challenges
 
 **Phrasing**
 > "I'm not sure how to shape the melodic line in measures 8–16 of my Schubert piece. It feels flat and lacks direction."
@@ -163,7 +161,7 @@ What challenges are you currently experiencing with your IB Recital repertoire? 
 **Tempo changes**
 > "The ritardando in measures 72–75 of my piece feels awkward. I'm not sure how to pace it effectively."
 
-#### Ensemble Challenges
+### Ensemble Challenges
 
 **Synchronisation**
 > "In measures 10–14 of our ensemble piece, I'm having trouble aligning my entrance with the piano's rhythm."
@@ -177,7 +175,7 @@ What challenges are you currently experiencing with your IB Recital repertoire? 
 **Intonation with others**
 > "In measures 30–34, my pitch clashes with the cello's line. I need help adjusting my intonation to match."
 
-#### Practice Strategies
+### Practice Strategies
 
 **Slow practice**
 > "I've been practicing measures 16–20 at half tempo, but I'm still struggling to play it cleanly at full speed."
@@ -193,7 +191,7 @@ What challenges are you currently experiencing with your IB Recital repertoire? 
 
 ---
 
-### SMART Goal and Reflection
+## SMART Goal and Reflection
 
 Name the piece you will perform on the IB Recital and identify its Area of Inquiry. Set a specific, measurable, actionable, relevant goal — something you can achieve before recording the piece.
 
@@ -207,7 +205,7 @@ Track your practice in a log before making the recording:
 
 After recording, write a reflection (~150 words) addressing what you worked on, how the goal shaped your practice, and what you would do differently. Submit before the deadline.
 
-#### Rubric
+### Rubric
 
 | Marks | Level Descriptors |
 |---|---|
@@ -220,7 +218,7 @@ After recording, write a reflection (~150 words) addressing what you worked on, 
 
 ---
 
-### Program Notes
+## Program Notes
 
 Write program notes for the two pieces you will perform at the IB Music recital. Do not exceed 200 words total.
 
@@ -236,7 +234,7 @@ Write program notes for the two pieces you will perform at the IB Music recital.
 - Does the program address two Areas of Inquiry?
 - How well are the piece selections justified?
 
-#### Rubric
+### Rubric
 
 | Marks | Level Descriptors |
 |---|---|
@@ -246,60 +244,3 @@ Write program notes for the two pieces you will perform at the IB Music recital.
 | 5–6 | Fully addresses two AOIs. Explains selection; purposefully links choices to AOIs. |
 
 *Grade entered as score + 1 on ManageBac.*
-
----
-
-## Presenting as a Creator: Performed Adaptation
-
-In this task you will apply skills from the most recent minor task to produce a first draft of your acoustic composition for the Presenting as a Creator component — focusing on meter, tonality, and melody/accompaniment arrangement.
-
-### Assessment Vocabulary
-
-Understand what each term asks you to demonstrate before you begin:
-
-| Level | Term | Meaning |
-|---|---|---|
-| 3 | **Realize** | Plan and create a work according to convention or practice |
-| 3 | **Shape** | Modify and develop existing material |
-| 3 | **Adapt** | Adjust existing material to suit a new context or style |
-| 4 | **Personalize** | Bring personal ideas and interpretations to a work or practice |
-| 4 | **Synthesize** | Combine and blend existing elements, styles, or techniques to create new work |
-| 4 | **Transform** | Change and develop existing work to create new work |
-
-For full marks — as with the external assessments — you must reach the Level 4 achievement descriptors.
-
-### Key Understandings
-
-- I can make musical choices regarding meter, tonality, chords, instrumentation, and accompaniment figures.
-- I can realize conventions and practices when arranging for specific instruments by researching and implementing accepted norms.
-- I can personalize, synthesize, and transform by going beyond the above to create music that is original and distinct from its stimulus.
-
-### Resources
-
-- *The Study of Orchestration* — Samuel Adler
-- High-quality audio, notation, and written material you locate independently
-
-### Procedure
-
-1. **Day 1** — Submit a `.docx` file with a 50–100-word plan explaining your stimulus and the decisions you have made about meter, tonality, chords, instrumentation, and accompaniment figures.
-
-2. **Day 2** — Submit a MuseScore file. Get musical ideas down so you can hear them. The enemy is not bad sound — the enemy is silence.
-
-3. **Days 3 through deadline** — Refine your work through experimentation, listening, research, and reflection with input from teacher and peers. Use class time only for this task; extensions are not possible.
-
-### Final Submission
-
-- MuseScore file of your composition
-- MP3 of the audio output, 30–60 seconds
-- `.docx` file explaining what you did and why (see exemplars), with bibliography
-- Program note, 100–120 words
-
-::: {.callout-warning}
-## Resubmission policy
-
-Instructors can provide one round of feedback on component drafts. You may include this work in a final IB submission only if it has not undergone further development after receiving feedback — meaning you can only submit it for a grade once. If you want to revise after receiving a grade, discuss with Coleman; if you do, this draft cannot be used for the final IB assessment.
-:::
-
-### Rubric
-
-Consult the Subject Guide. This task is assessed on Presenting Criteria B and D, maximum 20 marks. Grade boundaries follow the most recent May session.

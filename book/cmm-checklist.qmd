@@ -13,6 +13,13 @@ toc-depth: 2
 ```{=html}
 <style>
 .task-list input[type="checkbox"] { width: 1em; height: 1em; margin-right: 0.4em; }
+@keyframes piece-row-pulse {
+  0%   { background-color: transparent; }
+  15%  { background-color: #fff3a0; outline: 2px solid #c8940a; outline-offset: 1px; }
+  75%  { background-color: #fff3a0; outline: 2px solid #c8940a; outline-offset: 1px; }
+  100% { background-color: transparent; outline: none; }
+}
+.piece-row-highlight { animation: piece-row-pulse 2.5s ease-out forwards; }
 </style>
 <div style="margin-bottom:1.5rem;">
 <button onclick="resetCMMChecklist();" style="font-size:0.78rem;padding:0.25rem 0.7rem;border:1px solid #c8bfaf;border-radius:3px;background:transparent;color:#888;cursor:pointer;">Reset checklist</button>
@@ -20,6 +27,79 @@ toc-depth: 2
 <script>
 (function () {
   var CB_KEY = 'checklist:cmm';
+
+  // ── Upload timing helpers ─────────────────────────────────────────────────────
+  var TH2 = 'text-align:left;font-size:.7rem;text-transform:uppercase;letter-spacing:.05em;color:#999;padding:.3rem .3rem;border-bottom:1px solid #e0d6c8;font-weight:400;white-space:nowrap;';
+  var TD2 = 'padding:.25rem .3rem;vertical-align:middle;';
+  var INP2 = 'font-size:.82rem;padding:.2rem .3rem;border:1px solid #c8bfaf;border-radius:2px;background:#faf8f5;color:#2c2416;width:100%;box-sizing:border-box;';
+
+  function esc(s) { return (s||'').replace(/&/g,'&amp;').replace(/"/g,'&quot;'); }
+  function fmtTime(s) { var m=Math.floor(s/60),r=s%60; return m+':'+(r<10?'0':'')+r; }
+
+  function timeBar(secs, maxSecs) {
+    var over = secs > maxSecs;
+    var pct = maxSecs ? Math.min(secs/maxSecs*100,100).toFixed(1) : 0;
+    var ratio = maxSecs ? Math.min(secs/maxSecs,1) : 0;
+    var barColor, timeColor;
+    if (over) { barColor='#c0392b'; timeColor='#c0392b'; }
+    else { var hue=Math.round(120+ratio*3),sat=Math.round(36+ratio*10),lit=Math.round(75-ratio*41); barColor='hsl('+hue+','+sat+'%,'+lit+'%)'; timeColor='#444'; }
+    return '<div style="margin:.3rem 0 .7rem;">'
+      +'<div style="background:#e8e4df;border-radius:3px;height:5px;overflow:hidden;margin-bottom:.3rem;">'
+      +'<div style="background:'+barColor+';width:'+pct+'%;height:100%;border-radius:3px;transition:width .3s;"></div></div>'
+      +'<span style="color:'+timeColor+';font-size:.82rem;font-weight:600;">'+fmtTime(secs)+'</span>'
+      +'<span style="color:#aaa;font-size:.82rem;"> / '+fmtTime(maxSecs)+' max</span>'
+      +(over?'<span style="color:#c0392b;font-size:.75rem;margin-left:.5rem;">&#9888; over limit</span>':'')
+      +'</div>';
+  }
+
+  function inlineOverWarning(secs, maxSecs) {
+    return secs > maxSecs ? '<span style="color:#c0392b;font-size:.72rem;margin-left:.4rem;">&#9888; over '+fmtTime(maxSecs)+'</span>' : '';
+  }
+
+  // ── CMM Upload time tracker ───────────────────────────────────────────────────
+  var CMM_U_KEY = 'cmm-upload-times';
+  var cmmU = {procMin:'', procSec:'', finalMin:'', finalSec:''};
+  try { var _cu = JSON.parse(localStorage.getItem(CMM_U_KEY)); if (_cu) { Object.keys(cmmU).forEach(function(k){ if(_cu[k]!==undefined) cmmU[k]=_cu[k]; }); } } catch(e) {}
+  function saveCMMU() { try{localStorage.setItem(CMM_U_KEY,JSON.stringify(cmmU));}catch(e){} }
+
+  function renderCMMUpload() {
+    var c = document.getElementById('cmm-upload-tracker');
+    if (!c) return;
+    var procSecs  = (parseInt(cmmU.procMin)||0)*60  + (parseInt(cmmU.procSec)||0);
+    var finalSecs = (parseInt(cmmU.finalMin)||0)*60 + (parseInt(cmmU.finalSec)||0);
+    var totalSecs = procSecs + finalSecs;
+    var h = '<table style="width:100%;border-collapse:collapse;font-size:.82rem;margin-bottom:.4rem;">';
+    h += '<thead><tr>'
+      +'<th style="'+TH2+'">Section</th>'
+      +'<th style="'+TH2+'width:5em;">Max</th>'
+      +'<th style="'+TH2+'width:5em;">Min</th>'
+      +'<th style="'+TH2+'width:5em;">Sec</th>'
+      +'<th style="'+TH2+'"></th>'
+      +'</tr></thead><tbody>';
+    // Process & reflection row (no individual max)
+    h += '<tr>'
+      +'<td style="'+TD2+'font-size:.82rem;">Process &amp; reflection</td>'
+      +'<td style="'+TD2+'font-size:.75rem;color:#aaa;">—</td>'
+      +'<td style="'+TD2+'"><input type="number" min="0" max="99" data-cmmfield="procMin" value="'+esc(String(cmmU.procMin||''))+'" placeholder="0" style="'+INP2+'" /></td>'
+      +'<td style="'+TD2+'"><input type="number" min="0" max="59" data-cmmfield="procSec" value="'+esc(String(cmmU.procSec||''))+'" placeholder="0" style="'+INP2+'" /></td>'
+      +'<td style="'+TD2+'"></td>'
+      +'</tr>';
+    // Final presentation row (max 7:00)
+    h += '<tr>'
+      +'<td style="'+TD2+'font-size:.82rem;">Final presentation</td>'
+      +'<td style="'+TD2+'font-size:.75rem;color:#aaa;">7:00</td>'
+      +'<td style="'+TD2+'"><input type="number" min="0" max="99" data-cmmfield="finalMin" value="'+esc(String(cmmU.finalMin||''))+'" placeholder="0" style="'+INP2+'" /></td>'
+      +'<td style="'+TD2+'"><input type="number" min="0" max="59" data-cmmfield="finalSec" value="'+esc(String(cmmU.finalSec||''))+'" placeholder="0" style="'+INP2+'" /></td>'
+      +'<td style="'+TD2+'">'+inlineOverWarning(finalSecs, 7*60)+'</td>'
+      +'</tr>';
+    h += '</tbody></table>';
+    h += timeBar(totalSecs, 15*60);
+    c.innerHTML = h;
+    c.querySelectorAll('input[data-cmmfield]').forEach(function(el) {
+      el.addEventListener('change', function() { cmmU[el.dataset.cmmfield] = el.value; saveCMMU(); renderCMMUpload(); });
+    });
+  }
+
   var boxes;
   function saveCheckboxes() {
     try{localStorage.setItem(CB_KEY,JSON.stringify((boxes||[]).map(function(b){return b.checked;})));}catch(e){}
@@ -32,6 +112,8 @@ toc-depth: 2
       if (Array.isArray(sv)) boxes.forEach(function(cb,i){ if(sv[i]!==undefined)cb.checked=!!sv[i]; });
     } catch(e) {}
     boxes.forEach(function(cb){ cb.addEventListener('change', saveCheckboxes); });
+
+    renderCMMUpload();
   });
   window.resetCMMChecklist = function() {
     if (boxes) { boxes.forEach(function(b){b.checked=false;}); saveCheckboxes(); }
@@ -79,6 +161,10 @@ toc-depth: 2
 ---
 
 ## Organisation and presentation
+
+```{=html}
+<div id="cmm-upload-tracker" style="margin-bottom:1rem;"></div>
+```
 
 - [ ] The multimedia presentation is within **15 minutes** and viewable in a single sitting without pausing ([CMM D](../resources/rubrics.html#cmm-d))
 - [ ] The **final presentation** portion does not exceed **7 minutes** (no fixed maximum for process and reflection) ([CMM D](../resources/rubrics.html#cmm-d))

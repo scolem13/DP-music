@@ -1,0 +1,202 @@
+---
+title: "Experimenting: Task Reference"
+description: "Task descriptions and requirements for recurring Experimenting with Music assignments."
+toc: true
+toc-depth: 2
+---
+
+Task descriptions for the Experimenting component. For component-level strategy and assessment criteria, see the [Experimenting Guide](ewm-guide.qmd).
+
+---
+
+## Experimenting as a Performer: Planning Document
+
+Use this document to organize your thinking before conducting your first experiment and writing the rationale and commentary.
+
+### Rationale (~100 words)
+
+This sub-section has an implied question: *Why did you choose to conduct this experiment?* As a performer, you can experiment with techniques and interpretations, or learn about unfamiliar genres primarily through your instrument.
+
+To justify your source material, show how your sources support your musical goal. State at least one research question and explain how your sources helped you explore it.
+
+Explain why your source materials fit the identified AOI and context:
+
+- **Local context** — state explicitly how the music is related to a community to which you belong
+- **Global context** — identify where in time and place the music comes from, and state that it was previously unfamiliar to you
+
+::: {.callout-note}
+After starting with one experiment, you may be able to conduct two more progressive experiments without editing the rationale. Keep this in mind — it will help you stay concise.
+:::
+
+**Planning table (optional):**
+
+| Question | Your notes |
+|---|---|
+| What is your musical intent? | |
+| Justify the AOI. | |
+| Justify the context. | |
+
+### Commentary (~200 words per experiment)
+
+Do not write the final commentary here — use this section to plan your experimentation. Draft a plan for all three experiments, with the first being the most developed.
+
+For each experiment, think through:
+
+- The unfamiliar element (a convention of the music or a technique)
+- How you will use the element to experiment
+- Why you are focusing on this element; how it fits your musical decision-making and overall intent
+- Your primary source
+- Any secondary source where you learned this element was present in the primary source
+
+---
+
+## Experimenting as a Performer: Plan
+
+Create the first Experimenting with Music as a Performer exercise.
+
+**Requirements:**
+
+- Choose any AOI, but use **local or global context** (not personal)
+- Include justification for the AOI and context in your written report
+- Recording must be **50 seconds to 1 minute, 30 seconds**
+- Set a musical intent and experiment with processes based on purposeful source material
+
+**Submit two uploads:**
+
+1. Experiment as audio only (`.mp3`)
+2. Written Report — Rationale and Commentary (`.docx` + `.pdf`)
+
+**Portfolio connection:** Music Subject Guide (AOIs & Contexts pp. 22–24; Experimenting pp. 31–33; Assessment Criteria pp. 59–64); *Experimenting with Music: General Guidance*; previous candidate assessed submissions; subject reports.
+
+### Rubric (Criterion C: Rationale and commentary)
+
+| Marks | Level Descriptors |
+|---|---|
+| 0 | Does not reach standard |
+| 1–2 | Rationale for experiments in performing ineffective. Process outlined with rudimentary musical decision-making. |
+| 3–4 | Rationale suitable. Process described with reasonable musical decision-making. |
+| 5–6 | Rationale purposeful. Process explained with relevant musical decision-making. Process evaluated. |
+
+### Rubric (Criterion D: Practical musical experiments in performing)
+
+| Marks | Level Descriptors |
+|---|---|
+| 0 | Does not reach standard |
+| 1–2 | Reiterates source material. Development of musical ideas limited. Decision-making superficial. |
+| 3–4 | Recreates source material. Development formulaic. Decision-making inconsistent. |
+| 5–6 | Adapts source material. Development purposeful. Decision-making proficient. |
+| 7–8 | Transforms source material. Development imaginative. Decision-making compelling. |
+
+---
+
+## Experimenting as a Performer: Annotated Bibliography
+
+Identify high-quality resources that will inform how you conduct Exercise 1.
+
+**Your bibliography must include at minimum:**
+
+- A recording of someone performing the piece you have selected
+- A recording showing a different interpretation
+- A recording of a different piece that includes a technique or interpretation you will use to transform your stimulus material
+- Notation for the piece you selected
+- Written and/or video analysis or instruction about the piece and/or a technique you have chosen to experiment with
+
+Write annotations explaining how you will use each resource as you conduct your experiment. If you have ideas about Exercises 2 and 3, include those as well.
+
+**Submit one file:** Annotated Bibliography (`.pdf`). APA format is recommended; clear source attribution and in-text citations matter most.
+
+::: {.callout-note}
+## On paraphrasing
+
+Turabian (2013) recommends: "Don't read your source as you paraphrase it. Read the passage, look away, think about it for a moment; then, still looking away, paraphrase it in your own words. Then check whether you can run your finger along your sentence and find the same ideas in the same order in your source. If you can, so can your readers. Try again." (p. 80–81)
+:::
+
+### Rubric (Criterion C: Rationale and commentary)
+
+| Marks | Level Descriptors |
+|---|---|
+| 0 | Does not reach standard |
+| 1–2 | Rationale for experiments in performing ineffective. Process outlined with rudimentary decision-making. |
+| 3–4 | Rationale suitable. Process described with reasonable decision-making. |
+| 5–6 | Rationale purposeful. Process explained with relevant decision-making. Process evaluated. |
+
+*Grade entered as score + 1 on ManageBac.*
+
+---
+
+## Shaping and Transforming: Experimenting as a Creator
+
+Transform a piece of music by changing its meter, tonality, and melody/accompaniment arrangement.
+
+### Assessment Vocabulary
+
+Understand what each term asks you to demonstrate before you begin:
+
+| Level | Term | Meaning |
+|---|---|---|
+| 3 | **Realize** | Plan and create a work according to convention or practice |
+| 3 | **Shape** | Modify and develop existing material |
+| 3 | **Adapt** | Adjust existing material to suit a new context or style |
+| 4 | **Personalize** | Bring personal ideas and interpretations to a work or practice |
+| 4 | **Synthesize** | Combine and blend existing elements, styles, or techniques to create new work |
+| 4 | **Transform** | Change and develop existing work to create new work |
+
+For full marks — as with the external assessments — you must reach the Level 4 achievement descriptors.
+
+### Key Understandings
+
+- I understand that in order to synthesize and transform musical material, I must first shape and adapt it.
+- I can adapt musical material by changing meter, tonality, chords, instrumentation, and accompaniment figures.
+- I can realize conventions and practices when arranging for specific instruments by researching and implementing accepted norms.
+- I can personalize, synthesize, and transform by going beyond the above to create music that is original and distinct from its source material.
+
+### Resources
+
+- *The Literate Musician* — Andy Mullen
+- *The Study of Orchestration* — Samuel Adler
+- High-quality audio, notation, and written material you locate independently
+
+### Procedure
+
+1. **Day 1** — Choose your tune and notate it. Change the meter (do not use an enrhythmic meter).
+
+2. **Day 2** — Change the tonality (and optionally the key signature). Adjust chords to fit the new tonality.
+
+3. **Day 3** — Arrange the melody for an unfamiliar instrument, possibly including voice. This may require another key change. Mark articulations and dynamics appropriate to your chosen instrument. In your written statement, explain why you chose this instrument and justify your articulation and dynamic choices.
+
+4. **Day 4** — Arrange the chords into an accompaniment for a familiar instrument or group of instruments. Mark articulations and dynamics. In your written statement, explain your choices.
+
+5. **Days through deadline** — Refine your work through experimentation, listening, research, and reflection with input from teacher and peers. Use class time only for this task; extensions are not possible.
+
+### Final Submission
+
+- Upload 1: Product as audio only (`.mp3`)
+- Upload 2: Outline of Written Report — Rationale and Commentary, maximum 150 words; Written Rationale as `.pdf` in APA 7, MLA 9, or Chicago style; full music notation included
+- Upload 3: Music notation as project file (`.musx`)
+
+::: {.callout-warning}
+## Resubmission policy
+
+Instructors can provide one round of feedback on component drafts. You may include this work in a final IB submission only if it has not undergone further development after receiving feedback — meaning you can only submit it for a grade once. If you want to revise after receiving a grade, discuss with Coleman; if you do, this draft cannot be used for the final IB assessment.
+:::
+
+**Portfolio connection:** Music Subject Guide (AOIs & Contexts pp. 22–24; Experimenting pp. 31–33; Assessment Criteria pp. 59–64); *Experimenting with Music: General Guidance*; subject reports.
+
+### Rubric (Criterion A: Rationale and commentary)
+
+| Marks | Level Descriptors |
+|---|---|
+| 0 | Does not reach standard |
+| 1–2 | Rationale ineffective. Experimentation process outlined with rudimentary musical decision-making. |
+| 3–4 | Rationale suitable. Process described with reasonable musical decision-making. |
+| 5–6 | Rationale purposeful. Process explained with relevant musical decision-making. Process evaluated. |
+
+### Rubric (Criterion B: Practical musical experiments in creating)
+
+| Marks | Level Descriptors |
+|---|---|
+| 0 | Does not reach standard |
+| 1–2 | Reiterates source material. Development of musical ideas limited. Decision-making superficial. |
+| 3–4 | Recreates source material. Development formulaic. Decision-making inconsistent. |
+| 5–6 | Adapts source material. Development purposeful. Decision-making proficient. |
+| 7–8 | Transforms source material. Development imaginative. Decision-making compelling. |

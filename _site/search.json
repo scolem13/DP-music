@@ -577,7 +577,7 @@
     "href": "book/ewm-checklist.html#submission",
     "title": "Experimenting: Checklist",
     "section": "Submission",
-    "text": "Submission\nUpload 1 — Experimentation report:\n\nWritten report is within 1,500 words (visual evidence and bibliography not counted)\nReport is in two sections: Section 1 Creating, Section 2 Performing\nTrack list included with exact timings for all excerpts in Upload 2\n\nUpload 2 — Audio evidence:\n\nTotal audio does not exceed 10 minutes\nThree related creating excerpts submitted (each approx. 20 seconds)\nThree related performing excerpts submitted (each approx. 20 seconds)\nCompiled in order: creating excerpts first, then performing excerpts\nAudio quality is sufficient for full assessment of the experiments\nEach excerpt is labelled to match the commentary in the report",
+    "text": "Submission\nUpload 1 — Experimentation report:\n\n\nWritten report is within 1,500 words (visual evidence and bibliography not counted)\nReport is in two sections: Section 1 Creating, Section 2 Performing\nTrack list included with exact timings for all excerpts in Upload 2\n\nUpload 2 — Audio evidence:\n\n\nTotal audio does not exceed 10 minutes\n20 second excerpt of the stimulus for creating included\nThree related creating excerpts submitted (each approx. 1 minute, 20 seconds)\n20 second excerpt of the stimulus for performing included\nThree related performing excerpts submitted (each approx. 1 minute, 20 seconds)\nCompiled in order: creating excerpts first, then performing excerpts\nAudio quality is sufficient for full assessment of the experiments\nEach excerpt is labelled to match the commentary in the report",
     "crumbs": [
       "Course Book",
       "Experimenting with Music",
@@ -887,11 +887,35 @@
     ]
   },
   {
-    "objectID": "book/presenting-checklist.html#submission",
-    "href": "book/presenting-checklist.html#submission",
+    "objectID": "book/presenting-checklist.html#upload-1-programme-notes-and-scores",
+    "href": "book/presenting-checklist.html#upload-1-programme-notes-and-scores",
     "title": "Presenting: Checklist",
-    "section": "Submission",
-    "text": "Submission\nUpload 1 — Programme notes and scores:\n\nProgramme notes are within 600 words\nTrack list included according to the IB template\nScores or visual representation included for all created works\nBibliography included\n\nUpload 2 — Audio evidence:\n\nTotal audio does not exceed 20 minutes\nCreating section does not exceed 6 minutes\nPerforming section does not exceed 12 minutes\nCompiled in order: creator first, then performer\nEnsemble-only submissions include excerpts of individual parts (max 2 minutes)\n\nUpload 3 — Music technology only:\n\nVideo recording submitted if any music technology performance is included (max 12 minutes)",
+    "section": "Upload 1: Programme notes and scores",
+    "text": "Upload 1: Programme notes and scores\n\n\nProgramme notes are within 600 words\nTrack list included according to the IB template\nScores or visual representation included for all created works\nBibliography included",
+    "crumbs": [
+      "Course Book",
+      "Presenting Music",
+      "Presenting: Checklist"
+    ]
+  },
+  {
+    "objectID": "book/presenting-checklist.html#upload-2-audio-evidence",
+    "href": "book/presenting-checklist.html#upload-2-audio-evidence",
+    "title": "Presenting: Checklist",
+    "section": "Upload 2: Audio evidence",
+    "text": "Upload 2: Audio evidence\n\n\nTotal audio does not exceed 20 minutes\nCreating section does not exceed 6 minutes\nPerforming section does not exceed 12 minutes\nCompiled in order: creator first, then performer\nEnsemble-only submissions include excerpts of individual parts (max 2 minutes)",
+    "crumbs": [
+      "Course Book",
+      "Presenting Music",
+      "Presenting: Checklist"
+    ]
+  },
+  {
+    "objectID": "book/presenting-checklist.html#upload-3-music-technology-only",
+    "href": "book/presenting-checklist.html#upload-3-music-technology-only",
+    "title": "Presenting: Checklist",
+    "section": "Upload 3: Music technology only",
+    "text": "Upload 3: Music technology only\n\n\nVideo recording submitted if any music technology performance is included (max 12 minutes)",
     "crumbs": [
       "Course Book",
       "Presenting Music",
@@ -2005,7 +2029,7 @@
     "href": "book/cmm-checklist.html#organisation-and-presentation",
     "title": "CMM: Checklist",
     "section": "Organisation and presentation",
-    "text": "Organisation and presentation\n\nThe multimedia presentation is within 15 minutes and viewable in a single sitting without pausing (CMM D)\nThe final presentation portion does not exceed 7 minutes (no fixed maximum for process and reflection) (CMM D)\nNarrative (voice-over or subtitles) is integrated throughout — not added as a separate document (CMM D)\nThe presentation is logically organised: project plan → process evidence → final presentation (CMM D)\nEvidence is clearly labelled — the examiner can locate each piece without confusion (CMM D)\nThe argument of the submission is clear: project, role, contribution, reflection (CMM D)\nPresentation quality is consistent and professional throughout (CMM D)",
+    "text": "Organisation and presentation\n\n\nThe multimedia presentation is within 15 minutes and viewable in a single sitting without pausing (CMM D)\nThe final presentation portion does not exceed 7 minutes (no fixed maximum for process and reflection) (CMM D)\nNarrative (voice-over or subtitles) is integrated throughout — not added as a separate document (CMM D)\nThe presentation is logically organised: project plan → process evidence → final presentation (CMM D)\nEvidence is clearly labelled — the examiner can locate each piece without confusion (CMM D)\nThe argument of the submission is clear: project, role, contribution, reflection (CMM D)\nPresentation quality is consistent and professional throughout (CMM D)",
     "crumbs": [
       "Course Book",
       "The Contemporary Music Maker (HL)",
@@ -2025,5 +2049,77 @@
     "title": "Presentations",
     "section": "",
     "text": "Each row links to the slides and notes from that class session.\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\nTitle\nDate\nCategories\nDescription\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "book/ewm-tasks.html",
+    "href": "book/ewm-tasks.html",
+    "title": "Experimenting: Task Reference",
+    "section": "",
+    "text": "Task descriptions for the Experimenting component. For component-level strategy and assessment criteria, see the Experimenting Guide.",
+    "crumbs": [
+      "Course Book",
+      "Experimenting with Music",
+      "Experimenting: Task Reference"
+    ]
+  },
+  {
+    "objectID": "book/ewm-tasks.html#experimenting-as-a-performer-planning-document",
+    "href": "book/ewm-tasks.html#experimenting-as-a-performer-planning-document",
+    "title": "Experimenting: Task Reference",
+    "section": "Experimenting as a Performer: Planning Document",
+    "text": "Experimenting as a Performer: Planning Document\nUse this document to organize your thinking before conducting your first experiment and writing the rationale and commentary.\n\nRationale (~100 words)\nThis sub-section has an implied question: Why did you choose to conduct this experiment? As a performer, you can experiment with techniques and interpretations, or learn about unfamiliar genres primarily through your instrument.\nTo justify your source material, show how your sources support your musical goal. State at least one research question and explain how your sources helped you explore it.\nExplain why your source materials fit the identified AOI and context:\n\nLocal context — state explicitly how the music is related to a community to which you belong\nGlobal context — identify where in time and place the music comes from, and state that it was previously unfamiliar to you\n\n\n\n\n\n\n\nNote\n\n\n\nAfter starting with one experiment, you may be able to conduct two more progressive experiments without editing the rationale. Keep this in mind — it will help you stay concise.\n\n\nPlanning table (optional):\n\n\n\nQuestion\nYour notes\n\n\n\n\nWhat is your musical intent?\n\n\n\nJustify the AOI.\n\n\n\nJustify the context.\n\n\n\n\n\n\nCommentary (~200 words per experiment)\nDo not write the final commentary here — use this section to plan your experimentation. Draft a plan for all three experiments, with the first being the most developed.\nFor each experiment, think through:\n\nThe unfamiliar element (a convention of the music or a technique)\nHow you will use the element to experiment\nWhy you are focusing on this element; how it fits your musical decision-making and overall intent\nYour primary source\nAny secondary source where you learned this element was present in the primary source",
+    "crumbs": [
+      "Course Book",
+      "Experimenting with Music",
+      "Experimenting: Task Reference"
+    ]
+  },
+  {
+    "objectID": "book/ewm-tasks.html#experimenting-as-a-performer-plan",
+    "href": "book/ewm-tasks.html#experimenting-as-a-performer-plan",
+    "title": "Experimenting: Task Reference",
+    "section": "Experimenting as a Performer: Plan",
+    "text": "Experimenting as a Performer: Plan\nCreate the first Experimenting with Music as a Performer exercise.\nRequirements:\n\nChoose any AOI, but use local or global context (not personal)\nInclude justification for the AOI and context in your written report\nRecording must be 50 seconds to 1 minute, 30 seconds\nSet a musical intent and experiment with processes based on purposeful source material\n\nSubmit two uploads:\n\nExperiment as audio only (.mp3)\nWritten Report — Rationale and Commentary (.docx + .pdf)\n\nPortfolio connection: Music Subject Guide (AOIs & Contexts pp. 22–24; Experimenting pp. 31–33; Assessment Criteria pp. 59–64); Experimenting with Music: General Guidance; previous candidate assessed submissions; subject reports.\n\nRubric (Criterion C: Rationale and commentary)\n\n\n\n\n\n\n\nMarks\nLevel Descriptors\n\n\n\n\n0\nDoes not reach standard\n\n\n1–2\nRationale for experiments in performing ineffective. Process outlined with rudimentary musical decision-making.\n\n\n3–4\nRationale suitable. Process described with reasonable musical decision-making.\n\n\n5–6\nRationale purposeful. Process explained with relevant musical decision-making. Process evaluated.\n\n\n\n\n\nRubric (Criterion D: Practical musical experiments in performing)\n\n\n\n\n\n\n\nMarks\nLevel Descriptors\n\n\n\n\n0\nDoes not reach standard\n\n\n1–2\nReiterates source material. Development of musical ideas limited. Decision-making superficial.\n\n\n3–4\nRecreates source material. Development formulaic. Decision-making inconsistent.\n\n\n5–6\nAdapts source material. Development purposeful. Decision-making proficient.\n\n\n7–8\nTransforms source material. Development imaginative. Decision-making compelling.",
+    "crumbs": [
+      "Course Book",
+      "Experimenting with Music",
+      "Experimenting: Task Reference"
+    ]
+  },
+  {
+    "objectID": "book/ewm-tasks.html#experimenting-as-a-performer-annotated-bibliography",
+    "href": "book/ewm-tasks.html#experimenting-as-a-performer-annotated-bibliography",
+    "title": "Experimenting: Task Reference",
+    "section": "Experimenting as a Performer: Annotated Bibliography",
+    "text": "Experimenting as a Performer: Annotated Bibliography\nIdentify high-quality resources that will inform how you conduct Exercise 1.\nYour bibliography must include at minimum:\n\nA recording of someone performing the piece you have selected\nA recording showing a different interpretation\nA recording of a different piece that includes a technique or interpretation you will use to transform your stimulus material\nNotation for the piece you selected\nWritten and/or video analysis or instruction about the piece and/or a technique you have chosen to experiment with\n\nWrite annotations explaining how you will use each resource as you conduct your experiment. If you have ideas about Exercises 2 and 3, include those as well.\nSubmit one file: Annotated Bibliography (.pdf). APA format is recommended; clear source attribution and in-text citations matter most.\n\n\n\n\n\n\nOn paraphrasing\n\n\n\nTurabian (2013) recommends: “Don’t read your source as you paraphrase it. Read the passage, look away, think about it for a moment; then, still looking away, paraphrase it in your own words. Then check whether you can run your finger along your sentence and find the same ideas in the same order in your source. If you can, so can your readers. Try again.” (p. 80–81)\n\n\n\nRubric (Criterion C: Rationale and commentary)\n\n\n\n\n\n\n\nMarks\nLevel Descriptors\n\n\n\n\n0\nDoes not reach standard\n\n\n1–2\nRationale for experiments in performing ineffective. Process outlined with rudimentary decision-making.\n\n\n3–4\nRationale suitable. Process described with reasonable decision-making.\n\n\n5–6\nRationale purposeful. Process explained with relevant decision-making. Process evaluated.\n\n\n\nGrade entered as score + 1 on ManageBac.",
+    "crumbs": [
+      "Course Book",
+      "Experimenting with Music",
+      "Experimenting: Task Reference"
+    ]
+  },
+  {
+    "objectID": "book/ewm-tasks.html#experimenting-as-a-performer-experiments-2-and-3",
+    "href": "book/ewm-tasks.html#experimenting-as-a-performer-experiments-2-and-3",
+    "title": "Experimenting: Task Reference",
+    "section": "Experimenting as a Performer: Experiments 2 and 3",
+    "text": "Experimenting as a Performer: Experiments 2 and 3\nSubmit the uploads for Experimenting with Music as a Performer (Experiments 2 and 3):\n\nUpload 1: Experimentation Report (.doc and .pdf)\nUpload 2: Audio Evidence (.mp3)\n\nPortfolio connection: Music Subject Guide (AOIs & Contexts pp. 22–24; Experimenting pp. 31–33; Criteria pp. 59–64); subject reports. See Experimenting as a Performer: Plan above for rubrics — Criteria C and D apply.",
+    "crumbs": [
+      "Course Book",
+      "Experimenting with Music",
+      "Experimenting: Task Reference"
+    ]
+  },
+  {
+    "objectID": "book/ewm-tasks.html#shaping-and-transforming-experimenting-as-a-creator",
+    "href": "book/ewm-tasks.html#shaping-and-transforming-experimenting-as-a-creator",
+    "title": "Experimenting: Task Reference",
+    "section": "Shaping and Transforming: Experimenting as a Creator",
+    "text": "Shaping and Transforming: Experimenting as a Creator\nTransform a piece of music by changing its meter, tonality, and melody/accompaniment arrangement.\n\nAssessment Vocabulary\nUnderstand what each term asks you to demonstrate before you begin:\n\n\n\n\n\n\n\n\nLevel\nTerm\nMeaning\n\n\n\n\n3\nRealize\nPlan and create a work according to convention or practice\n\n\n3\nShape\nModify and develop existing material\n\n\n3\nAdapt\nAdjust existing material to suit a new context or style\n\n\n4\nPersonalize\nBring personal ideas and interpretations to a work or practice\n\n\n4\nSynthesize\nCombine and blend existing elements, styles, or techniques to create new work\n\n\n4\nTransform\nChange and develop existing work to create new work\n\n\n\nFor full marks — as with the external assessments — you must reach the Level 4 achievement descriptors.\n\n\nKey Understandings\n\nI understand that in order to synthesize and transform musical material, I must first shape and adapt it.\nI can adapt musical material by changing meter, tonality, chords, instrumentation, and accompaniment figures.\nI can realize conventions and practices when arranging for specific instruments by researching and implementing accepted norms.\nI can personalize, synthesize, and transform by going beyond the above to create music that is original and distinct from its source material.\n\n\n\nResources\n\nThe Literate Musician — Andy Mullen\nThe Study of Orchestration — Samuel Adler\nHigh-quality audio, notation, and written material you locate independently\n\n\n\nProcedure\n\nDay 1 — Choose your tune and notate it. Change the meter (do not use an enrhythmic meter).\nDay 2 — Change the tonality (and optionally the key signature). Adjust chords to fit the new tonality.\nDay 3 — Arrange the melody for an unfamiliar instrument, possibly including voice. This may require another key change. Mark articulations and dynamics appropriate to your chosen instrument. In your written statement, explain why you chose this instrument and justify your articulation and dynamic choices.\nDay 4 — Arrange the chords into an accompaniment for a familiar instrument or group of instruments. Mark articulations and dynamics. In your written statement, explain your choices.\nDays through deadline — Refine your work through experimentation, listening, research, and reflection with input from teacher and peers. Use class time only for this task; extensions are not possible.\n\n\n\nFinal Submission\n\nUpload 1: Product as audio only (.mp3)\nUpload 2: Outline of Written Report — Rationale and Commentary, maximum 150 words; Written Rationale as .pdf in APA 7, MLA 9, or Chicago style; full music notation included\nUpload 3: Music notation as project file (.musx)\n\n\n\n\n\n\n\nResubmission policy\n\n\n\nInstructors can provide one round of feedback on component drafts. You may include this work in a final IB submission only if it has not undergone further development after receiving feedback — meaning you can only submit it for a grade once. If you want to revise after receiving a grade, discuss with Coleman; if you do, this draft cannot be used for the final IB assessment.\n\n\nPortfolio connection: Music Subject Guide (AOIs & Contexts pp. 22–24; Experimenting pp. 31–33; Assessment Criteria pp. 59–64); Experimenting with Music: General Guidance; subject reports.\n\n\nRubric (Criterion A: Rationale and commentary)\n\n\n\n\n\n\n\nMarks\nLevel Descriptors\n\n\n\n\n0\nDoes not reach standard\n\n\n1–2\nRationale ineffective. Experimentation process outlined with rudimentary musical decision-making.\n\n\n3–4\nRationale suitable. Process described with reasonable musical decision-making.\n\n\n5–6\nRationale purposeful. Process explained with relevant musical decision-making. Process evaluated.\n\n\n\n\n\nRubric (Criterion B: Practical musical experiments in creating)\n\n\n\n\n\n\n\nMarks\nLevel Descriptors\n\n\n\n\n0\nDoes not reach standard\n\n\n1–2\nReiterates source material. Development of musical ideas limited. Decision-making superficial.\n\n\n3–4\nRecreates source material. Development formulaic. Decision-making inconsistent.\n\n\n5–6\nAdapts source material. Development purposeful. Decision-making proficient.\n\n\n7–8\nTransforms source material. Development imaginative. Decision-making compelling.",
+    "crumbs": [
+      "Course Book",
+      "Experimenting with Music",
+      "Experimenting: Task Reference"
+    ]
   }
 ]
