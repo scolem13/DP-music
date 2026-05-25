@@ -481,7 +481,6 @@ toc-depth: 2
 - [ ] Score or notation is included for each creating piece ([PM B](../resources/rubrics.html#pm-b,rt-realize))
 - [ ] Statement explains which **creating conventions** were applied and where ([PM B](../resources/rubrics.html#pm-b,rt-realize))
 - [ ] Statement explains how the research or source material informed the creative choices ([PM B](../resources/rubrics.html#pm-b,rt-realize))
-
 - [ ] All **four areas of inquiry** are represented across all pieces
 
 ---
