@@ -260,8 +260,10 @@ toc-depth: 2
 **Upload 2 — Audio evidence:**
 
 - [ ] Total audio does not exceed **10 minutes**
-- [ ] Three related creating excerpts submitted *(each approx. 20 seconds)*
-- [ ] Three related performing excerpts submitted *(each approx. 20 seconds)*
+- [ ] 20 second excerpt of the stimulus for creating included 
+- [ ] Three related creating excerpts submitted *(each approx. 1 minute, 20 seconds)*
+- [ ] 20 second excerpt of the stimulus for performing included 
+- [ ] Three related performing excerpts submitted *(each approx. 1 minute, 20 seconds)*
 - [ ] Compiled in order: creating excerpts first, then performing excerpts
 - [ ] Audio quality is sufficient for full assessment of the experiments
 - [ ] Each excerpt is labelled to match the commentary in the report

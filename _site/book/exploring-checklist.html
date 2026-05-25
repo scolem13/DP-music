@@ -530,7 +530,7 @@ ul.task-list li input[type="checkbox"] {
     h += wordBar(total, 2400);
     c.innerHTML = h;
     c.querySelectorAll('input[data-u1key]').forEach(function(el) {
-      el.addEventListener('input', function() { u1[el.dataset.u1key] = el.value; saveU1(); renderUpload1(); });
+      el.addEventListener('change', function() { u1[el.dataset.u1key] = el.value; saveU1(); renderUpload1(); });
     });
   }
 
@@ -600,7 +600,7 @@ ul.task-list li input[type="checkbox"] {
     h += timeBar(totalSecs, 4*60);
     c.innerHTML = h;
     c.querySelectorAll('input[data-u2key]').forEach(function(el) {
-      el.addEventListener('input', function() { u2[el.dataset.u2key] = el.value; saveU2(); renderUpload2(); });
+      el.addEventListener('change', function() { u2[el.dataset.u2key] = el.value; saveU2(); renderUpload2(); });
     });
   }
 
@@ -641,7 +641,7 @@ ul.task-list li input[type="checkbox"] {
     h += timeBar(totalSecs3, 3*60);
     c.innerHTML = h;
     c.querySelectorAll('input[data-u3row]').forEach(function(el) {
-      el.addEventListener('input', function() {
+      el.addEventListener('change', function() {
         u3[+el.dataset.u3row][el.dataset.u3field] = el.value;
         saveU3(); renderUpload3();
       });
