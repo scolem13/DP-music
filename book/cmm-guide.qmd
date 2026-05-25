@@ -1,0 +1,115 @@
+---
+title: "CMM: How to Do It"
+description: "A step-by-step guide through the Contemporary Music Maker component (HL only)."
+categories: [Reference, Assessment, CMM]
+toc: true
+toc-depth: 2
+---
+
+::: {.content-visible when-format="html"}
+*See also: [Checklist](cmm-checklist.html) · [Assessment Rubrics → CMM](../resources/rubrics.html#the-contemporary-music-maker)*
+:::
+
+The Contemporary Music Maker is an **HL-only** component. You undertake a large-scale collaborative creative project, document the process throughout, and submit a multimedia presentation as evidence.
+
+The key word is **process**. The assessment is not primarily about the quality of the final product — it is about how thoughtfully you engaged with the project, how you made decisions, what you learned, and how honestly you can discuss what worked and what didn't.
+
+**What you submit:**
+
+- Upload 1: one continuously narrated multimedia presentation (max **15 minutes**)
+
+---
+
+## Step 1: Define the project and your role
+
+The CMM project is collaborative — it involves working with others on a creative musical project. Before anything else, you need to establish:
+
+**The project:** What are you making? A recording, a performance, a composition, an arrangement, a production? The project should be ambitious enough to generate genuine creative problems to solve.
+
+**Your role:** What is your specific role in the project? Possible roles include (but are not limited to):
+
+- Composer / arranger
+- Performer
+- Producer / sound engineer
+- Music director
+- Notation specialist / copyist
+
+Your role must be **clearly identified** and your contribution must be **demonstrably yours**. The evidence must allow the examiner to assess your individual proficiency, not just the group's output.
+
+---
+
+## Step 2: Document the process as you go
+
+Do not leave documentation to the end. The best CMM submissions are built from ongoing documentation throughout the project. Keep records of:
+
+- Decisions made (and why — include alternatives you considered)
+- Problems encountered and how you attempted to solve them
+- Feedback received and how you responded
+- Audio/visual evidence at different stages (drafts, rehearsals, recordings)
+- Collaboration: who contributed what, how decisions were negotiated
+
+**Criterion A** (Selection of Evidence) rewards a well-chosen, representative selection that documents the full arc of the project — not just the highlights.
+
+---
+
+## Step 3: Identify what to discuss
+
+The written discussion (Criterion B) requires you to address three things in relation to the **stated aims** of the project:
+
+1. **Challenges and successes:** What went well? What was difficult? Be specific — avoid vague language like "it was challenging." Name the musical or technical problem and explain how you responded to it.
+
+2. **Areas for development and strategies for improvement:** What would you do differently if you repeated the project? This is not an admission of failure — it demonstrates reflective musical thinking.
+
+3. **Musical and collaborative choices made:** Evaluate the decisions — not just describe them. Did the choice serve the project? Would a different approach have been better? Why?
+
+The top level of Criterion B requires you to **discuss**, **examine**, and **evaluate** — not just describe or list. Students who only narrate what happened receive low marks; students who critically reflect on why things happened receive high marks.
+
+---
+
+## Step 4: Demonstrate technical and musical proficiency
+
+Criterion C assesses your **individual** technical and musical proficiency in your identified role. The evidence must show:
+
+- You can do what your role requires at a high level
+- Your contribution reflects genuine musical understanding, not just mechanical execution
+- Your musicianship serves the overall aims of the project
+
+If your role is performing, the performance evidence should demonstrate technical control and musical expression. If your role is composing, the score and audio should demonstrate command of the notational and compositional craft. If your role is producing, the recorded output should demonstrate aural discernment and technical skill.
+
+---
+
+## Step 5: Organise the presentation
+
+The submission is one continuously narrated multimedia presentation of **maximum 15 minutes**. It must be viewable in a single sitting without pausing — the narrative (voice-over or subtitles) must be integrated throughout.
+
+The presentation must contain evidence of:
+
+1. **Project plan** — the vision, musical goals, rationale, timeline, and resources
+2. **Process evidence** — development of the project, decisions made, challenges encountered
+3. **Final presentation** — the culmination of the project (or curated excerpts), demonstrating musical and technical proficiency in your identified role *(max 7 minutes)*
+
+The final presentation portion has a maximum of **7 minutes**. The process and reflection portions have no fixed maximum — the remaining time is yours to allocate as the work demands.
+
+Criterion D assesses how well this is organised and presented:
+
+- The examiner can navigate it logically
+- Evidence is clearly labelled and easy to locate
+- The argument is clear: what was the project, what was your role, what did you contribute?
+- Presentation quality is consistent and professional throughout
+
+A well-organised 15-minute presentation that is easy to follow will receive higher marks than the same content presented chaotically.
+
+---
+
+## The key principle
+
+The CMM rewards **honest, reflective engagement** with a real creative project. The examiner is looking for evidence of a student who:
+
+- Took their role seriously
+- Made genuine musical decisions
+- Learned from the process — including from what didn't work
+- Can articulate that learning clearly and specifically
+
+> Criterion B top level: the student **discusses** challenges and successes, **examines** areas for development, and **evaluates** musical and collaborative choices in relation to the stated aims.
+
+A polished final product submitted with minimal process documentation will score poorly. A modest final product accompanied by rich, honest process documentation and genuine critical reflection can score very well.

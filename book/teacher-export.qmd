@@ -1,0 +1,233 @@
+---
+title: "Teacher: Export Student Data"
+description: "Decode a student share link and download their repertoire data as CSV."
+toc: false
+---
+
+```{=html}
+<style>
+#export-wrap { max-width: 700px; }
+#share-input {
+  width: 100%; box-sizing: border-box;
+  font-size: .82rem; padding: .4rem .5rem;
+  border: 1px solid #c8bfaf; border-radius: 3px;
+  background: #faf8f5; color: #2c2416;
+  font-family: monospace;
+}
+#status { font-size: .82rem; margin: .5rem 0; color: #888; min-height: 1.2em; }
+#status.ok  { color: #2e7d32; }
+#status.err { color: #c0392b; }
+#preview-wrap { overflow-x: auto; margin-top: 1rem; }
+#preview-wrap table { border-collapse: collapse; font-size: .78rem; white-space: nowrap; }
+#preview-wrap th { background: #f0ede8; padding: .25rem .5rem; border: 1px solid #d8d0c8; text-align: left; font-weight: 600; }
+#preview-wrap td { padding: .2rem .5rem; border: 1px solid #e0d6c8; }
+#preview-wrap tr:nth-child(even) td { background: #faf8f5; }
+.btn-row { display: flex; gap: .5rem; margin-top: .75rem; flex-wrap: wrap; }
+.btn-row button {
+  font-size: .82rem; padding: .3rem .8rem;
+  border: 1px solid #c8bfaf; border-radius: 3px;
+  background: transparent; color: #555; cursor: pointer;
+}
+.btn-row button:hover { background: #f0ede8; }
+.btn-row button:disabled { opacity: .4; cursor: default; }
+</style>
+
+<div id="export-wrap">
+  <p style="font-size:.88rem;color:#666;">Paste a student's share link below. All decoding happens in your browser — no data is sent anywhere.</p>
+  <input id="share-input" type="text" placeholder="Paste share link here…" oninput="onPaste(this.value)" />
+  <div id="status"></div>
+  <div class="btn-row">
+    <button id="csv-btn" onclick="downloadCSV()" disabled>⬇ Download CSV</button>
+    <button id="clear-btn" onclick="clearAll()">Clear</button>
+  </div>
+  <div id="preview-wrap"></div>
+</div>
+
+<script>
+var decoded = null;
+
+function onPaste(val) {
+  val = val.trim();
+  decoded = null;
+  document.getElementById('preview-wrap').innerHTML = '';
+  document.getElementById('csv-btn').disabled = true;
+  if (!val) { setStatus('', ''); return; }
+
+  var m = val.match(/[?&]share=([^&#]+)/);
+  if (!m) { setStatus('No share data found in that URL.', 'err'); return; }
+
+  try {
+    var data = JSON.parse(decodeURIComponent(escape(atob(m[1]))));
+    if (!data || typeof data !== 'object') throw new Error('empty');
+    decoded = data;
+    renderPreview(data);
+    document.getElementById('csv-btn').disabled = false;
+    setStatus('✓ Data decoded successfully.', 'ok');
+  } catch(e) {
+    setStatus('Could not decode — is this a valid share link?', 'err');
+  }
+}
+
+function setStatus(msg, cls) {
+  var el = document.getElementById('status');
+  el.textContent = msg;
+  el.className = cls;
+}
+
+function clearAll() {
+  document.getElementById('share-input').value = '';
+  document.getElementById('preview-wrap').innerHTML = '';
+  document.getElementById('csv-btn').disabled = true;
+  setStatus('', '');
+  decoded = null;
+}
+
+// ── Data extraction ────────────────────────────────────────────────────────────
+
+function getExp(data)  { return (data['pieces:exploring'] || []).slice(0,4); }
+function getEWM(data)  { return (data['pieces:experimenting'] || []).slice(0,2); }
+function getPerf(data) {
+  var n = parseInt(data['presenting:nPerf']) || 4;
+  return (data['pieces:presenting:performing'] || []).slice(0, n);
+}
+function getCrea(data) {
+  var n = parseInt(data['presenting:nCrea']) || 2;
+  return (data['pieces:presenting:creating'] || []).slice(0, n);
+}
+
+function boolArr(data, key) {
+  var arr = data[key];
+  if (!Array.isArray(arr)) return [];
+  return arr.map(function(v) { return v ? '✓' : ''; });
+}
+
+function fmtTime(p) {
+  if (!p) return '';
+  var m = p.lenMin || '', s = p.lenSec || '';
+  if (m === '' && s === '') return '';
+  return (m||'0') + ':' + String(s||'0').padStart(2,'0');
+}
+
+// ── Preview table ──────────────────────────────────────────────────────────────
+
+function renderPreview(data) {
+  var exp  = getExp(data);
+  var ewm  = getEWM(data);
+  var perf = getPerf(data);
+  var crea = getCrea(data);
+
+  var sections = [
+    { title: 'Exploring', rows: exp,  cols: ['Piece','Composer','Genre','AOI','Context','Practical'] },
+    { title: 'Experimenting', rows: ewm,  cols: ['Piece','Composer','Genre','AOI','Context'] },
+    { title: 'Presenting — Performing', rows: perf, cols: ['Piece','Method','Genre','AOI','Length','Ensemble','Excerpt'] },
+    { title: 'Presenting — Creating',  rows: crea, cols: ['Piece','Method','Genre','AOI','Length'] },
+  ];
+
+  var html = '';
+
+  sections.forEach(function(sec) {
+    if (!sec.rows.length) return;
+    html += '<p style="font-weight:600;margin:.8rem 0 .2rem;font-size:.82rem;">' + sec.title + '</p>';
+    html += '<table><thead><tr>';
+    sec.cols.forEach(function(c){ html += '<th>#</th><th>' + c + '</th>'; });
+    html = '<table><thead><tr><th>#</th>';
+    sec.cols.forEach(function(c){ html += '<th>' + c + '</th>'; });
+    html += '</tr></thead><tbody>';
+    sec.rows.forEach(function(p, i) {
+      html += '<tr><td>' + (i+1) + '</td>';
+      sec.cols.forEach(function(c) { html += '<td>' + esc(getField(p,c)) + '</td>'; });
+      html += '</tr>';
+    });
+    html += '</tbody></table>';
+  });
+
+  // Checklist states
+  var cbSections = [
+    ['Exploring checklist',    boolArr(data, 'checklist:exploring')],
+    ['Experimenting checklist',boolArr(data, 'checklist:experimenting')],
+    ['Presenting checklist',   boolArr(data, 'checklist:presenting')],
+  ];
+  var hasAny = cbSections.some(function(s){ return s[1].length > 0; });
+  if (hasAny) {
+    html += '<p style="font-weight:600;margin:.8rem 0 .2rem;font-size:.82rem;">Checklist states</p>';
+    html += '<table><thead><tr><th>Checklist</th><th>Items checked</th></tr></thead><tbody>';
+    cbSections.forEach(function(s) {
+      if (!s[1].length) return;
+      var checked = s[1].filter(Boolean).length;
+      html += '<tr><td>' + s[0] + '</td><td>' + checked + ' / ' + s[1].length + '  ' + s[1].join(' ') + '</td></tr>';
+    });
+    html += '</tbody></table>';
+  }
+
+  document.getElementById('preview-wrap').innerHTML = html;
+}
+
+function getField(p, col) {
+  if (!p) return '';
+  switch(col) {
+    case 'Piece':     return p.name || '';
+    case 'Composer':  return p.composer || '';
+    case 'Method':    return p.method || p.composer || '';
+    case 'Genre':     return p.genre || '';
+    case 'AOI':       return p.aoi || '';
+    case 'Context':   return p.context || '';
+    case 'Practical': return p.practical || '';
+    case 'Length':    return fmtTime(p);
+    case 'Ensemble':  return p.ensemble ? '✓' : '';
+    case 'Excerpt':   return p.excerptRequired ? '✓' : '';
+    default: return '';
+  }
+}
+
+function esc(s) { return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;'); }
+
+// ── CSV download ───────────────────────────────────────────────────────────────
+
+function downloadCSV() {
+  if (!decoded) return;
+  var rows = [], headers = [];
+
+  function addPieces(prefix, pieces, fields) {
+    pieces.forEach(function(p, i) {
+      var n = i + 1;
+      fields.forEach(function(f) {
+        headers.push(prefix + '_' + n + '_' + f);
+        rows.push(csvVal(getField(p, f)));
+      });
+    });
+  }
+
+  addPieces('Exp',  getExp(decoded),  ['Piece','Composer','Genre','AOI','Context','Practical']);
+  addPieces('EWM',  getEWM(decoded),  ['Piece','Composer','Genre','AOI','Context']);
+  addPieces('Perf', getPerf(decoded), ['Piece','Method','Genre','AOI','Length','Ensemble','Excerpt']);
+  addPieces('Crea', getCrea(decoded), ['Piece','Method','Genre','AOI','Length']);
+
+  [['CL_Exploring','checklist:exploring'],
+   ['CL_Experimenting','checklist:experimenting'],
+   ['CL_Presenting','checklist:presenting']].forEach(function(pair) {
+    var arr = decoded[pair[1]];
+    if (Array.isArray(arr)) {
+      arr.forEach(function(v, i) {
+        headers.push(pair[0] + '_' + (i+1));
+        rows.push(v ? '1' : '0');
+      });
+    }
+  });
+
+  var csv = headers.join(',') + '\n' + rows.join(',') + '\n';
+  var blob = new Blob([csv], { type: 'text/csv' });
+  var a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = 'student-data.csv';
+  a.click();
+}
+
+function csvVal(v) {
+  v = String(v || '');
+  if (v.indexOf(',') > -1 || v.indexOf('"') > -1 || v.indexOf('\n') > -1) {
+    return '"' + v.replace(/"/g,'""') + '"';
+  }
+  return v;
+}
+</script>
+```

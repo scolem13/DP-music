@@ -7,7 +7,7 @@ toc-depth: 3
 ---
 
 ::: {.content-visible when-format="html"}
-*See also: [Assessment Rubrics → Presenting](../resources/rubrics.html#presenting-music)*
+*See also: [Checklist](presenting-checklist.html) · [Assessment Rubrics → Presenting](../resources/rubrics.html#presenting-music)*
 :::
 
 The Presenting rubrics list *possible characteristics* alongside the mark bands, but the subject guide does not define them. This page explains what each band looks like in practice, criterion by criterion.

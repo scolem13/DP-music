@@ -7,7 +7,7 @@ toc-depth: 3
 ---
 
 ::: {.content-visible when-format="html"}
-*See also: [Assessment Rubrics → The Contemporary Music Maker](../resources/rubrics.html#the-contemporary-music-maker)*
+*See also: [Checklist](cmm-checklist.html) · [Assessment Rubrics → The Contemporary Music Maker](../resources/rubrics.html#the-contemporary-music-maker)*
 :::
 
 ---

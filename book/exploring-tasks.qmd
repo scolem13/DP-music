@@ -1,0 +1,175 @@
+---
+title: "Exploring: Task Reference"
+description: "Task descriptions and requirements for recurring Exploring Music in Context assignments."
+toc: true
+toc-depth: 2
+---
+
+Task descriptions for the Exploring component. For component-level strategy and assessment criteria, see the [Exploring Guide](exploring-guide.qmd).
+
+---
+
+## Elements of Music Analysis
+
+*Portfolio connection: Exploring as a Researcher*
+
+Take the piece you chose to perform and examine it through the lens of the elements of music. Listen several times and write down your reactions each time. Use appropriate vocabulary from class. Research is permitted; cite all sources, including in-text citations wherever an idea is not your own. Include at minimum the notation and recording in your works cited.
+
+**Focus on three elements only.**
+
+After listening and gathering information, write an analysis report: an introductory paragraph giving context about the piece, two or three analytical paragraphs, and a conclusion. Maximum 300 words. Refer to measure numbers and timestamps; include a score excerpt showing notational evidence of your analytical claims.
+
+::: {.callout-note}
+## Deadlines
+
+- **Minor** — Completed graphic organiser, typed, as a Word doc
+- **Major** — Complete written analysis (PDF with embedded notation) + Works Cited page + full notation as appendix + mp3 reference audio
+:::
+
+**Questions to address in the graphic organiser:**
+
+| Element | Prompt |
+|---|---|
+| Tempo | What is the tempo in beats per minute? |
+| Dynamics | Do the dynamics change? |
+| Instrumentation | What instruments are playing? |
+| Texture | How many layers do you hear? What are they? Is there a single word to describe the texture? |
+| Melody | Describe the melody. How does it change throughout the piece? |
+| Harmony | Is there anything special about the harmonies? Consonance? Dissonance? Chord progression? How is tonality used? Discuss "major" and "not major." |
+| Structure | How would you describe the form? Do sections repeat? How can you tell when one section is over and another has begun? |
+
+::: {.callout-tip}
+## Criterion B1 — Conducting Musical Research
+
+This criterion asks how well you extract musical and extra-musical findings, how effectively you locate them (measure numbers, timestamps), and how accurately you use terminology.
+:::
+
+---
+
+## AOI Identification
+
+Using the IB Music Guide (p. 23) and [thinkib.net](https://thinkib.net/music/page/43618/the-areas-of-inquiry-aois) as references, identify the description and Area of Inquiry (AOI 1–4) for each piece below. Each description from the bank is used exactly once.
+
+**Description bank:** Protest song · Liturgical music · National anthem · Chamber music of the Western art tradition · Cool jazz · Experimental music · Music for film · Music for ballet · Musical theatre · Electronic dance music · Elektronische Musik · Technology in popular music production
+
+---
+
+1. **"bad guy"** — Billie Eilish
+   [YouTube](https://www.youtube.com/watch?v=4-TbQnONe_w) · [Spotify](https://open.spotify.com/track/2Fxmhks0bxGSBdJ92vM42m)
+   *Description and AOI:*
+
+2. **"Strange Fruit"** — Billie Holiday
+   [YouTube](https://www.youtube.com/watch?v=649wWWkW_1o) · [Spotify](https://open.spotify.com/track/7CdZrjAwcaULHNsSrnaezW)
+   *Description and AOI:*
+
+3. **"Take Five"** — Dave Brubeck
+   [YouTube](https://www.youtube.com/watch?v=vmDDOFXSgAs) · [Spotify](https://open.spotify.com/track/1YQWosTIljIvxAgHWTp7KP)
+   *Description and AOI:*
+
+4. **Waltz in D-flat major, Op. 64, No. 1 ("Minute Waltz")** — Frédéric Chopin
+   [YouTube](https://www.youtube.com/watch?v=OoX6ZTUd3Vo) · [Spotify](https://open.spotify.com/track/4F9vdsZgNvci1hszveARWn)
+   *Description and AOI:*
+
+5. **"The King of the Golden Hall"** — Howard Shore
+   [YouTube](https://www.youtube.com/watch?v=Om_BKWttz18) · [Spotify](https://open.spotify.com/track/2O8AQadTJzQ3wdhSNRHdYg)
+   *Description and AOI:*
+
+6. **"The Rite of Spring"** — Igor Stravinsky
+   [YouTube](https://www.youtube.com/watch?v=kr-wKqy5HnU) · [Spotify](https://open.spotify.com/track/4odlTAKrvaQ4UUJqatxAHt)
+   *Description and AOI:*
+
+7. **Sonatas and Interludes: Sonata No. 1** — John Cage
+   [YouTube](https://www.youtube.com/watch?v=xXbBeMa1SHc) · [Spotify](https://open.spotify.com/track/46r0pFBe8Xd5uPE9VQSdmU)
+   *Description and AOI:*
+
+8. **"D.A.N.C.E."** — Justice
+   [YouTube](https://www.youtube.com/watch?v=tCnBrrnOefs) · [Spotify](https://open.spotify.com/track/33yAEqzKXexYM3WlOYtTfQ)
+   *Description and AOI:*
+
+9. **"Gesang der Jünglinge"** — Karlheinz Stockhausen
+   [YouTube](https://www.youtube.com/watch?v=nffOJXcJCDg) · [Spotify](https://open.spotify.com/track/0Y9DYv05QW8Cs8UTrXnRnA)
+   *Description and AOI:*
+
+10. **"Pretty Women"** — Stephen Sondheim
+    [YouTube](https://www.youtube.com/watch?v=_Kt5PsyEMWk) · [Spotify](https://open.spotify.com/track/23aE6RBIAUjo0RtnZPxwgN)
+    *Description and AOI:*
+
+11. **"Hawaiʻi Ponoʻī"** — Tavita Te'o
+    [YouTube](https://www.youtube.com/watch?v=GQHIVchndyU) · [Spotify](https://open.spotify.com/track/61766ZP12F67gTtghCThYJ)
+    *Description and AOI:*
+
+12. **"Dies Irae"** — Tommaso da Celano (attr.)
+    [YouTube](https://www.youtube.com/watch?v=TkAa3Zdx6Ro) · [Spotify](https://open.spotify.com/track/6uXB6wi0HxQ5MlRtOqqSS0)
+    *Description and AOI:*
+
+---
+
+## Harmonic Reduction
+
+Pick one of the pieces you have chosen for the Exploring component — the one that will work best for this task.
+
+Create a harmonic reduction for the entire piece as a two-hand piano arrangement showing:
+
+- Chord symbol analysis (letter names)
+- Roman numeral analysis
+- The chord in the right hand, in closed position (with or without root, including all non-root voices)
+- The bass in the left hand, including notable bass-line information where applicable
+- Cadence points and types
+- Key changes (if applicable)
+- Labels for formal sections
+
+::: {.callout-tip}
+## Criterion B1 — Conducting Musical Research
+
+Assessed on accurate terminology, effective location of findings (measure numbers), and clarity of communication.
+:::
+
+---
+
+## Annotated Bibliography
+
+Your bibliography must include:
+
+- A visual representation of the piece you have selected
+- A recording of the piece
+- At least one journal article or book chapter
+- One other high-quality source
+
+**Annotations:** For the visual representation and recording, briefly explain the strengths of the resource and your reasons for selecting it. For the other two sources, write a summary as it pertains to your Exploring report (two to four sentences each).
+
+**Submit three files:**
+
+1. Annotated bibliography (PDF)
+2. Score or visual representation (PDF)
+3. Audio excerpt of reference recording, cut to one minute (MP3)
+
+::: {.callout-note}
+## On paraphrasing
+
+Turabian (2013) recommends: "Don't read your source as you paraphrase it. Read the passage, look away, think about it for a moment; then, still looking away, paraphrase it in your own words. Then check whether you can run your finger along your sentence and find the same ideas in the same order in your source. If you can, so can your readers. Try again." (p. 80–81)
+:::
+
+---
+
+## Formal and Harmonic Analysis Chart
+
+Fill this chart out for your reference recording. Add rows as needed. Use the "Other Features" column to explain musical findings in your own words.
+
+**Submit:** This document as PDF or DOCX; the reference recording as MP3.
+
+| Section | Bars | Length | Time | Key | Other Features |
+|---|---|---|---|---|---|
+| mm. 1 | 8 bars | | 0:00 | | |
+| mm. 9 | | | 1:10 | | |
+| | | | | | |
+
+**Reference materials:**
+
+- [Rossini — As a Researcher, Lesson 1](https://thinkib.net/music/page/46534/as-a-researcher-lesson-1-rossini) (thinkib.net)
+- [AABA Form](https://musictheory.pugetsound.edu/mt21c/AABAForm.html) (Puget Sound Music Theory)
+
+::: {.callout-tip}
+## Criterion B1 — Conducting Musical Research
+
+Assessed on how effectively you communicate findings, how appropriate and well-chosen the findings are, accuracy of terminology, and precision of location (measure numbers and timestamps).
+:::

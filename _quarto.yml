@@ -19,6 +19,8 @@ website:
         text: Resources
       - href: book/index.qmd
         text: Course Book
+      - href: curriculum-map.qmd
+        text: Curriculum Map
   sidebar:
     - title: "Course Book"
       style: docked
@@ -32,20 +34,28 @@ website:
             - book/exploring-checklist.qmd
             - book/exploring-criterion-guidance.qmd
             - book/exploring-common-mistakes.qmd
+            - book/exploring-tasks.qmd
         - section: "Experimenting with Music"
           contents:
+            - book/ewm-guide.qmd
             - book/ewm-checklist.qmd
             - book/ewm-criterion-guidance.qmd
             - book/ewm-common-mistakes.qmd
         - section: "Presenting Music"
           contents:
+            - book/presenting-guide.qmd
             - book/presenting-checklist.qmd
             - book/presenting-criterion-guidance.qmd
             - book/presenting-common-mistakes.qmd
+            - book/presenting-tasks.qmd
+            - book/performing-tasks.qmd
         - section: "The Contemporary Music Maker (HL)"
           contents:
+            - book/cmm-guide.qmd
+            - book/cmm-checklist.qmd
             - book/cmm-criterion-guidance.qmd
             - book/cmm-common-mistakes.qmd
+            - book/cmm-tasks.qmd
   search:
     copy-button: true
     show-item-context: true

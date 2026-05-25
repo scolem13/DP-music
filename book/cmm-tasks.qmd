@@ -1,0 +1,149 @@
+---
+title: "CMM: Task Reference"
+description: "Task descriptions and requirements for Contemporary Music Maker assignments (HL only)."
+toc: true
+toc-depth: 2
+---
+
+Task descriptions for the Contemporary Music Maker component. For component-level strategy and assessment criteria, see the [CMM Guide](cmm-guide.qmd).
+
+::: {.callout-important}
+The CMM component is **HL only**. These tasks run throughout both years of the course and feed directly into the final IB submission.
+:::
+
+---
+
+## Summary and Rationale
+
+Develop a project summary and a rationale for your CMM project. Together these documents define what you are making, why, and how.
+
+**The summary should address:**
+
+- Vision — what does the final product look and sound like?
+- Musical goals — what will you learn or gain as a musician?
+
+**The rationale should address:**
+
+- Justification for the project's real-life relevance
+- The nature of collaboration with at least one other musician
+- The single role you will be assessed on
+- Any other information that justifies and supports the project vision
+
+::: {.callout-note}
+Despite what the Subject Guide suggests, I recommend **not** including a budget or a list of required materials at this stage — those belong in the Timeline and Resources task.
+:::
+
+Produce a single document. Refer to the Subject Guide and exemplars on InThinking. Aim for something as thorough as a final IA submission; bullet points or outline format is acceptable. Include pictures or audio recordings where applicable. Submit as `.docx` or `.pdf`.
+
+### Rubric
+
+| Marks | Level Descriptors |
+|---|---|
+| 0 | Does not meet standard |
+| 1–2 | Vision and goals ineffective/rudimentary. Rationale states justification and collaboration. Roles limited in scope. |
+| 3–4 | Vision and goals suitable but formulaic. Rationale describes justification and collaboration. Roles suitable. |
+| 5–6 | Vision and goals relevant/purposeful. Rationale explains justification and collaboration. Roles purposeful. |
+| 7 | Vision and goals resourceful/compelling. Rationale evaluates justification and collaboration. Roles imaginative. |
+
+---
+
+## Collaborator Identification
+
+Submit an artifact — any format — that documents:
+
+- The goals of your project
+- Your primary collaborator and the role(s) they will fulfill
+- Evidence, in English, that the collaborator has committed to your project
+
+::: {.callout-tip}
+## Criterion A — Selection of Evidence
+
+Is the evidence appropriate and well chosen to document the project?
+:::
+
+---
+
+## Timeline and Resources
+
+Develop a timeline and a resource list for your CMM project.
+
+**The timeline should address:**
+
+- Overall time required to complete the project
+- Time estimates for different phases or aspects of the work
+
+**The resource list should address:**
+
+- Collaborators — who are they and what is their role? (Can be copied from the rationale.)
+- Space — where will you rehearse? Where will you perform?
+- Instruments — are instruments provided, or do you need to purchase supplies?
+- Public permits — if the performance is public, do you need permission?
+- Audio/video equipment — software, microphones, speakers, cables
+- Hypothetical budget — how much does everything cost?
+
+Produce a single document. Refer to the marked IBO example and the Subject Guide. Bullet points or outline format is acceptable. Submit as `.docx` or `.pdf`.
+
+### Rubric
+
+| Marks | Level Descriptors |
+|---|---|
+| 0 | Does not meet standard |
+| 1–2 | Timeline and resources ineffective/rudimentary. Lists resources. |
+| 3–4 | Timeline and resources suitable but formulaic. Describes resources. |
+| 5–6 | Timeline and resources relevant/purposeful. Explains resources. |
+| 7 | Timeline and resources resourceful/compelling. Explains and justifies. |
+
+---
+
+## Annotated Bibliography
+
+This task has two parts.
+
+**Part 1 — Problem identification**
+
+Identify two or three problems that currently exist in bringing your CMM project to fruition. Problems are things in want of a solution — they are evidence of growth, not an indication something has gone wrong. For each problem, write a brief explanation (one or two sentences) of what you already know and how the problem is relevant to your project.
+
+**Part 2 — Annotated bibliography**
+
+For each problem you identified, find a high-quality source that will help you devise a solution. Write a two-to-four sentence annotation per source.
+
+**Submit:** Problem identification and annotated bibliography as a single PDF. APA format is recommended, but clear source attribution and in-text citations are what matter most.
+
+::: {.callout-note}
+## On paraphrasing
+
+Turabian (2013) recommends: "Don't read your source as you paraphrase it. Read the passage, look away, think about it for a moment; then, still looking away, paraphrase it in your own words. Then check whether you can run your finger along your sentence and find the same ideas in the same order in your source. If you can, so can your readers. Try again." (p. 80–81)
+:::
+
+---
+
+## Music Outline
+
+Create an outline of your CMM project focused on musical content.
+
+**Your submission must include:**
+
+- Audio demonstrating the range of techniques and/or styles you will employ
+- An explanation of how you and/or your collaborators will develop the musical content between now and the final presentation
+- A discussion of anticipated challenges specifically related to the creation of the musical content (you may reuse relevant material from past submissions)
+
+**Submit:** An MP3 audio file and a PDF. Include any DAW or notation software files used to create your music.
+
+::: {.callout-tip}
+## Criterion C — Technical and Musical Proficiency
+
+Assessed on how effectively you demonstrate technical proficiency in your identified role, and how effectively your musicianship supports the musical outcomes of the project.
+:::
+
+---
+
+## Collaboration Video
+
+Meet with your collaborator and discuss their role in English:
+
+- Share your plan and the current state of the project
+- Discuss their role in detail
+- Use their feedback to make adjustments to your plan
+- Address Criterion B: evaluation of choices, discussion of challenges and successes, and examination of areas for development
+
+**Submit:** A video file at least one minute long. Make it as long as necessary to convey the required information — cuts are permitted in the final presentation.

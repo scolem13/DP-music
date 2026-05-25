@@ -236,10 +236,11 @@ toc-depth: 2
 <button id="crea-add"    style="font-size:.78rem;padding:.2rem .5rem;border:1px solid #c8bfaf;border-radius:3px;background:transparent;color:#666;cursor:pointer;">&#43; Add Piece</button>
 </div>
 
-- [ ] Each piece has a clearly stated and **justified area of inquiry**
+- [ ] Each piece has a clearly stated and **justified area of inquiry** ([PM B](../resources/rubrics.html#pm-b,rt-realize))
 - [ ] Creating work is no longer than **6 minutes** of audio total
-- [ ] Score or notation is included for each creating piece
-- [ ] Statement explains how creating conventions were applied
+- [ ] Score or notation is included for each creating piece ([PM B](../resources/rubrics.html#pm-b,rt-realize))
+- [ ] Statement explains which **creating conventions** were applied and where ([PM B](../resources/rubrics.html#pm-b,rt-realize))
+- [ ] Statement explains how the research or source material informed the creative choices ([PM B](../resources/rubrics.html#pm-b,rt-realize))
 
 - [ ] All **four areas of inquiry** are represented across all pieces
 
@@ -254,24 +255,41 @@ toc-depth: 2
 <button id="perf-add"    style="font-size:.78rem;padding:.2rem .5rem;border:1px solid #c8bfaf;border-radius:3px;background:transparent;color:#666;cursor:pointer;">&#43; Add Piece</button>
 </div>
 
-- [ ] All pieces are from **local or global** contexts — not personal
-- [ ] Each piece has a clearly stated and **justified area of inquiry**
+- [ ] All pieces are from **local or global** contexts — not personal ([PM C](../resources/rubrics.html#pm-c,rt-shape))
+- [ ] Each piece has a clearly stated and **justified area of inquiry** ([PM C](../resources/rubrics.html#pm-c,rt-shape))
 - [ ] Total performance time does not exceed **12 minutes**
-- [ ] Performance recording audio quality is sufficient for assessment
+- [ ] Performance recording audio quality is sufficient for assessment ([PM D](../resources/rubrics.html#pm-d))
+- [ ] Musical communication is consistent and expressive across all performed works ([PM D](../resources/rubrics.html#pm-d))
 
 ---
 
-## Commentary
+## Programme Notes
 
-- [ ] Commentary is within **600 words**
-- [ ] Commentary addresses both performing and creating work
-- [ ] Musical terminology is used accurately
+- [ ] Program notes are within **600 words**
+- [ ] Program notes address the selection of works and justify each choice ([PM A](../resources/rubrics.html#pm-a,rt-explain))
+- [ ] Each work is explicitly linked to its area of inquiry ([PM A](../resources/rubrics.html#pm-a,rt-explain))
+- [ ] All **four areas of inquiry** are addressed in the program notes ([PM A](../resources/rubrics.html#pm-a,rt-explain))
+- [ ] Musical terminology is used accurately ([PM A](../resources/rubrics.html#pm-a,rt-explain))
 
 ---
 
 ## Submission
 
-- [ ] All audio uploaded to the correct submission folder
-- [ ] File names follow the required naming convention
-- [ ] Scores and notation are clearly legible
-- [ ] Word count verified with any excluded text removed
+**Upload 1 — Programme notes and scores:**
+
+- [ ] Programme notes are within **600 words**
+- [ ] Track list included according to the IB template
+- [ ] Scores or visual representation included for all created works
+- [ ] Bibliography included
+
+**Upload 2 — Audio evidence:**
+
+- [ ] Total audio does not exceed **20 minutes**
+- [ ] Creating section does not exceed **6 minutes**
+- [ ] Performing section does not exceed **12 minutes**
+- [ ] Compiled in order: creator first, then performer
+- [ ] Ensemble-only submissions include excerpts of individual parts *(max 2 minutes)*
+
+**Upload 3 — Music technology only:**
+
+- [ ] Video recording submitted if any music technology performance is included *(max 12 minutes)*

@@ -1,19 +1,32 @@
 /* ── Typography ─────────────────────────────────────────── */
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Source+Sans+3:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap');
 
 body {
-  font-family: 'Source Sans 3', sans-serif;
-  font-weight: 300;
+  font-family: 'Source Serif 4', serif;
+  font-weight: 400;
 }
 
-h1, h2, h3, .navbar-brand {
-  font-family: 'Playfair Display', serif;
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Source Sans 3', sans-serif;
+}
+
+.navbar, .navbar-brand, .nav-link,
+.sidebar, .sidebar-navigation, .sidebar-item {
+  font-family: 'Source Sans 3', sans-serif;
+  font-weight: 400;
 }
 
 /* ── Navbar ─────────────────────────────────────────────── */
 .navbar {
   border-bottom: 1px solid #e0d6c8;
   background-color: #faf8f5 !important;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+}
+
+.navbar .nav-link, .navbar .navbar-brand {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
 }
 
 .navbar-brand, .nav-link {
@@ -43,6 +56,21 @@ h1, h2, h3, .navbar-brand {
   font-size: 0.8rem;
   color: #888;
   margin-bottom: 0.6rem;
+}
+
+/* ── Dropdowns ──────────────────────────────────────────── */
+.dropdown-menu, .dropdown-item,
+.dropdown-toggle {
+  font-family: 'Source Sans 3', sans-serif;
+  font-weight: 400;
+}
+
+/* ── Buttons and form controls ──────────────────────────── */
+button, input, select, textarea,
+.term-cat, .term-pronunciation, .imp-badge,
+.quarto-category, .listing-category {
+  font-family: 'Source Sans 3', sans-serif;
+  font-weight: 400;
 }
 
 /* ── Buttons ────────────────────────────────────────────── */
@@ -79,6 +107,11 @@ audio {
 
 /* ── Callouts ───────────────────────────────────────────── */
 .callout { border-radius: 4px; }
+
+.callout, .callout-body, .callout-title, .callout-title-container {
+  font-family: 'Source Sans 3', sans-serif;
+  font-weight: 400;
+}
 
 /* ── Rubric term highlight (shared with glossary.js glterm feature) ── */
 @keyframes glterm-pulse {

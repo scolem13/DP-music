@@ -7,7 +7,7 @@ toc-depth: 2
 ---
 
 ::: {.content-visible when-format="html"}
-*See also: [Assessment Rubrics → Exploring](../resources/rubrics.html#exploring-music-in-context)*
+*See also: [Checklist](exploring-checklist.html) · [Assessment Rubrics → Exploring](../resources/rubrics.html#exploring-music-in-context)*
 :::
 
 The Exploring component asks you to do three things: **research** diverse music, **create** a short piece in a style you explored, and **adapt** music from an unfamiliar context for your own instrument. These three parts are connected — your research must directly inform both exercises.

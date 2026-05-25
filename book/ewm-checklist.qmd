@@ -211,3 +211,57 @@ toc-depth: 2
 - [ ] At least **two different areas of inquiry** are represented across all pieces
 - [ ] All **four areas of inquiry** are covered between Exploring and Experimenting
 - [ ] Both **contexts** are covered: local and global
+
+---
+
+## Creating experiments
+
+### Commentary
+
+- [ ] Rationale justifies the choice of source material and its connection to the area of inquiry ([EWM A](../resources/rubrics.html#ewm-a,rt-explain))
+- [ ] Rationale explains how the source material will enable musical experimentation ([EWM A](../resources/rubrics.html#ewm-a,rt-explain))
+- [ ] Commentary traces how the creating experiments developed over time ([EWM A](../resources/rubrics.html#ewm-a,rt-explain))
+- [ ] Commentary explains the musical decisions made at each stage of experimentation ([EWM A](../resources/rubrics.html#ewm-a,rt-explain))
+- [ ] Commentary evaluates what the experiments revealed about the style or technique ([EWM A](../resources/rubrics.html#ewm-a,rt-explain))
+
+### Practical experiments
+
+- [ ] A **series of distinct experiments** is submitted — not just a single finished piece ([EWM B](../resources/rubrics.html#ewm-b,rt-adapt))
+- [ ] Each experiment reflects a deliberate musical decision, not just repetition ([EWM B](../resources/rubrics.html#ewm-b,rt-adapt))
+- [ ] The developing musical idea moves beyond simple replication of the source material ([EWM B](../resources/rubrics.html#ewm-b,rt-adapt))
+- [ ] Audio/visual evidence clearly demonstrates how the idea evolved across experiments ([EWM B](../resources/rubrics.html#ewm-b,rt-adapt))
+
+---
+
+## Performing experiments
+
+### Commentary
+
+- [ ] Rationale justifies the choice of performing source material and area of inquiry ([EWM C](../resources/rubrics.html#ewm-c,rt-explain))
+- [ ] Commentary traces how performing approaches were developed and modified ([EWM C](../resources/rubrics.html#ewm-c,rt-explain))
+- [ ] Commentary evaluates what the performing experiments revealed ([EWM C](../resources/rubrics.html#ewm-c,rt-explain))
+
+### Practical experiments
+
+- [ ] A **series of distinct performing experiments** is submitted ([EWM D](../resources/rubrics.html#ewm-d,rt-adapt))
+- [ ] Performing experiments develop a genuine musical approach beyond surface imitation ([EWM D](../resources/rubrics.html#ewm-d,rt-adapt))
+- [ ] Audio evidence demonstrates clear progression across the performing experiments ([EWM D](../resources/rubrics.html#ewm-d,rt-adapt))
+
+---
+
+## Submission
+
+**Upload 1 — Experimentation report:**
+
+- [ ] Written report is within **1,500 words** (visual evidence and bibliography not counted)
+- [ ] Report is in two sections: Section 1 Creating, Section 2 Performing
+- [ ] Track list included with exact timings for all excerpts in Upload 2
+
+**Upload 2 — Audio evidence:**
+
+- [ ] Total audio does not exceed **10 minutes**
+- [ ] Three related creating excerpts submitted *(each approx. 20 seconds)*
+- [ ] Three related performing excerpts submitted *(each approx. 20 seconds)*
+- [ ] Compiled in order: creating excerpts first, then performing excerpts
+- [ ] Audio quality is sufficient for full assessment of the experiments
+- [ ] Each excerpt is labelled to match the commentary in the report

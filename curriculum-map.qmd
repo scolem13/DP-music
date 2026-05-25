@@ -1,0 +1,136 @@
+---
+title: "Curriculum Map"
+description: "Two-year scope and sequence for DP Music — how thematic exploration in Year 1 feeds into IB component work in Year 2."
+toc: true
+toc-depth: 2
+---
+
+This page maps the full arc of the DP Music course. Use it to orient yourself at the start of a new term or to explain the course structure to a parent, administrator, or new student.
+
+---
+
+## How the Course Is Structured
+
+DP Music runs over two years and requires you to work simultaneously across four IB components (five if you are HL). The two years have different centres of gravity:
+
+- **Year 1** is organized around *thematic units*. Each unit introduces a musical tradition, asks you to analyze it carefully, perform within it, and respond to it creatively. The units are designed to give you a wide range of musical encounters that you will draw on when you build your IB portfolios.
+- **Year 2** shifts toward *portfolio development and refinement*. The themes from Year 1 become the source material you investigate, experiment with, and present formally for IB assessment.
+
+The four IB components run throughout both years, but their weight increases significantly in Year 2 as final submissions approach.
+
+---
+
+## Course Arc at a Glance
+
+| | **Performing** | **Exploring** | **Experimenting** | **Presenting** | **CMM** *(HL only)* |
+|---|---|---|---|---|---|
+| **Pre-IB (G10)** | Solo repertoire selection; class presentation | Elements of music; remix analysis | DAW composition; genre experiment | Program notes; presentation | — |
+| **DP1 Sem 1** | Repertoire selection; pre-reading; practice | AOI intro; elements analysis; Folk Music of You | Initial experiments | Program notes; minor drafts | Planning; collaborator ID |
+| **DP1 Sem 2** | Practice logs; SMART goals; IB Concert prep | Annotated bibliography; harmonic analysis | Creator Experiment 1; performer plan | Compositions 1 & 2 | Timeline; annotated bib; music outline; draft |
+| **DP2 Sem 1** | IB Concert; recital challenges; recording | Analysis deepening; draft submitted | Performer experiments; component draft | Performance recording; full draft | Collab update; video; progress check |
+| **DP2 Sem 2** | **IB Recital** | **→ IB submission** | **→ IB submission** | **→ IB submission** | **→ IB submission** |
+
+---
+
+## Pre-IB: Foundation Year (G10)
+
+Pre-IB Music establishes the skills and habits that DP builds on. The year is organized around a single anchoring question: *who are you as a musician, and what does music mean to you?*
+
+**About Me** — Students select four songs that represent their musical identity, research them, and present their choices to the class. This playlist becomes source material for the rest of the year.
+
+**Exploring Music** — A focused introduction to musical analysis: elements of music (rhythm, melody, harmony, texture, timbre, structure), and how to listen and write analytically. Remix listening develops the ability to hear convention and variation across styles.
+
+**Creating and Experimenting** — Students compose in a DAW, then perform a genre experiment — taking a song from their About Me playlist and transforming it into a different style. This is the closest Pre-IB equivalent to the DP Experimenting component.
+
+**Performing and Presenting** — Students select, rehearse, and perform a solo piece, writing program notes explaining their interpretive choices. This is the closest Pre-IB equivalent to the DP Presenting component.
+
+---
+
+## DP Year 1: Thematic Exploration
+
+Year 1 is built around four thematic units, each centered on a musical tradition from a specific cultural and historical context. The units progress through four of the IB's Areas of Inquiry (AOIs):
+
+::: {.callout-note}
+## Areas of Inquiry (AOIs)
+The IB identifies four AOIs that organize how music functions in the world:
+
+- **AOI 1** — Music for sociocultural and political expression
+- **AOI 2** — Music for listening and performance
+- **AOI 3** — Music for dramatic impact, movement, and screen
+- **AOI 4** — Music technology in the modern world
+:::
+
+### Sem 1 — AOI 1 Focus
+
+**Unit 1: Music for Social Change** — How has music been used to express political and social dissent? Students analyze protest music traditions, compose in the style, and perform representative works. Core skills: AOI identification and justification, compositional voice, performing practice analysis.
+
+**Unit 2: Music for Ritual** — How does music function in ceremony, liturgy, and collective observance? Students examine traditions ranging from sacred vocal polyphony to ritual drumming. Core skills: contextual analysis, timbral awareness, comparative listening.
+
+### Sem 2 — AOI 3 / AOI 4 Focus
+
+**Unit 3: Music in Theater** — How does music serve drama? Students analyze opera, musical theater, and folk-theatrical traditions. Core skills: text-music relationships, ornamentation, performance interpretation.
+
+**Unit 4: Music in Multimedia** — How does music shape image and interaction? Students study film scoring, advertising, and games. Core skills: compositional technique for media, structural analysis, producing.
+
+### IB Component Work in Year 1
+
+While thematic units are running, IB component work begins:
+
+- **Exploring**: AOI identification, elements analysis, annotated bibliography, harmonic analysis exercises
+- **Experimenting**: First creating experiments; performance planning documents; performer experiments begin
+- **Presenting**: Program notes; minor compositions; first full drafts by end of year
+- **CMM** *(HL)*: Collaborator identification, conceptual planning, music outline, draft composition
+- **Performing**: Repertoire selected and locked; regular practice logs; SMART goals; IB Concert (Nov/Dec)
+
+---
+
+## DP Year 2: Component Synthesis
+
+Year 2 is structured around completing and refining each IB component. Thematic exploration continues, but the emphasis shifts to building coherent portfolios from the material gathered in Year 1.
+
+### Sem 1 — Deepening and Drafting
+
+Each component moves from exploratory work to a full draft:
+
+- **Performing** — IB Concert performance; recital repertoire challenges; SMART goal cycle with recording evidence
+- **Exploring** — Formal analysis; deeper contextual writing; draft exploration submitted for feedback
+- **Experimenting** — Performer experiments completed; creating and experimenting drafts submitted
+- **Presenting** — Performance Level Recording; full draft with all sections complete
+- **CMM** *(HL)* — Collaborator update; collaboration video; progress documentation
+
+### Sem 2 — Final Submissions and IB Recital
+
+All components reach their final form and are submitted to the IB. The IB Recital takes place in March.
+
+---
+
+## IB Assessment Summary
+
+::: {.callout-important}
+## What Gets Submitted to the IB
+
+| Component | What's Submitted | SL/HL |
+|---|---|---|
+| **Exploring Music in Context** | Written portfolio (2,000 words) + creating exercise (32 bars / 1 min) + performed adaptation | Both |
+| **Experimenting with Music** | Written portfolio (1,500 words) + experiments (creating and/or performing) | Both |
+| **Presenting Music** | Performance recordings + score/production documentation | Both |
+| **Contemporary Music Maker** | Commissioned/created music + written support material | HL only |
+| **Performing** | IB Recital (recorded in school) | Both |
+
+All components are externally assessed by IB examiners. Performing is assessed by a visiting examiner.
+:::
+
+::: {.callout-tip}
+## Detailed Component Guidance
+Each component has a dedicated guide page in the Course Book. Start there when you begin work on any component.
+
+→ [Exploring Music in Context](book/exploring-guide.qmd) · [Experimenting with Music](book/ewm-guide.qmd) · [Presenting Music](book/presenting-guide.qmd) · [Contemporary Music Maker](book/cmm-guide.qmd)
+:::
+
+---
+
+## SL vs HL
+
+The course is available at Standard Level (SL) and Higher Level (HL). The components are identical; HL adds the **Contemporary Music Maker** component, which requires you to create a substantial original work in collaboration with at least one other musician, and to document the collaboration process.
+
+HL students should expect the CMM to run in parallel with all four shared components throughout both years. It is not an add-on to complete at the end — it requires sustained engagement from the beginning of Year 1.

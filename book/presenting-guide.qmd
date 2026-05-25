@@ -1,0 +1,128 @@
+---
+title: "Presenting: How to Do It"
+description: "A step-by-step guide through the Presenting Music component."
+categories: [Reference, Assessment, Presenting]
+toc: true
+toc-depth: 2
+---
+
+::: {.content-visible when-format="html"}
+*See also: [Checklist](presenting-checklist.html) · [Assessment Rubrics → Presenting](../resources/rubrics.html#presenting-music)*
+:::
+
+The Presenting component is a **curated programme** of your musical work. You select pieces across all four areas of inquiry, create original work in relevant styles, and write program notes that justify your choices. Then you record and submit everything.
+
+**What you submit:**
+
+- Upload 1: written programme notes (max **600 words**) + track list + scores
+- Upload 2: audio evidence (max **20 minutes** combined)
+- Upload 3: video evidence for music technology performances only (max **12 minutes**)
+
+---
+
+## Step 1: Design your programme
+
+Your programme must cover **all four areas of inquiry** across both performing and creating work. Think of it as designing a coherent concert programme with a rationale.
+
+| Section  | Minimum | Context requirement | AOI requirement |
+|----------|---------|---------------------|-----------------|
+| Performing | — | Local or global only — NOT personal | Must contribute to all 4 AOIs |
+| Creating | — | — | Must contribute to all 4 AOIs |
+
+The four AOIs must be covered in total across performing and creating — they do not need to each appear in both sections.
+
+**Performing pieces:** choose music from local or global contexts only. Each piece must be linked to a specific area of inquiry. Maximum 12 minutes of performing total.
+
+**Creating pieces:** create original work. Each piece must be linked to a specific area of inquiry. Maximum 6 minutes of creating audio total.
+
+---
+
+## Step 2: Understand what is assessed
+
+Each part of the submission is assessed separately:
+
+| Criterion | What it assesses | Marks |
+|-----------|-----------------|-------|
+| A: Program Notes | How well you justify your programme choices | 6 |
+| B: Created works | Musicality and technical proficiency of creating | 12 |
+| C: Performed works | Musicality and technical proficiency of performing | 12 |
+| D: Musical communication | Overall expressiveness and coherence of the presentation | 8 |
+
+The practical work (B, C, D) accounts for 32 of the 38 marks. Choose and prepare your pieces accordingly.
+
+---
+
+## Step 3: Write the program notes
+
+Program notes are your written justification of the programme. They are assessed against Criterion A. They must:
+
+- Address **all four areas of inquiry** — explain how each is represented in the programme
+- Justify each piece: why this work? what does it contribute to the programme?
+- Link each piece explicitly to its area of inquiry
+- Demonstrate musical understanding — not just biographical information about the composer
+
+**Program notes are not liner notes.** They should read as a considered argument for why this programme, in this combination, represents a coherent musical statement. Avoid plot-summary writing ("This piece was written in 1842…") and instead explain what musical ideas are at stake.
+
+Word limit: **600 words** (not including titles, names of works, or bibliography if applicable).
+
+---
+
+## Step 4: Prepare the creating work
+
+For each creating piece:
+
+- The score or notation must be submitted alongside the audio
+- The notation must be appropriate to the style — tablature, DAW notation, graphic notation, or staff notation as relevant
+- The creating work must demonstrate understanding of the **creating conventions** of the style — not just that you composed something
+- Each piece must be clearly linked to an area of inquiry
+
+Criterion B assesses how well you **realize** the creating conventions of the relevant style(s). Work that approximates or merely exhibits conventions without genuine command will receive lower marks.
+
+---
+
+## Step 5: Prepare the performing work
+
+All performed pieces must come from **local or global contexts** — not personal. Each must be linked to an area of inquiry.
+
+Criterion C assesses how well your performance **shapes** the performing practices of the relevant style(s). This means more than technical accuracy — it means musical understanding, appropriate interpretive choices, and stylistic authenticity.
+
+Criterion D assesses **musical communication** across the whole presentation: consistency of intention, expression, and technical control across all roles (creating and performing).
+
+---
+
+## Step 6: Record and compile
+
+Record the presentation in the best quality you can achieve. Audio quality directly affects assessment of Criteria B, C, and D.
+
+**Upload 1 — Written programme notes (max 600 words):**
+
+Compiled in order:
+
+1. Section 1: Programme notes *(max 600 words)*
+2. Section 2: Track list (according to the IB template)
+3. Section 3: Scores or visual representation for all created works
+4. Section 4: Bibliography
+
+**Upload 2 — Audio evidence (max 20 minutes total):**
+
+Compiled in order:
+
+1. Section 1: Presenting as a creator *(max 6 minutes)*
+2. Section 2: Presenting as a performer *(max 12 minutes)*
+3. Section 3: Excerpts of individual parts for ensemble-only submissions *(max 2 minutes)*
+
+The 2-minute excerpt section applies only where **all** performed works are ensemble pieces — it is not required when the submission includes any solo or accompanied solo works.
+
+**Upload 3 — Music technology video only (max 12 minutes):**
+
+Required only for students submitting music technology performances. One single video file.
+
+---
+
+## Programme coherence
+
+The strongest programmes have an internal logic — the choice of AOIs, styles, and contexts creates a coherent artistic statement rather than a random collection of pieces. Your program notes should make this logic explicit.
+
+> Criterion A top level: the student **explains** the selection of works and **purposefully** links the choices to the areas of inquiry.
+
+If the programme notes just list the pieces without genuine justification, or if the AOI coverage is accidental rather than intentional, Criterion A marks will be limited.

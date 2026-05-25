@@ -1,0 +1,128 @@
+---
+title: "Experimenting: How to Do It"
+description: "A step-by-step guide through the Experimenting with Music component."
+categories: [Reference, Assessment, Experimenting]
+toc: true
+toc-depth: 2
+---
+
+::: {.content-visible when-format="html"}
+*See also: [Checklist](ewm-checklist.html) · [Assessment Rubrics → Experimenting](../resources/rubrics.html#experimenting-with-music)*
+:::
+
+The Experimenting component is about **musical process**. You choose real music as a starting point, then conduct a series of experiments — trying things, adjusting, reflecting, trying again — and document what you discover. You do this twice: once in creating and once in performing.
+
+**What you submit:**
+
+- Upload 1: one written experimentation report (max **1,500 words**)
+- Upload 2: one audio file of experiment excerpts (max **10 minutes**)
+
+---
+
+## The two strands
+
+Both strands follow the same basic structure:
+
+1. Choose source material from a **local or global context**
+2. Write a **rationale** explaining why you chose it and how you plan to experiment
+3. Conduct a **series of experiments** — document each one
+4. Write a **commentary** reflecting on how the experiments developed and what you learned
+
+The two strands must cover **different areas of inquiry**. Together with your Exploring pieces, all four areas of inquiry should be represented.
+
+---
+
+## Step 1: Choose your source materials
+
+Choose one piece for each strand. Both must be from **local or global** contexts (not personal). They must represent **different areas of inquiry**.
+
+Think strategically:
+
+- What music genuinely interests you enough to experiment with over several attempts?
+- Which AOIs are not yet covered by your Exploring pieces?
+- For creating: does this style have clear, transferable conventions you can work with?
+- For performing: can you genuinely engage with this style on your instrument?
+
+---
+
+## Step 2: Write the rationale
+
+Write a rationale for each strand **before** you begin experimenting. It should explain:
+
+- Why you chose this source material
+- What area of inquiry it represents and why
+- What you plan to explore through experimentation
+- What musical questions or problems you expect to encounter
+
+The rationale is prospective — it sets up the experiment. The commentary is retrospective — it reflects on what actually happened.
+
+---
+
+## Step 3: Conduct the experiments
+
+This is the heart of the component. **Do not submit a single polished final piece.** Instead, submit evidence of a genuine process: multiple distinct attempts, each building on the previous one.
+
+**For creating experiments:**
+
+- Start by analyzing the source material closely — what makes it work?
+- Attempt 1: Try to apply a key convention or idea from the source
+- Reflect: what worked? what didn't? why?
+- Attempt 2: Adjust based on what you learned. Try something slightly different
+- Continue until you have a meaningful series of experiments showing development
+
+**For performing experiments:**
+
+- Identify the performing practices, techniques, or approaches distinctive to the style
+- Attempt 1: Try to apply those practices on your instrument
+- Reflect: where did the translation work? where did you need to adapt?
+- Attempt 2: Refine your approach based on the first attempt
+- Continue, building a genuine performing understanding across several experiments
+
+The best submissions show **genuine musical development** — not just increasing technical polish, but a deepening understanding of the style.
+
+---
+
+## Step 4: Write the commentary
+
+Write the commentary after you have completed the experiments. It should:
+
+- Walk through each experiment chronologically, explaining the decisions made
+- Explain what each experiment revealed — including failures and surprises
+- Show how the later experiments grew from the earlier ones
+- Evaluate the overall process: what did you discover? what would you do differently?
+
+The commentary is assessed as part of the written rationale (Criteria A and C). The practical experiments are assessed separately (Criteria B and D). Both must be strong — a brilliant commentary cannot compensate for weak experiments, and strong experiments need to be explained.
+
+---
+
+## Step 5: Compile the submission
+
+**Upload 1 — Experimentation report (max 1,500 words):**
+
+Two sections in order:
+
+1. Section 1: Experimentation report — Creating (rationale + commentary)
+2. Section 2: Experimentation report — Performing (rationale + commentary)
+3. Section 3: Track list (with exact timings for each excerpt in Upload 2)
+4. Bibliography *(not counted in the word limit)*
+
+Visual evidence (images, diagrams, screenshots, scores for both analysed works and experiments) is embedded in the text and is not counted in the word limit.
+
+**Upload 2 — Audio evidence (max 10 minutes):**
+
+Compiled in order:
+
+1. Section 1: Three related excerpts of the student's experiments in **creating** *(each excerpt approx. 20 seconds)*
+2. Section 2: Three related excerpts of the student's experiments in **performing** *(each excerpt approx. 20 seconds)*
+
+Label each excerpt clearly so the examiner can match it to the commentary. Audio quality must be sufficient for the experiments to be fully assessed.
+
+---
+
+## The key principle
+
+Experimenting is not about producing a finished product. It is about demonstrating that you can **think musically** — form a hypothesis, test it, learn from it, and try again. The rubrics reward genuine intellectual engagement with the source material, not just technical execution.
+
+> Criterion B top level: the student **transforms** source material, and development of musical ideas is **imaginative** with **compelling** decision-making.
+
+If your submission looks like a single polished piece with no visible process, you cannot access the higher marks for Criteria B and D.

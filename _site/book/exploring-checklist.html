@@ -106,6 +106,10 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link active" href="../book/index.html" aria-current="page"> 
 <span class="menu-text">Course Book</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../curriculum-map.html"> 
+<span class="menu-text">Curriculum Map</span></a>
+  </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -180,6 +184,12 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Exploring: Common Mistakes</span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../book/exploring-tasks.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Exploring: Task Reference</span></a>
+  </div>
+</li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
@@ -191,6 +201,12 @@ ul.task-list li input[type="checkbox"] {
           </a> 
       </div>
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../book/ewm-guide.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Experimenting: How to Do It</span></a>
+  </div>
+</li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../book/ewm-checklist.html" class="sidebar-item-text sidebar-link">
@@ -222,6 +238,12 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="../book/presenting-guide.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Presenting: How to Do It</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="../book/presenting-checklist.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Presenting: Checklist</span></a>
   </div>
@@ -238,6 +260,18 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Presenting: Common Mistakes</span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../book/presenting-tasks.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Presenting: Task Reference</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../book/performing-tasks.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Performing: Task Reference</span></a>
+  </div>
+</li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
@@ -251,6 +285,18 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="../book/cmm-guide.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">CMM: How to Do It</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../book/cmm-checklist.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">CMM: Checklist</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="../book/cmm-criterion-guidance.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">CMM: What Each Level Means</span></a>
   </div>
@@ -259,6 +305,12 @@ ul.task-list li input[type="checkbox"] {
   <div class="sidebar-item-container"> 
   <a href="../book/cmm-common-mistakes.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">CMM: Common Mistakes</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../book/cmm-tasks.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">CMM: Task Reference</span></a>
   </div>
 </li>
       </ul>
@@ -338,8 +390,277 @@ ul.task-list li input[type="checkbox"] {
     catch(e) { return Array(N).fill(null).map(blank); }
   }
   var pieces = loadPieces();
+  // Auto-detect 4th piece from stored data
+  show4th = !!(pieces[3].name || pieces[3].composer || pieces[3].genre);
+
   function savePieces() { try{localStorage.setItem(PIECES_KEY,JSON.stringify(pieces));}catch(e){} }
   function esc(s) { return (s||'').replace(/&/g,'&amp;').replace(/"/g,'&quot;'); }
+
+  // ── Upload timing / word-count helpers ────────────────────────────────────────
+  var TH2 = 'text-align:left;font-size:.7rem;text-transform:uppercase;letter-spacing:.05em;color:#999;padding:.3rem .3rem;border-bottom:1px solid #e0d6c8;font-weight:400;white-space:nowrap;';
+  var TD2 = 'padding:.25rem .3rem;vertical-align:middle;';
+  var INP2 = 'font-size:.82rem;padding:.2rem .3rem;border:1px solid #c8bfaf;border-radius:2px;background:#faf8f5;color:#2c2416;width:100%;box-sizing:border-box;';
+
+  function fmtTime(s) { var m=Math.floor(s/60),r=s%60; return m+':'+(r<10?'0':'')+r; }
+
+  function timeBar(secs, maxSecs) {
+    var over = secs > maxSecs;
+    var pct = maxSecs ? Math.min(secs/maxSecs*100,100).toFixed(1) : 0;
+    var ratio = maxSecs ? Math.min(secs/maxSecs,1) : 0;
+    var barColor, timeColor;
+    if (over) { barColor='#c0392b'; timeColor='#c0392b'; }
+    else { var hue=Math.round(120+ratio*3),sat=Math.round(36+ratio*10),lit=Math.round(75-ratio*41); barColor='hsl('+hue+','+sat+'%,'+lit+'%)'; timeColor='#444'; }
+    return '<div style="margin:.3rem 0 .7rem;">'
+      +'<div style="background:#e8e4df;border-radius:3px;height:5px;overflow:hidden;margin-bottom:.3rem;">'
+      +'<div style="background:'+barColor+';width:'+pct+'%;height:100%;border-radius:3px;transition:width .3s;"></div></div>'
+      +'<span style="color:'+timeColor+';font-size:.82rem;font-weight:600;">'+fmtTime(secs)+'</span>'
+      +'<span style="color:#aaa;font-size:.82rem;"> / '+fmtTime(maxSecs)+' max</span>'
+      +(over?'<span style="color:#c0392b;font-size:.75rem;margin-left:.5rem;">&#9888; over limit</span>':'')
+      +'</div>';
+  }
+
+  function wordBar(words, maxWords) {
+    var over = words > maxWords;
+    var pct = maxWords ? Math.min(words/maxWords*100,100).toFixed(1) : 0;
+    var ratio = maxWords ? Math.min(words/maxWords,1) : 0;
+    var barColor, wordColor;
+    if (over) { barColor='#c0392b'; wordColor='#c0392b'; }
+    else { var hue=Math.round(120+ratio*3),sat=Math.round(36+ratio*10),lit=Math.round(75-ratio*41); barColor='hsl('+hue+','+sat+'%,'+lit+'%)'; wordColor='#444'; }
+    return '<div style="margin:.3rem 0 .7rem;">'
+      +'<div style="background:#e8e4df;border-radius:3px;height:5px;overflow:hidden;margin-bottom:.3rem;">'
+      +'<div style="background:'+barColor+';width:'+pct+'%;height:100%;border-radius:3px;transition:width .3s;"></div></div>'
+      +'<span style="color:'+wordColor+';font-size:.82rem;font-weight:600;">'+words+' words</span>'
+      +'<span style="color:#aaa;font-size:.82rem;"> / '+maxWords+' max</span>'
+      +(over?'<span style="color:#c0392b;font-size:.75rem;margin-left:.5rem;">&#9888; over limit</span>':'')
+      +'</div>';
+  }
+
+  function inlineOverWarning(secs, maxSecs) {
+    return secs > maxSecs ? '<span style="color:#c0392b;font-size:.72rem;margin-left:.4rem;">&#9888; over '+fmtTime(maxSecs)+'</span>' : '';
+  }
+
+  // ── Piece link helpers ────────────────────────────────────────────────────────
+  var JUMP_BTN = 'background:none;border:none;padding:0;color:#5b9bd5;cursor:pointer;text-decoration:underline dotted;font-family:inherit;';
+
+  function pieceDisplayText(idx) {
+    var p = pieces[idx];
+    var name = p && p.name;
+    return name ? esc(name) : '<em style="color:#bbb;font-style:italic;font-size:.8rem;">Piece '+(idx+1)+'</em>';
+  }
+
+  function pieceJumpBtn(idx, html, extraStyle) {
+    return '<button onclick="expJumpPiece('+idx+')" style="'+JUMP_BTN+'font-size:.82rem;'+(extraStyle||'')+'" title="Jump to piece in repertoire">'+html+'</button>';
+  }
+
+  // ── Upload 1 word counts ───────────────────────────────────────────────────────
+  var U1_KEY = 'exp-upload1-words';
+  var u1 = {s1_0:'',s1_1:'',s1_2:'',s1_3:'', sec2:'', sec3:''};
+  try {
+    var _u1 = JSON.parse(localStorage.getItem(U1_KEY));
+    if (_u1) { u1.s1_0=_u1.s1_0||''; u1.s1_1=_u1.s1_1||''; u1.s1_2=_u1.s1_2||''; u1.s1_3=_u1.s1_3||''; u1.sec2=_u1.sec2||''; u1.sec3=_u1.sec3||''; }
+  } catch(e) {}
+  function saveU1() { try{localStorage.setItem(U1_KEY,JSON.stringify(u1));}catch(e){} }
+
+  // Word count recommendation per piece
+  function pieceWordRec(hasPractical, count) {
+    if (count === 4) {
+      return hasPractical ? '375–450' : '450–600';
+    }
+    return hasPractical ? '500–600' : '600–800';
+  }
+
+  function renderUpload1() {
+    var c = document.getElementById('upload1-tracker');
+    if (!c) return;
+
+    var count1 = show4th ? 4 : 3;
+    var S1_KEYS = ['s1_0','s1_1','s1_2','s1_3'];
+
+    // Section 2 link — creating piece
+    var creIdx = -1;
+    for (var ci=0; ci<N; ci++) { if (pieces[ci].practical==='Creating') { creIdx=ci; break; } }
+    var sec2Suffix = ': ' + (creIdx>=0 ? pieceJumpBtn(creIdx, pieceDisplayText(creIdx)) : '<em style="color:#bbb;font-style:italic;font-size:.8rem;">no piece selected</em>');
+
+    // Section 3 link — performing piece
+    var perfIdx = -1;
+    for (var pi=0; pi<N; pi++) { if (pieces[pi].practical==='Performing') { perfIdx=pi; break; } }
+    var sec3Suffix = ': ' + (perfIdx>=0 ? pieceJumpBtn(perfIdx, pieceDisplayText(perfIdx)) : '<em style="color:#bbb;font-style:italic;font-size:.8rem;">no piece selected</em>');
+
+    var h = '<table style="width:100%;border-collapse:collapse;font-size:.82rem;margin-bottom:.4rem;">';
+    h += '<thead><tr>'
+      +'<th style="'+TH2+'">Section</th>'
+      +'<th style="'+TH2+'">Recommended</th>'
+      +'<th style="'+TH2+'width:8em;">Word count</th>'
+      +'</tr></thead><tbody>';
+
+    // Section 1 header row
+    h += '<tr style="background:#f5f3ef;">'
+      +'<td colspan="3" style="padding:.25rem .3rem;font-size:.72rem;color:#999;font-weight:600;letter-spacing:.06em;text-transform:uppercase;">Section 1</td>'
+      +'</tr>';
+
+    // One row per piece
+    for (var r=0; r<count1; r++) {
+      var hasPrac = !!(pieces[r] && pieces[r].practical);
+      var rec = pieceWordRec(hasPrac, count1);
+      var key = S1_KEYS[r];
+      h += '<tr>'
+        +'<td style="'+TD2+'padding-left:.8rem;">'+pieceJumpBtn(r, pieceDisplayText(r))+'</td>'
+        +'<td style="'+TD2+'font-size:.75rem;color:#aaa;">'+rec+'</td>'
+        +'<td style="'+TD2+'"><input type="number" min="0" data-u1key="'+key+'" value="'+esc(String(u1[key]||''))+'" placeholder="0" style="'+INP2+'" /></td>'
+        +'</tr>';
+    }
+
+    // Section 2 and 3 rows
+    var extraRows = [
+      { key:'sec2', label:'Section 2', suffix: sec2Suffix, hint:'~300' },
+      { key:'sec3', label:'Section 3', suffix: sec3Suffix, hint:'~300' }
+    ];
+    extraRows.forEach(function(row) {
+      h += '<tr>'
+        +'<td style="'+TD2+'font-size:.82rem;">'+row.label+row.suffix+'</td>'
+        +'<td style="'+TD2+'font-size:.75rem;color:#aaa;">'+row.hint+'</td>'
+        +'<td style="'+TD2+'"><input type="number" min="0" data-u1key="'+row.key+'" value="'+esc(String(u1[row.key]||''))+'" placeholder="0" style="'+INP2+'" /></td>'
+        +'</tr>';
+    });
+
+    h += '</tbody></table>';
+
+    var total = (parseInt(u1.sec2)||0) + (parseInt(u1.sec3)||0);
+    for (var ti=0; ti<count1; ti++) { total += parseInt(u1[S1_KEYS[ti]])||0; }
+    h += wordBar(total, 2400);
+    c.innerHTML = h;
+    c.querySelectorAll('input[data-u1key]').forEach(function(el) {
+      el.addEventListener('input', function() { u1[el.dataset.u1key] = el.value; saveU1(); renderUpload1(); });
+    });
+  }
+
+  // ── Upload 2 times ────────────────────────────────────────────────────────────
+  var U2_KEY = 'exp-upload2-times';
+  var u2 = {cMin:'',cSec:'',sMin:'',sSec:'',aMin:'',aSec:''};
+  try { var _u2 = JSON.parse(localStorage.getItem(U2_KEY)); if(_u2) u2 = _u2; } catch(e) {}
+  function saveU2() { try{localStorage.setItem(U2_KEY,JSON.stringify(u2));}catch(e){} }
+
+  function renderUpload2() {
+    var c = document.getElementById('upload2-tracker');
+    if (!c) return;
+
+    // Locate creating and performing pieces
+    var cIdx = -1, pIdx = -1;
+    for (var xi=0; xi<N; xi++) {
+      if (pieces[xi].practical==='Creating'   && cIdx<0) cIdx=xi;
+      if (pieces[xi].practical==='Performing' && pIdx<0) pIdx=xi;
+    }
+
+    // Creating exercise suffix: "in the style of [GENRE]"
+    var genreHtml;
+    if (cIdx >= 0 && pieces[cIdx].genre) {
+      genreHtml = pieceJumpBtn(cIdx, esc(pieces[cIdx].genre));
+    } else if (cIdx >= 0) {
+      genreHtml = pieceJumpBtn(cIdx, '<em style="color:#bbb;font-style:italic;font-size:.8rem;">no genre entered</em>');
+    } else {
+      genreHtml = '<em style="color:#bbb;font-style:italic;font-size:.8rem;">no piece selected</em>';
+    }
+    var creLabel = 'Creating exercise <span style="font-size:.78rem;color:#666;">in the style of </span>' + genreHtml;
+
+    // Stimulus suffix: ": [title of performing piece]"
+    var stimTitleHtml = pIdx>=0 ? pieceJumpBtn(pIdx, pieceDisplayText(pIdx)) : '<em style="color:#bbb;font-style:italic;font-size:.8rem;">no piece selected</em>';
+    var stimLabel = 'Stimulus<span style="font-size:.78rem;color:#666;">: </span>' + stimTitleHtml;
+
+    // Performed adaptation suffix: "of [title of performing piece]"
+    var adaptTitleHtml = pIdx>=0 ? pieceJumpBtn(pIdx, pieceDisplayText(pIdx)) : '<em style="color:#bbb;font-style:italic;font-size:.8rem;">no piece selected</em>';
+    var adaptLabel = 'Performed adaptation <span style="font-size:.78rem;color:#666;">of </span>' + adaptTitleHtml;
+
+    var rows = [
+      { label: creLabel,  minKey:'cMin', secKey:'cSec', maxSecs:60 },
+      { label: stimLabel, minKey:'sMin', secKey:'sSec', maxSecs:60 },
+      { label: adaptLabel,minKey:'aMin', secKey:'aSec', maxSecs:120 }
+    ];
+    var h = '<table style="width:100%;border-collapse:collapse;font-size:.82rem;margin-bottom:.4rem;">';
+    h += '<thead><tr>'
+      +'<th style="'+TH2+'">Section</th>'
+      +'<th style="'+TH2+'width:5em;">Max</th>'
+      +'<th style="'+TH2+'width:5em;">Min</th>'
+      +'<th style="'+TH2+'width:5em;">Sec</th>'
+      +'<th style="'+TH2+'"></th>'
+      +'</tr></thead><tbody>';
+    rows.forEach(function(row) {
+      var secs = (parseInt(u2[row.minKey])||0)*60 + (parseInt(u2[row.secKey])||0);
+      h += '<tr>'
+        +'<td style="'+TD2+'font-size:.82rem;">'+row.label+'</td>'
+        +'<td style="'+TD2+'font-size:.75rem;color:#aaa;">'+fmtTime(row.maxSecs)+'</td>'
+        +'<td style="'+TD2+'"><input type="number" min="0" max="99" data-u2key="'+row.minKey+'" value="'+esc(String(u2[row.minKey]||''))+'" placeholder="0" style="'+INP2+'" /></td>'
+        +'<td style="'+TD2+'"><input type="number" min="0" max="59" data-u2key="'+row.secKey+'" value="'+esc(String(u2[row.secKey]||''))+'" placeholder="0" style="'+INP2+'" /></td>'
+        +'<td style="'+TD2+'font-size:.75rem;color:#c0392b;">'+inlineOverWarning(secs, row.maxSecs)+'</td>'
+        +'</tr>';
+    });
+    h += '</tbody></table>';
+    var totalSecs = (parseInt(u2.cMin)||0)*60+(parseInt(u2.cSec)||0)
+                  +(parseInt(u2.sMin)||0)*60+(parseInt(u2.sSec)||0)
+                  +(parseInt(u2.aMin)||0)*60+(parseInt(u2.aSec)||0);
+    h += timeBar(totalSecs, 4*60);
+    c.innerHTML = h;
+    c.querySelectorAll('input[data-u2key]').forEach(function(el) {
+      el.addEventListener('input', function() { u2[el.dataset.u2key] = el.value; saveU2(); renderUpload2(); });
+    });
+  }
+
+  // ── Upload 3 times (per piece) ────────────────────────────────────────────────
+  var U3_KEY = 'exp-upload3-times';
+  var u3 = [{min:'',sec:''},{min:'',sec:''},{min:'',sec:''},{min:'',sec:''}];
+  try {
+    var _u3 = JSON.parse(localStorage.getItem(U3_KEY));
+    if (Array.isArray(_u3)) { for(var _i=0;_i<4;_i++){ if(_u3[_i]) u3[_i]={min:_u3[_i].min||'',sec:_u3[_i].sec||''}; } }
+  } catch(e) {}
+  function saveU3() { try{localStorage.setItem(U3_KEY,JSON.stringify(u3));}catch(e){} }
+
+  function renderUpload3() {
+    var c = document.getElementById('upload3-tracker');
+    if (!c) return;
+    var count = show4th ? 4 : 3;
+    var recSecs = count === 4 ? 45 : 60; // 0:45 per piece for 4 pieces, 1:00 for 3
+    var h = '<table style="width:100%;border-collapse:collapse;font-size:.82rem;margin-bottom:.4rem;">';
+    h += '<thead><tr>'
+      +'<th style="'+TH2+'">Piece</th>'
+      +'<th style="'+TH2+'width:7em;">Recommended</th>'
+      +'<th style="'+TH2+'width:5em;">Min</th>'
+      +'<th style="'+TH2+'width:5em;">Sec</th>'
+      +'</tr></thead><tbody>';
+    for (var r=0; r<count; r++) {
+      var numLabel = '<span style="font-size:.75rem;color:#aaa;margin-right:.3rem;">Piece '+(r+1)+'</span>';
+      var titleBtn = pieceJumpBtn(r, pieceDisplayText(r));
+      h += '<tr>'
+        +'<td style="'+TD2+'">'+numLabel+titleBtn+'</td>'
+        +'<td style="'+TD2+'font-size:.75rem;color:#aaa;">'+fmtTime(recSecs)+'</td>'
+        +'<td style="'+TD2+'"><input type="number" min="0" max="99" data-u3row="'+r+'" data-u3field="min" value="'+esc(String(u3[r].min||''))+'" placeholder="0" style="'+INP2+'" /></td>'
+        +'<td style="'+TD2+'"><input type="number" min="0" max="59" data-u3row="'+r+'" data-u3field="sec" value="'+esc(String(u3[r].sec||''))+'" placeholder="0" style="'+INP2+'" /></td>'
+        +'</tr>';
+    }
+    h += '</tbody></table>';
+    var totalSecs3 = 0;
+    for (var ri=0; ri<count; ri++) { totalSecs3 += (parseInt(u3[ri].min)||0)*60 + (parseInt(u3[ri].sec)||0); }
+    h += timeBar(totalSecs3, 3*60);
+    c.innerHTML = h;
+    c.querySelectorAll('input[data-u3row]').forEach(function(el) {
+      el.addEventListener('input', function() {
+        u3[+el.dataset.u3row][el.dataset.u3field] = el.value;
+        saveU3(); renderUpload3();
+      });
+    });
+  }
+
+  // Jump-and-highlight a piece row in the repertoire tracker
+  window.expJumpPiece = function(rowIndex) {
+    var tracker = document.getElementById('piece-tracker');
+    if (!tracker) return;
+    var rows = tracker.querySelectorAll('tbody tr');
+    var target = rows[rowIndex];
+    if (!target || target.style.display === 'none') return;
+    target.scrollIntoView({ behavior:'smooth', block:'center' });
+    target.classList.remove('piece-row-highlight');
+    void target.offsetWidth;
+    target.classList.add('piece-row-highlight');
+    setTimeout(function(){ target.classList.remove('piece-row-highlight'); }, 2500);
+  };
 
   function buildSel(field, opts, val, row) {
     var h = '<select data-row="'+row+'" data-field="'+field+'" style="'+SEL+'">';
@@ -371,6 +692,7 @@ ul.task-list li input[type="checkbox"] {
       el.addEventListener('change', function(){
         pieces[+el.dataset.row][el.dataset.field] = el.value;
         savePieces(); runAutoChecks();
+        renderUpload1(); renderUpload2(); renderUpload3();
       });
     });
     var btn = document.getElementById('toggle4th');
@@ -461,6 +783,10 @@ ul.task-list li input[type="checkbox"] {
     runAutoChecks();
     boxes.forEach(function(cb){ cb.addEventListener('change', saveCheckboxes); });
 
+    renderUpload1();
+    renderUpload2();
+    renderUpload3();
+
     var btn = document.getElementById('toggle4th');
     if (btn) {
       btn.addEventListener('click', function() {
@@ -468,6 +794,7 @@ ul.task-list li input[type="checkbox"] {
         if (!show4th) { pieces[3] = blank(); savePieces(); }
         renderTracker();
         runAutoChecks();
+        renderUpload3();
       });
     }
   });
@@ -519,6 +846,15 @@ ul.task-list li input[type="checkbox"] {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+@keyframes piece-row-pulse {
+  0%   { background-color: transparent; }
+  15%  { background-color: #fff3a0; outline: 2px solid #c8940a; outline-offset: 1px; }
+  75%  { background-color: #fff3a0; outline: 2px solid #c8940a; outline-offset: 1px; }
+  100% { background-color: transparent; outline: none; }
+}
+.piece-row-highlight {
+  animation: piece-row-pulse 2.5s ease-out forwards;
+}
 </style>
 <div style="margin-bottom:1.5rem;">
 <button onclick="resetExploringChecklist();" style="font-size:0.78rem;padding:0.25rem 0.7rem;border:1px solid #c8bfaf;border-radius:3px;background:transparent;color:#888;cursor:pointer;">Reset checklist</button>
@@ -549,7 +885,7 @@ Add 4th Piece
 <li><label><input type="checkbox">Area of inquiry is <strong>stated and justified</strong> — not just named (<a href="../resources/rubrics.html#emc-b1,rt-explain">EMC B1</a>)</label></li>
 <li><label><input type="checkbox">Context (personal/local/global) is justified (<a href="../resources/rubrics.html#emc-b1,rt-explain">EMC B1</a>)</label></li>
 <li><label><input type="checkbox"><strong>Musical findings</strong> are present (from scores/recordings): conventions, devices, techniques (<a href="../resources/rubrics.html#emc-b1,rt-explain">EMC B1</a>)</label></li>
-<li><label><input type="checkbox">Musical findings are located with <strong>bar numbers or exact timestamps</strong> pointing to Upload 3 (<a href="../resources/rubrics.html#emc-b1,rt-explain">EMC B1</a>)</label></li>
+<li><label><input type="checkbox">Musical findings are located with <strong>bar numbers or exact timestamps</strong> pointing to <a href="#upload-3-audio-reference-material">Upload 3</a> (<a href="../resources/rubrics.html#emc-b1,rt-explain">EMC B1</a>)</label></li>
 <li><label><input type="checkbox"><strong>Extra-musical findings</strong> are present (from articles, interviews, etc.) (<a href="../resources/rubrics.html#emc-b1,rt-explain">EMC B1</a>)</label></li>
 <li><label><input type="checkbox">Extra-musical findings are <strong>relevant</strong> to the music — not anecdotal biography (<a href="../resources/rubrics.html#emc-b1,rt-explain">EMC B1</a>)</label></li>
 <li><label><input type="checkbox">All sources have <strong>in-text citations</strong> — not only a bibliography at the end (<a href="../resources/rubrics.html#emc-b1,rt-explain">EMC B1</a>)</label></li>
@@ -560,72 +896,75 @@ Add 4th Piece
 <section id="section-2-creating-exercise" class="level2">
 <h2 class="anchored" data-anchor-id="section-2-creating-exercise">Section 2: Creating exercise</h2>
 <ul class="task-list">
-<li><label><input type="checkbox">Based on a style <strong>explored in Section 1</strong> (<a href="../resources/rubrics.html#emc-b2,rt-explain">EMC B2</a> · <a href="../resources/rubrics.html#emc-c1,rt-realize">EMC C1</a>)</label></li>
-<li><label><input type="checkbox">Creating exercise audio included in Upload 2 <em>(max 1 min)</em></label></li>
-<li><label><input type="checkbox">Score or notation <strong>embedded in the document</strong> (max 32 bars or 1 min audio)</label></li>
+<li><label><input type="checkbox">Based on a style <strong>explored in <a href="#section-1-exploration-of-diverse-musical-material">Section 1</a></strong> (<a href="../resources/rubrics.html#emc-b2,rt-explain">EMC B2</a> · <a href="../resources/rubrics.html#emc-c1,rt-realize">EMC C1</a>)</label></li>
+<li><label><input type="checkbox">Creating exercise audio included in <a href="#upload-2-audio-evidence">Upload 2</a> <em>(max 1 min)</em></label></li>
+<li><label><input type="checkbox">Score or notation <strong>embedded in the <a href="#upload-1-written-document">written document</a></strong> (max 32 bars or 1 min audio)</label></li>
 <li><label><input type="checkbox">Notation is appropriate to the style and clearly communicates the exercise (<a href="../resources/rubrics.html#emc-c1,rt-realize">EMC C1</a>)</label></li>
 <li><label><input type="checkbox">Statement explains which <strong>creating conventions</strong> were applied and <strong>where</strong> (<a href="../resources/rubrics.html#emc-c1,rt-realize">EMC C1</a>)</label></li>
-<li><label><input type="checkbox">Statement explains how <strong>Section 1 research directly informed</strong> the exercise (<a href="../resources/rubrics.html#emc-b2,rt-explain">EMC B2</a> · <a href="../resources/rubrics.html#emc-c1,rt-realize">EMC C1</a>)</label></li>
+<li><label><input type="checkbox">Statement explains how <strong><a href="#section-1-exploration-of-diverse-musical-material">Section 1</a> research directly informed</strong> the exercise (<a href="../resources/rubrics.html#emc-b2,rt-explain">EMC B2</a> · <a href="../resources/rubrics.html#emc-c1,rt-realize">EMC C1</a>)</label></li>
 </ul>
 <hr>
 </section>
 <section id="section-3-performed-adaptation" class="level2">
 <h2 class="anchored" data-anchor-id="section-3-performed-adaptation">Section 3: Performed adaptation</h2>
 <ul class="task-list">
-<li><label><input type="checkbox">Stimulus (original music) included in Upload 2 <em>(max 1 min)</em></label></li>
-<li><label><input type="checkbox">Performed adaptation audio included in Upload 2 <em>(max 2 min)</em></label></li>
+<li><label><input type="checkbox">Stimulus (original music) included in <a href="#upload-2-audio-evidence">Upload 2</a> <em>(max 1 min)</em></label></li>
+<li><label><input type="checkbox">Performed adaptation audio included in <a href="#upload-2-audio-evidence">Upload 2</a> <em>(max 2 min)</em></label></li>
 <li><label><input type="checkbox">From a <strong>local or global</strong> context — NOT personal (<a href="../resources/rubrics.html#emc-c2,rt-shape">EMC C2</a>)</label></li>
 <li><label><input type="checkbox">Statement explains which <strong>performing practices</strong> were identified in the original style (<a href="../resources/rubrics.html#emc-c2,rt-shape">EMC C2</a>)</label></li>
 <li><label><input type="checkbox">Statement explains how practices were <strong>adapted for your instrument</strong> (<a href="../resources/rubrics.html#emc-c2,rt-shape">EMC C2</a>)</label></li>
-<li><label><input type="checkbox">Adaptation AOI is confirmed as <strong>different from creating</strong> AOI (<a href="../resources/rubrics.html#emc-c1,rt-realize">EMC C1</a> · <a href="../resources/rubrics.html#emc-c2,rt-shape">EMC C2</a>)</label></li>
+<li><label><input type="checkbox">Adaptation AOI is confirmed as <strong>different from <a href="#section-2-creating-exercise">creating</a></strong> AOI (<a href="../resources/rubrics.html#emc-c1,rt-realize">EMC C1</a> · <a href="../resources/rubrics.html#emc-c2,rt-shape">EMC C2</a>)</label></li>
 </ul>
 <hr>
 </section>
 <section id="upload-1-written-document" class="level2">
 <h2 class="anchored" data-anchor-id="upload-1-written-document">Upload 1: Written document</h2>
+<div id="upload1-tracker" style="margin-bottom:1rem;"></div>
 <ul class="task-list">
 <li><label><input type="checkbox">Word count is within <strong>2,400 words</strong> (in-text citations and bibliography excluded)</label></li>
-<li><label><input type="checkbox">Compiled in one pdf in order: <strong>Section 1 → Section 2 → Section 3 → Bibliography</strong></label></li>
+<li><label><input type="checkbox">Compiled in one pdf in order: <strong><a href="#section-1-exploration-of-diverse-musical-material">Section 1</a> → <a href="#section-2-creating-exercise">Section 2</a> → <a href="#section-3-performed-adaptation">Section 3</a> → Bibliography</strong></label></li>
 <li><label><input type="checkbox">Visual evidence is <strong>embedded in the text</strong>, not appended</label></li>
 <li><label><input type="checkbox">Visual evidence does not exceed <strong>5 pages</strong></label></li>
-<li><label><input type="checkbox">Score for creating exercise is embedded in Section 2</label></li>
-<li><label><input type="checkbox">Track list and timings included as appendix (not in word count)</label></li>
+<li><label><input type="checkbox">Score for creating exercise is embedded in <a href="#section-2-creating-exercise">Section 2</a></label></li>
+<li><label><input type="checkbox">Track list and timings for <a href="#upload-2-audio-evidence">Upload 2</a> and <a href="#upload-3-audio-reference-material">Upload 3</a> included as appendix (not in word count)</label></li>
 <li><label><input type="checkbox">Bibliography complete and includes all scores, recordings, and secondary sources</label></li>
 </ul>
 <hr>
 </section>
 <section id="upload-2-audio-evidence" class="level2">
 <h2 class="anchored" data-anchor-id="upload-2-audio-evidence">Upload 2: Audio evidence</h2>
+<div id="upload2-tracker" style="margin-bottom:1rem;"></div>
 <ul class="task-list">
 <li><label><input type="checkbox">Total audio does not exceed <strong>4 minutes</strong></label></li>
-<li><label><input type="checkbox">Compiled in order: <strong>Creating exercise → Stimulus → Performed adaptation</strong></label></li>
+<li><label><input type="checkbox">Compiled in order: <strong><a href="#section-2-creating-exercise">Creating exercise</a> → <a href="#section-3-performed-adaptation">Stimulus</a> → <a href="#section-3-performed-adaptation">Performed adaptation</a></strong></label></li>
 <li><label><input type="checkbox">Creating exercise audio does not exceed <strong>1 minute</strong></label></li>
 <li><label><input type="checkbox">Stimulus does not exceed <strong>1 minute</strong></label></li>
 <li><label><input type="checkbox">Performed adaptation does not exceed <strong>2 minutes</strong></label></li>
 <li><label><input type="checkbox">Audio quality allows full assessment of the exercises</label></li>
-<li><label><input type="checkbox">Exact timings are specified in the written document</label></li>
+<li><label><input type="checkbox">Exact timings are specified in the <a href="#upload-1-written-document">written document</a></label></li>
 </ul>
 <hr>
 </section>
 <section id="upload-3-audio-reference-material" class="level2">
 <h2 class="anchored" data-anchor-id="upload-3-audio-reference-material">Upload 3: Audio reference material</h2>
+<div id="upload3-tracker" style="margin-bottom:1rem;"></div>
 <ul class="task-list">
 <li><label><input type="checkbox">Total audio does not exceed <strong>3 minutes</strong></label></li>
-<li><label><input type="checkbox">Contains only excerpts of <strong>music analysed in Section 1</strong></label></li>
+<li><label><input type="checkbox">Contains only excerpts of <strong>music analysed in <a href="#section-1-exploration-of-diverse-musical-material">Section 1</a></strong></label></li>
 <li><label><input type="checkbox">Compiled in the order excerpts appear in the writing</label></li>
-<li><label><input type="checkbox">Timestamps in Upload 3 match the references in the written document</label></li>
+<li><label><input type="checkbox">Timestamps in Upload 3 match the references in the <a href="#upload-1-written-document">written document</a></label></li>
 </ul>
 <hr>
 </section>
 <section id="common-errors-to-rule-out" class="level2">
 <h2 class="anchored" data-anchor-id="common-errors-to-rule-out">Common errors to rule out</h2>
 <ul class="task-list">
-<li><label><input type="checkbox">Timestamps in writing point to <strong>Upload 3</strong> — not to YouTube, Spotify, or original commercial recordings</label></li>
+<li><label><input type="checkbox">Timestamps in writing point to <strong><a href="#upload-3-audio-reference-material">Upload 3</a></strong> — not to YouTube, Spotify, or original commercial recordings</label></li>
 <li><label><input type="checkbox">Score excerpts are <strong>annotated</strong> and connected to specific analytical claims — not decorative (<a href="../resources/rubrics.html#emc-b1,rt-explain">EMC B1</a>)</label></li>
 <li><label><input type="checkbox">AOIs are <strong>justified with musical evidence</strong> — not just labelled (<a href="../resources/rubrics.html#emc-b1,rt-explain">EMC B1</a>)</label></li>
 <li><label><input type="checkbox">Creating exercise and performed adaptation are from <strong>two different AOIs</strong> (<a href="../resources/rubrics.html#emc-c1,rt-realize">EMC C1</a> · <a href="../resources/rubrics.html#emc-c2,rt-shape">EMC C2</a>)</label></li>
 <li><label><input type="checkbox">Performed adaptation is based on <strong>local or global</strong> music — not personal (<a href="../resources/rubrics.html#emc-c2,rt-shape">EMC C2</a>)</label></li>
-<li><label><input type="checkbox">Creating exercise and adaptation are both referenced <strong>back to Section 1 research</strong> (<a href="../resources/rubrics.html#emc-b2,rt-explain">EMC B2</a>)</label></li>
+<li><label><input type="checkbox">Creating exercise and adaptation are both referenced <strong>back to <a href="#section-1-exploration-of-diverse-musical-material">Section 1</a> research</strong> (<a href="../resources/rubrics.html#emc-b2,rt-explain">EMC B2</a>)</label></li>
 <li><label><input type="checkbox">Word count checked with citations removed</label></li>
 </ul>
 

@@ -7,7 +7,7 @@ toc-depth: 3
 ---
 
 ::: {.content-visible when-format="html"}
-*See also: [Assessment Rubrics → Exploring](../resources/rubrics.html#exploring-music-in-context)*
+*See also: [Checklist](exploring-checklist.html) · [Assessment Rubrics → Exploring](../resources/rubrics.html#exploring-music-in-context)*
 :::
 
 The Exploring rubrics list *possible characteristics* (Ineffective, Suitable, Purposeful, etc.) alongside the mark bands, but the subject guide does not define them. This page explains what each band looks like in practice, criterion by criterion.

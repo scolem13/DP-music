@@ -1,0 +1,89 @@
+---
+title: "CMM: Checklist"
+description: "A submission checklist for the Contemporary Music Maker component (HL only)."
+categories: [Reference, Assessment, CMM]
+toc: true
+toc-depth: 2
+---
+
+::: {.content-visible when-format="html"}
+*See also: [Assessment Rubrics → CMM](../resources/rubrics.html#the-contemporary-music-maker)*
+:::
+
+```{=html}
+<style>
+.task-list input[type="checkbox"] { width: 1em; height: 1em; margin-right: 0.4em; }
+</style>
+<div style="margin-bottom:1.5rem;">
+<button onclick="resetCMMChecklist();" style="font-size:0.78rem;padding:0.25rem 0.7rem;border:1px solid #c8bfaf;border-radius:3px;background:transparent;color:#888;cursor:pointer;">Reset checklist</button>
+</div>
+<script>
+(function () {
+  var CB_KEY = 'checklist:cmm';
+  var boxes;
+  function saveCheckboxes() {
+    try{localStorage.setItem(CB_KEY,JSON.stringify((boxes||[]).map(function(b){return b.checked;})));}catch(e){}
+  }
+  document.addEventListener('DOMContentLoaded', function () {
+    boxes = Array.from(document.querySelectorAll('input[type="checkbox"]'));
+    boxes.forEach(function(cb){ cb.removeAttribute('disabled'); cb.style.cursor='pointer'; });
+    try {
+      var sv = JSON.parse(localStorage.getItem(CB_KEY));
+      if (Array.isArray(sv)) boxes.forEach(function(cb,i){ if(sv[i]!==undefined)cb.checked=!!sv[i]; });
+    } catch(e) {}
+    boxes.forEach(function(cb){ cb.addEventListener('change', saveCheckboxes); });
+  });
+  window.resetCMMChecklist = function() {
+    if (boxes) { boxes.forEach(function(b){b.checked=false;}); saveCheckboxes(); }
+  };
+})();
+</script>
+```
+
+---
+
+## Project and role
+
+- [ ] Your **identified role** in the project is clearly stated
+- [ ] Evidence of your individual contribution is distinguishable from the group's work
+- [ ] The project has a clear **stated aim** that is referenced throughout the submission ([CMM B](../resources/rubrics.html#cmm-b,rt-discuss))
+
+---
+
+## Selection of evidence
+
+- [ ] Evidence represents the **full arc** of the project — not just the final product ([CMM A](../resources/rubrics.html#cmm-a))
+- [ ] Evidence is **well-chosen** — each piece serves a clear purpose in the submission ([CMM A](../resources/rubrics.html#cmm-a))
+- [ ] Both process evidence (drafts, rehearsals, decisions) and outcome evidence are included ([CMM A](../resources/rubrics.html#cmm-a))
+- [ ] Evidence directly documents your identified role and contribution ([CMM A](../resources/rubrics.html#cmm-a))
+
+---
+
+## Discussion of the process
+
+- [ ] **Challenges** encountered during the project are discussed with musical specificity ([CMM B](../resources/rubrics.html#cmm-b,rt-discuss))
+- [ ] **Successes** are discussed — not just listed, but examined for why they worked ([CMM B](../resources/rubrics.html#cmm-b,rt-discuss))
+- [ ] Specific **areas for development** are identified — what would you do differently? ([CMM B](../resources/rubrics.html#cmm-b,rt-examine))
+- [ ] Concrete **strategies for improvement** are proposed ([CMM B](../resources/rubrics.html#cmm-b,rt-examine))
+- [ ] Musical and collaborative **choices are evaluated** in relation to the stated aims ([CMM B](../resources/rubrics.html#cmm-b,rt-evaluate))
+- [ ] Discussion goes beyond description — it analyses *why* things happened, not just *what* happened ([CMM B](../resources/rubrics.html#cmm-b,rt-discuss))
+
+---
+
+## Technical and musical proficiency
+
+- [ ] Technical proficiency in your identified role is clearly demonstrated in the evidence ([CMM C](../resources/rubrics.html#cmm-c,rt-realize))
+- [ ] Your contribution shows genuine **musical understanding**, not just mechanical execution ([CMM C](../resources/rubrics.html#cmm-c,rt-realize))
+- [ ] Your musicianship serves the **overall aims** of the project ([CMM C](../resources/rubrics.html#cmm-c,rt-realize))
+
+---
+
+## Organisation and presentation
+
+- [ ] The multimedia presentation is within **15 minutes** and viewable in a single sitting without pausing ([CMM D](../resources/rubrics.html#cmm-d))
+- [ ] The **final presentation** portion does not exceed **7 minutes** (no fixed maximum for process and reflection) ([CMM D](../resources/rubrics.html#cmm-d))
+- [ ] Narrative (voice-over or subtitles) is **integrated throughout** — not added as a separate document ([CMM D](../resources/rubrics.html#cmm-d))
+- [ ] The presentation is **logically organised**: project plan → process evidence → final presentation ([CMM D](../resources/rubrics.html#cmm-d))
+- [ ] Evidence is clearly **labelled** — the examiner can locate each piece without confusion ([CMM D](../resources/rubrics.html#cmm-d))
+- [ ] The argument of the submission is clear: project, role, contribution, reflection ([CMM D](../resources/rubrics.html#cmm-d))
+- [ ] Presentation quality is **consistent and professional** throughout ([CMM D](../resources/rubrics.html#cmm-d))
